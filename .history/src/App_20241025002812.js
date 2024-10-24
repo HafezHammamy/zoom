@@ -1,8 +1,9 @@
-import { SettingsConsumer, SettingsProvider } from "layout/settings";
-import AppTheme from "layout/theme/AppTheme";
+import logo from "./logo.svg";
+import "./App.css";
 import { useRoutes } from "react-router-dom";
 import { routes } from "setup/routes-manager";
-import "./App.css";
+import { SettingsConsumer, SettingsProvider } from "layout/settings";
+import AppTheme from "layout/theme/AppTheme";
 
 function App() {
   const element = useRoutes(routes);
@@ -16,7 +17,17 @@ function App() {
             // return null;
           }
 
-          return <AppTheme settings={settings}>{element}</AppTheme>;
+          return (
+            <AppTheme settings={settings}>
+              {element}
+              <ToastContainer
+                transition={Flip}
+                theme="dark"
+                newestOnTop
+                position="bottom-right"
+              />
+            </AppTheme>
+          );
         }}
       </SettingsConsumer>
     </SettingsProvider>

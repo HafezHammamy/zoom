@@ -1,8 +1,9 @@
-import { SettingsConsumer, SettingsProvider } from "layout/settings";
-import AppTheme from "layout/theme/AppTheme";
+import logo from "./logo.svg";
+import "./App.css";
 import { useRoutes } from "react-router-dom";
 import { routes } from "setup/routes-manager";
-import "./App.css";
+import { SettingsConsumer, SettingsProvider } from "layout/settings";
+import AppTheme from "layout/theme/AppTheme";
 
 function App() {
   const element = useRoutes(routes);
