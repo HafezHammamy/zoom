@@ -11,11 +11,13 @@ import { useWindowScroll } from "hooks/use-window-scroll";
 import { paths } from "paths";
 import PropTypes from "prop-types";
 import { useCallback, useState } from "react";
-
+import IconButton from "@mui/material/IconButton";
+import LanguageIcon from "@mui/icons-material/Language";
 import GuestSideNav from "./GuestSideNav";
 import { RouterLink } from "./router-link";
 import { TopNavItem } from "./top-nav-item";
 import { useMobileNav } from "./use-mobile-nav";
+import { SvgIcon } from "@mui/material";
 // import { PagesPopover } from "./PagesPopover";
 
 const items = [
@@ -83,33 +85,34 @@ export const TopNav = (props) => {
         />
       )}
       <Box
+        maxWidth="xxl"
         component="header"
         sx={{
           left: 0,
           position: "fixed",
+          backdropFilter: "blur(6px)",
+          backgroundColor: "rgba(0, 0, 0, 0.2)",
+          color: "#fff",
           right: 0,
           top: 0,
-          pt: 2,
+          transition: (theme) =>
+            theme.transitions.create("box-shadow, background-color", {
+              easing: theme.transitions.easing.easeInOut,
+              duration: 200,
+            }),
+          ...(elevate && {
+            color: "#ab92e1",
+            backgroundColor: (theme) =>
+              alpha(theme.palette.background.paper, 0.9),
+            boxShadow: 8,
+          }),
           zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
         <Container
           maxWidth="lg"
           sx={{
-            backdropFilter: "blur(6px)",
-            backgroundColor: "transparent",
-            borderRadius: 2.5,
             boxShadow: "none",
-            transition: (theme) =>
-              theme.transitions.create("box-shadow, background-color", {
-                easing: theme.transitions.easing.easeInOut,
-                duration: 200,
-              }),
-            ...(elevate && {
-              backgroundColor: (theme) =>
-                alpha(theme.palette.background.paper, 0.9),
-              boxShadow: 8,
-            }),
           }}
         >
           <Stack direction="row" spacing={2} sx={{ height: TOP_NAV_HEIGHT }}>
@@ -202,7 +205,20 @@ export const TopNav = (props) => {
               justifyContent="flex-end"
               spacing={2}
               sx={{ flexGrow: 1 }}
-            ></Stack>
+            >
+              <IconButton aria-label="delete">
+                <SvgIcon
+                  sx={{
+                    color: "#fff",
+                    ...(elevate && {
+                      color: "#ab92e1",
+                    }),
+                  }}
+                >
+                  <LanguageIcon />
+                </SvgIcon>
+              </IconButton>
+            </Stack>
           </Stack>
         </Container>
       </Box>
