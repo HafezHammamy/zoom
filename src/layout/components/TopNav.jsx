@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
-import { useTheme } from "@mui/material/styles";
+// import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { alpha } from "@mui/system/colorManipulator";
 import logo from "assets/logo.png";
@@ -10,54 +10,92 @@ import { useWindowScroll } from "hooks/use-window-scroll";
 // import { Logo } from "src/components/logo";
 import { paths } from "paths";
 import PropTypes from "prop-types";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import IconButton from "@mui/material/IconButton";
 import LanguageIcon from "@mui/icons-material/Language";
 import GuestSideNav from "./GuestSideNav";
 import { RouterLink } from "./router-link";
 import { TopNavItem } from "./top-nav-item";
 import { useMobileNav } from "./use-mobile-nav";
-import { SvgIcon } from "@mui/material";
+import { SvgIcon, Tooltip } from "@mui/material";
+import { useTranslation } from "react-i18next";
+import { tokens } from "locales/tokens";
+import { useSettings } from "hooks/use-settings";
 // import { PagesPopover } from "./PagesPopover";
-
-const items = [
-  {
-    title: "Home",
-    path: paths.index,
-  },
-  {
-    title: "About Us",
-    path: paths.aboutUs,
-  },
-  {
-    title: "Contact Us",
-    path: paths.contactUs,
-  },
-  {
-    title: "Our Vision",
-    path: paths.contactUs,
-  },
-  {
-    title: "Our Brand",
-    path: paths.contactUs,
-  },
-  // {
-  //   title: "Services",
-  //   popover: <PagesPopover />,
-  // },
-];
 
 const TOP_NAV_HEIGHT = 64;
 
 export const TopNav = (props) => {
   const mobileNav = useMobileNav();
+  const { t, i18n } = useTranslation();
+  const [language, setLanguage] = useState("en");
+  const [languageLabel, setLanguageLabel] = useState("en");
+  const { handleUpdate } = useSettings();
+
+  const handleLanguageLabels = useCallback(
+    (language) => {
+      if (language === "ar") {
+        handleUpdate({
+          direction: "rtl",
+        });
+
+        setLanguageLabel("English");
+        setLanguage("en");
+      }
+      if (language === "en") {
+        handleUpdate({
+          direction: "ltr",
+        });
+        setLanguageLabel("عربي");
+        setLanguage("ar");
+      }
+    },
+    [handleUpdate]
+  );
+
+  const handleChange = useCallback(
+    async (language) => {
+      await i18n.changeLanguage(language);
+      handleLanguageLabels(language);
+    },
+    [i18n, handleLanguageLabels]
+  );
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem("i18nextLng");
+    handleLanguageLabels(savedLanguage || "en");
+    return () => {};
+  }, [language, languageLabel, handleLanguageLabels]);
+
+  const items = [
+    {
+      title: t(tokens.nav.home),
+      path: paths.index,
+    },
+    {
+      title: t(tokens.nav.about),
+      path: paths.aboutUs,
+    },
+    {
+      title: t(tokens.nav.contact),
+      path: paths.contactUs,
+    },
+    {
+      title: t(tokens.nav.vision),
+      path: paths.contactUs,
+    },
+    {
+      title: t(tokens.nav.brands),
+      path: paths.contactUs,
+    },
+  ];
 
   // const { onMobileNavOpen } = props;
   const pathname = usePathname();
   const mdUp = useMediaQuery((theme) => theme.breakpoints.up("md"));
   const lgUp = useMediaQuery((theme) => theme.breakpoints.up("lg"));
 
-  const theme = useTheme();
+  // const theme = useTheme();
 
   const [elevate, setElevate] = useState(false);
   const offset = 64;
@@ -206,18 +244,23 @@ export const TopNav = (props) => {
               spacing={2}
               sx={{ flexGrow: 1 }}
             >
-              <IconButton aria-label="delete">
-                <SvgIcon
-                  sx={{
-                    color: "#fff",
-                    ...(elevate && {
-                      color: "#ab92e1",
-                    }),
-                  }}
+              <Tooltip title={languageLabel}>
+                <IconButton
+                  onClick={() => handleChange(language)}
+                  aria-label="language"
                 >
-                  <LanguageIcon />
-                </SvgIcon>
-              </IconButton>
+                  <SvgIcon
+                    sx={{
+                      color: "#fff",
+                      ...(elevate && {
+                        color: "#ab92e1",
+                      }),
+                    }}
+                  >
+                    <LanguageIcon />
+                  </SvgIcon>
+                </IconButton>
+              </Tooltip>
             </Stack>
           </Stack>
         </Container>

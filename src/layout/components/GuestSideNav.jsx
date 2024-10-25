@@ -1,5 +1,5 @@
 import { Box, ButtonBase, Drawer, Stack } from "@mui/material";
-import { useTheme } from "@mui/styles";
+// import { useTheme } from "@mui/styles";
 // import ShortDarkQualifiedCrewLogo from "assets/logo-short-dark.svg";
 // import ShortLightQualifiedCrewLogo from "assets/logo-short-light.svg";
 import { usePathname } from "hooks/use-pathname";
@@ -166,7 +166,7 @@ const reduceChildRoutes = ({ acc, depth, item, pathname }) => {
 export const GuestSideNav = (props) => {
   const { onClose, open = false, items } = props;
   const pathname = usePathname();
-  const theme = useTheme();
+  // const theme = useTheme();
 
   return (
     <Drawer

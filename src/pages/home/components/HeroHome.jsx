@@ -1,8 +1,10 @@
-import { Button, Typography } from "@mui/material";
+import { Button } from "@mui/material";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Stack } from "@mui/system";
 import StyledTypography from "layout/components/StyledTypography";
+import { tokens } from "locales/tokens";
+import { useTranslation } from "react-i18next";
 
 const heroTextStyle = {
   paddingBottom: 0,
@@ -29,6 +31,7 @@ const heroButton = {
 };
 
 export const HomeHero = () => {
+  const { t } = useTranslation();
   return (
     <Box
       sx={{
@@ -47,11 +50,10 @@ export const HomeHero = () => {
           <Box sx={{ width: "50%" }}>
             <Stack spacing={3}>
               <StyledTypography variant="h2">
-                Discover Our Brands
+                {t(tokens.common.discover_brands.title)}
               </StyledTypography>
               <StyledTypography variant="h2">
-                Discover our premium aesthetic and beauty brands, carefully
-                selected for exceptional results.
+                {t(tokens.common.discover_brands.summary)}
               </StyledTypography>
               <Box>
                 <Button sx={heroButton} size="large" variant="outlined">

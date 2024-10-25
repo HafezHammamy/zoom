@@ -4,7 +4,7 @@ import Divider from "@mui/material/Divider";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import { useTheme } from "@mui/material/styles";
+// import { useTheme } from "@mui/material/styles";
 import { paths } from "paths";
 
 import { RouterLink } from "./router-link";
@@ -29,7 +29,7 @@ const sections = [
 ];
 const now = new Date();
 export const Footer = (props) => {
-  const theme = useTheme();
+  // const theme = useTheme();
 
   return (
     <Box

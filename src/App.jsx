@@ -3,6 +3,7 @@ import AppTheme from "layout/theme/AppTheme";
 import { useRoutes } from "react-router-dom";
 import { routes } from "setup/routes-manager";
 import "./App.css";
+import "locales/i18n";
 
 function App() {
   const element = useRoutes(routes);

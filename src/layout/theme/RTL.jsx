@@ -2,6 +2,7 @@ import createCache from "@emotion/cache";
 import { CacheProvider } from "@emotion/react";
 import PropTypes from "prop-types";
 import { useEffect } from "react";
+// eslint-disable-next-line
 import stylisRTLPlugin from "stylis-plugin-rtl";
 
 const styleCache = () =>
