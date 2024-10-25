@@ -17,38 +17,12 @@ const sections = [
     title: "Pages",
     items: [
       {
-        title: "Pricing",
-        path: paths.pricing,
+        title: "About us",
+        path: paths.vision,
       },
       {
         title: "Contact us",
-        path: paths.contact,
-      },
-    ],
-  },
-  {
-    title: "Legal",
-    items: [
-      {
-        title: "Privacy Policy",
-        path: "policy",
-      },
-      {
-        title: "Terms and Conditions",
-        path: "terms-and-conditions",
-      },
-    ],
-  },
-  {
-    title: "Account",
-    items: [
-      {
-        title: "Recruiter",
-        path: paths.guest.recruiter.index,
-      },
-      {
-        title: "Candidate",
-        path: paths.index,
+        path: paths.contactUs,
       },
     ],
   },
