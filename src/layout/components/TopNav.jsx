@@ -4,10 +4,7 @@ import Stack from "@mui/material/Stack";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { alpha } from "@mui/system/colorManipulator";
-// import QualifiedCrewLogoLight from "assets/logo-light.svg";
-// import ShortDarkQualifiedCrewLogo from "assets/logo-short-dark.svg";
-// import ShortLightQualifiedCrewLogo from "assets/logo-short-light.svg";
-// import QualifiedCrewLogo from "assets/logo.svg";
+import logo from "assets/logo.png";
 import { usePathname } from "hooks/use-pathname";
 import { useWindowScroll } from "hooks/use-window-scroll";
 // import { Logo } from "src/components/logo";
@@ -27,12 +24,20 @@ const items = [
     path: paths.index,
   },
   {
-    title: "Pricing",
-    path: paths.pricing,
+    title: "About Us",
+    path: paths.aboutUs,
   },
   {
-    title: "Contact us",
-    path: paths.contact,
+    title: "Contact Us",
+    path: paths.contactUs,
+  },
+  {
+    title: "Our Vision",
+    path: paths.contactUs,
+  },
+  {
+    title: "Our Brand",
+    path: paths.contactUs,
   },
   // {
   //   title: "Services",
@@ -125,15 +130,11 @@ export const TopNav = (props) => {
               >
                 {mdUp && (
                   <Box style={{ height: "30px" }}>
-                    {/* <img
+                    <img
                       style={{ height: "100%" }}
-                      src={
-                        theme.palette.mode === "dark"
-                          ? QualifiedCrewLogoLight
-                          : QualifiedCrewLogo
-                      }
-                      alt={"Qualified Crew"}
-                    /> */}
+                      src={logo}
+                      alt={"Dynamics"}
+                    />
                   </Box>
                 )}
                 {!mdUp && (

@@ -79,7 +79,7 @@ export const Footer = (props) => {
                 ></Box>
               </Stack>
               <Typography color="text.secondary" variant="caption">
-                © {now.getFullYear()} Qualified crew
+                © {now.getFullYear()} Dynamics
               </Typography>
             </Stack>
           </Grid>
