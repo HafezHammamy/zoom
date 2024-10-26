@@ -1,7 +1,7 @@
-import { Typography } from "@mui/material";
 import { Box, Container, Stack } from "@mui/system";
-import StyledTypography from "layout/components/StyledTypography";
-import { QuoteTypography } from "layout/components/StyledTypography";
+import StyledTypography, {
+  QuoteTypography,
+} from "layout/components/StyledTypography";
 
 const boxStyle = {
   heigh: "100%",
