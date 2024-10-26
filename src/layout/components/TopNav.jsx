@@ -82,11 +82,11 @@ export const TopNav = (props) => {
     },
     {
       title: t(tokens.nav.vision),
-      path: paths.contactUs,
+      path: paths.vision,
     },
     {
       title: t(tokens.nav.brands),
-      path: paths.contactUs,
+      path: paths.ourBrands,
     },
   ];
 

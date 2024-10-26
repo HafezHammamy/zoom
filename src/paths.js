@@ -4,5 +4,5 @@ export const paths = {
   aboutUs: "/about-us",
   contactUs: "/contact-us",
   vision: "/vision",
-  outBrand: "/our-brand",
+  ourBrands: "/our-brands",
 };
