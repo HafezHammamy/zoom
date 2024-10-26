@@ -34,8 +34,8 @@ const BrandsBanner = (props) => {
           paddingBottom: "150px",
         }}
       >
-        {selectedBrand === BRANDS.JUVELOOK && <JuvelookBrand />}
         {selectedBrand === BRANDS.KSIRGERY && <KsurgeryBrand />}
+        {selectedBrand === BRANDS.JUVELOOK && <JuvelookBrand />}
         {selectedBrand === BRANDS.LENISNA && <LenisnaBrand />}
         {selectedBrand === BRANDS.RENEE && <ReneeBrand />}
 
