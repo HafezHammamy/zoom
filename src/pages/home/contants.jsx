@@ -1,6 +1,6 @@
 export const BRANDS = {
   JUVELOOK: "JUVELOOK",
-  Lenisna: "Lenisna",
+  LENISNA: "LENISNA",
   RENEE: "RENEE",
   KSIRGERY: "KSIRGERY",
 };
