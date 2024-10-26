@@ -1,97 +1,100 @@
-import { Box } from "@mui/material";
-import { useEffect, useRef, useState } from "react";
-import Slider from "react-slick";
-import video from "assets/our_brands.mp4";
-const videoStyle = {
-  position: "absolute",
-  right: 0,
-  bottom: 0,
-  minWidth: "100%",
-  minHeight: "100%",
-};
+import { Box, Stack } from "@mui/system";
+import React, { useRef } from "react";
+import { BRANDS } from "../contants";
+import "./Carousel.css"; // Optional: for custom styling
 
-const Carousel = () => {
-  const [nav1, setNav1] = useState(null);
-  const [nav2, setNav2] = useState(null);
-  let sliderRef1 = useRef(null);
-  let sliderRef2 = useRef(null);
+const Carousel = ({ selectedBrand }) => {
+  const carouselRef = useRef(null);
+  const itemRefs = useRef([]);
 
-  useEffect(() => {
-    setNav1(sliderRef1);
-    setNav2(sliderRef2);
-  }, []);
+  const scrollLeft = () => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollBy({
+        left: -200, // Adjust the scroll amount as needed
+        behavior: "smooth",
+      });
+    }
+  };
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  const scrollRight = () => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollBy({
+        left: 200, // Adjust the scroll amount as needed
+        behavior: "smooth",
+      });
+    }
+  };
+
+  const scrollToCenter = (index) => {
+    if (itemRefs.current[index] && carouselRef.current) {
+      const carousel = carouselRef.current;
+      const item = itemRefs.current[index];
+
+      // Calculate the scroll position to center the clicked item
+      const itemLeftPosition = item.offsetLeft;
+      const itemWidth = item.offsetWidth;
+      const carouselWidth = carousel.offsetWidth;
+      const maxScrollLeft = carousel.scrollWidth - carouselWidth;
+
+      // Scroll position to center the item
+      let scrollPosition = itemLeftPosition - carouselWidth / 2 + itemWidth / 2;
+
+      // Ensure scroll position stays within bounds
+      if (scrollPosition < 0) {
+        scrollPosition = 0;
+      } else if (scrollPosition > maxScrollLeft) {
+        scrollPosition = maxScrollLeft;
+      }
+
+      carousel.scrollTo({
+        left: scrollPosition,
+        behavior: "smooth",
+      });
+    }
   };
 
   const items = [
-    { id: 1, content: "Slide 1 Content" },
-    { id: 2, content: "Slide 2 Content" },
-    { id: 3, content: "Slide 3 Content" },
+    { title: BRANDS.JUVELOOK, logo: "", video: "" },
+    { title: BRANDS.Lenisna, logo: "", video: "" },
+    { title: BRANDS.RENEE, logo: "", video: "" },
+    { title: BRANDS.KSIRGERY, logo: "", video: "" },
   ];
 
   return (
-    <Box>
-      <Slider
-        asNavFor={nav2}
-        ref={(slider) => (sliderRef1 = slider)}
-        {...settings}
+    <div className="carousel-container">
+      <Stack
+        direction={"row"}
+        spacing={5}
+        justifyContent="center"
+        alignItems={"center"}
       >
-        <div style={{ overflow: "hidden" }}>
-          <video autoPlay loop muted playsInline style={{ videoStyle }}>
-            <source src={video} type="video/mp4" />
-          </video>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-      </Slider>
-      <h4>Second Slider</h4>
-      <Slider
-        asNavFor={nav1}
-        ref={(slider) => (sliderRef2 = slider)}
-        slidesToShow={5}
-        swipeToSlide={false}
-        focusOnSelect={true}
-        arrows={true}
-      >
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-      </Slider>
-    </Box>
+        <button className="carousel-button" onClick={scrollLeft}>
+          ❮
+        </button>
+        <Box sx={{ width: "550px" }}>
+          <div className="carousel" ref={carouselRef}>
+            {items.map((item, index) => (
+              <div
+                key={index}
+                ref={(el) => (itemRefs.current[index] = el)}
+                className="carousel-item"
+                onClick={() => {
+                  selectedBrand(item.title.toUpperCase());
+                  scrollToCenter(index);
+                }}
+              >
+                {item.title}
+              </div>
+            ))}
+          </div>
+        </Box>
+        <Box>
+          <button className="carousel-button" onClick={scrollRight}>
+            ❯
+          </button>
+        </Box>
+      </Stack>
+    </div>
   );
 };
 
