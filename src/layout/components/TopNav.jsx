@@ -77,16 +77,12 @@ export const TopNav = (props) => {
       path: paths.aboutUs,
     },
     {
-      title: t(tokens.nav.contact),
-      path: paths.contactUs,
-    },
-    {
-      title: t(tokens.nav.vision),
-      path: paths.vision,
-    },
-    {
       title: t(tokens.nav.brands),
       path: paths.ourBrands,
+    },
+    {
+      title: t(tokens.nav.contact),
+      path: paths.contactUs,
     },
   ];
 
