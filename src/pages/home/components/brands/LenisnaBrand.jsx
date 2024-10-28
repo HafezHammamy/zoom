@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { Box, Stack } from "@mui/system";
-import video from "assets/renee.mp4";
+import video from "assets/Lenisna.mp4";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
@@ -9,17 +9,9 @@ import { buttonStyle, textStyle, videoStyle } from "./styles";
 const LenisnaBrand = (props) => {
   return (
     <>
-      <div
-        style={{
-          ...videoStyle,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "top center",
-          backgroundImage: 'url("/assets/Lenisna-7.jpg")',
-        }}
-      >
+      <video autoPlay loop muted playsInline style={videoStyle}>
         <source src={video} type="video/mp4" />
-      </div>
+      </video>
       <Box maxWidth="xl" sx={textStyle}>
         <Box sx={{ width: "50%" }}>
           <Stack spacing={3}>
