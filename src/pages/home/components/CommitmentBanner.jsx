@@ -37,7 +37,7 @@ const CommitmentBanner = (props) => {
               <QuoteTypography variant="h6">
                 Our Commitment to Excellence
               </QuoteTypography>
-              <StyledTypography sx={{ fontWeight: 5 }} variant="h4">
+              <StyledTypography variant="body2">
                 At Dynamics, we're on an inspiring journey of growth and
                 refinement in the world of aesthetics. Our passion guides us to
                 explore new possibilities and bring fresh perspectives to our

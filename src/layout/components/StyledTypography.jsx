@@ -7,9 +7,6 @@ const StyledTypography = styled(Typography)(({ theme, ownerState }) => ({
 }));
 
 export const QuoteTypography = styled(Typography)(({ theme, ownerState }) => ({
-  fontWeight: 100,
-  textTransform: "uppercase",
-  wordSpacing: 5,
   "&::before": {
     content: '""',
     marginRight: "20px",

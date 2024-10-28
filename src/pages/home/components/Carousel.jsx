@@ -68,9 +68,9 @@ const Carousel = ({ selectedBrand }) => {
         justifyContent="center"
         alignItems={"center"}
       >
-        <button className="carousel-button" onClick={scrollLeft}>
+        {/* <button className="carousel-button" onClick={scrollLeft}>
           ❮
-        </button>
+        </button> */}
         <Box sx={{ width: "550px" }}>
           <div className="carousel" ref={carouselRef}>
             {items.map((item, index) => (
@@ -88,11 +88,11 @@ const Carousel = ({ selectedBrand }) => {
             ))}
           </div>
         </Box>
-        <Box>
+        {/* <Box>
           <button className="carousel-button" onClick={scrollRight}>
             ❯
           </button>
-        </Box>
+        </Box> */}
       </Stack>
     </div>
   );

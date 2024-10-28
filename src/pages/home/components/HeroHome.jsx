@@ -73,7 +73,7 @@ export const HomeHero = () => {
               <StyledTypography variant="h2">
                 {t(tokens.common.discover_brands.title)}
               </StyledTypography>
-              <StyledTypography variant="h2">
+              <StyledTypography variant="body3">
                 {t(tokens.common.discover_brands.summary)}
               </StyledTypography>
               <Box>

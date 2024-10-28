@@ -16,7 +16,7 @@ const JuvelookBrand = (props) => {
         <Box sx={{ width: "50%" }}>
           <Stack spacing={3}>
             <QuoteTypography variant="h6">Juvelook</QuoteTypography>
-            <StyledTypography variant="h5">
+            <StyledTypography variant="body2">
               Experience Juvelook: Our unique PLA filler enhances your
               appearance with precision. Small PDLLA particles are injected into
               the dermis, evenly volumizing skin by boosting collagen

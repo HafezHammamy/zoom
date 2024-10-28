@@ -1,6 +1,22 @@
+@font-face {
+    font-family: 'TitleFonts';
+    src: url('./assets/fonts/Didot.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ParagraphFonts';
+    src: url('./assets/fonts/Jost-Regular.ttf') format('truetype');
+    /* TTC */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     margin: 0;
-    font-family: "Lora", serif !important;
+    font-family: "ParagraphFonts", serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

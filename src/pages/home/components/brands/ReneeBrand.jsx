@@ -16,7 +16,7 @@ const ReneeBrand = (props) => {
         <Box sx={{ width: "50%" }}>
           <Stack spacing={3}>
             <QuoteTypography variant="h6">Renee</QuoteTypography>
-            <StyledTypography variant="h5">
+            <StyledTypography variant="body2">
               Experience Renée: Our injectable hyaluronic acid gels are
               meticulously crafted to hydrate and rejuvenate the skin, providing
               a refreshed and youthful appearance. With advanced formulations,

@@ -24,7 +24,7 @@ const LenisnaBrand = (props) => {
         <Box sx={{ width: "50%" }}>
           <Stack spacing={3}>
             <QuoteTypography variant="h6">Lenisna</QuoteTypography>
-            <StyledTypography variant="h5">
+            <StyledTypography variant="body2">
               Experience LENISNA: Our innovative spherical particles stimulate
               collagen production, offering natural volume for facial and body
               contouring. Ideal for wrinkle reduction and scar treatment.{" "}
