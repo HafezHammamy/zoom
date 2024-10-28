@@ -25,6 +25,10 @@ export const routes = [
         element: <HomePage />,
       },
       {
+        index: "zoom",
+        element: <HomePage />,
+      },
+      {
         path: paths.aboutUs,
         element: <AboutUsPage />,
       },
