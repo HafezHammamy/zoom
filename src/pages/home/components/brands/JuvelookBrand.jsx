@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { Box, Stack } from "@mui/system";
-import video from "assets/ksugery.mp4";
+import video from "assets/juvelook.mp4";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";

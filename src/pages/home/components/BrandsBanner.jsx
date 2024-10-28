@@ -9,7 +9,7 @@ import LenisnaBrand from "./brands/LenisnaBrand";
 import ReneeBrand from "./brands/ReneeBrand";
 
 const BrandsBanner = (props) => {
-  const [selectedBrand, setSelectedBrand] = useState(BRANDS.KSIRGERY);
+  const [selectedBrand, setSelectedBrand] = useState(BRANDS.JUVELOOK);
   console.log(selectedBrand);
   return (
     <Box
