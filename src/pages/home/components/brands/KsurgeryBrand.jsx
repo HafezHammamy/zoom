@@ -5,6 +5,7 @@ import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
 import { buttonStyle, textStyle, videoStyle } from "./styles";
+import "./brands.css";
 
 const KsurgeryBrand = (props) => {
   return (
@@ -13,7 +14,7 @@ const KsurgeryBrand = (props) => {
         <source src={video} type="video/mp4" />
       </video>
       <Box maxWidth="xl" sx={textStyle}>
-        <Box sx={{ width: "50%" }}>
+        <Box sx={{ width: "50%" }} className="slide-up">
           <Stack spacing={3}>
             <QuoteTypography variant="h6">Ksurgery</QuoteTypography>
             <StyledTypography variant="body2">
