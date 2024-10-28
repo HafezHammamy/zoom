@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/zoom/static/css/main.80ccc402.css",
-    "main.js": "/zoom/static/js/main.6978310e.js",
+    "main.css": "/zoom/static/css/main.2cc389a3.css",
+    "main.js": "/zoom/static/js/main.d2578a06.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
+    "static/media/Lenisna.mp4": "/zoom/static/media/Lenisna.1cc7e2fac3482f7e38f6.mp4",
     "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
     "static/media/juvelook.mp4": "/zoom/static/media/juvelook.1a419a460df8a622817a.mp4",
+    "static/media/image-2.png": "/zoom/static/media/image-2.1126b51d9d655d11a166.png",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.d4dabfe545e3e5fbbcd4.mp4",
+    "static/media/Didot.ttc": "/zoom/static/media/Didot.d6c7ab45540d059ebd3e.ttc",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
+    "static/media/Jost-Regular.ttf": "/zoom/static/media/Jost-Regular.42b2ab77abff530bfc14.ttf",
+    "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
+    "static/media/statement-bg.png": "/zoom/static/media/statement-bg.62ca8b47a17a0ab2bdc6.png",
     "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
     "static/media/slick.svg": "/zoom/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/zoom/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
-    "main.80ccc402.css.map": "/zoom/static/css/main.80ccc402.css.map",
-    "main.6978310e.js.map": "/zoom/static/js/main.6978310e.js.map",
+    "main.2cc389a3.css.map": "/zoom/static/css/main.2cc389a3.css.map",
+    "main.d2578a06.js.map": "/zoom/static/js/main.d2578a06.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80ccc402.css",
-    "static/js/main.6978310e.js"
+    "static/css/main.2cc389a3.css",
+    "static/js/main.d2578a06.js"
   ]
 }
