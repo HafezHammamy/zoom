@@ -22,7 +22,10 @@ export const routes = [
     children: [
       {
         index: true,
-        path: "/zoom",
+        element: <HomePage />,
+      },
+      {
+        path: "zoom",
         element: <HomePage />,
       },
       {
