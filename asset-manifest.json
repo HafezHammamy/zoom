@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/your-repository/static/css/main.8a7d2e5c.css",
+    "main.js": "/your-repository/static/js/main.3fed697a.js",
+    "static/js/453.f037a3e1.chunk.js": "/your-repository/static/js/453.f037a3e1.chunk.js",
+    "static/media/our_brands.mp4": "/your-repository/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
+    "static/media/renee.mp4": "/your-repository/static/media/renee.ee4cbcb74abf7b69c768.mp4",
+    "static/media/juvelook.mp4": "/your-repository/static/media/juvelook.1a419a460df8a622817a.mp4",
+    "static/media/ksugery.mp4": "/your-repository/static/media/ksugery.d4dabfe545e3e5fbbcd4.mp4",
+    "static/media/error-404.png": "/your-repository/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
+    "static/media/logo.png": "/your-repository/static/media/logo.b26c29d3916d74a9b397.png",
+    "static/media/slick.svg": "/your-repository/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/your-repository/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/your-repository/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/your-repository/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/your-repository/index.html",
+    "main.8a7d2e5c.css.map": "/your-repository/static/css/main.8a7d2e5c.css.map",
+    "main.3fed697a.js.map": "/your-repository/static/js/main.3fed697a.js.map",
+    "453.f037a3e1.chunk.js.map": "/your-repository/static/js/453.f037a3e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a7d2e5c.css",
+    "static/js/main.3fed697a.js"
+  ]
+}
