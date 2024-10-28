@@ -2,6 +2,7 @@ import { Box, Container, Stack } from "@mui/system";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
+import BGImage from "assets/statement-bg.png";
 
 const boxStyle = {
   heigh: "100%",
@@ -16,7 +17,7 @@ const CommitmentBanner = (props) => {
     <Box
       sx={{
         backgroundRepeat: "no-repeat",
-        backgroundImage: 'url("/assets/statement-bg.png")',
+        backgroundImage: `url(${BGImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "672px",
@@ -34,7 +35,7 @@ const CommitmentBanner = (props) => {
         <Box maxWidth="xxl">
           <Box sx={boxStyle}>
             <Stack spacing={4}>
-              <QuoteTypography variant="h6">
+              <QuoteTypography variant="h4">
                 Our Commitment to Excellence
               </QuoteTypography>
               <StyledTypography variant="body2">

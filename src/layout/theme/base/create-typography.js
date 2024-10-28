@@ -69,7 +69,7 @@ export const createTypography = () => {
     h4: {
       fontFamily: "'TitleFonts', serif",
       fontWeight: 700,
-      fontSize: "2rem",
+      fontSize: "1.125rem",
       lineHeight: 1.2,
     },
     h5: {
