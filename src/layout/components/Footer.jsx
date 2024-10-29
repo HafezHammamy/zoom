@@ -55,8 +55,12 @@ export const Footer = (props) => {
             <Box>
               <Box>
                 <Stack direction={"row"} justifyContent="center">
-                  {items.map((section) => (
-                    <Button LinkComponent={RouterLink} href={section.path}>
+                  {items.map((section, index) => (
+                    <Button
+                      key={section.title + index}
+                      LinkComponent={RouterLink}
+                      href={section.path}
+                    >
                       {section.title}
                     </Button>
                   ))}

@@ -72,9 +72,12 @@ const NewsBanner = (props) => {
             >
               <Box>
                 <Stack direction={"row"} spacing={2} justifyContent="center">
-                  {items.map((item) => {
+                  {items.map((item, index) => {
                     return (
-                      <Card sx={{ width: 345 }}>
+                      <Card
+                        key={item.title + index + "card"}
+                        sx={{ width: 345 }}
+                      >
                         <CardMedia
                           sx={{ height: 300 }}
                           image={item.image}

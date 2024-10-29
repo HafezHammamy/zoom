@@ -13,8 +13,7 @@ const heroTextStyle = {
   display: "block",
   position: "absolute",
   bottom: "80px",
-  left: "90px",
-  right: "90px",
+  left: "370px",
   height: "auto",
   textAlign: "left",
   color: "#fff",
@@ -55,7 +54,7 @@ export const HomeHero = () => {
       }}
     >
       <Container
-        maxWidth="xxl"
+        maxWidth="lg"
         sx={{
           position: "relative",
           height: "100%",
@@ -68,7 +67,7 @@ export const HomeHero = () => {
         </video>
 
         <Box maxWidth="lg" sx={heroTextStyle}>
-          <Box sx={{ width: "50%" }}>
+          <Box sx={{ width: "70%" }}>
             <Stack spacing={3}>
               <StyledTypography variant="h2">
                 {t(tokens.common.discover_brands.title)}

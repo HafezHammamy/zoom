@@ -1,4 +1,4 @@
-import { Button, Paper, Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { Box, Container, Grid, Stack } from "@mui/system";
 
 import image from "assets/gradient.png";

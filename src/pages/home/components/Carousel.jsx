@@ -12,23 +12,23 @@ const Carousel = ({ selectedBrand, active }) => {
   const carouselRef = useRef(null);
   const itemRefs = useRef([]);
 
-  const scrollLeft = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({
-        left: -200, // Adjust the scroll amount as needed
-        behavior: "smooth",
-      });
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.scrollBy({
+  //       left: -200, // Adjust the scroll amount as needed
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
 
-  const scrollRight = () => {
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({
-        left: 200, // Adjust the scroll amount as needed
-        behavior: "smooth",
-      });
-    }
-  };
+  // const scrollRight = () => {
+  //   if (carouselRef.current) {
+  //     carouselRef.current.scrollBy({
+  //       left: 200, // Adjust the scroll amount as needed
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
 
   const scrollToCenter = (index) => {
     if (itemRefs.current[index] && carouselRef.current) {

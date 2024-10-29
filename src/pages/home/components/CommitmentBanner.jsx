@@ -9,8 +9,7 @@ import { useTranslation } from "react-i18next";
 const boxStyle = {
   heigh: "100%",
   paddingTop: "15%",
-  paddingRight: "7%",
-  paddingLeft: "7%",
+  paddingLeft: "370px",
   color: "#012169",
 };
 
@@ -27,7 +26,7 @@ const CommitmentBanner = (props) => {
       }}
     >
       <Container
-        maxWidth="xxl"
+        maxWidth="xl"
         sx={{
           position: "relative",
           height: "100%",
@@ -35,7 +34,7 @@ const CommitmentBanner = (props) => {
           margin: 0,
         }}
       >
-        <Box maxWidth="xxl">
+        <Box>
           <Box sx={boxStyle}>
             <Stack spacing={4}>
               <QuoteTypography variant="h4">
