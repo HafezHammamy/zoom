@@ -6,154 +6,94 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 // import { useTheme } from "@mui/material/styles";
 import { paths } from "paths";
-
+import FacebookIcon from "@mui/icons-material/Facebook";
 import { RouterLink } from "./router-link";
 import { Grid } from "@mui/system";
-
+import { Button, IconButton } from "@mui/material";
+import { useTranslation } from "react-i18next";
+import { tokens } from "locales/tokens";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 // import { Logo } from "src/components/logo";
 
-const sections = [
-  {
-    title: "Pages",
-    items: [
-      {
-        title: "About us",
-        path: paths.vision,
-      },
-      {
-        title: "Contact us",
-        path: paths.contactUs,
-      },
-    ],
-  },
-];
 const now = new Date();
 export const Footer = (props) => {
   // const theme = useTheme();
+  const { t } = useTranslation();
+
+  const items = [
+    {
+      title: t(tokens.nav.home),
+      path: paths.index,
+    },
+    {
+      title: t(tokens.nav.about),
+      path: paths.aboutUs,
+    },
+    {
+      title: t(tokens.nav.brands),
+      path: paths.ourBrands,
+    },
+    {
+      title: t(tokens.nav.contact),
+      path: paths.contactUs,
+    },
+  ];
+
+  const socialStyle = {
+    border: "1px solid",
+    backgroundColor: "#168C8C",
+    color: "#fff",
+    "&:hover": {
+      backgroundColor: "#147373",
+    },
+  };
 
   return (
-    <Box
-      sx={{
-        backgroundColor: (theme) =>
-          theme.palette.mode === "dark" ? "neutral.800" : "neutral.50",
-        borderTopColor: "divider",
-        borderTopStyle: "solid",
-        borderTopWidth: 1,
-        pb: 6,
-        pt: {
-          md: 15,
-          xs: 6,
-        },
-      }}
-      {...props}
-    >
+    <Box sx={{ bgcolor: "#f5f3f8" }}>
       <Container maxWidth="lg">
-        <Grid container spacing={3}>
-          <Grid
-            xs={12}
-            sm={4}
-            md={3}
-            sx={{
-              order: {
-                xs: 4,
-                md: 1,
-              },
-            }}
-          >
-            <Stack spacing={1}>
-              <Stack
-                alignItems="center"
-                component={RouterLink}
-                direction="row"
-                display="inline-flex"
-                href={paths.index}
-                spacing={1}
-                sx={{ textDecoration: "none" }}
-              >
-                <Box
-                  sx={{
-                    display: "inline-flex",
-                    height: 24,
-                    width: 24,
-                  }}
-                ></Box>
-              </Stack>
-              <Typography color="text.secondary" variant="caption">
-                © {now.getFullYear()} Dynamics
-              </Typography>
-            </Stack>
+        <Grid container>
+          <Grid size={12}>
+            <Box>
+              <Box>
+                <Stack direction={"row"} justifyContent="center">
+                  {items.map((section) => (
+                    <Button LinkComponent={RouterLink} href={section.path}>
+                      {section.title}
+                    </Button>
+                  ))}
+                </Stack>
+              </Box>
+            </Box>
           </Grid>
-          {sections.map((section, index) => (
-            <Grid
-              key={section.title}
-              xs={12}
-              sm={4}
-              md={3}
-              sx={{
-                order: {
-                  md: index + 2,
-                  xs: index + 1,
-                },
-              }}
-            >
-              <Typography color="text.secondary" variant="overline">
-                {section.title}
-              </Typography>
-              <Stack
-                component="ul"
-                spacing={1}
-                sx={{
-                  listStyle: "none",
-                  m: 0,
-                  p: 0,
-                }}
-              >
-                {section.items.map((item) => {
-                  const linkProps = item.path
-                    ? item.external
-                      ? {
-                          component: "a",
-                          href: item.path,
-                          target: "_blank",
-                        }
-                      : {
-                          component: RouterLink,
-                          href: item.path,
-                        }
-                    : {};
-
-                  return (
-                    <Stack
-                      alignItems="center"
-                      direction="row"
-                      key={item.title}
-                      spacing={2}
-                    >
-                      <Box
-                        sx={{
-                          backgroundColor: "primary.main",
-                          height: 2,
-                          width: 12,
-                        }}
-                      />
-                      <Link
-                        color="text.primary"
-                        variant="subtitle2"
-                        {...linkProps}
-                      >
-                        {item.title}
-                      </Link>
-                    </Stack>
-                  );
-                })}
+          <Grid size={12} sx={{ mt: 3 }}>
+            <Divider sx={{ borderColor: "#ddd" }} />
+          </Grid>
+          <Grid size={12}>
+            <Box sx={{ p: 5 }}>
+              <Stack direction={"row"} justifyContent="center">
+                <Typography color="text.secondary" variant="caption">
+                  Dynamics &copy; Copyright All Rights Reserved.2024
+                </Typography>
               </Stack>
-            </Grid>
-          ))}
+            </Box>
+          </Grid>
+          <Grid size={12}>
+            <Box sx={{ pb: 5 }}>
+              <Stack direction={"row"} spacing={2} justifyContent="center">
+                <IconButton sx={socialStyle}>
+                  <FacebookIcon fontSize="inherit" />
+                </IconButton>
+                <IconButton sx={socialStyle}>
+                  <LinkedInIcon fontSize="inherit" />
+                </IconButton>
+                <IconButton sx={socialStyle}>
+                  <WhatsAppIcon fontSize="inherit" />
+                </IconButton>
+              </Stack>
+            </Box>
+          </Grid>
         </Grid>
-        <Divider sx={{ my: 6 }} />
-        <Typography color="text.secondary" variant="caption">
-          All Rights Reserved.
-        </Typography>
       </Container>
     </Box>
   );
