@@ -3,6 +3,11 @@ import React, { useRef } from "react";
 import { BRANDS } from "../contants";
 import "./Carousel.css"; // Optional: for custom styling
 
+import logo1 from "assets/logo1.png";
+import logo2 from "assets/logo2.png";
+import logo3 from "assets/logo3.png";
+import logo4 from "assets/logo4.png";
+
 const Carousel = ({ selectedBrand, active }) => {
   const carouselRef = useRef(null);
   const itemRefs = useRef([]);
@@ -54,10 +59,10 @@ const Carousel = ({ selectedBrand, active }) => {
   };
 
   const items = [
-    { title: BRANDS.JUVELOOK, logo: "", video: "" },
-    { title: BRANDS.LENISNA, logo: "", video: "" },
-    { title: BRANDS.RENEE, logo: "", video: "" },
-    { title: BRANDS.KSIRGERY, logo: "", video: "" },
+    { title: BRANDS.JUVELOOK, logo: logo1, video: "" },
+    { title: BRANDS.LENISNA, logo: logo2, video: "" },
+    { title: BRANDS.RENEE, logo: logo3, video: "" },
+    { title: BRANDS.KSIRGERY, logo: logo4, video: "" },
   ];
 
   return (
@@ -83,7 +88,7 @@ const Carousel = ({ selectedBrand, active }) => {
                   scrollToCenter(index);
                 }}
               >
-                {item.title}
+                <img src={item.logo} />
               </div>
             ))}
           </div>
