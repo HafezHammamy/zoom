@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/zoom/static/css/main.5f18ef04.css",
-    "main.js": "/zoom/static/js/main.00c31b3f.js",
+    "main.css": "/zoom/static/css/main.94c1071e.css",
+    "main.js": "/zoom/static/js/main.7f99069b.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
     "static/media/Lenisna.mp4": "/zoom/static/media/Lenisna.1cc7e2fac3482f7e38f6.mp4",
     "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
     "static/media/juvelook.mp4": "/zoom/static/media/juvelook.1a419a460df8a622817a.mp4",
+    "static/media/1.png": "/zoom/static/media/1.ae00a920497c7ea308d3.png",
+    "static/media/4.png": "/zoom/static/media/4.2af26c56ba5558ddd1f0.png",
+    "static/media/3.png": "/zoom/static/media/3.87672aedc16cb9eb1641.png",
+    "static/media/2.png": "/zoom/static/media/2.875109f83390b1bdf231.png",
     "static/media/image-2.png": "/zoom/static/media/image-2.1126b51d9d655d11a166.png",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.d4dabfe545e3e5fbbcd4.mp4",
     "static/media/Didot.ttc": "/zoom/static/media/Didot.d6c7ab45540d059ebd3e.ttc",
@@ -20,12 +24,12 @@
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
-    "main.5f18ef04.css.map": "/zoom/static/css/main.5f18ef04.css.map",
-    "main.00c31b3f.js.map": "/zoom/static/js/main.00c31b3f.js.map",
+    "main.94c1071e.css.map": "/zoom/static/css/main.94c1071e.css.map",
+    "main.7f99069b.js.map": "/zoom/static/js/main.7f99069b.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f18ef04.css",
-    "static/js/main.00c31b3f.js"
+    "static/css/main.94c1071e.css",
+    "static/js/main.7f99069b.js"
   ]
 }
