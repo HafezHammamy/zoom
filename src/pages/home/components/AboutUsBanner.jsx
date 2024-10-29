@@ -6,6 +6,7 @@ import image2 from "assets/image-2.png";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
 import { buttonStyle } from "./brands/styles";
+import logo from "assets/logo.png";
 
 const AboutUsBanner = (props) => {
   const { t } = useTranslation();
@@ -71,6 +72,11 @@ const AboutUsBanner = (props) => {
                   </Stack>
                 </Stack>
               </Box>
+            </Box>
+          </Grid>
+          <Grid size={12}>
+            <Box sx={{ marginLeft: "270px", marginTop: "50px" }}>
+              <img style={{ height: "50px" }} src={logo} alt={"Dynamics"} />
             </Box>
           </Grid>
         </Grid>

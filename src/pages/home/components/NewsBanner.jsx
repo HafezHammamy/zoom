@@ -57,7 +57,7 @@ const NewsBanner = (props) => {
         }}
       >
         <Grid container spacing={2}>
-          <Grid size={5} sx={{ padding: 10 }}>
+          <Grid size={5} sx={{ paddingTop: 10, paddingLeft: "370px" }}>
             <QuoteTypography sx={{ color: "#012169" }} variant="h5">
               Dynamics Medical
             </QuoteTypography>
