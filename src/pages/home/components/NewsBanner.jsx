@@ -9,7 +9,6 @@ import {
   Card,
   CardContent,
   CardMedia,
-  Divider,
   LinearProgress,
   Typography,
 } from "@mui/material";

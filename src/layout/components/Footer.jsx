@@ -1,22 +1,20 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Divider from "@mui/material/Divider";
-import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 // import { useTheme } from "@mui/material/styles";
-import { paths } from "paths";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import { RouterLink } from "./router-link";
-import { Grid } from "@mui/system";
-import { Button, IconButton } from "@mui/material";
-import { useTranslation } from "react-i18next";
-import { tokens } from "locales/tokens";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { Button, IconButton } from "@mui/material";
+import { Grid } from "@mui/system";
+import { tokens } from "locales/tokens";
+import { paths } from "paths";
+import { useTranslation } from "react-i18next";
+import { RouterLink } from "./router-link";
 // import { Logo } from "src/components/logo";
 
-const now = new Date();
 export const Footer = (props) => {
   // const theme = useTheme();
   const { t } = useTranslation();
