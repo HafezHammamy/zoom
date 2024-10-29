@@ -5,6 +5,7 @@ import Stack from "@mui/material/Stack";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { alpha } from "@mui/system/colorManipulator";
 import logo from "assets/logo.png";
+import logoLight from "assets/dynamics.png";
 import { usePathname } from "hooks/use-pathname";
 import { useWindowScroll } from "hooks/use-window-scroll";
 // import { Logo } from "src/components/logo";
@@ -169,22 +170,18 @@ export const TopNav = (props) => {
                   <Box style={{ height: "30px" }}>
                     <img
                       style={{ height: "100%" }}
-                      src={logo}
+                      src={elevate ? logo : logoLight}
                       alt={"Dynamics"}
                     />
                   </Box>
                 )}
                 {!mdUp && (
                   <Box style={{ height: "40px" }}>
-                    {/* <img
+                    <img
                       style={{ height: "100%" }}
-                      src={
-                        theme.palette.mode === "dark"
-                          ? ShortLightQualifiedCrewLogo
-                          : ShortDarkQualifiedCrewLogo
-                      }
+                      src={logo}
                       alt={"Qualified Crew"}
-                    /> */}
+                    />
                   </Box>
                 )}
               </Stack>

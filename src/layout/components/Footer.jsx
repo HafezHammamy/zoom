@@ -48,7 +48,7 @@ export const Footer = (props) => {
   };
 
   return (
-    <Box sx={{ bgcolor: "#f5f3f8" }}>
+    <Box sx={{ bgcolor: "#f5f3f8", pt: 2 }}>
       <Container maxWidth="lg">
         <Grid container>
           <Grid size={12}>
