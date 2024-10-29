@@ -4,6 +4,7 @@ import AboutUsBanner from "./components/AboutUsBanner";
 import BrandsBanner from "./components/BrandsBanner";
 import CommitmentBanner from "./components/CommitmentBanner";
 import { HomeHero } from "./components/HeroHome";
+import NewsBanner from "./components/NewsBanner";
 
 const HomePage = (props) => {
   usePageView();
@@ -15,6 +16,7 @@ const HomePage = (props) => {
         <HomeHero />
         <CommitmentBanner />
         <BrandsBanner />
+        <NewsBanner />
         <AboutUsBanner />
       </main>
     </>

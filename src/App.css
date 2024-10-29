@@ -17,6 +17,7 @@
 body {
     margin: 0;
     font-family: "ParagraphFonts", serif !important;
+    color: #3f3f40;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
