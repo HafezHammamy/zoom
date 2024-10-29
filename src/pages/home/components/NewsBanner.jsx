@@ -13,32 +13,31 @@ import {
   Typography,
 } from "@mui/material";
 import { QuoteTypography } from "layout/components/StyledTypography";
+import { useTranslation } from "react-i18next";
+import { tokens } from "locales/tokens";
 
 const NewsBanner = (props) => {
+  const { t } = useTranslation();
   const items = [
     {
       image: image1,
-      title: "Global Expertise, Local Touch",
-      description:
-        "We combine international expertise with a deep understanding of local beauty standards, ensuring our solutions resonate with diverse cultural contexts.",
+      title: t(tokens.cards.card1.title),
+      description: t(tokens.cards.card1.paragraph),
     },
     {
       image: image2,
-      title: "Collaborative Growth",
-      description:
-        "We believe in the power of collaboration, fostering partnerships that drive innovation and growth in the aesthetic industry.",
+      title: t(tokens.cards.card2.title),
+      description: t(tokens.cards.card2.paragraph),
     },
     {
       image: image3,
-      title: "Empowering Education",
-      description:
-        "We are committed to educating our clients and partners about the latest advancements in aesthetics, empowering them to make informed decisions.",
+      title: t(tokens.cards.card3.title),
+      description: t(tokens.cards.card3.paragraph),
     },
     {
       image: image4,
-      title: "Client Empowerment",
-      description:
-        "We aim to empower our clients with knowledge and confidence, helping them make informed decisions about their aesthetic journey.",
+      title: t(tokens.cards.card4.title),
+      description: t(tokens.cards.card4.paragraph),
     },
   ];
 

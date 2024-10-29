@@ -3,9 +3,12 @@ import { Box, Container, Grid, Stack } from "@mui/system";
 
 import image from "assets/gradient.png";
 import image2 from "assets/image-2.png";
+import { tokens } from "locales/tokens";
+import { useTranslation } from "react-i18next";
 import { buttonStyle } from "./brands/styles";
 
 const AboutUsBanner = (props) => {
+  const { t } = useTranslation();
   return (
     <Box
       sx={{
@@ -56,17 +59,14 @@ const AboutUsBanner = (props) => {
                     direction={"column"}
                     sx={{ width: "50%", marginTop: "20%" }}
                   >
-                    <Typography variant="h2">About Us </Typography>
+                    <Typography variant="h2">
+                      {t(tokens.about.title)}
+                    </Typography>
                     <Typography variant="body2">
-                      We pride ourselves on our unique approach, which
-                      integrates the experience of seasoned professionals with
-                      the fresh perspectives of emerging talent. This synergy
-                      enables us to develop advanced products and services that
-                      not only keep pace with industry trends but often set new
-                      standards.
+                      {t(tokens.about.paragraph)}
                     </Typography>
                     <Button sx={buttonStyle} size="large" variant="outlined">
-                      LEARN MORE
+                      {t(tokens.common.buttons.readMore)}
                     </Button>
                   </Stack>
                 </Stack>

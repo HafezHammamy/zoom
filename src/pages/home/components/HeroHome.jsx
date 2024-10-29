@@ -67,7 +67,7 @@ export const HomeHero = () => {
           <source src={video} type="video/mp4" />
         </video>
 
-        <Box maxWidth="xl" sx={heroTextStyle}>
+        <Box maxWidth="lg" sx={heroTextStyle}>
           <Box sx={{ width: "50%" }}>
             <Stack spacing={3}>
               <StyledTypography variant="h2">

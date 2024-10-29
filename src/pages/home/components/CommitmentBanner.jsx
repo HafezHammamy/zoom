@@ -1,8 +1,10 @@
 import { Box, Container, Stack } from "@mui/system";
+import BGImage from "assets/statement-bg.png";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
-import BGImage from "assets/statement-bg.png";
+import { tokens } from "locales/tokens";
+import { useTranslation } from "react-i18next";
 
 const boxStyle = {
   heigh: "100%",
@@ -13,6 +15,7 @@ const boxStyle = {
 };
 
 const CommitmentBanner = (props) => {
+  const { t } = useTranslation();
   return (
     <Box
       sx={{
@@ -36,15 +39,10 @@ const CommitmentBanner = (props) => {
           <Box sx={boxStyle}>
             <Stack spacing={4}>
               <QuoteTypography variant="h4">
-                Our Commitment to Excellence
+                {t(tokens.commitment.title)}
               </QuoteTypography>
               <StyledTypography variant="body2">
-                At Dynamics, we're on an inspiring journey of growth and
-                refinement in the world of aesthetics. Our passion guides us to
-                explore new possibilities and bring fresh perspectives to our
-                field. We're dedicated to thoughtfully expanding our range of
-                products and enhancing our services, always with a focus on
-                quality and innovation.
+                {t(tokens.commitment.paragraph)}
               </StyledTypography>
             </Stack>
           </Box>
