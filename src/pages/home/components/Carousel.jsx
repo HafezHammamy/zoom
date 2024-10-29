@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import { BRANDS } from "../contants";
 import "./Carousel.css"; // Optional: for custom styling
 
-const Carousel = ({ selectedBrand }) => {
+const Carousel = ({ selectedBrand, active }) => {
   const carouselRef = useRef(null);
   const itemRefs = useRef([]);
 
@@ -77,7 +77,7 @@ const Carousel = ({ selectedBrand }) => {
               <div
                 key={index}
                 ref={(el) => (itemRefs.current[index] = el)}
-                className="carousel-item"
+                className={`carousel-item ${active === item.title && "active"}`}
                 onClick={() => {
                   selectedBrand(item.title.toUpperCase());
                   scrollToCenter(index);

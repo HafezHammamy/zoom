@@ -2,7 +2,7 @@ import { Box, Container } from "@mui/system";
 import Carousel from "./Carousel";
 
 import KsurgeryBrand from "./brands/KsurgeryBrand";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BRANDS } from "../contants";
 import JuvelookBrand from "./brands/JuvelookBrand";
 import LenisnaBrand from "./brands/LenisnaBrand";
@@ -10,6 +10,24 @@ import ReneeBrand from "./brands/ReneeBrand";
 
 const BrandsBanner = (props) => {
   const [selectedBrand, setSelectedBrand] = useState(BRANDS.JUVELOOK);
+
+  const brandList = [
+    BRANDS.JUVELOOK,
+    BRANDS.LENISNA,
+    BRANDS.RENEE,
+    BRANDS.KSIRGERY,
+  ];
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      index = (index + 1) % brandList.length;
+      setSelectedBrand(brandList[index]);
+    }, 3000); // Change every 2 seconds
+
+    return () => clearInterval(interval); // Cleanup interval on unmount
+  }, []);
+
   return (
     <Box
       sx={{
@@ -38,7 +56,7 @@ const BrandsBanner = (props) => {
         {selectedBrand === BRANDS.LENISNA && <LenisnaBrand />}
         {selectedBrand === BRANDS.RENEE && <ReneeBrand />}
 
-        <Carousel selectedBrand={setSelectedBrand} />
+        <Carousel selectedBrand={setSelectedBrand} active={selectedBrand} />
       </Container>
     </Box>
   );
