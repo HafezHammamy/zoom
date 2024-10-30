@@ -5,6 +5,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import AboutSection from "./components/AboutSection";
 import { AboutUsHero } from "./components/AboutUsHero";
+import { ProductBanner } from "./components/ProductBanner";
 import ValuesBanner from "./components/ValuesBanner";
 
 const AboutUsPage = (props) => {
@@ -35,6 +36,8 @@ const AboutUsPage = (props) => {
           title={t(tokens.about.page.card4.title)}
           paragraph={t(tokens.about.page.card4.paragraph)}
         />
+
+        <ProductBanner />
       </main>
     </>
   );

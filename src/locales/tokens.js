@@ -58,6 +58,11 @@ export const tokens = {
           paragraph: "value6.paragraph",
         },
       },
+      product: {
+        title: "product.title",
+        subtitle: "product.subtitle",
+        paragraph: "product.paragraph",
+      },
     },
   },
   cards: {

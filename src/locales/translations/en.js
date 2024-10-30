@@ -60,4 +60,13 @@ export const en = {
   [tokens.about.page.values.value6.title]: "Business Excellence",
   [tokens.about.page.values.value6.paragraph]:
     "We strive for the highest standards in all our operations, continuously improving our processes and services to deliver exceptional results for our clients.",
+  [tokens.about.page.product.title]: "Commitment to Excellence",
+  [tokens.about.page.product.subtitle]: "Dynamics",
+  [tokens.about.page.product
+    .paragraph]: `Our pursuit of excellence is reflected in our carefully curated
+  product selection, our expert team's knowledge, and our commitment
+  to staying at the forefront of industry advancements. We believe
+  that true excellence lies not just in what we do, but in how we do
+  it - with passion, integrity, and a relentless focus on delivering
+  the best possible outcomes for our clients.`,
 };
