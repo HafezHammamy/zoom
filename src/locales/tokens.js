@@ -18,6 +18,19 @@ export const tokens = {
     page: {
       button: "about.page.button",
       hero: "about.page.hero",
+      card1: "about.page.card1",
+      card2: {
+        title: "about.page.card2.title",
+        paragraph: "about.page.card2.paragraph",
+      },
+      card3: {
+        title: "about.page.card3.title",
+        paragraph: "about.page.card3.paragraph",
+      },
+      card4: {
+        title: "about.page.card4.title",
+        paragraph: "about.page.card4.paragraph",
+      },
     },
   },
   cards: {
