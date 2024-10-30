@@ -1,17 +1,26 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.e9890083.css",
-    "main.js": "/zoom/static/js/main.f15dcf13.js",
+    "main.js": "/zoom/static/js/main.df501f9c.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
+    "static/media/about.mp4": "/zoom/static/media/about.369d2547eb501e081bec.mp4",
     "static/media/Lenisna.mp4": "/zoom/static/media/Lenisna.1cc7e2fac3482f7e38f6.mp4",
+    "static/media/product-rtl.png": "/zoom/static/media/product-rtl.9f11d39a5cc52d69aa4d.png",
+    "static/media/product.png": "/zoom/static/media/product.245dc3bd9587f18bf7ca.png",
+    "static/media/val5.png": "/zoom/static/media/val5.c7c4d121235b34d77b82.png",
     "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
+    "static/media/val6.png": "/zoom/static/media/val6.51b1564de2fa46dc26b1.png",
+    "static/media/val1.png": "/zoom/static/media/val1.43744cef7623f5306974.png",
     "static/media/juvelook.mp4": "/zoom/static/media/juvelook.1a419a460df8a622817a.mp4",
     "static/media/1.png": "/zoom/static/media/1.ae00a920497c7ea308d3.png",
+    "static/media/val2.png": "/zoom/static/media/val2.518366204ce83abcc094.png",
     "static/media/4.png": "/zoom/static/media/4.2af26c56ba5558ddd1f0.png",
     "static/media/3.png": "/zoom/static/media/3.87672aedc16cb9eb1641.png",
+    "static/media/val3.png": "/zoom/static/media/val3.7932fb84902f4689672c.png",
     "static/media/2.png": "/zoom/static/media/2.875109f83390b1bdf231.png",
     "static/media/image-2.png": "/zoom/static/media/image-2.1126b51d9d655d11a166.png",
+    "static/media/val4.png": "/zoom/static/media/val4.531ef71016b7014b4379.png",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.d4dabfe545e3e5fbbcd4.mp4",
     "static/media/Didot.ttc": "/zoom/static/media/Didot.d6c7ab45540d059ebd3e.ttc",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
@@ -29,11 +38,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.e9890083.css.map": "/zoom/static/css/main.e9890083.css.map",
-    "main.f15dcf13.js.map": "/zoom/static/js/main.f15dcf13.js.map",
+    "main.df501f9c.js.map": "/zoom/static/js/main.df501f9c.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9890083.css",
-    "static/js/main.f15dcf13.js"
+    "static/js/main.df501f9c.js"
   ]
 }
