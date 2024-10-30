@@ -8,7 +8,6 @@ import logo from "assets/logo.png";
 import logoLight from "assets/dynamics.png";
 import { usePathname } from "hooks/use-pathname";
 import { useWindowScroll } from "hooks/use-window-scroll";
-// import { Logo } from "src/components/logo";
 import { paths } from "paths";
 import PropTypes from "prop-types";
 import { useCallback, useEffect, useState } from "react";
@@ -22,9 +21,8 @@ import { SvgIcon, Tooltip } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { tokens } from "locales/tokens";
 import { useSettings } from "hooks/use-settings";
-// import { PagesPopover } from "./PagesPopover";
 
-const TOP_NAV_HEIGHT = 64;
+const TOP_NAV_HEIGHT = 80;
 
 export const TopNav = (props) => {
   const mobileNav = useMobileNav();
@@ -130,6 +128,7 @@ export const TopNav = (props) => {
           color: "#fff",
           right: 0,
           top: 0,
+          borderBottom: "1px solid #fff",
           transition: (theme) =>
             theme.transitions.create("box-shadow, background-color", {
               easing: theme.transitions.easing.easeInOut,
@@ -144,30 +143,23 @@ export const TopNav = (props) => {
           zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
-        <Container
-          maxWidth="lg"
-          sx={{
-            boxShadow: "none",
-          }}
-        >
-          <Stack direction="row" spacing={2} sx={{ height: TOP_NAV_HEIGHT }}>
+        <Container maxWidth="lg">
+          <Stack direction="row" sx={{ height: TOP_NAV_HEIGHT }}>
             <Stack
               alignItems="center"
               direction="row"
               spacing={1}
-              sx={{ flexGrow: 1 }}
+              sx={{ width: "20%" }}
             >
               <Stack
-                alignItems="center"
                 component={RouterLink}
+                alignItems="center"
                 direction="row"
-                display="inline-flex"
                 href={paths.index}
-                spacing={1}
                 sx={{ textDecoration: "none" }}
               >
                 {mdUp && (
-                  <Box style={{ height: "30px" }}>
+                  <Box style={{ height: "50px" }}>
                     <img
                       style={{ height: "100%" }}
                       src={elevate ? logo : logoLight}
@@ -186,16 +178,23 @@ export const TopNav = (props) => {
                 )}
               </Stack>
             </Stack>
+
             {mdUp && (
-              <Stack alignItems="center" direction="row" spacing={2}>
-                <Box component="nav" sx={{ height: "100%" }}>
+              <Stack
+                alignItems={"center"}
+                direction="column"
+                spacing={2}
+                sx={{ width: "75%" }}
+              >
+                <Box component="nav" sx={{ height: "100%", width: "100%" }}>
                   <Stack
                     component="ul"
                     alignItems="center"
-                    justifyContent="center"
+                    justifyContent={elevate ? "flex-start" : "center"}
                     direction="row"
                     spacing={1}
                     sx={{
+                      width: "100%",
                       height: "100%",
                       listStyle: "none",
                       m: 0,
@@ -230,13 +229,7 @@ export const TopNav = (props) => {
               </Stack>
             )}
 
-            <Stack
-              alignItems="center"
-              direction="row"
-              justifyContent="flex-end"
-              spacing={2}
-              sx={{ flexGrow: 1 }}
-            >
+            <Stack alignItems="center" direction="row" sx={{ width: "5%" }}>
               <Tooltip title={languageLabel}>
                 <IconButton
                   onClick={() => handleChange(language)}
