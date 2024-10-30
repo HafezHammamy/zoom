@@ -65,6 +65,7 @@ export const tokens = {
       },
     },
   },
+  contact: {},
   cards: {
     card1: {
       title: "cards.card1.title",
