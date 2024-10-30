@@ -38,4 +38,23 @@ export const ar = {
   [tokens.cards.card4.title]: "تمكين العملاء",
   [tokens.cards.card4.paragraph]:
     "نهدف إلى تمكين عملائنا بالمعرفة والثقة، مساعدتهم على اتخاذ قرارات مستنيرة بشأن رحلتهم الجمالية.",
+
+  [tokens.about.page.values.value1.title]: "الشفافية",
+  [tokens.about.page.values.value1.paragraph]:
+    "نؤمن بالتواصل المفتوح والوضوح في جميع تعاملاتنا، مما يعزز بيئة من الثقة والتفاهم المتبادل.",
+  [tokens.about.page.values.value2.title]: "الأخلاق",
+  [tokens.about.page.values.value2.paragraph]:
+    " نلتزم بمبادئ أخلاقية قوية، مع ضمان أن تكون ممارساتنا التجارية عادلة ومسؤولة ومحترمة لجميع أصحاب المصلحة.",
+  [tokens.about.page.values.value3.title]: "المسؤولية",
+  [tokens.about.page.values.value3.paragraph]:
+    "نتحمل مسؤولية أفعالنا وقراراتنا، ونحاسب أنفسنا أمام عملائنا وشركائنا وبعضنا البعض.",
+  [tokens.about.page.values.value4.title]: "الجودة",
+  [tokens.about.page.values.value4.paragraph]:
+    "نحن ملتزمون بتقديم منتجات وخدمات من الدرجة الأولى، مع ضمان أن كل جانب من جوانب عروضنا يلبي أو يتجاوز معايير الصناعة.",
+  [tokens.about.page.values.value5.title]: "النزاهة",
+  [tokens.about.page.values.value5.paragraph]:
+    "نمارس أعمالنا بصدق وشفافية، مع الحفاظ على المعايير الأخلاقية وبناء الثقة مع شركائنا وعملائنا.",
+  [tokens.about.page.values.value6.title]: "لتميز  في الأعمال",
+  [tokens.about.page.values.value6.paragraph]:
+    " نسعى جاهدين لتحقيق أعلى المعايير في جميع عملياتنا، مع التحسين المستمر لعملياتنا وخدماتنا لتقديم نتائج استثنائية لعملائنا.",
 };

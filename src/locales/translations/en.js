@@ -41,4 +41,23 @@ export const en = {
   [tokens.cards.card4.title]: "Client Empowerment",
   [tokens.cards.card4.paragraph]:
     "We aim to empower our clients with knowledge and confidence, helping them make informed decisions about their aesthetic journey.",
+
+  [tokens.about.page.values.value1.title]: "Transparency",
+  [tokens.about.page.values.value1.paragraph]:
+    "We believe in open communication and clarity in all our dealings, fostering an environment of trust and mutual understanding.",
+  [tokens.about.page.values.value2.title]: "Ethics",
+  [tokens.about.page.values.value2.paragraph]:
+    "We adhere to strong moral principles, ensuring that our business practices are fair, responsible, and respectful to all stakeholders.",
+  [tokens.about.page.values.value3.title]: "Accountability",
+  [tokens.about.page.values.value3.paragraph]:
+    "We take responsibility for our actions and decisions, holding ourselves answerable to our clients, partners, and each other.",
+  [tokens.about.page.values.value4.title]: "Quality",
+  [tokens.about.page.values.value4.paragraph]:
+    "We are committed to providing top-tier products and services, ensuring that every aspect of our offerings meets or exceeds industry standards.",
+  [tokens.about.page.values.value5.title]: "Integrity",
+  [tokens.about.page.values.value5.paragraph]:
+    "We conduct our business with honesty and transparency, maintaining ethical standards and building trust with our partners and customers.",
+  [tokens.about.page.values.value6.title]: "Business Excellence",
+  [tokens.about.page.values.value6.paragraph]:
+    "We strive for the highest standards in all our operations, continuously improving our processes and services to deliver exceptional results for our clients.",
 };

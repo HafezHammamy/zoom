@@ -31,6 +31,33 @@ export const tokens = {
         title: "about.page.card4.title",
         paragraph: "about.page.card4.paragraph",
       },
+
+      values: {
+        value1: {
+          title: "value1.title",
+          paragraph: "value1.paragraph",
+        },
+        value2: {
+          title: "value2.title",
+          paragraph: "value2.paragraph",
+        },
+        value3: {
+          title: "value3.title",
+          paragraph: "value3.paragraph",
+        },
+        value4: {
+          title: "value4.title",
+          paragraph: "value4.paragraph",
+        },
+        value5: {
+          title: "value5.title",
+          paragraph: "value5.paragraph",
+        },
+        value6: {
+          title: "value6.title",
+          paragraph: "value6.paragraph",
+        },
+      },
     },
   },
   cards: {

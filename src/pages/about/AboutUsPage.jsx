@@ -5,6 +5,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import AboutSection from "./components/AboutSection";
 import { AboutUsHero } from "./components/AboutUsHero";
+import ValuesBanner from "./components/ValuesBanner";
 
 const AboutUsPage = (props) => {
   usePageView();
@@ -24,6 +25,7 @@ const AboutUsPage = (props) => {
           title={t(tokens.about.page.card2.title)}
           paragraph={t(tokens.about.page.card2.paragraph)}
         />
+        <ValuesBanner />
         <AboutSection
           reverse={true}
           title={t(tokens.about.page.card3.title)}
