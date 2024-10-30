@@ -15,6 +15,8 @@ export const en = {
   [tokens.about.title]: "About Us",
   [tokens.about.paragraph]:
     "We pride ourselves on our unique approach, which integrates the experience of seasoned professionals with the fresh perspectives of emerging talent. This synergy enables us to develop advanced products and services that not only keep pace with industry trends but often set new standards.",
+  [tokens.about.page.hero]: "Dynamics exists to create confidence",
+  [tokens.about.page.button]: "Our Vision, mission and values",
 
   [tokens.cards.card1.title]: "Global Expertise, Local Touch",
   [tokens.cards.card1.paragraph]:

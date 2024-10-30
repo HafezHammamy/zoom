@@ -1,7 +1,19 @@
+import { usePageView } from "hooks/use-page-view";
+import { Seo } from "layout/components/Seo";
 import React from "react";
+import { AboutUsHero } from "./components/AboutUsHero";
 
 const AboutUsPage = (props) => {
-  return <div>About us</div>;
+  usePageView();
+
+  return (
+    <>
+      <Seo />
+      <main>
+        <AboutUsHero />
+      </main>
+    </>
+  );
 };
 
 AboutUsPage.propTypes = {};

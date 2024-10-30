@@ -15,8 +15,11 @@ export const tokens = {
   about: {
     title: "about.title",
     paragraph: "about.paragraph",
+    page: {
+      button: "about.page.button",
+      hero: "about.page.hero",
+    },
   },
-
   cards: {
     card1: {
       title: "cards.card1.title",
