@@ -43,6 +43,7 @@ const NewsBanner = (props) => {
 
   return (
     <Box
+      maxWidth="xxl"
       sx={{
         backgroundColor: "#eee8f5",
       }}
@@ -56,57 +57,40 @@ const NewsBanner = (props) => {
           margin: 0,
         }}
       >
-        <Grid container spacing={2}>
-          <Grid size={5} sx={{ paddingTop: 10, paddingLeft: "370px" }}>
-            <QuoteTypography sx={{ color: "#012169" }} variant="h5">
+        <Grid container spacing={2} alignItems="stretch">
+          <Grid offset={1} size={3} sx={{ paddingTop: 1 }}>
+            <QuoteTypography sx={{ color: "#012169" }} variant="h6">
               Dynamics Medical
             </QuoteTypography>
           </Grid>
-          <Grid size={7}>
-            <Box
-              sx={{
-                height: "65vh",
-                borderRadius: 2,
-                color: "white",
-              }}
-            >
-              <Box>
-                <Stack direction={"row"} spacing={2} justifyContent="center">
-                  {items.map((item, index) => {
-                    return (
-                      <Card
-                        key={item.title + index + "card"}
-                        sx={{ width: 345 }}
-                      >
-                        <CardMedia
-                          sx={{ height: 300 }}
-                          image={item.image}
-                          title={item.title}
-                        />
-                        <CardContent>
-                          <Typography
-                            gutterBottom
-                            variant="body2"
-                            component="div"
-                          >
-                            {item.title}
-                          </Typography>
-                          <Typography
-                            variant="caption"
-                            sx={{ color: "text.secondary" }}
-                          >
-                            {item.description}
-                          </Typography>
-                        </CardContent>
-                      </Card>
-                    );
-                  })}
-                </Stack>
-              </Box>
-            </Box>
-          </Grid>
-          <Grid size={5}></Grid>
-          <Grid size={7}>
+          {items.map((item, index) => {
+            return (
+              <Grid size={2}>
+                <Card
+                  key={item.title + index + "card"}
+                  sx={{ width: "100%", height: "100%" }}
+                >
+                  <CardMedia
+                    sx={{ height: 300 }}
+                    image={item.image}
+                    title={item.title}
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="body2" component="div">
+                      {item.title}
+                    </Typography>
+                    <Typography
+                      variant="caption"
+                      sx={{ color: "text.secondary" }}
+                    >
+                      {item.description}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+            );
+          })}
+          <Grid offset={4} size={8} sx={{ mt: 5 }}>
             <LinearProgress variant="determinate" value={15} />
           </Grid>
         </Grid>
