@@ -5,49 +5,27 @@ import StyledTypography, {
 } from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
+import Section from "./Section";
 
 const boxStyle = {
   heigh: "100%",
   paddingTop: "15%",
-  paddingLeft: "370px",
   color: "#012169",
 };
 
 const CommitmentBanner = (props) => {
   const { t } = useTranslation();
   return (
-    <Box
-      sx={{
-        backgroundRepeat: "no-repeat",
-        backgroundImage: `url(${BGImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "672px",
-      }}
-    >
-      <Container
-        maxWidth="xl"
-        sx={{
-          position: "relative",
-          height: "100%",
-          padding: "0 !important",
-          margin: 0,
-        }}
-      >
-        <Box>
-          <Box sx={boxStyle}>
-            <Stack spacing={4}>
-              <QuoteTypography variant="h3">
-                {t(tokens.commitment.title)}
-              </QuoteTypography>
-              <StyledTypography variant="body2">
-                {t(tokens.commitment.paragraph)}
-              </StyledTypography>
-            </Stack>
-          </Box>
-        </Box>
-      </Container>
-    </Box>
+    <Section backGroundImage={BGImage}>
+      <Stack spacing={4} sx={boxStyle}>
+        <QuoteTypography variant="h3">
+          {t(tokens.commitment.title)}
+        </QuoteTypography>
+        <StyledTypography variant="body2">
+          {t(tokens.commitment.paragraph)}
+        </StyledTypography>
+      </Stack>
+    </Section>
   );
 };
 
