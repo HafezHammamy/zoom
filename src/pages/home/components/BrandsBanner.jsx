@@ -67,18 +67,17 @@ const BrandsBanner = (props) => {
       sx={{
         padding: 0,
         overflow: "hidden",
-        height: "90vh",
         filter: "grayscale(100%)",
         backgroundColor: "#000",
+        height: "100vh",
       }}
     >
       <Container
         maxWidth="xxl"
         sx={{
           position: "relative",
-          height: "100%",
-          padding: "0 !important",
           margin: 0,
+          height: "100%",
         }}
       >
         {selectedBrand === BRANDS.KSIRGERY && (

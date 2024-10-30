@@ -1,20 +1,27 @@
 import { Button, Typography } from "@mui/material";
-import { Box, Stack } from "@mui/system";
+import { Box, Container, Stack } from "@mui/system";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
 import { buttonStyle, textStyle, videoStyle } from "./styles";
 import "./brands.css";
 
+const heroTextStyle = {
+  color: "#fff",
+  width: "50%",
+};
+
 const BrandContainer = ({ title, description, video, subTitle }) => {
   return (
     <>
-      <video autoPlay loop muted playsInline style={videoStyle}>
-        <source src={video} type="video/mp4" />
-      </video>
-      <Box maxWidth="xl" sx={textStyle}>
-        <Box sx={{ width: "50%" }} className="slide-up">
-          <Stack spacing={3}>
+      <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+        <Stack
+          alignItems="center"
+          direction="row"
+          spacing={2}
+          sx={{ flexGrow: 1, paddingTop: "10%" }}
+        >
+          <Stack spacing={3} sx={heroTextStyle} className="slide-up">
             <QuoteTypography variant="h6">{title}</QuoteTypography>
             <Typography variant="h5">{subTitle}</Typography>
             <StyledTypography variant="body2">{description} </StyledTypography>
@@ -24,8 +31,12 @@ const BrandContainer = ({ title, description, video, subTitle }) => {
               </Button>
             </Box>
           </Stack>
-        </Box>
-      </Box>
+        </Stack>
+      </Container>
+      <video autoPlay muted loop playsInline style={videoStyle}>
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </>
   );
 };
