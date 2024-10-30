@@ -1,4 +1,4 @@
-import { Box, Container, Stack } from "@mui/system";
+import { Stack } from "@mui/system";
 import BGImage from "assets/statement-bg.png";
 import StyledTypography, {
   QuoteTypography,

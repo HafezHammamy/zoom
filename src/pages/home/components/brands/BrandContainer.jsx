@@ -3,8 +3,8 @@ import { Box, Container, Stack } from "@mui/system";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
-import { buttonStyle, textStyle, videoStyle } from "./styles";
 import "./brands.css";
+import { buttonStyle, videoStyle } from "./styles";
 
 const heroTextStyle = {
   color: "#fff",

@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Stack } from "@mui/system";
+import { Box, Container, Grid } from "@mui/system";
 
 import image1 from "assets/1.png";
 import image2 from "assets/2.png";
@@ -13,8 +13,8 @@ import {
   Typography,
 } from "@mui/material";
 import { QuoteTypography } from "layout/components/StyledTypography";
-import { useTranslation } from "react-i18next";
 import { tokens } from "locales/tokens";
+import { useTranslation } from "react-i18next";
 
 const NewsBanner = (props) => {
   const { t } = useTranslation();

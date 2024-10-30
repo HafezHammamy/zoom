@@ -1,5 +1,3 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Box, Container, Stack } from "@mui/system";
 
 const Section = ({ backGroundImage, children }) => {
