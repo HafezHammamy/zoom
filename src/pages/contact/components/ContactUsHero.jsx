@@ -40,6 +40,7 @@ export const ContactUsHero = (props) => {
           width: "100%",
           overflow: "hidden",
           backgroundColor: "rgba(1, 1, 1,0.5)",
+          background: "linear-gradient(145deg, #ff77a9, #d3577f)",
         }}
       >
         <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
