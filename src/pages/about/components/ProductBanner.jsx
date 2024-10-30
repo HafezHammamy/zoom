@@ -11,6 +11,8 @@ import { useTranslation } from "react-i18next";
 
 import product from "assets/product.png";
 import productRtl from "assets/product-rtl.png";
+import { RouterLink } from "layout/components/router-link";
+import { paths } from "paths";
 
 const heroButton = {
   color: "white",
@@ -60,7 +62,13 @@ export const ProductBanner = (props) => {
               {t(tokens.about.page.product.paragraph)}
             </StyledTypography>
             <Box>
-              <Button sx={heroButton} size="large" variant="outlined">
+              <Button
+                LinkComponent={RouterLink}
+                href={paths.ourBrands}
+                sx={heroButton}
+                size="large"
+                variant="outlined"
+              >
                 {t(tokens.common.buttons.readMore)}
               </Button>
             </Box>
