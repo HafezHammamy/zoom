@@ -1,23 +1,13 @@
-import { Button } from "@mui/material";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import { Stack } from "@mui/system";
+import Stack from "@mui/material/Stack";
+import { Button } from "@mui/material";
 import StyledTypography from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
+import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
 import video from "assets/our_brands.mp4";
-
-const heroTextStyle = {
-  paddingBottom: 0,
-  display: "block",
-  position: "absolute",
-  bottom: "80px",
-  left: "370px",
-  height: "auto",
-  textAlign: "left",
-  color: "#fff",
-};
 
 const heroButton = {
   color: "white",
@@ -31,44 +21,46 @@ const heroButton = {
   },
 };
 
-const videoStyle = {
-  position: "absolute",
-  right: 0,
-  bottom: 0,
-  minWidth: "100%",
-  minHeight: "100%",
+const heroTextStyle = {
+  color: "#fff",
+  width: "50%",
 };
 
-export const HomeHero = () => {
+const videoStyle = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  minWidth: "100%",
+  minHeight: "100%",
+  width: "auto",
+  height: "auto",
+  transform: "translate(-50%, -50%)",
+  zIndex: -1,
+  objectFit: "cover",
+};
+
+export const HomeHero = (props) => {
   const { t } = useTranslation();
+
   return (
-    <Box
-      sx={{
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "top center",
-        backgroundColor: "rgba(0, 0, 0, 0.2)",
-        background: "linear-gradient(145deg, #ff77a9, #d3577f)",
-        padding: 0,
-        overflow: "hidden",
-        height: "90vh",
-      }}
-    >
-      <Container
-        maxWidth="lg"
+    <>
+      <Box
+        maxWidth="xxl"
         sx={{
           position: "relative",
-          height: "100%",
-          padding: "0 !important",
-          margin: 0,
+          height: "100vh",
+          width: "100%",
+          overflow: "hidden",
         }}
       >
-        <video autoPlay loop muted playsInline style={{ videoStyle }}>
-          <source src={video} type="video/mp4" />
-        </video>
-
-        <Box maxWidth="lg" sx={heroTextStyle}>
-          <Box sx={{ width: "70%" }}>
-            <Stack spacing={3}>
+        <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+          <Stack
+            alignItems="center"
+            direction="row"
+            spacing={2}
+            sx={{ flexGrow: 1, marginTop: "45vh" }}
+          >
+            <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">
                 {t(tokens.common.discover_brands.title)}
               </StyledTypography>
@@ -81,9 +73,17 @@ export const HomeHero = () => {
                 </Button>
               </Box>
             </Stack>
-          </Box>
-        </Box>
-      </Container>
-    </Box>
+          </Stack>
+        </Container>
+        <video autoPlay muted loop playsInline style={videoStyle}>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </Box>
+    </>
   );
+};
+
+HomeHero.propTypes = {
+  onMobileNavOpen: PropTypes.func,
 };

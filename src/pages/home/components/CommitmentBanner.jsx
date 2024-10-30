@@ -37,7 +37,7 @@ const CommitmentBanner = (props) => {
         <Box>
           <Box sx={boxStyle}>
             <Stack spacing={4}>
-              <QuoteTypography variant="h4">
+              <QuoteTypography variant="h3">
                 {t(tokens.commitment.title)}
               </QuoteTypography>
               <StyledTypography variant="body2">
