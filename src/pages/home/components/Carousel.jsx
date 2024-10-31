@@ -62,7 +62,7 @@ const Carousel = ({ selectedBrand, active }) => {
     { title: BRANDS.JUVELOOK, logo: logo1, video: "" },
     { title: BRANDS.LENISNA, logo: logo2, video: "" },
     { title: BRANDS.RENEE, logo: logo3, video: "" },
-    { title: BRANDS.KSIRGERY, logo: logo4, video: "" },
+    { title: BRANDS.KSURGERY, logo: logo4, video: "" },
   ];
 
   return (

@@ -36,8 +36,8 @@ const BrandsBanner = (props) => {
       video: video3,
     },
     {
-      title: BRANDS.KSIRGERY,
-      subTitle: "Experience Ksirgery",
+      title: BRANDS.KSURGERY,
+      subTitle: "Experience Ksurgery",
       description:
         "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
       video: video4,
@@ -50,7 +50,7 @@ const BrandsBanner = (props) => {
     BRANDS.JUVELOOK,
     BRANDS.LENISNA,
     BRANDS.RENEE,
-    BRANDS.KSIRGERY,
+    BRANDS.KSURGERY,
   ];
 
   useEffect(() => {
@@ -80,7 +80,7 @@ const BrandsBanner = (props) => {
           height: "100%",
         }}
       >
-        {selectedBrand === BRANDS.KSIRGERY && (
+        {selectedBrand === BRANDS.KSURGERY && (
           <BrandContainer
             title={brands[3].title}
             subTitle={brands[3].subTitle}
