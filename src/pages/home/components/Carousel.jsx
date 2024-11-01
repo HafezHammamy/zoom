@@ -1,5 +1,5 @@
 import { Box, Stack } from "@mui/system";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { BRANDS } from "../contants";
 import "./Carousel.css"; // Optional: for custom styling
 
@@ -88,7 +88,7 @@ const Carousel = ({ selectedBrand, active }) => {
                   scrollToCenter(index);
                 }}
               >
-                <img src={item.logo} />
+                <img src={item.logo} alt={item.title} />
               </div>
             ))}
           </div>

@@ -60,6 +60,7 @@ const BrandsBanner = (props) => {
       setSelectedBrand(brandList[index]);
     }, 3000);
     return () => clearInterval(interval); // Cleanup interval on unmount
+    // eslint-disable-next-line
   }, []);
 
   return (

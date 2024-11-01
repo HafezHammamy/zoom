@@ -47,19 +47,6 @@ const ValuesBanner = (props) => {
     },
   ];
 
-  const items2 = [
-    {
-      image: image5,
-      title: t(tokens.about.page.values.value5.title),
-      description: t(tokens.about.page.values.value5.paragraph),
-    },
-    {
-      image: image6,
-      title: t(tokens.about.page.values.value6.title),
-      description: t(tokens.about.page.values.value6.paragraph),
-    },
-  ];
-
   return (
     <Box
       maxWidth="xxl"
