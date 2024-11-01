@@ -70,7 +70,7 @@ export const HomeHero = (props) => {
               </StyledTypography>
               <Box>
                 <Button sx={heroButton} size="large" variant="outlined">
-                  Read More
+                  {t(tokens.common.buttons.readMore)}
                 </Button>
               </Box>
             </Stack>

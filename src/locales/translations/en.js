@@ -1,5 +1,6 @@
 import { tokens } from "../tokens";
 export const en = {
+  [tokens.site.name]: "Dynamics Medica",
   [tokens.nav.home]: "Home",
   [tokens.nav.contact]: "Contact Us",
   [tokens.nav.about]: "About Us",

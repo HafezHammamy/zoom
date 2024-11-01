@@ -60,7 +60,7 @@ const NewsBanner = (props) => {
         <Grid container spacing={2} alignItems="stretch">
           <Grid offset={1} size={3} sx={{ paddingTop: 1 }}>
             <QuoteTypography sx={{ color: "#012169" }} variant="h6">
-              Dynamics Medica
+              {t(tokens.site.name)}
             </QuoteTypography>
           </Grid>
           {items.map((item, index) => {

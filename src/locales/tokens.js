@@ -1,4 +1,5 @@
 export const tokens = {
+  site: { name: "site.name" },
   common: {
     discover_brands: {
       title: "common.brands.title",
