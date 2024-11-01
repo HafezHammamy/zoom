@@ -31,7 +31,7 @@ const TitleBox = ({ title, paragraph }) => {
               sx={{ height: "100%" }}
             >
               <Stack spacing={3} direction={"column"}>
-                <Typography variant="h3">{title}</Typography>
+                <Typography variant="h4">{title}</Typography>
                 <Typography variant="body1">{paragraph}</Typography>
                 <Button sx={buttonStyle} size="large" variant="outlined">
                   {t(tokens.common.buttons.readMore)}
