@@ -69,4 +69,5 @@ export const en = {
   that true excellence lies not just in what we do, but in how we do
   it - with passion, integrity, and a relentless focus on delivering
   the best possible outcomes for our clients.`,
+  [tokens.about.page.paragraph]: "Empowering Beauty, Inspiring Confidence",
 };

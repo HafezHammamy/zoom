@@ -67,7 +67,7 @@ export const AboutUsHero = (props) => {
                 {t(tokens.about.title)}
               </StyledTypography>
               <StyledTypography variant="body3">
-                {t(tokens.about.page.hero)}
+                {t(tokens.about.page.paragraph)}
               </StyledTypography>
               <Box>
                 <Button sx={heroButton} size="large" variant="outlined">
