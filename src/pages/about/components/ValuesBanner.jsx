@@ -41,6 +41,16 @@ const ValuesBanner = (props) => {
       title: t(tokens.about.page.values.value4.title),
       description: t(tokens.about.page.values.value4.paragraph),
     },
+    {
+      image: image5,
+      title: t(tokens.about.page.values.value5.title),
+      description: t(tokens.about.page.values.value5.paragraph),
+    },
+    {
+      image: image6,
+      title: t(tokens.about.page.values.value6.title),
+      description: t(tokens.about.page.values.value6.paragraph),
+    },
   ];
 
   const items2 = [
@@ -73,17 +83,19 @@ const ValuesBanner = (props) => {
         }}
       >
         <Grid container spacing={2} alignItems="stretch">
-          <Grid offset={1} size={3} sx={{ paddingTop: 1 }}>
-            <QuoteTypography sx={{ color: "#012169" }} variant="h6">
-              Our Values
-            </QuoteTypography>
+          <Grid size={12} sx={{ paddingTop: 1 }}>
+            <Grid size={3} sx={{ paddingTop: 1, paddingBottom: 1 }}>
+              <QuoteTypography sx={{ color: "#012169" }} variant="h6">
+                Our Values
+              </QuoteTypography>
+            </Grid>
           </Grid>
           {items1.map((item, index) => {
             return (
-              <Grid size={2}>
+              <Grid size={3}>
                 <Card
                   key={item.title + index + "card"}
-                  sx={{ width: "100%", height: "100%" }}
+                  sx={{ width: "100%", height: "100%", borderRadius: 0 }}
                 >
                   <CardMedia
                     sx={{ height: 300 }}
@@ -105,37 +117,9 @@ const ValuesBanner = (props) => {
               </Grid>
             );
           })}
-          <Grid offset={4} size={8} sx={{ mt: 5, mb: 5 }}>
+          <Grid size={12} sx={{ mt: 5, mb: 5 }}>
             <LinearProgress variant="determinate" value={15} />
           </Grid>
-          <Grid size={8} sx={{ paddingTop: 1 }}></Grid>
-          {items2.map((item, index) => {
-            return (
-              <Grid size={2}>
-                <Card
-                  key={item.title + index + "card"}
-                  sx={{ width: "100%", height: "100%" }}
-                >
-                  <CardMedia
-                    sx={{ height: 300 }}
-                    image={item.image}
-                    title={item.title}
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="body2" component="div">
-                      {item.title}
-                    </Typography>
-                    <Typography
-                      variant="caption"
-                      sx={{ color: "text.secondary" }}
-                    >
-                      {item.description}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Grid>
-            );
-          })}
         </Grid>
       </Container>
     </Box>

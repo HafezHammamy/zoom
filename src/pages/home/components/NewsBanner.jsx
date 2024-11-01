@@ -68,7 +68,7 @@ const NewsBanner = (props) => {
               <Grid size={2}>
                 <Card
                   key={item.title + index + "card"}
-                  sx={{ width: "100%", height: "100%" }}
+                  sx={{ width: "100%", height: "100%", borderRadius: 0 }}
                 >
                   <CardMedia
                     sx={{ height: 300 }}
