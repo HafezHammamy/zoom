@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zoom/static/css/main.8370e469.css",
+    "main.css": "/zoom/static/css/main.ec196205.css",
     "main.js": "/zoom/static/js/main.071b7440.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/homevideo.mp4": "/zoom/static/media/homevideo.637068cb353c69b83ca9.mp4",
@@ -34,22 +34,22 @@
     "static/media/Jost-Regular.ttf": "/zoom/static/media/Jost-Regular.42b2ab77abff530bfc14.ttf",
     "static/media/logo4.png": "/zoom/static/media/logo4.97e47c80b8edac097842.png",
     "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
-    "static/media/dinarone-bold.ttf": "/zoom/static/media/dinarone-bold.ff83c4e4b5f38685eea0.ttf",
     "static/media/nulshock-bd.otf": "/zoom/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "static/media/image-2.png": "/zoom/static/media/image-2.7baaefa2843d6310a1d7.png",
     "static/media/statement-bg.png": "/zoom/static/media/statement-bg.62ca8b47a17a0ab2bdc6.png",
+    "static/media/alfont_com_GE-Dinar-One-Bold.otf": "/zoom/static/media/alfont_com_GE-Dinar-One-Bold.dbca70bd5cb2e3fe989e.otf",
     "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
     "static/media/slick.svg": "/zoom/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/zoom/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
-    "main.8370e469.css.map": "/zoom/static/css/main.8370e469.css.map",
+    "main.ec196205.css.map": "/zoom/static/css/main.ec196205.css.map",
     "main.071b7440.js.map": "/zoom/static/js/main.071b7440.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8370e469.css",
+    "static/css/main.ec196205.css",
     "static/js/main.071b7440.js"
   ]
 }
