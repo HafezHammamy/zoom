@@ -7,7 +7,6 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import image from "assets/dynahp.png";
-import video from "assets/about.mp4";
 
 const heroButton = {
   textTransform: "uppercase",
