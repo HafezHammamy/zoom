@@ -1,4 +1,6 @@
 import { Container, Link, Stack, Typography } from "@mui/material";
+import { Box } from "@mui/system";
+import logo from "assets/logo.png";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
 
@@ -43,6 +45,9 @@ const ContactInfo = () => {
         <Link href="mailto:Info@dynainv.com" underline="hover" color="inherit">
           {t(tokens.contact.info.email)} Info@dynainv.com
         </Link>
+        <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
+          <img style={{ height: "50px" }} src={logo} alt={"Dynamics"} />
+        </Box>
       </Stack>
     </Container>
   );
