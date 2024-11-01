@@ -85,6 +85,17 @@ export const tokens = {
       update: "contact.form.update",
       send: "contact.form.send",
     },
+    info: {
+      contact_info: "contact.info.contact_info",
+      title1: "contact.info.title1",
+      title2: "contact.info.title2",
+      address: "contact.info.address",
+      address_info_city: "contact.info.address.city",
+      address_info_street: "contact.info.address.street",
+      email: "contact.info.email",
+      whatsapp: "contact.info.whatsapp",
+      phone: "contact.info.phone",
+    },
   },
   cards: {
     card1: {

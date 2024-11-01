@@ -84,4 +84,14 @@ export const en = {
   [tokens.contact.form.terms]: "I accept the terms and conditions",
   [tokens.contact.form.update]:
     "Yes! Please send me updates and information about your products.",
+  [tokens.contact.info.title1]:
+    "Let's connect and transform your aesthetic dreams into reality!",
+  [tokens.contact.info.title2]: "Choose your preferred path to reach us:",
+  [tokens.contact.info.address]: "Address",
+  [tokens.contact.info.address_info_city]: "Ramallah, Palestine",
+  [tokens.contact.info.address_info_street]: "3, Madaen Street",
+  [tokens.contact.info.email]: "Email:",
+  [tokens.contact.info.whatsapp]: "WhatsApp:",
+  [tokens.contact.info.phone]: " Tel:",
+  [tokens.contact.info.contact_info]: "Phone & Mail",
 };

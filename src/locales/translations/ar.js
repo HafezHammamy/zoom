@@ -77,4 +77,13 @@ export const ar = {
   [tokens.contact.form.terms]: "أوافق على الشروط والأحكام",
   [tokens.contact.form.update]:
     "نعم! يرجى إرسال التحديثات والمعلومات حول منتجاتكم.",
+  [tokens.contact.info.title1]: "لنتواصل ونحول أحلامك الجمالية إلى حقيقة!",
+  [tokens.contact.info.title2]: "اختر طريقتك المفضلة للتواصل معنا:",
+  [tokens.contact.info.address]: "العنوان",
+  [tokens.contact.info.address_info_city]: "شارع المدائن",
+  [tokens.contact.info.address_info_street]: "رام الله، فلسطين",
+  [tokens.contact.info.email]: "البريد الإلكتروني:",
+  [tokens.contact.info.whatsapp]: "واتساب:",
+  [tokens.contact.info.phone]: " الهاتف:",
+  [tokens.contact.info.contact_info]: " معلومات الاتصال",
 };
