@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.e9890083.css",
-    "main.js": "/zoom/static/js/main.df501f9c.js",
+    "main.js": "/zoom/static/js/main.26bd9cde.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
     "static/media/about.mp4": "/zoom/static/media/about.369d2547eb501e081bec.mp4",
@@ -19,10 +19,10 @@
     "static/media/3.png": "/zoom/static/media/3.87672aedc16cb9eb1641.png",
     "static/media/val3.png": "/zoom/static/media/val3.7932fb84902f4689672c.png",
     "static/media/2.png": "/zoom/static/media/2.875109f83390b1bdf231.png",
-    "static/media/image-2.png": "/zoom/static/media/image-2.1126b51d9d655d11a166.png",
     "static/media/val4.png": "/zoom/static/media/val4.531ef71016b7014b4379.png",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.d4dabfe545e3e5fbbcd4.mp4",
     "static/media/Didot.ttc": "/zoom/static/media/Didot.d6c7ab45540d059ebd3e.ttc",
+    "static/media/image-2.png": "/zoom/static/media/image-2.b55776e0a1121d9ab940.png",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
     "static/media/logo3.png": "/zoom/static/media/logo3.e1a176bd85eb69c0caee.png",
@@ -38,11 +38,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.e9890083.css.map": "/zoom/static/css/main.e9890083.css.map",
-    "main.df501f9c.js.map": "/zoom/static/js/main.df501f9c.js.map",
+    "main.26bd9cde.js.map": "/zoom/static/js/main.26bd9cde.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9890083.css",
-    "static/js/main.df501f9c.js"
+    "static/js/main.26bd9cde.js"
   ]
 }
