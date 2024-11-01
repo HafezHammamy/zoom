@@ -11,59 +11,60 @@ const TitleBox = ({ title, paragraph }) => {
   const { t } = useTranslation();
 
   return (
-    <Grid size={7}>
+    <Grid size={6}>
       <Box
         sx={{
           backgroundRepeat: "no-repeat",
           backgroundImage: `url(${image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "55vh",
           color: "white",
         }}
       >
         <Stack direction={"row"} justifyContent="center">
-          <Stack
-            spacing={5}
-            direction={"column"}
-            sx={{
-              padding: "10vh",
-              boxSizing: "content-box",
-            }}
-          >
-            <Typography variant="h3">{title}</Typography>
-            <Typography variant="body1">{paragraph}</Typography>
-            {false && (
-              <Button sx={buttonStyle} size="large" variant="outlined">
-                {t(tokens.common.buttons.readMore)}
-              </Button>
-            )}
-          </Stack>
+          <Box sx={{ width: "60%", height: "80vh" }}>
+            <Stack
+              spacing={5}
+              direction={"column"}
+              justifyContent="center"
+              alignContent="center"
+              sx={{ height: "100%" }}
+            >
+              <Stack spacing={3} direction={"column"}>
+                <Typography variant="h3">{title}</Typography>
+                <Typography variant="body1">{paragraph}</Typography>
+                <Button sx={buttonStyle} size="large" variant="outlined">
+                  {t(tokens.common.buttons.readMore)}
+                </Button>
+              </Stack>
+            </Stack>
+          </Box>
         </Stack>
       </Box>
     </Grid>
   );
 };
 
-const ImageBox = ({ reverse }) => {
+const ImageBox = ({ reverse, passedImage }) => {
   return (
-    <Grid size={5} sx={{ position: "relative" }}>
+    <Grid size={6} sx={{ position: "relative" }}>
       <Box
         component="img"
-        src={image2}
+        src={passedImage || image2}
         alt="About Us"
         sx={{
           position: "absolute",
-          height: "40vh",
-          ...(reverse ? { left: -70 } : { right: -70 }),
-          top: 60,
+          top: "7vh",
+          height: "65vh",
+          right: -100,
+          ...(reverse ? { left: -100 } : { right: -100 }),
           zIndex: 1,
         }}
       />
     </Grid>
   );
 };
-const AboutSection = ({ reverse, title, paragraph }) => {
+const AboutSection = ({ reverse, title, paragraph, passedImage }) => {
   return (
     <Box
       maxWidth="xxl"
@@ -80,12 +81,12 @@ const AboutSection = ({ reverse, title, paragraph }) => {
           {reverse && (
             <>
               <TitleBox title={title} paragraph={paragraph} />
-              <ImageBox reverse={true} />
+              <ImageBox reverse={true} passedImage={passedImage} />
             </>
           )}
           {!reverse && (
             <>
-              <ImageBox reverse={false} />
+              <ImageBox reverse={false} passedImage={passedImage} />
               <TitleBox title={title} paragraph={paragraph} />
             </>
           )}
