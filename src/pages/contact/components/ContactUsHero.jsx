@@ -7,7 +7,7 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-import video from "assets/about.mp4";
+import video from "assets/renee.mp4";
 
 const heroButton = {
   textTransform: "uppercase",
@@ -25,6 +25,18 @@ const heroButton = {
 const heroTextStyle = {
   color: "#fff",
   width: "50%",
+};
+
+const videoStyle = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  minWidth: "100%",
+  minHeight: "100%",
+  width: "auto",
+  height: "auto",
+  transform: "translate(-50%, -50%)",
+  objectFit: "cover",
 };
 
 export const ContactUsHero = (props) => {
@@ -63,6 +75,10 @@ export const ContactUsHero = (props) => {
             </Stack>
           </Stack>
         </Container>
+        <video autoPlay muted loop playsInline style={videoStyle}>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </Box>
     </>
   );

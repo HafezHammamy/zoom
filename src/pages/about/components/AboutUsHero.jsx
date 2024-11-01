@@ -27,19 +27,6 @@ const heroTextStyle = {
   width: "50%",
 };
 
-const videoStyle = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  minWidth: "100%",
-  minHeight: "100%",
-  width: "auto",
-  height: "auto",
-  transform: "translate(-50%, -50%)",
-  zIndex: -1,
-  objectFit: "cover",
-};
-
 export const AboutUsHero = (props) => {
   const { t } = useTranslation();
 
@@ -63,7 +50,7 @@ export const AboutUsHero = (props) => {
             alignItems="center"
             direction="row"
             spacing={2}
-            sx={{ flexGrow: 1, marginTop: "60vh" }}
+            sx={{ flexGrow: 1, marginTop: "55vh" }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">

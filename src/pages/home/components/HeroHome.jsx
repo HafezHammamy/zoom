@@ -50,7 +50,8 @@ export const HomeHero = (props) => {
           height: "100vh",
           width: "100%",
           overflow: "hidden",
-          background: "linear-gradient(145deg, #ff77a9, #d3577f)",
+          background:
+            "linear-gradient(145deg, #ff77a9, #d3577f, #b3426a, #843157)",
         }}
       >
         <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
