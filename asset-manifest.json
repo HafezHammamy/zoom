@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.ec196205.css",
-    "main.js": "/zoom/static/js/main.071b7440.js",
+    "main.js": "/zoom/static/js/main.486bbe90.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/homevideo.mp4": "/zoom/static/media/homevideo.637068cb353c69b83ca9.mp4",
-    "static/media/about.mp4": "/zoom/static/media/about.369d2547eb501e081bec.mp4",
     "static/media/Lenisna.mp4": "/zoom/static/media/Lenisna.1cc7e2fac3482f7e38f6.mp4",
     "static/media/product-rtl.png": "/zoom/static/media/product-rtl.9f11d39a5cc52d69aa4d.png",
     "static/media/product.png": "/zoom/static/media/product.245dc3bd9587f18bf7ca.png",
@@ -45,11 +44,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.ec196205.css.map": "/zoom/static/css/main.ec196205.css.map",
-    "main.071b7440.js.map": "/zoom/static/js/main.071b7440.js.map",
+    "main.486bbe90.js.map": "/zoom/static/js/main.486bbe90.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec196205.css",
-    "static/js/main.071b7440.js"
+    "static/js/main.486bbe90.js"
   ]
 }
