@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'TitleFonts';
-    src: url('./assets/fonts/Didot.ttc') format('truetype');
+    src: url('./assets/fonts/nulshock-bd.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -8,17 +8,59 @@
 @font-face {
     font-family: 'ParagraphFonts';
     src: url('./assets/fonts/Jost-Regular.ttf') format('truetype');
-    /* TTC */
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'RTLTitleFonts';
+    src: url('./assets/fonts/dinarone-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RTLParagraphFonts';
+    src: url('./assets/fonts/SF-Arabic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background-color: #eee8f5;
     margin: 0;
-    font-family: "ParagraphFonts", serif !important;
     color: #3f3f40;
+    font-family: "ParagraphFonts", serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* For left-to-right text */
+body:dir(ltr) {
+    font-family: "ParagraphFonts", serif;
+}
+
+/* For right-to-left text */
+body:dir(rtl) {
+    font-family: "RTLParagraphFonts", serif;
+}
+
+/* Title fonts for left-to-right text */
+body:dir(ltr) h1,
+body:dir(ltr) h2,
+body:dir(ltr) h3,
+body:dir(ltr) h4,
+body:dir(ltr) h5,
+body:dir(ltr) h6 {
+    font-family: "TitleFonts", serif;
+}
+
+/* Title fonts for right-to-left text */
+body:dir(rtl) h1,
+body:dir(rtl) h2,
+body:dir(rtl) h3,
+body:dir(rtl) h4,
+body:dir(rtl) h5,
+body:dir(rtl) h6 {
+    font-family: "RTLTitleFonts", serif;
 }

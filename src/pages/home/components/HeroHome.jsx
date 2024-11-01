@@ -7,7 +7,7 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-import video from "assets/our_brands.mp4";
+import video from "assets/homevideo.mp4";
 
 const heroButton = {
   color: "white",

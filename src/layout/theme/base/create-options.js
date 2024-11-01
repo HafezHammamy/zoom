@@ -22,6 +22,6 @@ export const createOptions = (config) => {
     shape: {
       borderRadius: 8,
     },
-    typography: createTypography(),
+    typography: createTypography(direction),
   };
 };

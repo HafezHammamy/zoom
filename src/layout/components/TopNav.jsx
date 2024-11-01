@@ -159,7 +159,7 @@ export const TopNav = (props) => {
                 sx={{ textDecoration: "none" }}
               >
                 {mdUp && (
-                  <Box style={{ height: "50px" }}>
+                  <Box style={{ height: "40px" }}>
                     <img
                       style={{ height: "100%" }}
                       src={elevate ? logo : logoLight}
@@ -190,7 +190,7 @@ export const TopNav = (props) => {
                   <Stack
                     component="ul"
                     alignItems="center"
-                    justifyContent={elevate ? "flex-start" : "center"}
+                    justifyContent={elevate ? "center" : "center"}
                     direction="row"
                     spacing={1}
                     sx={{
