@@ -67,7 +67,24 @@ export const tokens = {
       },
     },
   },
-  contact: {},
+  contact: {
+    form: {
+      title: {
+        mr: "contact.form.title.mr",
+        mrs: "contact.form.title.mrs",
+      },
+      firstName: "contact.form.firstName",
+      lastName: "contact.form.lastName",
+      organization: "contact.form.organization",
+      phone: "contact.form.phone",
+      country: "contact.form.country",
+      interested_in: "contact.form.interested_in",
+      message: "contact.form.message",
+      terms: "contact.form.terms",
+      update: "contact.form.update",
+      send: "contact.form.send",
+    },
+  },
   cards: {
     card1: {
       title: "cards.card1.title",

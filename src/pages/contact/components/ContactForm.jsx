@@ -9,7 +9,9 @@ import {
   MenuItem,
   Autocomplete,
 } from "@mui/material";
+import { tokens } from "locales/tokens";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Form = () => {
   const [formValues, setFormValues] = useState({
@@ -24,6 +26,8 @@ const Form = () => {
     agreeToTerms: false,
     receiveUpdates: false,
   });
+
+  const { t } = useTranslation();
 
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
@@ -51,12 +55,20 @@ const Form = () => {
         onChange={handleChange}
         sx={{ mb: 2 }}
       >
-        <FormControlLabel value="Mrs" control={<Radio />} label="Mrs." />
-        <FormControlLabel value="Mr" control={<Radio />} label="Mr." />
+        <FormControlLabel
+          value="Mrs"
+          control={<Radio />}
+          label={t(tokens.contact.form.title.mr)}
+        />
+        <FormControlLabel
+          value="Mr"
+          control={<Radio />}
+          label={t(tokens.contact.form.title.mrs)}
+        />
       </RadioGroup>
       <TextField
         fullWidth
-        label="First Name"
+        label={t(tokens.contact.form.firstName)}
         name="firstName"
         value={formValues.firstName}
         onChange={handleChange}
@@ -64,7 +76,7 @@ const Form = () => {
       />
       <TextField
         fullWidth
-        label="Last Name"
+        label={t(tokens.contact.form.lastName)}
         name="lastName"
         value={formValues.lastName}
         onChange={handleChange}
@@ -72,7 +84,7 @@ const Form = () => {
       />
       <TextField
         fullWidth
-        label="Organization"
+        label={t(tokens.contact.form.organization)}
         name="organization"
         value={formValues.organization}
         onChange={handleChange}
@@ -80,7 +92,7 @@ const Form = () => {
       />
       <TextField
         fullWidth
-        label="Phone"
+        label={t(tokens.contact.form.phone)}
         name="phone"
         value={formValues.phone}
         onChange={handleChange}
@@ -117,7 +129,7 @@ const Form = () => {
           <TextField
             {...params}
             fullWidth
-            label="Country"
+            label={t(tokens.contact.form.country)}
             slotProps={{
               htmlInput: {
                 ...params.inputProps,
@@ -130,7 +142,7 @@ const Form = () => {
       <TextField
         fullWidth
         select
-        label="I am interested in"
+        label={t(tokens.contact.form.interested_in)}
         name="interestedIn"
         value={formValues.interestedIn}
         onChange={handleChange}
@@ -142,7 +154,7 @@ const Form = () => {
       </TextField>
       <TextField
         fullWidth
-        label="Message"
+        label={t(tokens.contact.form.message)}
         name="message"
         value={formValues.message}
         onChange={handleChange}
@@ -158,7 +170,7 @@ const Form = () => {
             name="agreeToTerms"
           />
         }
-        label="I accept the terms and conditions"
+        label={t(tokens.contact.form.terms)}
       />
       <FormControlLabel
         control={
@@ -168,10 +180,10 @@ const Form = () => {
             name="receiveUpdates"
           />
         }
-        label="Yes! Please send me updates and information about your products."
+        label={t(tokens.contact.form.update)}
       />
       <Button variant="contained" type="submit" fullWidth sx={{ mt: 2 }}>
-        Submit
+        {t(tokens.contact.form.send)}
       </Button>
     </Box>
   );

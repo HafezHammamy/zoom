@@ -70,4 +70,17 @@ export const en = {
   it - with passion, integrity, and a relentless focus on delivering
   the best possible outcomes for our clients.`,
   [tokens.about.page.paragraph]: "Empowering Beauty, Inspiring Confidence",
+  [tokens.contact.form.send]: "Submit",
+  [tokens.contact.form.title.mr]: "Mr.",
+  [tokens.contact.form.title.mrs]: "Mrs.",
+  [tokens.contact.form.firstName]: "First Name",
+  [tokens.contact.form.lastName]: "Last Name",
+  [tokens.contact.form.organization]: "Organization",
+  [tokens.contact.form.phone]: "Phone Number",
+  [tokens.contact.form.country]: "Country",
+  [tokens.contact.form.interested_in]: "Interested In",
+  [tokens.contact.form.message]: "Message",
+  [tokens.contact.form.terms]: "I accept the terms and conditions",
+  [tokens.contact.form.update]:
+    "Yes! Please send me updates and information about your products.",
 };

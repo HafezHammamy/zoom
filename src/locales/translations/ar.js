@@ -62,4 +62,17 @@ export const ar = {
   [tokens.about.page.product
     .paragraph]: `ينعكس سعينا نحو التميز في اختيارنا الدقيق للمنتجات، ومعرفة فريقنا من الخبراء، والتزامنا بالبقاء في طليعة التطورات الصناعية. نحن نؤمن بأن التميز الحقيقي لا يكمن فقط فيما نفعله، بل في كيفية قيامنا به - بشغف ونزاهة وتركيز لا هوادة فيه على تحقيق أفضل النتائج الممكنة لعملائنا.`,
   [tokens.about.page.paragraph]: "تمكين الجمال، إلهام الثقة",
+  [tokens.contact.form.send]: "ارسل",
+  [tokens.contact.form.title.mr]: "السيد",
+  [tokens.contact.form.title.mrs]: "السيدة",
+  [tokens.contact.form.firstName]: "الاسم الأول",
+  [tokens.contact.form.lastName]: "اسم العائلة",
+  [tokens.contact.form.organization]: "المنظمة",
+  [tokens.contact.form.phone]: "رقم الهاتف",
+  [tokens.contact.form.country]: "الدولة",
+  [tokens.contact.form.interested_in]: "مهتم بـ",
+  [tokens.contact.form.message]: "رسالة",
+  [tokens.contact.form.terms]: "أوافق على الشروط والأحكام",
+  [tokens.contact.form.update]:
+    "نعم! يرجى إرسال التحديثات والمعلومات حول منتجاتكم.",
 };
