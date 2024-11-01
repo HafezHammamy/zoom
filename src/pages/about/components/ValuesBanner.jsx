@@ -7,13 +7,7 @@ import image4 from "assets/val4.png";
 import image5 from "assets/val5.png";
 import image6 from "assets/val6.png";
 
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  LinearProgress,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, LinearProgress, Typography } from "@mui/material";
 import { QuoteTypography } from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
@@ -97,11 +91,6 @@ const ValuesBanner = (props) => {
                   key={item.title + index + "card"}
                   sx={{ width: "100%", height: "100%", borderRadius: 0 }}
                 >
-                  <CardMedia
-                    sx={{ height: 300 }}
-                    image={item.image}
-                    title={item.title}
-                  />
                   <CardContent>
                     <Typography gutterBottom variant="body2" component="div">
                       {item.title}

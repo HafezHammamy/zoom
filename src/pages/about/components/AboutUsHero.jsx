@@ -6,7 +6,7 @@ import StyledTypography from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-
+import image from "assets/dynahp.png";
 import video from "assets/about.mp4";
 
 const heroButton = {
@@ -53,6 +53,9 @@ export const AboutUsHero = (props) => {
           width: "100%",
           overflow: "hidden",
           backgroundColor: "rgba(1, 1, 1,0.5)",
+          backgroundImage: `url(${image})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
         <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
@@ -77,10 +80,6 @@ export const AboutUsHero = (props) => {
             </Stack>
           </Stack>
         </Container>
-        <video autoPlay muted loop playsInline style={videoStyle}>
-          <source src={video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
       </Box>
     </>
   );
