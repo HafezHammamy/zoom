@@ -51,16 +51,17 @@ const ImageBox = ({ reverse, passedImage }) => {
       <Box
         sx={{
           position: "absolute",
-          top: "75px",
-          height: "500px",
+          top: "10%",
+          height: "80%",
           width: "115%",
           overflow: "hidden",
           ...(reverse ? { left: -110 } : { right: -110 }),
           zIndex: 1,
+          backgroundImage: `url(${passedImage || image2})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
-      >
-        <Box component="img" src={passedImage || image2} alt="About Us" />
-      </Box>
+      ></Box>
     </Grid>
   );
 };
