@@ -51,6 +51,11 @@
     transform: scale(0.9);
 }
 
+.carousel-item:hover>img {
+    opacity: 1;
+}
+
+
 .carousel-button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;

@@ -94,4 +94,21 @@ export const en = {
   [tokens.contact.info.whatsapp]: "WhatsApp:",
   [tokens.contact.info.phone]: " Tel:",
   [tokens.contact.info.contact_info]: "Phone & Mail",
+  [tokens.brands.ksurgery.title]: "Ksurgery",
+  [tokens.brands.ksurgery.subtitle]: "Experience Ksurgery",
+  [tokens.brands.ksurgery.description]:
+    "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
+  [tokens.brands.renee.title]: "Renee",
+  [tokens.brands.renee.subtitle]: "Experience Renée",
+  [tokens.brands.renee.description]:
+    "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
+  [tokens.brands.lenisna.title]: "Lenisna",
+  [tokens.brands.lenisna.subtitle]: "Experience LENISNA",
+  [tokens.brands.lenisna.description]:
+    "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
+  [tokens.brands.juvelook.title]: "Juvelook",
+  [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
+  [tokens.brands.juvelook.description]:
+    "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
+  [tokens.common.discover_brand]: "Discover Brand",
 };

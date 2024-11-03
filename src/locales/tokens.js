@@ -1,6 +1,7 @@
 export const tokens = {
   site: { name: "site.name" },
   common: {
+    discover_brand: "common.discover_brand",
     discover_brands: {
       title: "common.brands.title",
       summary: "common.brands.summary",
@@ -121,5 +122,27 @@ export const tokens = {
     about: "nav.about",
     vision: "nav.vision",
     brands: "nav.brands",
+  },
+  brands: {
+    ksurgery: {
+      title: "brands.ksurgery.title",
+      subtitle: "brands.ksurgery.subtitle",
+      description: "brands.ksurgery.description",
+    },
+    renee: {
+      title: "brands.renee.title",
+      subtitle: "brands.renee.subtitle",
+      description: "brands.renee.description",
+    },
+    lenisna: {
+      title: "brands.lenisna.title",
+      subtitle: "brands.lenisna.subtitle",
+      description: "brands.lenisna.description",
+    },
+    juvelook: {
+      title: "brands.juvelook.title",
+      subtitle: "brands.juvelook.subtitle",
+      description: "brands.juvelook.description",
+    },
   },
 };

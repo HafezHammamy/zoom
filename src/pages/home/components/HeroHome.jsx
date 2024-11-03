@@ -6,8 +6,10 @@ import StyledTypography from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
+import CircularProgress from "@mui/material/CircularProgress";
 
 import video from "assets/My Movie 15.mp4";
+import { useState } from "react";
 
 const heroButton = {
   color: "white",
@@ -38,8 +40,21 @@ const videoStyle = {
   objectFit: "cover",
 };
 
+const loaderStyle = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  fontSize: "24px",
+};
+
 export const HomeHero = (props) => {
   const { t } = useTranslation();
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleVideoLoaded = () => {
+    setIsLoading(false); // Hide loader once the video can play
+  };
 
   return (
     <>
@@ -50,16 +65,17 @@ export const HomeHero = (props) => {
           height: "100vh",
           width: "100%",
           overflow: "hidden",
-          background:
-            "linear-gradient(145deg, #ff77a9, #d3577f, #b3426a, #843157)",
         }}
       >
-        <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+        <Container
+          maxWidth="lg"
+          sx={{ position: "relative", zIndex: 1, height: "100%" }}
+        >
           <Stack
-            alignItems="center"
+            alignItems="flex-end"
             direction="row"
             spacing={2}
-            sx={{ flexGrow: 1, marginTop: "45vh" }}
+            sx={{ height: "100%", pb: 3 }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">
@@ -76,7 +92,17 @@ export const HomeHero = (props) => {
             </Stack>
           </Stack>
         </Container>
-        <video autoPlay muted loop playsInline style={videoStyle}>
+        {isLoading && (
+          <CircularProgress style={loaderStyle} size={60} thickness={5} />
+        )}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={videoStyle}
+          onCanPlay={handleVideoLoaded}
+        >
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

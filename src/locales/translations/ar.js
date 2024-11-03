@@ -86,4 +86,21 @@ export const ar = {
   [tokens.contact.info.whatsapp]: "واتساب:",
   [tokens.contact.info.phone]: " الهاتف:",
   [tokens.contact.info.contact_info]: " معلومات الاتصال",
+  [tokens.brands.ksurgery.title]: "كيه سيرجري",
+  [tokens.brands.ksurgery.subtitle]: "اكتشف كيه سيرجري",
+  [tokens.brands.ksurgery.description]:
+    "تمزج علاجات حمض الهيالورونيك الإيطالية الصنع لدينا بين التكنولوجيا المتطورة وتعزيز الجمال الطبيعي. تقدم Ksurgery MED، من Vidapharma، منتجات آمنة وفعالة ومثبتة علميًا، مصممة لتلبية المعايير العالية للمتخصصين الطبيين في مجال الرعاية الجمالية.",
+  [tokens.brands.renee.title]: "رينيه",
+  [tokens.brands.renee.subtitle]: "اكتشف رينيه",
+  [tokens.brands.renee.description]:
+    "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
+  [tokens.brands.lenisna.title]: "لينيسنا",
+  [tokens.brands.lenisna.subtitle]: "اكتشف لينيسنا",
+  [tokens.brands.lenisna.description]:
+    "جزيئاتنا الكروية المبتكرة تحفز إنتاج الكولاجين، مما يوفر حجمًا طبيعيًا لتحديد معالم الوجه والجسم. مثالية لتقليل التجاعيد وعلاج الندبات.",
+  [tokens.brands.juvelook.title]: "جوفيلوك",
+  [tokens.brands.juvelook.subtitle]: "اكتشف جوفيلوك",
+  [tokens.brands.juvelook.description]:
+    "حشوة PLA الفريدة لدينا تعزز مظهرك بدقة. يتم حقن جزيئات PDLLA الصغيرة في الأدمة، مما يزيد حجم البشرة بشكل متساوٍ عن طريق تعزيز إنتاج الكولاجين.",
+  [tokens.common.discover_brand]: "اكتشف العلامة التجاريه",
 };

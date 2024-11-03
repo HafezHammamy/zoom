@@ -9,37 +9,34 @@ import video4 from "assets/ksugery.mp4";
 import video2 from "assets/Lenisna.mp4";
 import video3 from "assets/renee.mp4";
 import BrandContainer from "./brands/BrandContainer";
+import { useTranslation } from "react-i18next";
+import { tokens } from "locales/tokens";
 
 const BrandsBanner = (props) => {
+  const { t } = useTranslation();
   const brands = [
     {
-      title: BRANDS.JUVELOOK,
-      subTitle: "Experience Juvelook",
-      description: `Our unique PLA filler enhances your
-    appearance with precision. Small PDLLA particles are injected into
-    the dermis, evenly volumizing skin by boosting collagen
-    production.`,
+      title: t(tokens.brands.juvelook.title),
+      subTitle: t(tokens.brands.juvelook.subtitle),
+      description: t(tokens.brands.juvelook.description),
       video: video1,
     },
     {
-      title: BRANDS.LENISNA,
-      subTitle: "Experience LENISNA",
-      description:
-        "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
+      title: t(tokens.brands.lenisna.title),
+      subTitle: t(tokens.brands.lenisna.subtitle),
+      description: t(tokens.brands.lenisna.description),
       video: video2,
     },
     {
-      title: BRANDS.RENEE,
-      subTitle: "Experience Renée",
-      description:
-        "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
+      title: t(tokens.brands.renee.title),
+      subTitle: t(tokens.brands.renee.subtitle),
+      description: t(tokens.brands.renee.description),
       video: video3,
     },
     {
-      title: BRANDS.KSURGERY,
-      subTitle: "Experience Ksurgery",
-      description:
-        "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
+      title: t(tokens.brands.ksurgery.title),
+      subTitle: t(tokens.brands.ksurgery.subtitle),
+      description: t(tokens.brands.ksurgery.description),
       video: video4,
     },
   ];

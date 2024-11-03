@@ -3,6 +3,8 @@ import { Box, Container, Stack } from "@mui/system";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
+import { tokens } from "locales/tokens";
+import { useTranslation } from "react-i18next";
 import "./brands.css";
 import { buttonStyle, videoStyle } from "./styles";
 
@@ -12,6 +14,7 @@ const heroTextStyle = {
 };
 
 const BrandContainer = ({ title, description, video, subTitle }) => {
+  const { t } = useTranslation();
   return (
     <>
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
@@ -27,7 +30,7 @@ const BrandContainer = ({ title, description, video, subTitle }) => {
             <StyledTypography variant="body2">{description} </StyledTypography>
             <Box>
               <Button sx={buttonStyle} size="large" variant="outlined">
-                DISCOVER BRAND
+                {t(tokens.common.discover_brand)}
               </Button>
             </Box>
           </Stack>
