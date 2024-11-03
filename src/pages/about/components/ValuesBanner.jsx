@@ -7,7 +7,7 @@ import image4 from "assets/val4.png";
 import image5 from "assets/val5.png";
 import image6 from "assets/val6.png";
 
-import { Card, CardContent, LinearProgress, Typography } from "@mui/material";
+import { Card, CardContent, Typography } from "@mui/material";
 import { QuoteTypography } from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
@@ -93,9 +93,6 @@ const ValuesBanner = (props) => {
               </Grid>
             );
           })}
-          <Grid size={12} sx={{ mt: 5, mb: 5 }}>
-            <LinearProgress variant="determinate" value={15} />
-          </Grid>
         </Grid>
       </Container>
     </Box>

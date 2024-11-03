@@ -1,10 +1,10 @@
 import { tokens } from "../tokens";
 export const ar = {
   [tokens.site.name]: "داينامكس ميديكا",
-  [tokens.nav.home]: "الرئيسية",
-  [tokens.nav.contact]: "اتصل بنا",
-  [tokens.nav.about]: "معلومات عنا",
-  [tokens.nav.brands]: "علاماتنا التجارية",
+  [tokens.nav.home]: "اكتشف الجمال",
+  [tokens.nav.contact]: "لنتواصل",
+  [tokens.nav.about]: "قصتنا",
+  [tokens.nav.brands]: "مجموعتنا المتميزة",
   [tokens.nav.vision]: "رؤيتنا",
   [tokens.common.discover_brands.title]: "اكتشف علاماتنا التجارية",
   [tokens.common.discover_brands.summary]:
