@@ -5,4 +5,10 @@ export const paths = {
   contactUs: "/contact-us",
   vision: "/vision",
   ourBrands: "/our-brands",
+  brands: {
+    renee: "/renee",
+    juvelook: "/juvelook",
+    lenisna: "/lenisna",
+    ksurgery: "/ksurgery",
+  },
 };

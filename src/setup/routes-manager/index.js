@@ -4,6 +4,10 @@ import NotFound from "layout/components/NotFound";
 import { TopNav } from "layout/components/TopNav";
 import AboutUsPage from "pages/about/AboutUsPage";
 import BrandsPage from "pages/brands/BrandsPage";
+import JuvelookPage from "pages/brands/pages/JuvelookPage";
+import KsurgeryPage from "pages/brands/pages/KsurgeryPage";
+import LenisnaPage from "pages/brands/pages/LenisnaPage";
+import ReneePage from "pages/brands/pages/ReneePage";
 import ContactUsPage from "pages/contact/ContactUsPage";
 import HomePage from "pages/home/HomePage";
 import VisionPage from "pages/vision/VisionPage";
@@ -43,6 +47,22 @@ export const routes = [
       {
         path: paths.ourBrands,
         element: <BrandsPage />,
+      },
+      {
+        path: paths.brands.juvelook,
+        element: <JuvelookPage />,
+      },
+      {
+        path: paths.brands.renee,
+        element: <ReneePage />,
+      },
+      {
+        path: paths.brands.lenisna,
+        element: <LenisnaPage />,
+      },
+      {
+        path: paths.brands.ksurgery,
+        element: <KsurgeryPage />,
       },
     ],
   },

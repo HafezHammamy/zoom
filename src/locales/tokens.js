@@ -127,25 +127,33 @@ export const tokens = {
     brands: "nav.brands",
   },
   brands: {
+    our_collection: {
+      title: "brands.our_collection.title",
+      paragraph: "brands.our_collection.paragraph",
+    },
     ksurgery: {
       title: "brands.ksurgery.title",
       subtitle: "brands.ksurgery.subtitle",
       description: "brands.ksurgery.description",
+      description2: "brands.ksurgery.description2",
     },
     renee: {
       title: "brands.renee.title",
       subtitle: "brands.renee.subtitle",
       description: "brands.renee.description",
+      description2: "brands.renee.description2",
     },
     lenisna: {
       title: "brands.lenisna.title",
       subtitle: "brands.lenisna.subtitle",
       description: "brands.lenisna.description",
+      description2: "brands.lenisna.description2",
     },
     juvelook: {
       title: "brands.juvelook.title",
       subtitle: "brands.juvelook.subtitle",
       description: "brands.juvelook.description",
+      description2: "brands.juvelook.description2",
     },
   },
 };

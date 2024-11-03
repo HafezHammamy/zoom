@@ -104,6 +104,14 @@ export const en = {
   [tokens.brands.renee.subtitle]: "Experience Renée",
   [tokens.brands.renee.description]:
     "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
+  [tokens.brands.ksurgery.description2]:
+    "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
+  [tokens.brands.renee.description2]:
+    "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
+  [tokens.brands.juvelook.description2]:
+    "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
+  [tokens.brands.lenisna.description2]:
+    "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
   [tokens.brands.lenisna.title]: "Lenisna",
   [tokens.brands.lenisna.subtitle]: "Experience LENISNA",
   [tokens.brands.lenisna.description]:
@@ -113,4 +121,7 @@ export const en = {
   [tokens.brands.juvelook.description]:
     "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
   [tokens.common.discover_brand]: "Discover Brand",
+  [tokens.brands.our_collection.title]: "Our Collection",
+  [tokens.brands.our_collection.paragraph]:
+    "At Dynamics, we've curated a portfolio of innovative aesthetic technologies, addressing unmet clinical needs with effective, long-lasting, and minimally-invasive treatments that deliver natural-looking results.",
 };

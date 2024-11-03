@@ -8,6 +8,7 @@ import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
 import video from "assets/renee.mp4";
+import useVideoLoader from "hooks/useVideoLoader";
 
 const heroButton = {
   textTransform: "uppercase",
@@ -41,7 +42,7 @@ const videoStyle = {
 
 export const ContactUsHero = (props) => {
   const { t } = useTranslation();
-
+  const { Loader, handleVideoLoaded } = useVideoLoader();
   return (
     <>
       <Box
@@ -80,7 +81,15 @@ export const ContactUsHero = (props) => {
             </Stack>
           </Stack>
         </Container>
-        <video autoPlay muted loop playsInline style={videoStyle}>
+        {Loader}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={videoStyle}
+          onCanPlay={handleVideoLoaded}
+        >
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
