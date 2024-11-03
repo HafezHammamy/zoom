@@ -7,7 +7,7 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-import video from "assets/homevideo.mp4";
+import video from "assets/My Movie 15.mp4";
 
 const heroButton = {
   color: "white",
@@ -34,7 +34,7 @@ const videoStyle = {
   minHeight: "100%",
   width: "auto",
   height: "auto",
-  transform: "translate(-50%, -50%)",
+  transform: "translate(-50%, -35%)",
   objectFit: "cover",
 };
 
