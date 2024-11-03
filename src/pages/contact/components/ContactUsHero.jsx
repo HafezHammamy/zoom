@@ -55,18 +55,23 @@ export const ContactUsHero = (props) => {
             "linear-gradient(145deg, #ff77a9, #d3577f, #b3426a, #843157)",
         }}
       >
-        <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+        <Container
+          maxWidth="lg"
+          sx={{ position: "relative", zIndex: 1, height: "100%" }}
+        >
           <Stack
-            alignItems="center"
+            alignItems="flex-end"
             direction="row"
             spacing={2}
-            sx={{ flexGrow: 1, marginTop: "60vh" }}
+            sx={{ flexGrow: 1, height: "100%", pb: 3 }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">
                 {t(tokens.nav.contact)}
               </StyledTypography>
-
+              <StyledTypography variant="body3">
+                {t(tokens.contact.hero.paragraph)}
+              </StyledTypography>
               <Box>
                 <Button sx={heroButton} size="large" variant="outlined">
                   {t(tokens.nav.contact)}

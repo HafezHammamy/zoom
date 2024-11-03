@@ -97,6 +97,9 @@ export const tokens = {
       whatsapp: "contact.info.whatsapp",
       phone: "contact.info.phone",
     },
+    hero: {
+      paragraph: "contact.hero.paragraph",
+    },
   },
   cards: {
     card1: {
