@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.2b3d2cc5.css",
-    "main.js": "/zoom/static/js/main.25232a5c.js",
+    "main.js": "/zoom/static/js/main.314137b7.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
@@ -10,8 +10,11 @@
     "static/media/val5.png": "/zoom/static/media/val5.c7c4d121235b34d77b82.png",
     "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.a84fedd6a269a7695da2.mp4",
+    "static/media/product-03.png": "/zoom/static/media/product-03.e639261f6a0697208f50.png",
     "static/media/sdf-02.png": "/zoom/static/media/sdf-02.32701a8fabf7898bb551.png",
     "static/media/sdf-01.png": "/zoom/static/media/sdf-01.90ce7078d4bee9b389c2.png",
+    "static/media/product-02.png": "/zoom/static/media/product-02.e5f2b3970df43f404869.png",
+    "static/media/product-04.png": "/zoom/static/media/product-04.7d0f6b3d2d4dbe8a8f75.png",
     "static/media/val6.png": "/zoom/static/media/val6.51b1564de2fa46dc26b1.png",
     "static/media/val1.png": "/zoom/static/media/val1.43744cef7623f5306974.png",
     "static/media/1.png": "/zoom/static/media/1.ae00a920497c7ea308d3.png",
@@ -19,6 +22,7 @@
     "static/media/4.png": "/zoom/static/media/4.2af26c56ba5558ddd1f0.png",
     "static/media/3.png": "/zoom/static/media/3.87672aedc16cb9eb1641.png",
     "static/media/val3.png": "/zoom/static/media/val3.7932fb84902f4689672c.png",
+    "static/media/product-01.png": "/zoom/static/media/product-01.b6ad71ad1500ce153134.png",
     "static/media/2.png": "/zoom/static/media/2.875109f83390b1bdf231.png",
     "static/media/val4.png": "/zoom/static/media/val4.531ef71016b7014b4379.png",
     "static/media/SF-Arabic.ttf": "/zoom/static/media/SF-Arabic.fe2dbb551a452ccbcc0c.ttf",
@@ -48,11 +52,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.2b3d2cc5.css.map": "/zoom/static/css/main.2b3d2cc5.css.map",
-    "main.25232a5c.js.map": "/zoom/static/js/main.25232a5c.js.map",
+    "main.314137b7.js.map": "/zoom/static/js/main.314137b7.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b3d2cc5.css",
-    "static/js/main.25232a5c.js"
+    "static/js/main.314137b7.js"
   ]
 }
