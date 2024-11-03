@@ -4,9 +4,8 @@ import Divider from "@mui/material/Divider";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 // import { useTheme } from "@mui/material/styles";
+import { Instagram } from "@mui/icons-material";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Button, IconButton } from "@mui/material";
 import { Grid } from "@mui/system";
 import { tokens } from "locales/tokens";
@@ -83,14 +82,21 @@ export const Footer = (props) => {
           <Grid size={12}>
             <Box sx={{ pb: 5 }}>
               <Stack direction={"row"} spacing={2} justifyContent="center">
-                <IconButton sx={socialStyle}>
+                <IconButton
+                  sx={socialStyle}
+                  LinkComponent={RouterLink}
+                  href="https://www.facebook.com/profile.php?id=100064091173234&mibextid=LQQJ4d"
+                  target="_blank"
+                >
                   <FacebookIcon fontSize="inherit" />
                 </IconButton>
-                <IconButton sx={socialStyle}>
-                  <LinkedInIcon fontSize="inherit" />
-                </IconButton>
-                <IconButton sx={socialStyle}>
-                  <WhatsAppIcon fontSize="inherit" />
+                <IconButton
+                  sx={socialStyle}
+                  LinkComponent={RouterLink}
+                  href="https://linktr.ee/dynamicsmedica"
+                  target="_blank"
+                >
+                  <Instagram fontSize="inherit" />
                 </IconButton>
               </Stack>
             </Box>
