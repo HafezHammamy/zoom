@@ -1,9 +1,10 @@
-import { Button, Typography } from "@mui/material";
+import { Button, CircularProgress, Typography } from "@mui/material";
 import { Box, Container, Stack } from "@mui/system";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./brands.css";
 import { buttonStyle, videoStyle } from "./styles";
@@ -13,8 +14,23 @@ const heroTextStyle = {
   width: "50%",
 };
 
+const loaderStyle = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  fontSize: "24px",
+};
+
 const BrandContainer = ({ title, description, video, subTitle }) => {
   const { t } = useTranslation();
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleVideoLoaded = () => {
+    setIsLoading(false); // Hide loader once the video can play
+  };
+
   return (
     <>
       <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
@@ -36,7 +52,18 @@ const BrandContainer = ({ title, description, video, subTitle }) => {
           </Stack>
         </Stack>
       </Container>
-      <video autoPlay muted loop playsInline style={videoStyle}>
+      {isLoading && (
+        <CircularProgress style={loaderStyle} size={60} thickness={5} />
+      )}
+
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        style={videoStyle}
+        onCanPlay={handleVideoLoaded}
+      >
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

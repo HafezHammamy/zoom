@@ -12,6 +12,9 @@ import image1 from "assets/dynamics123.png";
 import image2 from "assets/dynamicshpp.png";
 import image3 from "assets/dfghkl.png";
 import image4 from "assets/gghhjkl.png";
+
+import background_dark from "assets/dynamics-gradient-dark.png";
+import background_green from "assets/dynamics-gradient-green.png";
 import useScrollToTop from "hooks/useScrollToTop";
 
 const AboutUsPage = (props) => {
@@ -25,7 +28,7 @@ const AboutUsPage = (props) => {
       <main>
         <AboutUsHero />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#eee8f5" }}>
-          <Container maxWidth="lg">
+          <Container maxWidth="xxl">
             <AboutSection
               reverse={true}
               title={t(tokens.about.title)}
@@ -36,13 +39,19 @@ const AboutUsPage = (props) => {
               title={t(tokens.about.page.card2.title)}
               paragraph={t(tokens.about.page.card2.paragraph)}
               passedImage={image2}
+              backImage={background_green}
             />
+          </Container>
+          <Container maxWidth="xl">
             <ValuesBanner />
+          </Container>
+          <Container maxWidth="xxl">
             <AboutSection
               reverse={true}
               title={t(tokens.about.page.card3.title)}
               paragraph={t(tokens.about.page.card3.paragraph)}
               passedImage={image3}
+              backImage={background_dark}
             />
             <AboutSection
               title={t(tokens.about.page.card4.title)}

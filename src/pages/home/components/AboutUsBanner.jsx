@@ -4,6 +4,8 @@ import logo from "assets/logo.png";
 import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
+import image from "assets/dynamics-gradient-green.png";
+import image2 from "assets/dynamicshp.png";
 
 const AboutUsBanner = (props) => {
   const { t } = useTranslation();
@@ -18,6 +20,8 @@ const AboutUsBanner = (props) => {
         <AboutSection
           title={t(tokens.about.title)}
           paragraph={t(tokens.about.paragraph)}
+          backImage={image}
+          passedImage={image2}
         />
         <Grid container spacing={2} alignItems="stretch">
           <Grid offset={1} size={11}>

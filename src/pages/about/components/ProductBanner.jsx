@@ -9,8 +9,8 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-import product from "assets/product.png";
-import productRtl from "assets/product-rtl.png";
+import product from "assets/sdf-01.png";
+import productRtl from "assets/sdf-02.png";
 import { RouterLink } from "layout/components/router-link";
 import { paths } from "paths";
 

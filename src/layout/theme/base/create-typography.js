@@ -83,7 +83,7 @@ export const createTypography = (direction = "ltr") => {
     h3: {
       fontFamily: isRTL ? "'RTLTitleFonts', serif" : "'TitleFonts', serif",
       fontWeight: 700,
-      fontSize: "2.25rem",
+      fontSize: "2rem",
       lineHeight: 1.2,
     },
     h4: {

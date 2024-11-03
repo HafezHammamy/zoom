@@ -17,6 +17,7 @@
     "i18next": "^23.16.4",
     "i18next-browser-languagedetector": "^8.0.0",
     "libs": "^0.1.2",
+    "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
     "nstall": "^0.2.0",
     "prop-types": "^15.8.1",
@@ -27,6 +28,7 @@
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
+    "sass": "^1.80.6",
     "slick-carousel": "^1.8.1",
     "stylis-plugin-rtl": "2.0.2",
     "web-vitals": "^2.1.4"
