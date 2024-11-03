@@ -6,6 +6,8 @@ import StyledTypography from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
+import useVideoLoader from "hooks/useVideoLoader";
+import video from "assets/our_brands.mp4";
 
 const heroButton = {
   textTransform: "uppercase",
@@ -20,6 +22,18 @@ const heroButton = {
   },
 };
 
+const videoStyle = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  minWidth: "100%",
+  minHeight: "100%",
+  width: "auto",
+  height: "auto",
+  transform: "translate(-50%, -50%)",
+  objectFit: "cover",
+};
+
 const heroTextStyle = {
   color: "#fff",
   width: "50%",
@@ -27,6 +41,7 @@ const heroTextStyle = {
 
 export const BrandsHero = (props) => {
   const { t } = useTranslation();
+  const { Loader, handleVideoLoaded } = useVideoLoader();
 
   return (
     <>
@@ -41,12 +56,15 @@ export const BrandsHero = (props) => {
             "linear-gradient(145deg, #ff77a9, #d3577f, #b3426a, #843157)",
         }}
       >
-        <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+        <Container
+          maxWidth="lg"
+          sx={{ position: "relative", zIndex: 1, height: "100%" }}
+        >
           <Stack
-            alignItems="center"
+            alignItems="flex-end"
             direction="row"
             spacing={2}
-            sx={{ flexGrow: 1, marginTop: "60vh" }}
+            sx={{ height: "100%", pb: 3 }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">
@@ -61,6 +79,18 @@ export const BrandsHero = (props) => {
             </Stack>
           </Stack>
         </Container>
+        {Loader}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={videoStyle}
+          onCanPlay={handleVideoLoaded}
+        >
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </Box>
     </>
   );
