@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 import { useState } from "react";
 import { BRANDS } from "../contants";
 
-import video1 from "assets/juvelook.mp4";
+import video1 from "assets/juvelook.mov";
 import video4 from "assets/ksugery.mp4";
 import video2 from "assets/Lenisna.mp4";
 import video3 from "assets/renee.mp4";

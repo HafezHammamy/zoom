@@ -23,9 +23,13 @@ export const buttonStyle = {
 
 export const videoStyle = {
   position: "absolute",
-  right: 0,
-  bottom: 0,
+  top: "50%",
+  left: "50%",
   minWidth: "100%",
   minHeight: "100%",
+  width: "auto",
+  height: "auto",
+  transform: "translate(-50%, -50%)",
+  objectFit: "cover",
   opacity: 0.2,
 };
