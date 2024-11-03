@@ -1,3 +1,4 @@
+import { useTheme } from "@mui/material";
 import { Stack } from "@mui/system";
 import BGImage from "assets/statement-bg.png";
 import StyledTypography, {
@@ -14,11 +15,13 @@ const boxStyle = {
 };
 
 const CommitmentBanner = (props) => {
+  const theme = useTheme();
+
   const { t } = useTranslation();
   return (
     <Section backGroundImage={BGImage}>
       <Stack spacing={4} sx={boxStyle}>
-        <QuoteTypography variant="h3">
+        <QuoteTypography variant={theme.direction === "ltr" ? "h3" : "h2"}>
           {t(tokens.commitment.title)}
         </QuoteTypography>
         <StyledTypography variant="body2">

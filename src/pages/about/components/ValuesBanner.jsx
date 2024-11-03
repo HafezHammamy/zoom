@@ -73,7 +73,7 @@ const ValuesBanner = (props) => {
           </Grid>
           {items1.map((item, index) => {
             return (
-              <Grid size={3}>
+              <Grid size={4}>
                 <Card
                   key={item.title + index + "card"}
                   sx={{ width: "100%", height: "100%", borderRadius: 0 }}

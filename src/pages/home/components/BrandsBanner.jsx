@@ -1,7 +1,7 @@
 import { Box, Container } from "@mui/system";
 import Carousel from "./Carousel";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BRANDS } from "../contants";
 
 import video1 from "assets/juvelook.mp4";
@@ -45,23 +45,6 @@ const BrandsBanner = (props) => {
   ];
 
   const [selectedBrand, setSelectedBrand] = useState(BRANDS.JUVELOOK);
-
-  const brandList = [
-    BRANDS.JUVELOOK,
-    BRANDS.LENISNA,
-    BRANDS.RENEE,
-    BRANDS.KSURGERY,
-  ];
-
-  useEffect(() => {
-    let index = 0;
-    const interval = setInterval(() => {
-      index = (index + 1) % brandList.length;
-      setSelectedBrand(brandList[index]);
-    }, 3000);
-    return () => clearInterval(interval); // Cleanup interval on unmount
-    // eslint-disable-next-line
-  }, []);
 
   return (
     <Box

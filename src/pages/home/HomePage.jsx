@@ -1,4 +1,5 @@
 import { usePageView } from "hooks/use-page-view";
+import useScrollToTop from "hooks/useScrollToTop";
 import { Seo } from "layout/components/Seo";
 import AboutUsBanner from "./components/AboutUsBanner";
 import BrandsBanner from "./components/BrandsBanner";
@@ -8,7 +9,7 @@ import NewsBanner from "./components/NewsBanner";
 
 const HomePage = (props) => {
   usePageView();
-
+  useScrollToTop();
   return (
     <>
       <Seo />

@@ -11,11 +11,11 @@ const Section = ({ backGroundImage, children }) => {
               backgroundImage: `url(${backGroundImage})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
-              height: "100vh",
+              height: "80vh",
             }
           : {
               position: "relative",
-              height: "100vh",
+              height: "80vh",
               width: "100%",
               overflow: "hidden",
             }

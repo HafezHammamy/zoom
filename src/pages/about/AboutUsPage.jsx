@@ -12,10 +12,12 @@ import image1 from "assets/dynamics123.png";
 import image2 from "assets/dynamicshpp.png";
 import image3 from "assets/dfghkl.png";
 import image4 from "assets/gghhjkl.png";
+import useScrollToTop from "hooks/useScrollToTop";
 
 const AboutUsPage = (props) => {
   usePageView();
   const { t } = useTranslation();
+  useScrollToTop();
 
   return (
     <>
