@@ -36,7 +36,7 @@ const videoStyle = {
   minHeight: "100%",
   width: "auto",
   height: "auto",
-  transform: "translate(-50%, -35%)",
+  transform: "translate(-50%, -50%)",
   objectFit: "cover",
 };
 
