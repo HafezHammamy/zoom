@@ -124,4 +124,5 @@ export const en = {
   [tokens.brands.our_collection.title]: "Our Collection",
   [tokens.brands.our_collection.paragraph]:
     "At Dynamics, we've curated a portfolio of innovative aesthetic technologies, addressing unmet clinical needs with effective, long-lasting, and minimally-invasive treatments that deliver natural-looking results.",
+  [tokens.brands.our_collection.paragraph2]: "Injectables",
 };

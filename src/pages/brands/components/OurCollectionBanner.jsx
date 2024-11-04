@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from "@mui/system";
+import { Box, Container, Grid, Stack } from "@mui/system";
 
 import image1 from "assets/product-01.png";
 import image2 from "assets/product-02.png";
@@ -13,11 +13,11 @@ import {
   LinearProgress,
   Typography,
 } from "@mui/material";
+import { RouterLink } from "layout/components/router-link";
 import { QuoteTypography } from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
-import { useTranslation } from "react-i18next";
 import { paths } from "paths";
-import { RouterLink } from "layout/components/router-link";
+import { useTranslation } from "react-i18next";
 
 const OurCollectionBanner = (props) => {
   const { t } = useTranslation();
@@ -66,9 +66,14 @@ const OurCollectionBanner = (props) => {
       >
         <Grid container spacing={2} alignItems="stretch">
           <Grid offset={1} size={3} sx={{ paddingTop: 1 }}>
-            <QuoteTypography sx={{ color: "#012169" }} variant="h6">
-              {t(tokens.brands.our_collection.title)}
-            </QuoteTypography>
+            <Stack spacing={2}>
+              <QuoteTypography sx={{ color: "#012169" }} variant="h6">
+                {t(tokens.brands.our_collection.title)}
+              </QuoteTypography>
+              <Typography sx={{ color: "#012169" }} variant="h3">
+                {t(tokens.brands.our_collection.paragraph2)}
+              </Typography>
+            </Stack>
           </Grid>
           {items.map((item, index) => {
             return (

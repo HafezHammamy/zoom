@@ -130,6 +130,7 @@ export const tokens = {
     our_collection: {
       title: "brands.our_collection.title",
       paragraph: "brands.our_collection.paragraph",
+      paragraph2: "brands.our_collection.paragraph2",
     },
     ksurgery: {
       title: "brands.ksurgery.title",
