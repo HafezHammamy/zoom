@@ -11,6 +11,7 @@ import video3 from "assets/renee.mp4";
 import BrandContainer from "./brands/BrandContainer";
 import { useTranslation } from "react-i18next";
 import { tokens } from "locales/tokens";
+import { paths } from "paths";
 
 const BrandsBanner = (props) => {
   const { t } = useTranslation();
@@ -20,24 +21,28 @@ const BrandsBanner = (props) => {
       subTitle: t(tokens.brands.juvelook.subtitle),
       description: t(tokens.brands.juvelook.description),
       video: video1,
+      path: paths.brands.juvelook,
     },
     {
       title: t(tokens.brands.lenisna.title),
       subTitle: t(tokens.brands.lenisna.subtitle),
       description: t(tokens.brands.lenisna.description),
       video: video2,
+      path: paths.brands.lenisna,
     },
     {
       title: t(tokens.brands.renee.title),
       subTitle: t(tokens.brands.renee.subtitle),
       description: t(tokens.brands.renee.description),
       video: video3,
+      path: paths.brands.renee,
     },
     {
       title: t(tokens.brands.ksurgery.title),
       subTitle: t(tokens.brands.ksurgery.subtitle),
       description: t(tokens.brands.ksurgery.description),
       video: video4,
+      path: paths.brands.ksurgery,
     },
   ];
 
@@ -67,6 +72,7 @@ const BrandsBanner = (props) => {
             subTitle={brands[3].subTitle}
             description={brands[3].description}
             video={brands[3].video}
+            path={brands[3].path}
           />
         )}
         {selectedBrand === BRANDS.JUVELOOK && (
@@ -75,6 +81,7 @@ const BrandsBanner = (props) => {
             subTitle={brands[0].subTitle}
             description={brands[0].description}
             video={brands[0].video}
+            path={brands[0].path}
           />
         )}
         {selectedBrand === BRANDS.LENISNA && (
@@ -83,6 +90,7 @@ const BrandsBanner = (props) => {
             subTitle={brands[1].subTitle}
             description={brands[1].description}
             video={brands[1].video}
+            path={brands[1].path}
           />
         )}
         {selectedBrand === BRANDS.RENEE && (
@@ -91,6 +99,7 @@ const BrandsBanner = (props) => {
             subTitle={brands[2].subTitle}
             description={brands[2].description}
             video={brands[2].video}
+            path={brands[2].path}
           />
         )}
         <Carousel selectedBrand={setSelectedBrand} active={selectedBrand} />

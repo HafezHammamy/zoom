@@ -1,5 +1,6 @@
 import { Button, CircularProgress, Typography } from "@mui/material";
 import { Box, Container, Stack } from "@mui/system";
+import { RouterLink } from "layout/components/router-link";
 import StyledTypography, {
   QuoteTypography,
 } from "layout/components/StyledTypography";
@@ -22,7 +23,7 @@ const loaderStyle = {
   fontSize: "24px",
 };
 
-const BrandContainer = ({ title, description, video, subTitle }) => {
+const BrandContainer = ({ title, description, video, subTitle, path }) => {
   const { t } = useTranslation();
 
   const [isLoading, setIsLoading] = useState(true);
@@ -45,7 +46,13 @@ const BrandContainer = ({ title, description, video, subTitle }) => {
             <Typography variant="h5">{subTitle}</Typography>
             <StyledTypography variant="body2">{description} </StyledTypography>
             <Box>
-              <Button sx={buttonStyle} size="large" variant="outlined">
+              <Button
+                sx={buttonStyle}
+                size="large"
+                variant="outlined"
+                LinkComponent={RouterLink}
+                href={path}
+              >
                 {t(tokens.common.discover_brand)}
               </Button>
             </Box>

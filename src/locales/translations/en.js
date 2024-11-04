@@ -122,7 +122,10 @@ export const en = {
     "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
   [tokens.common.discover_brand]: "Discover Brand",
   [tokens.brands.our_collection.title]: "Our Collection",
+  [tokens.brands.our_collection.title1]: "Brands Collection",
   [tokens.brands.our_collection.paragraph]:
     "At Dynamics, we've curated a portfolio of innovative aesthetic technologies, addressing unmet clinical needs with effective, long-lasting, and minimally-invasive treatments that deliver natural-looking results.",
   [tokens.brands.our_collection.paragraph2]: "Injectables",
+  [tokens.brands.our_collection.paragraph3]:
+    "Explore Our Premium Brand Selection ",
 };

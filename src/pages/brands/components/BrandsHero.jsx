@@ -8,6 +8,8 @@ import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import useVideoLoader from "hooks/useVideoLoader";
 import video from "assets/our_brands.mp4";
+import { RouterLink } from "layout/components/router-link";
+import { paths } from "paths";
 
 const heroButton = {
   textTransform: "uppercase",
@@ -68,12 +70,20 @@ export const BrandsHero = (props) => {
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">
-                {t(tokens.nav.brands)}
+                {t(tokens.brands.our_collection.title1)}
               </StyledTypography>
-
+              <StyledTypography variant="body3">
+                {t(tokens.brands.our_collection.paragraph3)}
+              </StyledTypography>
               <Box>
-                <Button sx={heroButton} size="large" variant="outlined">
-                  {t(tokens.nav.brands)}
+                <Button
+                  sx={heroButton}
+                  size="large"
+                  variant="outlined"
+                  LinkComponent={RouterLink}
+                  href={paths.aboutUs}
+                >
+                  {t(tokens.nav.about)}
                 </Button>
               </Box>
             </Stack>
