@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zoom/static/css/main.2b3d2cc5.css",
-    "main.js": "/zoom/static/js/main.42a9841a.js",
+    "main.css": "/zoom/static/css/main.3c377897.css",
+    "main.js": "/zoom/static/js/main.8c7a46bd.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
@@ -17,6 +17,7 @@
     "static/media/product-04.png": "/zoom/static/media/product-04.7d0f6b3d2d4dbe8a8f75.png",
     "static/media/val6.png": "/zoom/static/media/val6.51b1564de2fa46dc26b1.png",
     "static/media/val1.png": "/zoom/static/media/val1.43744cef7623f5306974.png",
+    "static/media/juvelookHeroImage1.png": "/zoom/static/media/juvelookHeroImage1.d08c31756d3374270ec1.png",
     "static/media/1.png": "/zoom/static/media/1.ae00a920497c7ea308d3.png",
     "static/media/val2.png": "/zoom/static/media/val2.518366204ce83abcc094.png",
     "static/media/4.png": "/zoom/static/media/4.2af26c56ba5558ddd1f0.png",
@@ -25,6 +26,7 @@
     "static/media/product-01.png": "/zoom/static/media/product-01.b6ad71ad1500ce153134.png",
     "static/media/2.png": "/zoom/static/media/2.875109f83390b1bdf231.png",
     "static/media/val4.png": "/zoom/static/media/val4.531ef71016b7014b4379.png",
+    "static/media/juvelook-product-hero.png": "/zoom/static/media/juvelook-product-hero.7550f12cf92723ca4fde.png",
     "static/media/SF-Arabic.ttf": "/zoom/static/media/SF-Arabic.fe2dbb551a452ccbcc0c.ttf",
     "static/media/gghhjkl.png": "/zoom/static/media/gghhjkl.cbe0a2fd588806a390b6.png",
     "static/media/dfghkl.png": "/zoom/static/media/dfghkl.d45a74792403f8e0775a.png",
@@ -32,6 +34,8 @@
     "static/media/dynahp.png": "/zoom/static/media/dynahp.54f7a1d30f842362c498.png",
     "static/media/dynamicshp.png": "/zoom/static/media/dynamicshp.d9e941657fd361e75f41.png",
     "static/media/dynamicshpp.png": "/zoom/static/media/dynamicshpp.ae7ed1e0b55b801e8a4d.png",
+    "static/media/juvelook-product1.png": "/zoom/static/media/juvelook-product1.99fd5b4a98ceecf79511.png",
+    "static/media/juvelookgirl.png": "/zoom/static/media/juvelookgirl.ba77d33db0e1c3708a4a.png",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
     "static/media/dynamics-gradient-green.png": "/zoom/static/media/dynamics-gradient-green.969154379e4d4e28c28d.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
@@ -51,12 +55,12 @@
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
-    "main.2b3d2cc5.css.map": "/zoom/static/css/main.2b3d2cc5.css.map",
-    "main.42a9841a.js.map": "/zoom/static/js/main.42a9841a.js.map",
+    "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
+    "main.8c7a46bd.js.map": "/zoom/static/js/main.8c7a46bd.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b3d2cc5.css",
-    "static/js/main.42a9841a.js"
+    "static/css/main.3c377897.css",
+    "static/js/main.8c7a46bd.js"
   ]
 }
