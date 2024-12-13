@@ -64,3 +64,11 @@ body:dir(rtl) h5,
 body:dir(rtl) h6 {
     font-family: "RTLTitleFonts", serif;
 }
+
+.mirrored-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: scaleX(-1);
+    z-index: -1;
+}

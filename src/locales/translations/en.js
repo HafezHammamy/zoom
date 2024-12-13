@@ -100,10 +100,50 @@ export const en = {
   [tokens.brands.ksurgery.subtitle]: "Experience Ksurgery",
   [tokens.brands.ksurgery.description]:
     "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
+  [tokens.brands.ksurgery.whatIs]: "What is ksurgery?",
+  [tokens.brands.ksurgery.whatIsDescription]:
+    "ksurgery is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+  [tokens.brands.ksurgery.keyBenefits]: "Key Benefits",
+  [tokens.brands.ksurgery.keyBenefit1]:
+    "Enhances skin texture, elasticity, and firmness",
+  [tokens.brands.ksurgery.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.ksurgery.keyBenefit3]:
+    "Long-lasting results with gradual improvement.",
+  [tokens.brands.ksurgery.howIs]: "How it Works?",
+  [tokens.brands.ksurgery.howIsDescription]:
+    "ksurgery uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",
+  [tokens.brands.ksurgery.results]: "Target Areas",
+  [tokens.brands.ksurgery.result1]: "Face",
+  [tokens.brands.ksurgery.result2]: "Neck",
+  [tokens.brands.ksurgery.result3]: "Hands",
+  [tokens.brands.ksurgery.application]: "Application and Results",
+  [tokens.brands.ksurgery.applicationDescription]:
+    "ksurgery delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+
   [tokens.brands.renee.title]: "Renee",
   [tokens.brands.renee.subtitle]: "Experience Renée",
   [tokens.brands.renee.description]:
     "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
+  [tokens.brands.renee.whatIs]: "What is renee?",
+  [tokens.brands.renee.whatIsDescription]:
+    "renee is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+  [tokens.brands.renee.keyBenefits]: "Key Benefits",
+  [tokens.brands.renee.keyBenefit1]:
+    "Enhances skin texture, elasticity, and firmness",
+  [tokens.brands.renee.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.renee.keyBenefit3]:
+    "Long-lasting results with gradual improvement.",
+  [tokens.brands.renee.howIs]: "How it Works?",
+  [tokens.brands.renee.howIsDescription]:
+    "renee uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",
+  [tokens.brands.renee.results]: "Target Areas",
+  [tokens.brands.renee.result1]: "Face",
+  [tokens.brands.renee.result2]: "Neck",
+  [tokens.brands.renee.result3]: "Hands",
+  [tokens.brands.renee.application]: "Application and Results",
+  [tokens.brands.renee.applicationDescription]:
+    "renee delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+
   [tokens.brands.ksurgery.description2]:
     "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
   [tokens.brands.renee.description2]:
@@ -112,10 +152,49 @@ export const en = {
     "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
   [tokens.brands.lenisna.description2]:
     "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
+  [tokens.brands.juvelook.whatIs]: "What is Juvelook?",
+  [tokens.brands.juvelook.whatIsDescription]:
+    "Juvelook is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+  [tokens.brands.juvelook.keyBenefits]: "Key Benefits",
+  [tokens.brands.juvelook.keyBenefit1]:
+    "Enhances skin texture, elasticity, and firmness",
+  [tokens.brands.juvelook.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.juvelook.keyBenefit3]:
+    "Long-lasting results with gradual improvement.",
+  [tokens.brands.juvelook.howIs]: "How it Works?",
+  [tokens.brands.juvelook.howIsDescription]:
+    "Juvelook uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",
+  [tokens.brands.juvelook.results]: "Target Areas",
+  [tokens.brands.juvelook.result1]: "Face",
+  [tokens.brands.juvelook.result2]: "Neck",
+  [tokens.brands.juvelook.result3]: "Hands",
+  [tokens.brands.juvelook.application]: "Application and Results",
+  [tokens.brands.juvelook.applicationDescription]:
+    "Juvelook delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
   [tokens.brands.lenisna.title]: "Lenisna",
   [tokens.brands.lenisna.subtitle]: "Experience LENISNA",
   [tokens.brands.lenisna.description]:
     "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
+  [tokens.brands.lenisna.whatIs]: "What is lenisna?",
+  [tokens.brands.lenisna.whatIsDescription]:
+    "lenisna is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+  [tokens.brands.lenisna.keyBenefits]: "Key Benefits",
+  [tokens.brands.lenisna.keyBenefit1]:
+    "Enhances skin texture, elasticity, and firmness",
+  [tokens.brands.lenisna.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.lenisna.keyBenefit3]:
+    "Long-lasting results with gradual improvement.",
+  [tokens.brands.lenisna.howIs]: "How it Works?",
+  [tokens.brands.lenisna.howIsDescription]:
+    "lenisna uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",
+  [tokens.brands.lenisna.results]: "Target Areas",
+  [tokens.brands.lenisna.result1]: "Face",
+  [tokens.brands.lenisna.result2]: "Neck",
+  [tokens.brands.lenisna.result3]: "Hands",
+  [tokens.brands.lenisna.application]: "Application and Results",
+  [tokens.brands.lenisna.applicationDescription]:
+    "lenisna delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+
   [tokens.brands.juvelook.title]: "Juvelook",
   [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
   [tokens.brands.juvelook.description]:

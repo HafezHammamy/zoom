@@ -94,17 +94,69 @@ export const ar = {
     "تمزج علاجات حمض الهيالورونيك الإيطالية الصنع لدينا بين التكنولوجيا المتطورة وتعزيز الجمال الطبيعي. تقدم Ksurgery MED، من Vidapharma، منتجات آمنة وفعالة ومثبتة علميًا، مصممة لتلبية المعايير العالية للمتخصصين الطبيين في مجال الرعاية الجمالية.",
   [tokens.brands.ksurgery.description2]:
     " تمزج علاجات حمض الهيالورونيك الإيطالية الصنع لدينا بين التكنولوجيا المتطورة وتعزيز الجمال الطبيعي. تقدم Ksurgery MED، من Vidapharma، منتجات آمنة وفعالة ومثبتة علميًا، مصممة لتلبية المعايير العالية للمتخصصين الطبيين في مجال الرعاية الجمالية.",
+  [tokens.brands.ksurgery.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.ksurgery.whatIsDescription]:
+    "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
+  [tokens.brands.ksurgery.keyBenefits]: "الفوائد الرئيسية",
+  [tokens.brands.ksurgery.keyBenefit1]: "يحسن نسيج البشرة ومرونتها وثباتها",
+  [tokens.brands.ksurgery.keyBenefit2]: "يُنعّم الخطوط الدقيقة والتجاعيد.",
+  [tokens.brands.ksurgery.keyBenefit3]: "نتائج طويلة الأمد مع تحسن تدريجي.",
+  [tokens.brands.ksurgery.howIs]: "كيف يعمل؟",
+  [tokens.brands.ksurgery.howIsDescription]:
+    "يستخدم جوفلوك مادة PDLLA القابلة للتحلل الحيوي التي تحفز بشكل تدريجي تكوين الكولاجين، مما يساعد على استعادة جودة البشرة الشابة مع مرور الوقت.",
+  [tokens.brands.ksurgery.results]: "المناطق المستهدفة",
+  [tokens.brands.ksurgery.result1]: "الوجه",
+  [tokens.brands.ksurgery.result2]: "الرقبة",
+  [tokens.brands.ksurgery.result3]: "اليدين",
+  [tokens.brands.ksurgery.application]: "التطبيق والنتائج",
+  [tokens.brands.ksurgery.applicationDescription]:
+    "يقدم جوفلوك نتائج تدريجية وطبيعية تدوم مع مرور الوقت، مما يعزز بشرة أكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
   [tokens.brands.renee.description2]:
     "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
   [tokens.brands.juvelook.description2]:
     "حشوة PLA الفريدة لدينا تعزز مظهرك بدقة. يتم حقن جزيئات PDLLA الصغيرة في الأدمة، مما يزيد حجم البشرة بشكل متساوٍ عن طريق تعزيز إنتاج الكولاجين.",
   [tokens.brands.lenisna.description2]:
     " جزيئاتنا الكروية المبتكرة تحفز إنتاج الكولاجين، مما يوفر حجمًا طبيعيًا لتحديد معالم الوجه والجسم. مثالية لتقليل التجاعيد وعلاج الندبات.",
+  [tokens.brands.lenisna.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.lenisna.whatIsDescription]:
+    "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
+  [tokens.brands.lenisna.keyBenefits]: "الفوائد الرئيسية",
+  [tokens.brands.lenisna.keyBenefit1]: "يحسن نسيج البشرة ومرونتها وثباتها",
+  [tokens.brands.lenisna.keyBenefit2]: "يُنعّم الخطوط الدقيقة والتجاعيد.",
+  [tokens.brands.lenisna.keyBenefit3]: "نتائج طويلة الأمد مع تحسن تدريجي.",
+  [tokens.brands.lenisna.howIs]: "كيف يعمل؟",
+  [tokens.brands.lenisna.howIsDescription]:
+    "يستخدم جوفلوك مادة PDLLA القابلة للتحلل الحيوي التي تحفز بشكل تدريجي تكوين الكولاجين، مما يساعد على استعادة جودة البشرة الشابة مع مرور الوقت.",
+  [tokens.brands.lenisna.results]: "المناطق المستهدفة",
+  [tokens.brands.lenisna.result1]: "الوجه",
+  [tokens.brands.lenisna.result2]: "الرقبة",
+  [tokens.brands.lenisna.result3]: "اليدين",
+  [tokens.brands.lenisna.application]: "التطبيق والنتائج",
+  [tokens.brands.lenisna.applicationDescription]:
+    "يقدم جوفلوك نتائج تدريجية وطبيعية تدوم مع مرور الوقت، مما يعزز بشرة أكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
 
   [tokens.brands.renee.title]: "رينيه",
   [tokens.brands.renee.subtitle]: "اكتشف رينيه",
   [tokens.brands.renee.description]:
     "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
+  [tokens.brands.renee.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.renee.whatIsDescription]:
+    "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
+  [tokens.brands.renee.keyBenefits]: "الفوائد الرئيسية",
+  [tokens.brands.renee.keyBenefit1]: "يحسن نسيج البشرة ومرونتها وثباتها",
+  [tokens.brands.renee.keyBenefit2]: "يُنعّم الخطوط الدقيقة والتجاعيد.",
+  [tokens.brands.renee.keyBenefit3]: "نتائج طويلة الأمد مع تحسن تدريجي.",
+  [tokens.brands.renee.howIs]: "كيف يعمل؟",
+  [tokens.brands.renee.howIsDescription]:
+    "يستخدم جوفلوك مادة PDLLA القابلة للتحلل الحيوي التي تحفز بشكل تدريجي تكوين الكولاجين، مما يساعد على استعادة جودة البشرة الشابة مع مرور الوقت.",
+  [tokens.brands.renee.results]: "المناطق المستهدفة",
+  [tokens.brands.renee.result1]: "الوجه",
+  [tokens.brands.renee.result2]: "الرقبة",
+  [tokens.brands.renee.result3]: "اليدين",
+  [tokens.brands.renee.application]: "التطبيق والنتائج",
+  [tokens.brands.renee.applicationDescription]:
+    "يقدم جوفلوك نتائج تدريجية وطبيعية تدوم مع مرور الوقت، مما يعزز بشرة أكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
+
   [tokens.brands.lenisna.title]: "لينيسنا",
   [tokens.brands.lenisna.subtitle]: "اكتشف لينيسنا",
   [tokens.brands.lenisna.description]:
@@ -113,6 +165,23 @@ export const ar = {
   [tokens.brands.juvelook.subtitle]: "اكتشف جوفيلوك",
   [tokens.brands.juvelook.description]:
     "حشوة PLA الفريدة لدينا تعزز مظهرك بدقة. يتم حقن جزيئات PDLLA الصغيرة في الأدمة، مما يزيد حجم البشرة بشكل متساوٍ عن طريق تعزيز إنتاج الكولاجين.",
+  [tokens.brands.juvelook.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.juvelook.whatIsDescription]:
+    "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
+  [tokens.brands.juvelook.keyBenefits]: "الفوائد الرئيسية",
+  [tokens.brands.juvelook.keyBenefit1]: "يحسن نسيج البشرة ومرونتها وثباتها",
+  [tokens.brands.juvelook.keyBenefit2]: "يُنعّم الخطوط الدقيقة والتجاعيد.",
+  [tokens.brands.juvelook.keyBenefit3]: "نتائج طويلة الأمد مع تحسن تدريجي.",
+  [tokens.brands.juvelook.howIs]: "كيف يعمل؟",
+  [tokens.brands.juvelook.howIsDescription]:
+    "يستخدم جوفلوك مادة PDLLA القابلة للتحلل الحيوي التي تحفز بشكل تدريجي تكوين الكولاجين، مما يساعد على استعادة جودة البشرة الشابة مع مرور الوقت.",
+  [tokens.brands.juvelook.results]: "المناطق المستهدفة",
+  [tokens.brands.juvelook.result1]: "الوجه",
+  [tokens.brands.juvelook.result2]: "الرقبة",
+  [tokens.brands.juvelook.result3]: "اليدين",
+  [tokens.brands.juvelook.application]: "التطبيق والنتائج",
+  [tokens.brands.juvelook.applicationDescription]:
+    "يقدم جوفلوك نتائج تدريجية وطبيعية تدوم مع مرور الوقت، مما يعزز بشرة أكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
   [tokens.common.discover_brand]: "اكتشف العلامة التجاريه",
   [tokens.brands.our_collection.title]: "المنتجات المختارة",
   [tokens.brands.our_collection.title1]: "مجموعة العلامات التجارية",
