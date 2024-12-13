@@ -192,7 +192,7 @@ export const tokens = {
       result2: "brands.lenisna.result2",
       result3: "brands.lenisna.result3",
       application: "brands.lenisna.application",
-      applicationDescription: "brands.lenisna.application",
+      applicationDescription: "brands.lenisna.application.description",
     },
     juvelook: {
       title: "brands.juvelook.title",

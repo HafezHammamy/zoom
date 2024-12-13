@@ -117,24 +117,24 @@ export const ar = {
     "حشوة PLA الفريدة لدينا تعزز مظهرك بدقة. يتم حقن جزيئات PDLLA الصغيرة في الأدمة، مما يزيد حجم البشرة بشكل متساوٍ عن طريق تعزيز إنتاج الكولاجين.",
   [tokens.brands.lenisna.description2]:
     " جزيئاتنا الكروية المبتكرة تحفز إنتاج الكولاجين، مما يوفر حجمًا طبيعيًا لتحديد معالم الوجه والجسم. مثالية لتقليل التجاعيد وعلاج الندبات.",
-  [tokens.brands.lenisna.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.lenisna.whatIs]: "ما هو لينيسنا؟",
   [tokens.brands.lenisna.whatIsDescription]:
-    "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
+    "لينيسنا هو حقن متقدم يحتوي على مادة PDLLA لتحفيز إنتاج الكولاجين، بهدف تحسين جمالية البشرة وتقليل علامات الشيخوخة بشكل فعال.",
   [tokens.brands.lenisna.keyBenefits]: "الفوائد الرئيسية",
-  [tokens.brands.lenisna.keyBenefit1]: "يحسن نسيج البشرة ومرونتها وثباتها",
-  [tokens.brands.lenisna.keyBenefit2]: "يُنعّم الخطوط الدقيقة والتجاعيد.",
-  [tokens.brands.lenisna.keyBenefit3]: "نتائج طويلة الأمد مع تحسن تدريجي.",
+  [tokens.brands.lenisna.keyBenefit1]: "يستعيد حجم البشرة ونعومتها.",
+  [tokens.brands.lenisna.keyBenefit2]: "يحسن نسيج البشرة ومرونتها بشكل عام.",
+  [tokens.brands.lenisna.keyBenefit3]:
+    "يوفر نتائج طبيعية وملحوظة دون توقف كبير.",
   [tokens.brands.lenisna.howIs]: "كيف يعمل؟",
   [tokens.brands.lenisna.howIsDescription]:
-    "يستخدم جوفلوك مادة PDLLA القابلة للتحلل الحيوي التي تحفز بشكل تدريجي تكوين الكولاجين، مما يساعد على استعادة جودة البشرة الشابة مع مرور الوقت.",
+    "مادة PDLLA في لينيسنا تعزز تكوين الكولاجين، مما يساهم في تجديد البشرة وتقليل الخطوط الدقيقة والتجاعيد.",
   [tokens.brands.lenisna.results]: "المناطق المستهدفة",
   [tokens.brands.lenisna.result1]: "الوجه",
   [tokens.brands.lenisna.result2]: "الرقبة",
   [tokens.brands.lenisna.result3]: "اليدين",
   [tokens.brands.lenisna.application]: "التطبيق والنتائج",
   [tokens.brands.lenisna.applicationDescription]:
-    "يقدم جوفلوك نتائج تدريجية وطبيعية تدوم مع مرور الوقت، مما يعزز بشرة أكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
-
+    "تؤدي تأثيرات لينيسنا التدريجية والطويلة الأمد إلى بشرة أكثر نعومة وثباتًا مع خطوط أقل وتحسن في النسيج، مما يساعد المرضى في الحصول على بشرة أكثر شبابًا.",
   [tokens.brands.renee.title]: "رينيه",
   [tokens.brands.renee.subtitle]: "اكتشف رينيه",
   [tokens.brands.renee.description]:

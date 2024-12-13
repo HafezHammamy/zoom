@@ -177,23 +177,23 @@ export const en = {
     "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
   [tokens.brands.lenisna.whatIs]: "What is lenisna?",
   [tokens.brands.lenisna.whatIsDescription]:
-    "lenisna is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+    "Lenisna is an advanced injectable featuring PDLLA to stimulate collagen production, aiming to improve skin aesthetics and reduce signs of aging effectively.",
   [tokens.brands.lenisna.keyBenefits]: "Key Benefits",
-  [tokens.brands.lenisna.keyBenefit1]:
-    "Enhances skin texture, elasticity, and firmness",
-  [tokens.brands.lenisna.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.lenisna.keyBenefit1]: "Restores skin volume and smoothness.",
+  [tokens.brands.lenisna.keyBenefit2]:
+    "Improves overall skin texture and elasticity.",
   [tokens.brands.lenisna.keyBenefit3]:
-    "Long-lasting results with gradual improvement.",
+    "Provides subtle, natural results without significant downtime.",
   [tokens.brands.lenisna.howIs]: "How it Works?",
   [tokens.brands.lenisna.howIsDescription]:
-    "lenisna uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",
+    "The PDLLA in Lenisna promotes collagen formation, targeting skin rejuvenation and reducing fine lines and wrinkles.",
   [tokens.brands.lenisna.results]: "Target Areas",
   [tokens.brands.lenisna.result1]: "Face",
   [tokens.brands.lenisna.result2]: "Neck",
   [tokens.brands.lenisna.result3]: "Hands",
   [tokens.brands.lenisna.application]: "Application and Results",
   [tokens.brands.lenisna.applicationDescription]:
-    "lenisna delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+    "Lenisna's gradual, long-term effects lead to smoother, firmer skin with fewer lines and improved texture, helping patients achieve more youthful skin.",
 
   [tokens.brands.juvelook.title]: "Juvelook",
   [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
