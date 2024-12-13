@@ -102,16 +102,16 @@ export const en = {
     "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
   [tokens.brands.ksurgery.whatIs]: "What is ksurgery?",
   [tokens.brands.ksurgery.whatIsDescription]:
-    "ksurgery is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+    "K-Surgery is a leading brand specializing in high-quality medical aesthetic products, particularly focusing on hyaluronic acid-based fillers and skin boosters. Offering solutions for facial rejuvenation, body contouring, and skin hydration, K-Surgery aims to provide professionals with safe, effective, and innovative products made entirely in Italy.",
   [tokens.brands.ksurgery.keyBenefits]: "Key Benefits",
-  [tokens.brands.ksurgery.keyBenefit1]:
-    "Enhances skin texture, elasticity, and firmness",
-  [tokens.brands.ksurgery.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.ksurgery.keyBenefit1]: "Safe and effective treatments.",
+  [tokens.brands.ksurgery.keyBenefit2]:
+    "Advanced formulations for enhanced aesthetic results.",
   [tokens.brands.ksurgery.keyBenefit3]:
     "Long-lasting results with gradual improvement.",
-  [tokens.brands.ksurgery.howIs]: "How it Works?",
+  [tokens.brands.ksurgery.howIs]: "Opéra line face fillers and body filler",
   [tokens.brands.ksurgery.howIsDescription]:
-    "ksurgery uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",
+    "From correcting fine lines to treating large-volume imperfections, our facial fillers and body fillers meet the needs of an increasingly discerning clientele and of professionals who are increasingly concerned with the volume-enhancing and moisturising properties of products.",
   [tokens.brands.ksurgery.results]: "Target Areas",
   [tokens.brands.ksurgery.result1]: "Face",
   [tokens.brands.ksurgery.result2]: "Neck",
