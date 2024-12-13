@@ -126,13 +126,12 @@ export const en = {
     "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
   [tokens.brands.renee.whatIs]: "What is renee?",
   [tokens.brands.renee.whatIsDescription]:
-    "renee is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+    "Renee is a premium line of injectable hyaluronic acid-based gels designed to enhance and restore skin's youthful appearance. The product collection includes specialized skin boosters and dermal fillers, each targeting specific facial areas to improve volume, texture, and hydration.",
   [tokens.brands.renee.keyBenefits]: "Key Benefits",
-  [tokens.brands.renee.keyBenefit1]:
-    "Enhances skin texture, elasticity, and firmness",
-  [tokens.brands.renee.keyBenefit2]: "Smoothens fine lines and wrinkles.",
+  [tokens.brands.renee.keyBenefit1]: "Natural-looking, smooth results.",
+  [tokens.brands.renee.keyBenefit2]: "Immediate, long-lasting effects.",
   [tokens.brands.renee.keyBenefit3]:
-    "Long-lasting results with gradual improvement.",
+    "Customizable treatments for tailored rejuvenation.",
   [tokens.brands.renee.howIs]: "How it Works?",
   [tokens.brands.renee.howIsDescription]:
     "renee uses PDLLA, a biodegradable material that gradually stimulates collagen synthesis, helping restore youthful skin quality over time.",

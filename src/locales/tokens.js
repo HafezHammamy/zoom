@@ -152,7 +152,7 @@ export const tokens = {
       result2: "brands.ksurgery.result2",
       result3: "brands.ksurgery.result3",
       application: "brands.ksurgery.application",
-      applicationDescription: "brands.ksurgery.application",
+      applicationDescription: "brands.ksurgery.application.description",
     },
     renee: {
       title: "brands.renee.title",
@@ -172,7 +172,7 @@ export const tokens = {
       result2: "brands.renee.result2",
       result3: "brands.renee.result3",
       application: "brands.renee.application",
-      applicationDescription: "brands.renee.application",
+      applicationDescription: "brands.renee.application.description",
     },
     lenisna: {
       title: "brands.lenisna.title",
