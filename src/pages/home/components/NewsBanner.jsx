@@ -5,13 +5,7 @@ import image2 from "assets/2.png";
 import image3 from "assets/3.png";
 import image4 from "assets/4.png";
 
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  LinearProgress,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import { QuoteTypography } from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
@@ -90,9 +84,6 @@ const NewsBanner = (props) => {
               </Grid>
             );
           })}
-          <Grid offset={4} size={8} sx={{ mt: 5 }}>
-            <LinearProgress variant="determinate" value={15} />
-          </Grid>
         </Grid>
       </Container>
     </Box>

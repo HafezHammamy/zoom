@@ -1,19 +1,18 @@
+import { Box, Container } from "@mui/system";
+import background_green from "assets/dynamics-gradient-green.png";
+import heroProductImage from "assets/juvelook/juvelook-product-hero.png";
+import productImage from "assets/juvelook/juvelook-product1.png";
+import girlImage from "assets/juvelook/juvelookgirl.png";
+import image from "assets/juvelook/juvelookHeroImage1.png";
 import video from "assets/our_brands.mp4";
 import { usePageView } from "hooks/use-page-view";
 import useScrollToTop from "hooks/useScrollToTop";
+import { ImageHero } from "layout/components/ImageHero";
 import { Seo } from "layout/components/Seo";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import { useTranslation } from "react-i18next";
-import image from "assets/juvelook/juvelookHeroImage1.png";
-import productImage from "assets/juvelook/juvelook-product1.png";
-import girlImage from "assets/juvelook/juvelookgirl.png";
-import heroProductImage from "assets/juvelook/juvelook-product-hero.png";
-import { ImageHero } from "layout/components/ImageHero";
-import { Box, Container } from "@mui/system";
 import AboutSection from "pages/about/components/AboutSection";
-import background_green from "assets/dynamics-gradient-green.png";
-import { Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 
 const JuvelookPage = (props) => {
   const { t } = useTranslation();
