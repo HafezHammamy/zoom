@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.32c92ed7.js",
+    "main.js": "/zoom/static/js/main.9fb8f12a.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
     "static/media/My Movie 15.mp4": "/zoom/static/media/My Movie 15.add95d53bee89e75e4de.mp4",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
     "static/media/kusrgery-movie.mp4": "/zoom/static/media/kusrgery-movie.88dd17bfa028dfdd687d.mp4",
+    "static/media/kusrgery-movie2.mp4": "/zoom/static/media/kusrgery-movie2.7bd8ccab57c6614f7735.mp4",
     "static/media/val5.png": "/zoom/static/media/val5.c7c4d121235b34d77b82.png",
     "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.a84fedd6a269a7695da2.mp4",
@@ -47,32 +48,33 @@
     "static/media/renee-product.png": "/zoom/static/media/renee-product.2fa009212b922f0ae39c.png",
     "static/media/juvelookgirl.png": "/zoom/static/media/juvelookgirl.ba77d33db0e1c3708a4a.png",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
-    "static/media/ksurgery-filler.png": "/zoom/static/media/ksurgery-filler.d1bc0b18bd694c2651a5.png",
     "static/media/dynamics-gradient-green.png": "/zoom/static/media/dynamics-gradient-green.969154379e4d4e28c28d.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
     "static/media/logo3.png": "/zoom/static/media/logo3.e1a176bd85eb69c0caee.png",
     "static/media/logo1.png": "/zoom/static/media/logo1.0a78b3fe8f018af13a90.png",
-    "static/media/ksurgery-product.png": "/zoom/static/media/ksurgery-product.d60fcf8575e49ce79c87.png",
     "static/media/Jost-Regular.ttf": "/zoom/static/media/Jost-Regular.42b2ab77abff530bfc14.ttf",
     "static/media/logo4.png": "/zoom/static/media/logo4.97e47c80b8edac097842.png",
     "static/media/statement-bg.png": "/zoom/static/media/statement-bg.fe623326f15692f982c1.png",
     "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
     "static/media/dynamics-gradient-dark.png": "/zoom/static/media/dynamics-gradient-dark.73b18a95e857ec0caa82.png",
+    "static/media/ksurgery-product.jpg": "/zoom/static/media/ksurgery-product.0000b58ad86370a772bb.jpg",
     "static/media/nulshock-bd.otf": "/zoom/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "static/media/image-2.png": "/zoom/static/media/image-2.7baaefa2843d6310a1d7.png",
+    "static/media/ksurgery-filler.jpg": "/zoom/static/media/ksurgery-filler.d331e992bde5c40089af.jpg",
     "static/media/alfont_com_GE-Dinar-One-Bold.otf": "/zoom/static/media/alfont_com_GE-Dinar-One-Bold.dbca70bd5cb2e3fe989e.otf",
     "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
+    "static/media/icons.svg": "/zoom/static/media/icons.c970baa1d9990e385e20f28e6c84aa9f.svg",
     "static/media/slick.svg": "/zoom/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/zoom/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.32c92ed7.js.map": "/zoom/static/js/main.32c92ed7.js.map",
+    "main.9fb8f12a.js.map": "/zoom/static/js/main.9fb8f12a.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.32c92ed7.js"
+    "static/js/main.9fb8f12a.js"
   ]
 }
