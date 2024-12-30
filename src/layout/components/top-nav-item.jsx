@@ -9,6 +9,12 @@ import ChevronRightIcon from "@untitled-ui/icons-react/build/esm/ChevronRight";
 import PropTypes from "prop-types";
 import { Dropdown, DropdownMenu, DropdownTrigger } from "./dropdown";
 import { RouterLink } from "./router-link";
+import { useCallback, useState } from "react";
+import { alpha, Paper, Portal, Typography } from "@mui/material";
+
+const TOP_NAV_HEIGHT = 64;
+const TOP_NAV_SPACE = 16;
+const OFFSET = 16;
 
 const renderChildItems = ({ items, depth = 0 }) => {
   return items.map((item) => {
@@ -107,9 +113,39 @@ const renderChildItems = ({ items, depth = 0 }) => {
 };
 
 export const TopNavItem = (props) => {
-  const { active, disabled, external, items, icon, label, path, title } = props;
+  const {
+    active,
+    disabled,
+    external,
+    items,
+    icon,
+    label,
+    path,
+    title,
+    popover,
+  } = props;
+  const [open, setOpen] = useState(false);
 
-  // With dropdown
+  const handleMouseEnter = useCallback(() => {
+    setOpen(true);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    setOpen(false);
+  }, []);
+
+  const linkProps = path
+    ? external
+      ? {
+          component: "a",
+          href: path,
+          target: "_blank",
+        }
+      : {
+          component: RouterLink,
+          href: path,
+        }
+    : {};
 
   if (items) {
     return (
@@ -199,20 +235,85 @@ export const TopNavItem = (props) => {
     );
   }
 
-  // Without dropdown
+  if (popover) {
+    return (
+      <>
+        <Box
+          component="li"
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            height: "100%",
+          }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <ButtonBase
+            disableRipple
+            sx={{
+              alignItems: "center",
+              borderRadius: 1,
+              display: "flex",
+              justifyContent: "flex-start",
+              px: "16px",
+              py: "8px",
+              textAlign: "left",
+              "&:hover": {
+                backgroundColor: "action.hover",
+              },
+              ...(active && {
+                backgroundColor: "action.hover",
+              }),
+            }}
+            {...linkProps}
+          >
+            <Typography component="span" variant="subtitle2">
+              {title}
+            </Typography>
+            <SvgIcon
+              sx={{
+                fontSize: 16,
+                ml: 1,
+              }}
+            >
+              <ChevronDownIcon />
+            </SvgIcon>
+          </ButtonBase>
+        </Box>
+        {open && (
+          <Portal>
+            <Box
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              sx={{
+                left: 0,
+                position: "fixed",
+                pt: OFFSET + "px",
+                right: 0,
+                top: TOP_NAV_HEIGHT + TOP_NAV_SPACE,
+                zIndex: (theme) => theme.zIndex.appBar + 100,
+              }}
+            >
+              <Paper
+                elevation={16}
+                sx={{
+                  backgroundColor: (theme) =>
+                    alpha(theme.palette.background.paper, 0.9),
+                  backdropFilter: "blur(6px)",
+                  mx: "auto",
+                  width: (theme) => theme.breakpoints.values.sm,
+                }}
+              >
+                {popover}
+              </Paper>
+            </Box>
+          </Portal>
+        )}
+      </>
+    );
+  }
 
-  const linkProps = path
-    ? external
-      ? {
-          component: "a",
-          href: path,
-          target: "_blank",
-        }
-      : {
-          component: RouterLink,
-          href: path,
-        }
-    : {};
+  // Without dropdown
 
   return (
     <li>
@@ -224,15 +325,14 @@ export const TopNavItem = (props) => {
           display: "flex",
           justifyContent: "flex-start",
           px: "16px",
-          py: "6px",
+          py: "8px",
           textAlign: "left",
-          width: "100%",
-          ...(active && {
-            backgroundColor: "var(--nav-item-active-bg)",
-          }),
           "&:hover": {
-            backgroundColor: "var(--nav-item-hover-bg)",
+            backgroundColor: "action.hover",
           },
+          ...(active && {
+            backgroundColor: "action.hover",
+          }),
         }}
         {...linkProps}
       >
@@ -271,7 +371,9 @@ export const TopNavItem = (props) => {
             }),
           }}
         >
-          {title}
+          <Typography component="span" variant="subtitle2">
+            {title}
+          </Typography>
         </Box>
         {label && (
           <Box component="span" sx={{ ml: 1 }}>

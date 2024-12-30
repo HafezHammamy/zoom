@@ -21,6 +21,7 @@ import { SvgIcon, Tooltip } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { tokens } from "locales/tokens";
 import { useSettings } from "hooks/use-settings";
+import { BrandsPopover } from "./Popover";
 
 const TOP_NAV_HEIGHT = 80;
 
@@ -78,6 +79,7 @@ export const TopNav = (props) => {
     {
       title: t(tokens.nav.brands),
       path: paths.ourBrands,
+      popover: <BrandsPopover />,
     },
     {
       title: t(tokens.nav.contact),
