@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.9fb8f12a.js",
+    "main.js": "/zoom/static/js/main.7d432ae0.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
@@ -10,13 +10,19 @@
     "static/media/kusrgery-movie.mp4": "/zoom/static/media/kusrgery-movie.88dd17bfa028dfdd687d.mp4",
     "static/media/kusrgery-movie2.mp4": "/zoom/static/media/kusrgery-movie2.7bd8ccab57c6614f7735.mp4",
     "static/media/val5.png": "/zoom/static/media/val5.c7c4d121235b34d77b82.png",
+    "static/media/ksurgery-movie3.mp4": "/zoom/static/media/ksurgery-movie3.00dcd6dca23083326aad.mp4",
     "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.a84fedd6a269a7695da2.mp4",
+    "static/media/opera2.png": "/zoom/static/media/opera2.29dff177043c28bb3029.png",
     "static/media/cover-girl-2.svg": "/zoom/static/media/cover-girl-2.e9f4a19e939e7b6ca83af28c3aa662ff.svg",
     "static/media/product-03.png": "/zoom/static/media/product-03.e639261f6a0697208f50.png",
     "static/media/sdf-02.png": "/zoom/static/media/sdf-02.32701a8fabf7898bb551.png",
     "static/media/sdf-01.png": "/zoom/static/media/sdf-01.90ce7078d4bee9b389c2.png",
     "static/media/product-02.png": "/zoom/static/media/product-02.e5f2b3970df43f404869.png",
+    "static/media/opera1.png": "/zoom/static/media/opera1.eed423ecd1c66570fbb9.png",
+    "static/media/opera_body1.png": "/zoom/static/media/opera_body1.dd8f7db48cd6ce30a691.png",
+    "static/media/opera3.png": "/zoom/static/media/opera3.061d384f17e30d0df882.png",
+    "static/media/opera4.png": "/zoom/static/media/opera4.006e2e7616b77f47e5c5.png",
     "static/media/product-04.png": "/zoom/static/media/product-04.7d0f6b3d2d4dbe8a8f75.png",
     "static/media/val6.png": "/zoom/static/media/val6.51b1564de2fa46dc26b1.png",
     "static/media/val1.png": "/zoom/static/media/val1.43744cef7623f5306974.png",
@@ -70,11 +76,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.9fb8f12a.js.map": "/zoom/static/js/main.9fb8f12a.js.map",
+    "main.7d432ae0.js.map": "/zoom/static/js/main.7d432ae0.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.9fb8f12a.js"
+    "static/js/main.7d432ae0.js"
   ]
 }
