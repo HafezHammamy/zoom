@@ -1,13 +1,15 @@
-import { Box, Container } from "@mui/system";
-import girlImage from "assets/ksurgery/ksurgery-filler.jpg";
-import icons from "assets/ksurgery/icons.svg";
-import image from "assets/ksurgery/cover-girl.png";
+import { Box, Container, Stack } from "@mui/system";
 import image2 from "assets/ksurgery/cover-girl-2.svg";
+import image from "assets/ksurgery/cover-girl.png";
+import icons from "assets/ksurgery/icons.svg";
+import girlImage from "assets/ksurgery/ksurgery-filler.jpg";
+import video3 from "assets/ksurgery/ksurgery-movie3.mp4";
 import productImage from "assets/ksurgery/ksurgery-product.jpg";
 import video from "assets/ksurgery/kusrgery-movie.mp4";
 import video2 from "assets/ksurgery/kusrgery-movie2.mp4";
-import video3 from "assets/ksurgery/ksurgery-movie3.mp4";
 
+import { Typography } from "@mui/material";
+import background_green from "assets/dynamics-gradient-green.png";
 import { usePageView } from "hooks/use-page-view";
 import useScrollToTop from "hooks/useScrollToTop";
 import { ImageHero } from "layout/components/ImageHero";
@@ -16,7 +18,6 @@ import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
-import background_green from "assets/dynamics-gradient-green.png";
 import KsurgeryProductComponent from "../components/KsurgeryProductComponent";
 
 const KsurgeryPage = (props) => {
@@ -34,7 +35,6 @@ const KsurgeryPage = (props) => {
           description={t(tokens.brands.ksurgery.description)}
           videoSrc={video}
           actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
           <Container maxWidth="xxl">
@@ -66,7 +66,6 @@ const KsurgeryPage = (props) => {
           description={t(tokens.brands.ksurgery.howIsDescription)}
           videoSrc={video2}
           actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
 
         <KsurgeryProductComponent collection={1} />
@@ -76,7 +75,6 @@ const KsurgeryPage = (props) => {
           description={t(tokens.brands.ksurgery.howIsDescription)}
           videoSrc={video3}
           actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
 
         <KsurgeryProductComponent collection={2} />
@@ -86,8 +84,32 @@ const KsurgeryPage = (props) => {
           title={t(tokens.brands.ksurgery.howIs)}
           description={t(tokens.brands.ksurgery.howIsDescription)}
           actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
           darken={false}
+          component={
+            <>
+              <Stack spacing={2}>
+                <Typography variant="h3">
+                  {t(tokens.brands.ksurgery.skinboster)}
+                </Typography>
+                <Typography variant="body2">
+                  {t(tokens.brands.ksurgery.benefits.title)}
+                </Typography>
+                <Typography variant="body2">
+                  {t(tokens.brands.ksurgery.benefits.description)}
+                </Typography>
+                <Box>
+                  <ul>
+                    <li> {t(tokens.brands.ksurgery.benefits.item1)}</li>
+                    <li> {t(tokens.brands.ksurgery.benefits.item2)}</li>
+                    <li> {t(tokens.brands.ksurgery.benefits.item3)}</li>
+                    <li> {t(tokens.brands.ksurgery.benefits.item4)}</li>
+                    <li> {t(tokens.brands.ksurgery.benefits.item5)}</li>
+                    <li> {t(tokens.brands.ksurgery.benefits.item6)}</li>
+                  </ul>
+                </Box>
+              </Stack>
+            </>
+          }
         />
         {false && (
           <ImageHero

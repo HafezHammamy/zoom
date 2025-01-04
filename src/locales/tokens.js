@@ -287,6 +287,17 @@ export const tokens = {
           ],
         },
       ],
+      skinboster: "brands.ksurgery.skinboster",
+      benefits: {
+        title: "brands.ksurgery.benefits.title",
+        description: "brands.ksurgery.benefits.description",
+        item1: "brands.ksurgery.benefits.item1",
+        item2: "brands.ksurgery.benefits.item2",
+        item3: "brands.ksurgery.benefits.item3",
+        item4: "brands.ksurgery.benefits.item4",
+        item5: "brands.ksurgery.benefits.item5",
+        item6: "brands.ksurgery.benefits.item6",
+      },
     },
     renee: {
       title: "brands.renee.title",

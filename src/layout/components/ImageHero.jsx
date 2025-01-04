@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import StyledTypography from "layout/components/StyledTypography";
-import { useTranslation } from "react-i18next";
 import { RouterLink } from "./router-link";
 
 export const ImageHero = ({
@@ -13,8 +12,8 @@ export const ImageHero = ({
   actionPath,
   actionLabel,
   darken = true,
+  component = undefined,
 }) => {
-  const { t } = useTranslation();
   const theme = useTheme();
   const isRtl = theme.direction === "rtl";
 
@@ -58,32 +57,40 @@ export const ImageHero = ({
           sx={{ height: "100%", pb: 3 }}
         >
           <Stack spacing={3} sx={{ color: "#fff", width: "50%" }}>
-            <StyledTypography variant="h2">{title}</StyledTypography>
-            <StyledTypography variant="body3">{description}</StyledTypography>
-            <Box>
-              {actionLabel && (
-                <Button
-                  sx={{
-                    textTransform: "uppercase",
-                    color: "white",
-                    borderColor: "white",
-                    height: "65px",
-                    width: "auto",
-                    "&:hover": {
-                      borderColor: "white",
-                      color: "#ab92e1",
-                      backgroundColor: "white",
-                    },
-                  }}
-                  LinkComponent={RouterLink}
-                  href={actionPath}
-                  size="large"
-                  variant="outlined"
-                >
-                  {actionLabel}
-                </Button>
-              )}
-            </Box>
+            {component ? (
+              <>{component}</>
+            ) : (
+              <>
+                <StyledTypography variant="h2">{title}</StyledTypography>
+                <StyledTypography variant="body3">
+                  {description}
+                </StyledTypography>
+                <Box>
+                  {actionLabel && (
+                    <Button
+                      sx={{
+                        textTransform: "uppercase",
+                        color: "white",
+                        borderColor: "white",
+                        height: "65px",
+                        width: "auto",
+                        "&:hover": {
+                          borderColor: "white",
+                          color: "#ab92e1",
+                          backgroundColor: "white",
+                        },
+                      }}
+                      LinkComponent={RouterLink}
+                      href={actionPath}
+                      size="large"
+                      variant="outlined"
+                    >
+                      {actionLabel}
+                    </Button>
+                  )}
+                </Box>
+              </>
+            )}
           </Stack>
         </Stack>
       </Container>

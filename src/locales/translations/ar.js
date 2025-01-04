@@ -88,6 +88,16 @@ export const ar = {
   [tokens.contact.info.whatsapp]: "واتساب:",
   [tokens.contact.info.phone]: " الهاتف:",
   [tokens.contact.info.contact_info]: " معلومات الاتصال",
+  [tokens.brands.ksurgery.skinboster]: "سكين بوستر",
+  [tokens.brands.ksurgery.benefits.title]: "الفوائد",
+  [tokens.brands.ksurgery.benefits.description]:
+    "تم تصميم سكين بوستر لتحسين مظهر وصحة البشرة التي تعاني من المشاكل التالية:",
+  [tokens.brands.ksurgery.benefits.item1]: "فقدان مرونة البشرة.",
+  [tokens.brands.ksurgery.benefits.item2]: "رقة الجلد.",
+  [tokens.brands.ksurgery.benefits.item3]: "ترهل الجلد.",
+  [tokens.brands.ksurgery.benefits.item4]: "التجاعيد الدقيقة إلى المتوسطة.",
+  [tokens.brands.ksurgery.benefits.item5]: "الجفاف.",
+  [tokens.brands.ksurgery.benefits.item6]: "الندبات الليفية.",
   [tokens.brands.ksurgery.title]: "كيه سيرجري",
   [tokens.brands.ksurgery.subtitle]: "اكتشف كيه سيرجري",
   [tokens.brands.ksurgery.description]:

@@ -96,6 +96,17 @@ export const en = {
   [tokens.contact.info.whatsapp]: "WhatsApp:",
   [tokens.contact.info.phone]: " Tel:",
   [tokens.contact.info.contact_info]: "Phone & Mail",
+  [tokens.brands.ksurgery.skinboster]: "SKINBOOSTER",
+  [tokens.brands.ksurgery.benefits.title]: "Benefits",
+  [tokens.brands.ksurgery.benefits.description]:
+    "Skinboosters are indicated to improve the appearance and health of the skin with problems of:",
+  [tokens.brands.ksurgery.benefits.item1]: "loss of skin elasticity.",
+  [tokens.brands.ksurgery.benefits.item2]: "thin skin.",
+  [tokens.brands.ksurgery.benefits.item3]: "skin laxity.",
+  [tokens.brands.ksurgery.benefits.item4]: "very fine to medium wrinkles.",
+  [tokens.brands.ksurgery.benefits.item5]: "xerosis.",
+  [tokens.brands.ksurgery.benefits.item6]: "fibrotic scars.",
+
   [tokens.brands.ksurgery.title]: "Ksurgery",
   [tokens.brands.ksurgery.subtitle]: "Experience Ksurgery",
   [tokens.brands.ksurgery.description]:
