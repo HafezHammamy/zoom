@@ -173,6 +173,49 @@ export const ar = {
     "أوبرا V هو الحشو المبتكر من الجيل الأخير المصمم لعلاج فراغات الجسم وكذلك تكبير الأرداف، ملء الساقين أو إعادة تشكيل الركبتين. يضمن الترطيب الأمثل، وتجديد الأنسجة، ومنحها نغمة جديدة، حيث تفشل الحمية الغذائية المتوازنة والنشاط البدني المعتدل في تحقيق النتائج.",
   [tokens.brands.ksurgery.products[0].body[0].description2]:
     "حشو الجسم لدينا يضمن الامتصاص الكامل وغياب تام للحبيبات بعد العلاج. بعد العلاج، يمكنك استئناف أنشطتك اليومية على الفور.",
+  [tokens.brands.ksurgery.products[1].face[0].title]:
+    "أوبرا ريف سكين بوستر إيفولوشن إل",
+  [tokens.brands.ksurgery.products[1].face[0].subtitle]: "حشو حيوي مجدد للبشرة",
+  [tokens.brands.ksurgery.products[1].face[0].buttonTitle]: "إيفولوشن إل",
+  [tokens.brands.ksurgery.products[1].face[0].description]:
+    "مُعزّز للبشرة يحتوي على حمض الهيالورونيك بتركيبة مجددة للبنية، قليل الترابط، مصمم لتقليل الخطوط الدقيقة، وتحسين نسيج البشرة، ومنح مظهر أكثر شبابًا.",
+  [tokens.brands.ksurgery.products[1].face[0].items[0]]:
+    "مناطق التطبيق: الجبهة، المنطقة المحيطة بالعين، المنطقة الأنفية الشفوية، المنطقة المحيطة بالفم، الخدين، عظام الوجنتين، اليدين، الرقبة، ومنطقة الصدر",
+  [tokens.brands.ksurgery.products[1].face[0].items[1]]:
+    "طريقة التطبيق: تقنية إيڤا",
+  [tokens.brands.ksurgery.products[1].face[0].items[2]]:
+    "أوزان جزيئية لحمض الهيالورونيك: ٥٠٠ كيلو دالتون | ١٠٠٠ كيلو دالتون | ٢٠٠٠ كيلو دالتون",
+  [tokens.brands.ksurgery.products[1].face[0].items[3]]:
+    "تركيز حمض الهيالورونيك المرتبط: ٢٠ ملغ/مل",
+
+  [tokens.brands.ksurgery.products[1].face[1].title]:
+    "أوبرا ريف سكين بوستر إيفولوشن إس",
+  [tokens.brands.ksurgery.products[1].face[1].subtitle]: "حشو مجدد للبشرة",
+  [tokens.brands.ksurgery.products[1].face[1].buttonTitle]: "إيفولوشن إس",
+  [tokens.brands.ksurgery.products[1].face[1].description]:
+    "سكين بوستر للوجه يحتوي على حمض الهيالورونيك قليل الترابط، بتركيبة مجددة للبنية. مثالي لتصحيح العيوب الطفيفة في الوجه، وتوفير ترطيب مكثف للبشرة، ومنح النعومة للمناطق ذات المرونة المنخفضة.",
+  [tokens.brands.ksurgery.products[1].face[1].items[0]]:
+    "مناطق التطبيق: الجبهة، المنطقة المحيطة بالعين، المنطقة الأنفية الشفوية، المنطقة المحيطة بالفم، الخدين، عظام الوجنتين، اليدين، الرقبة ومنطقة الصدر.",
+  [tokens.brands.ksurgery.products[1].face[1].items[1]]:
+    "طريقة التطبيق: تقنية إيڤا",
+  [tokens.brands.ksurgery.products[1].face[1].items[2]]:
+    "الأوزان الجزيئية لحمض الهيالورونيك: ١٠٠٠ كيلو دالتون | ١٥٠٠ كيلو دالتون",
+  [tokens.brands.ksurgery.products[1].face[1].items[3]]:
+    "تركيز حمض الهيالورونيك المرتبط: ٢٠ ملغ/مل",
+
+  [tokens.brands.ksurgery.products[1].body[0].title]:
+    "أوبرا ريف سكين بوستر ديفا",
+  [tokens.brands.ksurgery.products[1].body[0].subtitle]: "حشو مجدد للبشرة",
+  [tokens.brands.ksurgery.products[1].body[0].buttonTitle]: "أوبرا في",
+  [tokens.brands.ksurgery.products[1].body[0].description]:
+    "سكين بوستر ثوري للجسم تم تطويره خصيصًا لإعادة تشكيل الأنسجة المترهلة للبشرة، وزيادة ترطيب الجلد، وتحفيز تجديد الأنسجة.",
+  [tokens.brands.ksurgery.products[1].body[0].items[0]]:
+    "مناطق التطبيق: البطن، الأرداف، الفخذين الداخليين، الركبتين، وتحت الذراعين.",
+  [tokens.brands.ksurgery.products[1].body[0].items[1]]:
+    "الأوزان الجزيئية لحمض الهيالورونيك: ١٠٠٠ كيلو دالتون | ١٥٠٠ كيلو دالتون",
+  [tokens.brands.ksurgery.products[1].body[0].items[2]]:
+    "تركيز حمض الهيالورونيك المرتبط: ٢٠ ملغ/مل",
+
   [tokens.brands.renee.description2]:
     "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
   [tokens.brands.juvelook.description2]:

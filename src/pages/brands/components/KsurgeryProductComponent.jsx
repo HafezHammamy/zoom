@@ -98,29 +98,29 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
 
   const faceRevProducts = [
     {
-      title: "Opéra REV Skinbooster Evolution L",
-      buttonTitle: "Evolution L",
       value: "opera-1",
-      subtitle: "Bio-revitalizing Filler",
-      description: `A skinbooster with hyaluronic acid featuring bio-restructuring action, slightly cross-linked, designed to reduce fine lines, improve skin texture, and give a more youthful appearance.`,
+      title: t(tokens.brands.ksurgery.products[1].face[0].title),
+      buttonTitle: t(tokens.brands.ksurgery.products[1].face[0].buttonTitle),
+      subtitle: t(tokens.brands.ksurgery.products[1].face[0].subtitle),
+      description: t(tokens.brands.ksurgery.products[1].face[0].description),
       items: [
-        "Application Areas: Forehead, periocular area, nasolabial area, perioral area, cheeks, cheekbones, hands, neck, and neckline",
-        "Application Technique: EVA Technique",
-        "Molecular Weights of Hyaluronic Acid (HA):500 kDa | 1000 kDa | 2000 kDa",
-        "Concentration of Cross-linked HA: 20 mg/ml",
+        t(tokens.brands.ksurgery.products[1].face[0].items[0]),
+        t(tokens.brands.ksurgery.products[1].face[0].items[1]),
+        t(tokens.brands.ksurgery.products[1].face[0].items[2]),
+        t(tokens.brands.ksurgery.products[1].face[0].items[3]),
       ],
       img: opera_1_rev_img,
     },
     {
-      title: "Opéra REV Skinbooster Evolution S",
-      buttonTitle: "Evolution S",
-      subtitle: "Biorevitalizing filler",
-      description: `Skinbooster faces with hyaluronic acid slightly cross-linked, with biorestructuring action. Ideal for correcting slight facial imperfections, providing intensive hydration to the skin, and give softness to areas with reduced elasticity.`,
+      title: t(tokens.brands.ksurgery.products[1].face[1].title),
+      buttonTitle: t(tokens.brands.ksurgery.products[1].face[1].buttonTitle),
+      subtitle: t(tokens.brands.ksurgery.products[1].face[1].subtitle),
+      description: t(tokens.brands.ksurgery.products[1].face[1].description),
       items: [
-        "Area of application: forehead, periocular area, nasolabial area, perioral area, cheeks, cheekbones, hands, neck and décolleté.",
-        "Technique of application: EVA Technique",
-        "Molecular weights of HA: 1000 kda | 1500 kda",
-        "Concentration of cross-linked HA: 20 mg/ml",
+        t(tokens.brands.ksurgery.products[1].face[1].items[0]),
+        t(tokens.brands.ksurgery.products[1].face[1].items[1]),
+        t(tokens.brands.ksurgery.products[1].face[1].items[2]),
+        t(tokens.brands.ksurgery.products[1].face[1].items[3]),
       ],
       value: "opera-2",
       img: opera_2_rev_img,
@@ -129,13 +129,17 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
 
   const bodyRevProducts = [
     {
-      title: "Opéra V Body Filler",
-      buttonTitle: "Opéra V",
       value: "opera-body-1",
-      subtitle: "Reshape legs and buttocks without surgery",
-      description: `Opéra V is the innovative latest generation leg and buttock filler designed to treat body hollows as well as plump up the buttocks, fill the calves or reshape the knees.
-  Thanks to its special formula, it guarantees optimal hydration, tissue rejuvenation and the gift of new tone, where a balanced diet and moderate physical activity fail to achieve results.`,
-      description2: `Our body filler guarantees  total resorption  and the total  absence of post treatment granulomas. After treatment, you may immediately resume your day-to-day activities.`,
+      title: t(tokens.brands.ksurgery.products[1].body[0].title),
+      buttonTitle: t(tokens.brands.ksurgery.products[1].body[0].buttonTitle),
+      subtitle: t(tokens.brands.ksurgery.products[1].body[0].subtitle),
+      description: t(tokens.brands.ksurgery.products[1].body[0].description),
+      items: [
+        t(tokens.brands.ksurgery.products[1].body[0].items[0]),
+        t(tokens.brands.ksurgery.products[1].body[0].items[1]),
+        t(tokens.brands.ksurgery.products[1].body[0].items[2]),
+        t(tokens.brands.ksurgery.products[1].body[0].items[3]),
+      ],
       img: opera_1_body_rev_img,
     },
   ];

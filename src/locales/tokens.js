@@ -237,10 +237,54 @@ export const tokens = {
         },
         {
           face: [
-            "brands.ksurgery.products.collection2.face1",
-            "brands.ksurgery.products.collection2.face2",
+            {
+              title: "brands.ksurgery.products.collection2.face1.title",
+              subtitle: "brands.ksurgery.products.collection2.face1.subtitle",
+              description:
+                "brands.ksurgery.products.collection2.face1.description",
+              buttonTitle:
+                "brands.ksurgery.products.collection2.face1.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection2.face1.item1",
+                "brands.ksurgery.products.collection2.face1.item2",
+                "brands.ksurgery.products.collection2.face1.item3",
+                "brands.ksurgery.products.collection2.face1.item4",
+              ],
+            },
+            {
+              title: "brands.ksurgery.products.collection2.face2.title",
+              subtitle: "brands.ksurgery.products.collection2.face2.subtitle",
+              description:
+                "brands.ksurgery.products.collection2.face2.description",
+              buttonTitle:
+                "brands.ksurgery.products.collection2.face2.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection2.face2.item1",
+                "brands.ksurgery.products.collection2.face2.item2",
+                "brands.ksurgery.products.collection2.face2.item3",
+                "brands.ksurgery.products.collection2.face2.item4",
+              ],
+            },
           ],
-          body: ["brands.ksurgery.products.collection2.body1"],
+          body: [
+            {
+              title: "brands.ksurgery.products.collection1.body1.title",
+              subtitle: "brands.ksurgery.products.collection1.body1.subtitle",
+              description:
+                "brands.ksurgery.products.collection1.body1.description",
+              description2:
+                "brands.ksurgery.products.collection1.body1.description2",
+
+              buttonTitle:
+                "brands.ksurgery.products.collection1.body1.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection1.body1.item1",
+                "brands.ksurgery.products.collection1.body1.item2",
+                "brands.ksurgery.products.collection1.body1.item3",
+                "brands.ksurgery.products.collection1.body1.item4",
+              ],
+            },
+          ],
         },
       ],
     },

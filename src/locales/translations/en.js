@@ -180,6 +180,51 @@ export const en = {
   [tokens.brands.ksurgery.products[0].body[0].description2]:
     "Our body filler guarantees  total resorption  and the total  absence of post treatment granulomas. After treatment, you may immediately resume your day-to-day activities.",
 
+  [tokens.brands.ksurgery.products[1].face[0].title]:
+    "Opéra REV Skinbooster Evolution L",
+  [tokens.brands.ksurgery.products[1].face[0].subtitle]:
+    "Bio-revitalizing Filler",
+  [tokens.brands.ksurgery.products[1].face[0].buttonTitle]: "Evolution L",
+  [tokens.brands.ksurgery.products[1].face[0].description]:
+    "A skinbooster with hyaluronic acid featuring bio-restructuring action, slightly cross-linked, designed to reduce fine lines, improve skin texture, and give a more youthful appearance.",
+  [tokens.brands.ksurgery.products[1].face[0].items[0]]:
+    "Application Areas: Forehead, periocular area, nasolabial area, perioral area, cheeks, cheekbones, hands, neck, and neckline",
+  [tokens.brands.ksurgery.products[1].face[0].items[1]]:
+    "Application Technique: EVA Technique",
+  [tokens.brands.ksurgery.products[1].face[0].items[2]]:
+    "Molecular Weights of Hyaluronic Acid (HA):500 kDa | 1000 kDa | 2000 kDa",
+  [tokens.brands.ksurgery.products[1].face[0].items[3]]:
+    "Concentration of Cross-linked HA: 20 mg/ml",
+
+  [tokens.brands.ksurgery.products[1].face[1].title]:
+    "Opéra REV Skinbooster Evolution S",
+  [tokens.brands.ksurgery.products[1].face[1].subtitle]:
+    "Biorevitalizing filler",
+  [tokens.brands.ksurgery.products[1].face[1].buttonTitle]: "Evolution S",
+  [tokens.brands.ksurgery.products[1].face[1].description]:
+    "Skinbooster faces with hyaluronic acid slightly cross-linked, with biorestructuring action. Ideal for correcting slight facial imperfections, providing intensive hydration to the skin, and give softness to areas with reduced elasticity.",
+  [tokens.brands.ksurgery.products[1].face[1].items[0]]:
+    "Area of application: forehead, periocular area, nasolabial area, perioral area, cheeks, cheekbones, hands, neck and décolleté.",
+  [tokens.brands.ksurgery.products[1].face[1].items[1]]:
+    "Technique of application: EVA Technique",
+  [tokens.brands.ksurgery.products[1].face[1].items[2]]:
+    "Molecular weights of HA: 1000 kda | 1500 kda",
+  [tokens.brands.ksurgery.products[1].face[1].items[3]]:
+    "Concentration of cross-linked HA: 20 mg/ml",
+
+  [tokens.brands.ksurgery.products[1].body[0].title]:
+    "Opéra REV Skinbooster Diva",
+  [tokens.brands.ksurgery.products[1].body[0].subtitle]: "Revitalizing filler",
+  [tokens.brands.ksurgery.products[1].body[0].buttonTitle]: "Opéra V",
+  [tokens.brands.ksurgery.products[1].body[0].description]:
+    "The revolutionary skinbooster body developed specifically to reshape the relaxed skin tissues of the body, increase skin hydration, and stimulate tissue regeneration.",
+  [tokens.brands.ksurgery.products[1].body[0].items[0]]:
+    "Area of application: abdomen, buttocks, inner thighs, knees, and under arms.",
+  [tokens.brands.ksurgery.products[1].body[0].items[1]]:
+    "Molecular weights of HA: 1000 kDa | 1500 kDa",
+  [tokens.brands.ksurgery.products[1].body[0].items[2]]:
+    "Concentration of cross-linked HA: 20 mg/ml",
+
   [tokens.brands.renee.title]: "Renee",
   [tokens.brands.renee.subtitle]: "Experience Renée",
   [tokens.brands.renee.description]:
