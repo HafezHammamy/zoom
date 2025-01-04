@@ -2,10 +2,10 @@ import { Box, Button, Typography, useTheme } from "@mui/material";
 import { Stack } from "@mui/system";
 import { useState } from "react";
 
-const ProductDetails = ({ products }) => {
+const ProductDetails = ({ products, collection }) => {
   const theme = useTheme();
   const [productTab, setProductTab] = useState(
-    products ? products[0].value : ""
+    products?.length > 0 ? products[0].value : ""
   );
 
   return (
@@ -13,7 +13,7 @@ const ProductDetails = ({ products }) => {
       {products?.map((product) => {
         return product.value === productTab ? (
           <Stack direction={"row"} sx={{ height: "50vh" }}>
-            <Box width={"50%"}>
+            <Box width={collection === 1 ? "50%" : "70%"}>
               <Stack spacing={1}>
                 <Typography variant="h5" fontWeight="bold" gutterBottom>
                   {product.title}
@@ -45,15 +45,30 @@ const ProductDetails = ({ products }) => {
                 </Typography>
               )}
             </Box>
-            <Box width={"50%"}>
-              <Box
-                component="img"
-                src={
-                  product.img ? product.img : "https://via.placeholder.com/250"
-                }
-                sx={{ width: "100%" }}
-                alt="Product Image"
-              />
+            <Box width={collection === 1 ? "50%" : "30%"}>
+              {collection === 1 ? (
+                <Box
+                  component="img"
+                  src={
+                    product.img
+                      ? product.img
+                      : "https://via.placeholder.com/250"
+                  }
+                  sx={{ width: "100%" }}
+                  alt="Product Image"
+                />
+              ) : (
+                <Box
+                  component="img"
+                  src={
+                    product.img
+                      ? product.img
+                      : "https://via.placeholder.com/250"
+                  }
+                  sx={{ height: "50vh" }}
+                  alt="Product Image"
+                />
+              )}
             </Box>
           </Stack>
         ) : null;
@@ -76,7 +91,7 @@ const ProductDetails = ({ products }) => {
                     product.value === productTab ? "contained" : "outlined"
                   }
                 >
-                  {product.title}
+                  {product.buttonTitle}
                 </Button>
               );
             })}

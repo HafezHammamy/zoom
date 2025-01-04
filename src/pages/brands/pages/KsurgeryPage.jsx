@@ -6,6 +6,8 @@ import image2 from "assets/ksurgery/cover-girl-2.svg";
 import productImage from "assets/ksurgery/ksurgery-product.jpg";
 import video from "assets/ksurgery/kusrgery-movie.mp4";
 import video2 from "assets/ksurgery/kusrgery-movie2.mp4";
+import video3 from "assets/ksurgery/ksurgery-movie3.mp4";
+
 import { usePageView } from "hooks/use-page-view";
 import useScrollToTop from "hooks/useScrollToTop";
 import { ImageHero } from "layout/components/ImageHero";
@@ -15,7 +17,7 @@ import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import background_green from "assets/dynamics-gradient-green.png";
-import ProductComponent from "../components/ProductComponent";
+import KsurgeryProductComponent from "../components/KsurgeryProductComponent";
 
 const KsurgeryPage = (props) => {
   const { t } = useTranslation();
@@ -67,7 +69,17 @@ const KsurgeryPage = (props) => {
           actionLabel={t(tokens.common.buttons.readMore)}
         />
 
-        <ProductComponent />
+        <KsurgeryProductComponent collection={1} />
+
+        <VideoHero
+          title={t(tokens.brands.ksurgery.howIs)}
+          description={t(tokens.brands.ksurgery.howIsDescription)}
+          videoSrc={video3}
+          actionPath="#"
+          actionLabel={t(tokens.common.buttons.readMore)}
+        />
+
+        <KsurgeryProductComponent collection={2} />
 
         <ImageHero
           image={image}
@@ -77,14 +89,16 @@ const KsurgeryPage = (props) => {
           actionLabel={t(tokens.common.buttons.readMore)}
           darken={false}
         />
-        <ImageHero
-          image={image2}
-          title={t(tokens.brands.ksurgery.howIs)}
-          description={t(tokens.brands.ksurgery.howIsDescription)}
-          actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
-          darken={false}
-        />
+        {false && (
+          <ImageHero
+            image={image2}
+            title={t(tokens.brands.ksurgery.howIs)}
+            description={t(tokens.brands.ksurgery.howIsDescription)}
+            actionPath="#"
+            actionLabel={t(tokens.common.buttons.readMore)}
+            darken={false}
+          />
+        )}
       </main>
     </>
   );

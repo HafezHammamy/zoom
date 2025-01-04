@@ -133,6 +133,8 @@ export const tokens = {
       paragraph: "brands.our_collection.paragraph",
       paragraph2: "brands.our_collection.paragraph2",
       paragraph3: "brands.our_collection.paragraph3",
+      face: "brands.our_collection.face",
+      body: "brands.our_collection.body",
     },
     ksurgery: {
       title: "brands.ksurgery.title",
@@ -153,6 +155,76 @@ export const tokens = {
       result3: "brands.ksurgery.result3",
       application: "brands.ksurgery.application",
       applicationDescription: "brands.ksurgery.application.description",
+      products: [
+        {
+          face: [
+            {
+              title: "brands.ksurgery.products.collection1.face1.title",
+              subtitle: "brands.ksurgery.products.collection1.face1.subtitle",
+              description:
+                "brands.ksurgery.products.collection1.face1.description",
+              buttonTitle:
+                "brands.ksurgery.products.collection1.face1.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection1.face1.item1",
+                "brands.ksurgery.products.collection1.face1.item2",
+                "brands.ksurgery.products.collection1.face1.item3",
+                "brands.ksurgery.products.collection1.face1.item4",
+              ],
+            },
+            {
+              title: "brands.ksurgery.products.collection1.face2.title",
+              subtitle: "brands.ksurgery.products.collection1.face2.subtitle",
+              description:
+                "brands.ksurgery.products.collection1.face2.description",
+              buttonTitle:
+                "brands.ksurgery.products.collection1.face2.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection1.face2.item1",
+                "brands.ksurgery.products.collection1.face2.item2",
+                "brands.ksurgery.products.collection1.face2.item3",
+                "brands.ksurgery.products.collection1.face2.item4",
+              ],
+            },
+            {
+              title: "brands.ksurgery.products.collection1.face3.title",
+              subtitle: "brands.ksurgery.products.collection1.face3.subtitle",
+              description:
+                "brands.ksurgery.products.collection1.face3.description",
+              buttonTitle:
+                "brands.ksurgery.products.collection1.face3.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection1.face3.item1",
+                "brands.ksurgery.products.collection1.face3.item2",
+                "brands.ksurgery.products.collection1.face3.item3",
+                "brands.ksurgery.products.collection1.face3.item4",
+              ],
+            },
+            {
+              title: "brands.ksurgery.products.collection1.face4.title",
+              subtitle: "brands.ksurgery.products.collection1.face4.subtitle",
+              description:
+                "brands.ksurgery.products.collection1.face4.description",
+              buttonTitle:
+                "brands.ksurgery.products.collection1.face4.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection1.face4.item1",
+                "brands.ksurgery.products.collection1.face4.item2",
+                "brands.ksurgery.products.collection1.face4.item3",
+                "brands.ksurgery.products.collection1.face4.item4",
+              ],
+            },
+          ],
+          body: ["brands.ksurgery.products.collection1.body1"],
+        },
+        {
+          face: [
+            "brands.ksurgery.products.collection2.face1",
+            "brands.ksurgery.products.collection2.face2",
+          ],
+          body: ["brands.ksurgery.products.collection2.body1"],
+        },
+      ],
     },
     renee: {
       title: "brands.renee.title",
@@ -173,6 +245,10 @@ export const tokens = {
       result3: "brands.renee.result3",
       application: "brands.renee.application",
       applicationDescription: "brands.renee.application.description",
+      products: [
+        { collection1: { face: [], body: [] } },
+        { collection2: { face: [], body: [] } },
+      ],
     },
     lenisna: {
       title: "brands.lenisna.title",
@@ -193,6 +269,10 @@ export const tokens = {
       result3: "brands.lenisna.result3",
       application: "brands.lenisna.application",
       applicationDescription: "brands.lenisna.application.description",
+      products: [
+        { collection1: { face: [], body: [] } },
+        { collection2: { face: [], body: [] } },
+      ],
     },
     juvelook: {
       title: "brands.juvelook.title",
@@ -213,6 +293,10 @@ export const tokens = {
       result3: "brands.juvelook.result3",
       application: "brands.juvelook.application",
       applicationDescription: "brands.juvelook.application.description",
+      products: [
+        { collection1: { face: [], body: [] } },
+        { collection2: { face: [], body: [] } },
+      ],
     },
   },
 };

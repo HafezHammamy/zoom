@@ -111,6 +111,60 @@ export const ar = {
   [tokens.brands.ksurgery.application]: "التطبيق والنتائج",
   [tokens.brands.ksurgery.applicationDescription]:
     "يقدم جوفلوك نتائج تدريجية وطبيعية تدوم مع مرور الوقت، مما يعزز بشرة أكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
+  [tokens.brands.ksurgery.products[0].face[0].title]: "أوبرا I",
+  [tokens.brands.ksurgery.products[0].face[0].subtitle]: "الخطوط الدقيقة",
+  [tokens.brands.ksurgery.products[0].face[0].buttonTitle]: "أوبرا I",
+  [tokens.brands.ksurgery.products[0].face[0].description]:
+    "فيلر ناعم قادر على تصحيح التجاعيد من الدقيقة إلى المتوسطة.",
+  [tokens.brands.ksurgery.products[0].face[0].items[0]]:
+    "العلاج: خطوط الباركود؛ ندوب حب الشباب؛ الخطوط حول الفم، الخدين، خطوط المدخنين، أقدام الغراب",
+  [tokens.brands.ksurgery.products[0].face[0].items[1]]:
+    "تأثير تعزيز الحجم: ناعم",
+  [tokens.brands.ksurgery.products[0].face[0].items[2]]: "العبوة: 1x1مل",
+  [tokens.brands.ksurgery.products[0].face[0].items[3]]:
+    "تركيز الهيالورونيك: 1x1مل",
+
+  [tokens.brands.ksurgery.products[0].face[1].title]: "أوبرا II",
+  [tokens.brands.ksurgery.products[0].face[1].subtitle]:
+    "الخطوط المتوسطة السطحية",
+  [tokens.brands.ksurgery.products[0].face[1].buttonTitle]: "أوبرا II",
+  [tokens.brands.ksurgery.products[0].face[1].description]:
+    "فيلر متوسط بقوام ناعم قادر على تصحيح الخطوط المتوسطة السطحية للجسم، وإعادة تحديد حجم الأنف والصدغين بالإضافة إلى تعزيز حجم الشفاه.",
+  [tokens.brands.ksurgery.products[0].face[1].items[0]]:
+    "العلاج: الأنف؛ تحت العين؛ الشفاه؛ الصدغين؛ التجاعيد المتوسطة العميقة؛ خطوط العبوس، الطيات الأنفية الشفوية، خطوط الضحك، خطوط الأكورديون",
+  [tokens.brands.ksurgery.products[0].face[1].items[1]]:
+    "تأثير تعزيز الحجم: ناعم",
+  [tokens.brands.ksurgery.products[0].face[1].items[2]]: "العبوة: 1x1مل",
+  [tokens.brands.ksurgery.products[0].face[1].items[3]]:
+    "تركيز الهيالورونيك: 1x1مل",
+
+  [tokens.brands.ksurgery.products[0].face[2].title]: "أوبرا III",
+  [tokens.brands.ksurgery.products[0].face[2].subtitle]:
+    "التجاعيد الأعمق وخطوط الابتسامة",
+  [tokens.brands.ksurgery.products[0].face[2].buttonTitle]: "أوبرا III",
+  [tokens.brands.ksurgery.products[0].face[2].description]:
+    "فيلر قادر على تصحيح الخطوط الأعمق مثل الطيات الأنفية الشفوية، خطوط الماريونيت، حدود الفك، أحجام الخدود الصغيرة وتحقيق شفاه ممتلئة.",
+  [tokens.brands.ksurgery.products[0].face[2].items[0]]:
+    "العلاج: الطيات الأنفية الشفوية؛ خطوط الماريونيت؛ حدود الفك؛ التجاعيد العميقة؛ الشفاه؛ الطيات العميقة؛ أقدام الغراب؛ تحت العين؛ خطوط الأنف؛ الخطوط حول الفم؛ خطوط المدخنين",
+  [tokens.brands.ksurgery.products[0].face[2].items[1]]:
+    "تأثير تعزيز الحجم: قوي",
+  [tokens.brands.ksurgery.products[0].face[2].items[2]]: "العبوة: 1x1مل",
+  [tokens.brands.ksurgery.products[0].face[2].items[3]]:
+    "تركيز الهيالورونيك: 1x1مل",
+
+  [tokens.brands.ksurgery.products[0].face[3].title]: "أوبرا IV",
+  [tokens.brands.ksurgery.products[0].face[3].subtitle]:
+    "الخطوط العميقة وعلامات التقدم في العمر",
+  [tokens.brands.ksurgery.products[0].face[3].buttonTitle]: "أوبرا IV",
+  [tokens.brands.ksurgery.products[0].face[3].description]:
+    "فيلر حجمي مصمم لمكافحة علامات التقدم في العمر الواضحة من خلال إنشاء تأثير رفع صغير لطيف. يعالج الطيات العميقة، ويعيد تشكيل هياكل حدود الفك ويعمل بشكل كبير على الخدين والأنف.",
+  [tokens.brands.ksurgery.products[0].face[3].items[0]]:
+    "العلاج: الطيات الأنفية الشفوية؛ خطوط الماريونيت؛ حدود الفك؛ التجاعيد العميقة؛ الشفاه؛ الطيات العميقة؛ الطية الذقنية؛ تجاعيد الذقن؛ الخدود؛ ترهل الجلد",
+  [tokens.brands.ksurgery.products[0].face[3].items[1]]:
+    "تأثير تعزيز الحجم: قوي",
+  [tokens.brands.ksurgery.products[0].face[3].items[2]]: "العبوة: 1x1مل",
+  [tokens.brands.ksurgery.products[0].face[3].items[3]]:
+    "تركيز الهيالورونيك: 1x1مل",
   [tokens.brands.renee.description2]:
     "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
   [tokens.brands.juvelook.description2]:
@@ -191,4 +245,6 @@ export const ar = {
   [tokens.brands.our_collection.paragraph2]: "الحقن التجميلية",
   [tokens.brands.our_collection.paragraph3]:
     "استكشف مجموعتنا المميزة من العلامات التجارية",
+  [tokens.brands.our_collection.face]: "الوجه",
+  [tokens.brands.our_collection.body]: "الجسم",
 };

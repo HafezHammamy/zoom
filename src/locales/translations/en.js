@@ -119,6 +119,57 @@ export const en = {
   [tokens.brands.ksurgery.application]: "Application and Results",
   [tokens.brands.ksurgery.applicationDescription]:
     "ksurgery delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+  [tokens.brands.ksurgery.products[0].face[0].title]: "OPERA I",
+  [tokens.brands.ksurgery.products[0].face[0].subtitle]: "Fine lines",
+  [tokens.brands.ksurgery.products[0].face[0].buttonTitle]: "OPERA I",
+  [tokens.brands.ksurgery.products[0].face[0].description]:
+    "Soft Filler, able to correct wrinkles from fine to medium.",
+  [tokens.brands.ksurgery.products[0].face[0].items[0]]:
+    "Treatment: barcodes; acne scars; perioral lines, cheek, smokers lines, crows feet",
+  [tokens.brands.ksurgery.products[0].face[0].items[1]]:
+    "Volume enhancing effect: Soft",
+  [tokens.brands.ksurgery.products[0].face[0].items[2]]: "Pack: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[0].items[3]]:
+    "HA concentration: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[1].title]: "OPERA II",
+  [tokens.brands.ksurgery.products[0].face[1].subtitle]:
+    "Medium-superficial lines",
+  [tokens.brands.ksurgery.products[0].face[1].buttonTitle]: "OPERA II",
+  [tokens.brands.ksurgery.products[0].face[1].description]:
+    "Medium Filler with a soft consistency capable of correcting the medium-superficial lines of the body, redefining the nose and temple volumes as well as enhancing lip volume.",
+  [tokens.brands.ksurgery.products[0].face[1].items[0]]:
+    "Treatment: nose; tear trough; lips; temples; medium-deep furrows; frown lines, nasolabial folds, laugh lines, accordion lines",
+  [tokens.brands.ksurgery.products[0].face[1].items[1]]:
+    "Volume enhancing effect: Soft",
+  [tokens.brands.ksurgery.products[0].face[1].items[2]]: "Pack: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[1].items[3]]:
+    "HA concentration: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[2].title]: "OPERA III",
+  [tokens.brands.ksurgery.products[0].face[2].subtitle]:
+    "Deeper wrinkles and smile lines",
+  [tokens.brands.ksurgery.products[0].face[2].buttonTitle]: "OPERA III",
+  [tokens.brands.ksurgery.products[0].face[2].description]:
+    "Deeper wrinkles and smile linesFiller capable of correcting deeper lines such as nasolabial wrinkles, marionette lines, jaw margins, small cheek volumes and achieving fuller lips.",
+  [tokens.brands.ksurgery.products[0].face[2].items[0]]:
+    "Treatment: nasolabial folds; marionette lines; jawline; deep wrinkles; lips; deep furrows; crows feet; tear through; bunny lines; perioral lines; smokers lines",
+  [tokens.brands.ksurgery.products[0].face[2].items[1]]:
+    "Volume enhancing effect: Strong",
+  [tokens.brands.ksurgery.products[0].face[2].items[2]]: "Pack: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[2].items[3]]:
+    "HA concentration: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[2].title]: "OPERA IV",
+  [tokens.brands.ksurgery.products[0].face[2].subtitle]:
+    "Deep lines and signs of ageing",
+  [tokens.brands.ksurgery.products[0].face[3].buttonTitle]: "OPERA IV",
+  [tokens.brands.ksurgery.products[0].face[3].description]:
+    "Volumetric filler developed to counteract particularly marked signs of ageing by creating a pleasant mini lifting effect. It treats deep furrows, reshapes the structures of the jaw contour and works extensively on cheeks and nose.",
+  [tokens.brands.ksurgery.products[0].face[3].items[0]]:
+    "Treatment: nasolabial folds; marionette lines; jawline; deep wrinkles; lips; deep furrows; mental crease; chin wrinkles; cheek; jowl",
+  [tokens.brands.ksurgery.products[0].face[3].items[1]]:
+    "Volume enhancing effect: Strong",
+  [tokens.brands.ksurgery.products[0].face[3].items[2]]: "Pack: 1x1ml",
+  [tokens.brands.ksurgery.products[0].face[3].items[3]]:
+    "HA concentration: 1x1ml",
 
   [tokens.brands.renee.title]: "Renee",
   [tokens.brands.renee.subtitle]: "Experience Renée",
@@ -206,4 +257,6 @@ export const en = {
   [tokens.brands.our_collection.paragraph2]: "Injectables",
   [tokens.brands.our_collection.paragraph3]:
     "Explore Our Premium Brand Selection ",
+  [tokens.brands.our_collection.face]: "Face",
+  [tokens.brands.our_collection.body]: "Body",
 };
