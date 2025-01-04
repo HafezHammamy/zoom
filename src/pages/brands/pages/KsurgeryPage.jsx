@@ -67,6 +67,15 @@ const KsurgeryPage = (props) => {
           videoSrc={video2}
           actionPath="#"
         />
+        <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
+          <Stack alignItems={"center"}>
+            <Box maxWidth="lg" sx={{ p: 3, justifyContent: "center" }}>
+              <Typography variant="body2" sx={{ textAlign: "justify" }}>
+                {t(tokens.brands.ksurgery.description3)}
+              </Typography>
+            </Box>
+          </Stack>
+        </Box>
 
         <KsurgeryProductComponent collection={1} />
 

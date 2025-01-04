@@ -149,7 +149,7 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
   };
 
   return (
-    <Box maxWidth="xxl" sx={{ height: "80vh" }}>
+    <Box maxWidth="xxl" sx={{ height: "80vh", backgroundColor: "#FFFFFF" }}>
       <Stack alignItems={"center"} sx={{ width: "100%", padding: 2 }}>
         <Box sx={{ width: "70%", padding: 2 }}>
           <Stack spacing={5}>

@@ -141,6 +141,7 @@ export const tokens = {
       subtitle: "brands.ksurgery.subtitle",
       description: "brands.ksurgery.description",
       description2: "brands.ksurgery.description2",
+      description3: "brands.ksurgery.description3",
       whatIs: "brands.ksurgery.what",
       whatIsDescription: "brands.ksurgery.what.description",
       keyBenefits: "brands.ksurgery.keyBenefits",

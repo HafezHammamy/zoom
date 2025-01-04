@@ -261,6 +261,8 @@ export const en = {
 
   [tokens.brands.ksurgery.description2]:
     "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
+  [tokens.brands.ksurgery.description3]:
+    "Skinbooster can correct wrinkles from thin to medium pronounced, is ideal for photodamaging and chronoaging, and ensures a rapid rejuvenation of the dermis, immediate toning, and improved hydration and brightness.",
   [tokens.brands.renee.description2]:
     "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
   [tokens.brands.juvelook.description2]:
