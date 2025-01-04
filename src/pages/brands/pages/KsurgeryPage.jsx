@@ -62,11 +62,21 @@ const KsurgeryPage = (props) => {
         </Box>
         <Box component={"img"} src={icons} maxWidth="xxl" />
         <VideoHero
-          title={t(tokens.brands.ksurgery.skinbooster1)}
-          description={t(tokens.brands.ksurgery.skinboosterTitle1)}
+          title={t(tokens.brands.ksurgery.howIs)}
+          description={t(tokens.brands.ksurgery.howIsDescription)}
           videoSrc={video2}
           actionPath="#"
         />
+
+        <KsurgeryProductComponent collection={1} />
+
+        <VideoHero
+          title={t(tokens.brands.ksurgery.skinbooster1)}
+          description={t(tokens.brands.ksurgery.skinboosterTitle1)}
+          videoSrc={video3}
+          actionPath="#"
+        />
+
         <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
           <Stack alignItems={"center"}>
             <Box maxWidth="lg" sx={{ p: 3, justifyContent: "center" }}>
@@ -76,15 +86,6 @@ const KsurgeryPage = (props) => {
             </Box>
           </Stack>
         </Box>
-
-        <KsurgeryProductComponent collection={1} />
-
-        <VideoHero
-          title={t(tokens.brands.ksurgery.howIs)}
-          description={t(tokens.brands.ksurgery.howIsDescription)}
-          videoSrc={video3}
-          actionPath="#"
-        />
 
         <KsurgeryProductComponent collection={2} />
 
