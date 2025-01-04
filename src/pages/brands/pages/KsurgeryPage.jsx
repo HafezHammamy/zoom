@@ -62,8 +62,8 @@ const KsurgeryPage = (props) => {
         </Box>
         <Box component={"img"} src={icons} maxWidth="xxl" />
         <VideoHero
-          title={t(tokens.brands.ksurgery.howIs)}
-          description={t(tokens.brands.ksurgery.howIsDescription)}
+          title={t(tokens.brands.ksurgery.skinbooster1)}
+          description={t(tokens.brands.ksurgery.skinboosterTitle1)}
           videoSrc={video2}
           actionPath="#"
         />
@@ -98,7 +98,7 @@ const KsurgeryPage = (props) => {
             <>
               <Stack spacing={2}>
                 <Typography variant="h3">
-                  {t(tokens.brands.ksurgery.skinboster)}
+                  {t(tokens.brands.ksurgery.skinbosoter)}
                 </Typography>
                 <Typography variant="body2">
                   {t(tokens.brands.ksurgery.benefits.title)}

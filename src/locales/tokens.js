@@ -288,7 +288,9 @@ export const tokens = {
           ],
         },
       ],
-      skinboster: "brands.ksurgery.skinboster",
+      skinbosoter: "brands.ksurgery.skinboster",
+      skinbooster1: "brands.ksurgery.skinboster1",
+      skinboosterTitle1: "brands.ksurgery.skinbosterTitle1",
       benefits: {
         title: "brands.ksurgery.benefits.title",
         description: "brands.ksurgery.benefits.description",

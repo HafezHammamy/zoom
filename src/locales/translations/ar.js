@@ -88,7 +88,10 @@ export const ar = {
   [tokens.contact.info.whatsapp]: "واتساب:",
   [tokens.contact.info.phone]: " الهاتف:",
   [tokens.contact.info.contact_info]: " معلومات الاتصال",
-  [tokens.brands.ksurgery.skinboster]: "سكين بوستر",
+  [tokens.brands.ksurgery.skinbosoter]: "سكين بوستر",
+  [tokens.brands.ksurgery.skinbooster1]: "أوبيرا REV سكين بوستر",
+  [tokens.brands.ksurgery.skinboosterTitle1]:
+    "أوبيرا REV سكين بوستر هي سلسلة من الفيلر المعزّز للحيوية والمحسن للأنسجة والتي وُلدت من خبرة Ksurgery، تعمل بفعالية على شيخوخة الجلد التي تتميز بالافتقار الخلوي، انخفاض التوتر، والخشونة.",
   [tokens.brands.ksurgery.benefits.title]: "الفوائد",
   [tokens.brands.ksurgery.benefits.description]:
     "تم تصميم سكين بوستر لتحسين مظهر وصحة البشرة التي تعاني من المشاكل التالية:",

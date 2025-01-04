@@ -96,7 +96,11 @@ export const en = {
   [tokens.contact.info.whatsapp]: "WhatsApp:",
   [tokens.contact.info.phone]: " Tel:",
   [tokens.contact.info.contact_info]: "Phone & Mail",
-  [tokens.brands.ksurgery.skinboster]: "SKINBOOSTER",
+  [tokens.brands.ksurgery.skinbosoter]: "SKINBOOSTER",
+  [tokens.brands.ksurgery.skinbooster1]: "Opèra REV Skinbooster",
+  [tokens.brands.ksurgery
+    .skinboosterTitle1]: `Opèra REV Skinbooster is a line of revitalizing and biostimulant fillers born from the Ksurgery experience that act effectively on skin aging, characterized by cellular impoverishment, tone reduction, and roughness.
+`,
   [tokens.brands.ksurgery.benefits.title]: "Benefits",
   [tokens.brands.ksurgery.benefits.description]:
     "Skinboosters are indicated to improve the appearance and health of the skin with problems of:",
