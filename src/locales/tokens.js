@@ -301,6 +301,10 @@ export const tokens = {
         item5: "brands.ksurgery.benefits.item5",
         item6: "brands.ksurgery.benefits.item6",
       },
+      opera: "brands.ksurgery.opera",
+      operaDescription: "brands.ksurgery.operaDescription",
+      operaDescription1: "brands.ksurgery.operaDescription1",
+      operaDescription2: "brands.ksurgery.operaDescription2",
     },
     renee: {
       title: "brands.renee.title",

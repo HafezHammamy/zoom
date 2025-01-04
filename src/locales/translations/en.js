@@ -239,6 +239,13 @@ export const en = {
     "Molecular weights of HA: 1000 kDa | 1500 kDa",
   [tokens.brands.ksurgery.products[1].body[0].items[2]]:
     "Concentration of cross-linked HA: 20 mg/ml",
+  [tokens.brands.ksurgery.opera]: "Opera",
+  [tokens.brands.ksurgery.operaDescription]:
+    "Ksurgery has created Opéra, a range of hyaluronic acid-based fillers, which have different concentrations to meet all needs and ensure an immediate, safe and non-invasive lifting effect.",
+  [tokens.brands.ksurgery.operaDescription1]:
+    "A line of certified, safe, long-lasting and completely reabsorbable fillers.",
+  [tokens.brands.ksurgery.operaDescription2]:
+    "%100 MADE-IN-ITALY, a synonym of guarantee and excellence. ",
 
   [tokens.brands.renee.title]: "Renee",
   [tokens.brands.renee.subtitle]: "Experience Renée",

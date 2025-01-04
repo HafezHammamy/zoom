@@ -14,6 +14,7 @@ const TitleBox = ({
   paragraph2,
   backImage,
   hideAction,
+  component,
 }) => {
   const { t } = useTranslation();
 
@@ -37,20 +38,24 @@ const TitleBox = ({
               alignContent="center"
               sx={{ height: "100%" }}
             >
-              <Stack spacing={3} direction={"column"}>
-                <Typography variant="h3">{title}</Typography>
-                <Typography variant="body1">{paragraph}</Typography>
-                {title2 && <Typography variant="h3">{title2}</Typography>}
-                {paragraph2 && (
-                  <Typography variant="body1">{paragraph2}</Typography>
-                )}
+              {component ? (
+                <>{component}</>
+              ) : (
+                <Stack spacing={3} direction={"column"}>
+                  <Typography variant="h3">{title}</Typography>
+                  <Typography variant="body1">{paragraph}</Typography>
+                  {title2 && <Typography variant="h3">{title2}</Typography>}
+                  {paragraph2 && (
+                    <Typography variant="body1">{paragraph2}</Typography>
+                  )}
 
-                {!hideAction && (
-                  <Button sx={buttonStyle} size="large" variant="outlined">
-                    {t(tokens.common.buttons.readMore)}
-                  </Button>
-                )}
-              </Stack>
+                  {!hideAction && (
+                    <Button sx={buttonStyle} size="large" variant="outlined">
+                      {t(tokens.common.buttons.readMore)}
+                    </Button>
+                  )}
+                </Stack>
+              )}
             </Stack>
           </Box>
         </Stack>
@@ -104,6 +109,7 @@ const AboutSection = ({
   backImage,
   backgroundColor = "#eee8f5",
   hideAction = false,
+  component = undefined,
 }) => {
   return (
     <Box
@@ -127,6 +133,7 @@ const AboutSection = ({
                 title2={title2}
                 paragraph2={paragraph2}
                 hideAction={hideAction}
+                component={component}
               />
               <ImageBox reverse={true} passedImage={passedImage} />
             </>
@@ -141,6 +148,7 @@ const AboutSection = ({
                 paragraph2={paragraph2}
                 backImage={backImage}
                 hideAction={hideAction}
+                component={component}
               />
             </>
           )}

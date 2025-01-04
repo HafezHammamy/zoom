@@ -44,6 +44,24 @@ const KsurgeryPage = (props) => {
               paragraph={t(tokens.brands.ksurgery.whatIsDescription)}
               passedImage={productImage}
               hideAction
+              component={
+                <Stack spacing={2}>
+                  <Typography variant="h3">
+                    {t(tokens.brands.ksurgery.whatIs)}
+                  </Typography>
+                  <Typography variant="body">
+                    {t(tokens.brands.ksurgery.whatIsDescription)}
+                  </Typography>
+                  <Typography variant="h4">
+                    {t(tokens.brands.ksurgery.keyBenefits)}
+                  </Typography>
+                  <ul>
+                    <li>{t(tokens.brands.ksurgery.keyBenefit1)}</li>
+                    <li>{t(tokens.brands.ksurgery.keyBenefit2)}</li>
+                    <li>{t(tokens.brands.ksurgery.keyBenefit3)}</li>
+                  </ul>
+                </Stack>
+              }
             />
           </Container>
         </Box>
@@ -52,11 +70,27 @@ const KsurgeryPage = (props) => {
             <AboutSection
               backgroundColor="#FFFFFF"
               reverse={true}
-              title={t(tokens.brands.ksurgery.application)}
+              title={t(tokens.brands.ksurgery.opera)}
               paragraph={t(tokens.brands.ksurgery.applicationDescription)}
               passedImage={girlImage}
               hideAction
               backImage={background_green}
+              component={
+                <Stack spacing={2}>
+                  <Typography variant="h3">
+                    {t(tokens.brands.ksurgery.opera)}
+                  </Typography>
+                  <Typography variant="body">
+                    {t(tokens.brands.ksurgery.operaDescription)}
+                  </Typography>
+                  <Typography variant="body">
+                    {t(tokens.brands.ksurgery.operaDescription1)}
+                  </Typography>
+                  <Typography variant="body">
+                    {t(tokens.brands.ksurgery.operaDescription2)}
+                  </Typography>
+                </Stack>
+              }
             />
           </Container>
         </Box>
