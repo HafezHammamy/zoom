@@ -171,6 +171,15 @@ export const en = {
   [tokens.brands.ksurgery.products[0].face[3].items[3]]:
     "HA concentration: 1x1ml",
 
+  [tokens.brands.ksurgery.products[0].body[0].title]: "Opéra V Body Filler",
+  [tokens.brands.ksurgery.products[0].body[0].subtitle]:
+    "Reshape legs and buttocks without surgery",
+  [tokens.brands.ksurgery.products[0].body[0].buttonTitle]: "Opéra V",
+  [tokens.brands.ksurgery.products[0].body[0].description]:
+    "Opéra V is the innovative latest generation leg and buttock filler designed to treat body hollows as well as plump up the buttocks, fill the calves or reshape the knees. guarantees optimal hydration, tissue rejuvenation and the gift of new tone, where a balanced diet and moderate physical activity fail to achieve results.",
+  [tokens.brands.ksurgery.products[0].body[0].description2]:
+    "Our body filler guarantees  total resorption  and the total  absence of post treatment granulomas. After treatment, you may immediately resume your day-to-day activities.",
+
   [tokens.brands.renee.title]: "Renee",
   [tokens.brands.renee.subtitle]: "Experience Renée",
   [tokens.brands.renee.description]:

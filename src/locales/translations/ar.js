@@ -165,6 +165,14 @@ export const ar = {
   [tokens.brands.ksurgery.products[0].face[3].items[2]]: "العبوة: 1x1مل",
   [tokens.brands.ksurgery.products[0].face[3].items[3]]:
     "تركيز الهيالورونيك: 1x1مل",
+  [tokens.brands.ksurgery.products[0].body[0].title]: "أوبرا V حشو الجسم",
+  [tokens.brands.ksurgery.products[0].body[0].subtitle]:
+    "إعادة تشكيل الساقين والأرداف بدون جراحة",
+  [tokens.brands.ksurgery.products[0].body[0].buttonTitle]: "أوبرا V",
+  [tokens.brands.ksurgery.products[0].body[0].description]:
+    "أوبرا V هو الحشو المبتكر من الجيل الأخير المصمم لعلاج فراغات الجسم وكذلك تكبير الأرداف، ملء الساقين أو إعادة تشكيل الركبتين. يضمن الترطيب الأمثل، وتجديد الأنسجة، ومنحها نغمة جديدة، حيث تفشل الحمية الغذائية المتوازنة والنشاط البدني المعتدل في تحقيق النتائج.",
+  [tokens.brands.ksurgery.products[0].body[0].description2]:
+    "حشو الجسم لدينا يضمن الامتصاص الكامل وغياب تام للحبيبات بعد العلاج. بعد العلاج، يمكنك استئناف أنشطتك اليومية على الفور.",
   [tokens.brands.renee.description2]:
     "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
   [tokens.brands.juvelook.description2]:

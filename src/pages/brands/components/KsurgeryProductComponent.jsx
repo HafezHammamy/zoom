@@ -86,13 +86,12 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
 
   const bodyProducts = [
     {
-      title: "Opéra V Body Filler",
-      buttonTitle: "Opéra V",
       value: "opera-body-1",
-      subtitle: "Reshape legs and buttocks without surgery",
-      description: `Opéra V is the innovative latest generation leg and buttock filler designed to treat body hollows as well as plump up the buttocks, fill the calves or reshape the knees.
-  Thanks to its special formula, it guarantees optimal hydration, tissue rejuvenation and the gift of new tone, where a balanced diet and moderate physical activity fail to achieve results.`,
-      description2: `Our body filler guarantees  total resorption  and the total  absence of post treatment granulomas. After treatment, you may immediately resume your day-to-day activities.`,
+      title: t(tokens.brands.ksurgery.products[0].body[0].title),
+      buttonTitle: t(tokens.brands.ksurgery.products[0].body[0].buttonTitle),
+      subtitle: t(tokens.brands.ksurgery.products[0].body[0].subtitle),
+      description: t(tokens.brands.ksurgery.products[0].body[0].description),
+      description2: t(tokens.brands.ksurgery.products[0].body[0].description2),
       img: opera_1_body_img,
     },
   ];

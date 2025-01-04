@@ -215,7 +215,25 @@ export const tokens = {
               ],
             },
           ],
-          body: ["brands.ksurgery.products.collection1.body1"],
+          body: [
+            {
+              title: "brands.ksurgery.products.collection1.body1.title",
+              subtitle: "brands.ksurgery.products.collection1.body1.subtitle",
+              description:
+                "brands.ksurgery.products.collection1.body1.description",
+              description2:
+                "brands.ksurgery.products.collection1.body1.description2",
+
+              buttonTitle:
+                "brands.ksurgery.products.collection1.body1.buttonTitle",
+              items: [
+                "brands.ksurgery.products.collection1.body1.item1",
+                "brands.ksurgery.products.collection1.body1.item2",
+                "brands.ksurgery.products.collection1.body1.item3",
+                "brands.ksurgery.products.collection1.body1.item4",
+              ],
+            },
+          ],
         },
         {
           face: [
