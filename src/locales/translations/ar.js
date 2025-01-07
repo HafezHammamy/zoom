@@ -377,6 +377,35 @@ export const ar = {
     "يحسن الملمس العام للبشرة ومرونتها.",
   [tokens.brands.lenisna.products[0].aging[0].items[2]]:
     "يوفر نتائج طبيعية ودقيقة بدون وقت تعطل كبير.",
+  [tokens.brands.juvelook.products[0].title]: "اكتشف جمال الطبيعة من جديد",
+  [tokens.brands.juvelook.products[0].aging[0].title1]: "التطبيق والنتائج",
+  [tokens.brands.juvelook.products[0].aging[0].title2]: "المكونات النشطة",
+  [tokens.brands.juvelook.products[0].aging[0].title3]: "مدة التأثير",
+  [tokens.brands.juvelook.products[0].aging[0].title4]: "تجديد البشرة",
+  [tokens.brands.juvelook.products[0].aging[0].description1]:
+    "يمنح Juvelook نتائج طبيعية ومتدرجة تدوم لفترات طويلة، مما يعزز نعومة البشرة وثباتها مع تقليل جلسات العلاج.",
+  [tokens.brands.juvelook.products[0].aging[0].description2]:
+    "42.4 ملغ من حمض بولي-دي إل-لاكتيك (PDLLA) 7.5 ملغ من حمض الهيالورونيك",
+  [tokens.brands.juvelook.products[0].aging[0].description3]: "12 - 18 شهرًا",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[0]]: "تفتيح البشرة",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[1]]:
+    "شد مسام البشرة",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[2]]:
+    "تحسين ملمس البشرة",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[3]]:
+    "تحسين مرونة البشرة",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[4]]:
+    "علاج الندوب الضامرة",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[5]]:
+    "علاج علامات التمدد",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[6]]:
+    "علاج التجاعيد الدقيقة",
+  [tokens.brands.juvelook.products[0].aging[0].items[0]]:
+    "يعزز ملمس البشرة ومرونتها وثباتها.",
+  [tokens.brands.juvelook.products[0].aging[0].items[1]]:
+    "يقلل من الخطوط الدقيقة والتجاعيد.",
+  [tokens.brands.juvelook.products[0].aging[0].items[2]]:
+    "نتائج طويلة الأمد مع تحسين تدريجي.",
 
   [tokens.brands.juvelook.title]: "جوفيلوك",
   [tokens.brands.juvelook.subtitle]: "اكتشف جوفيلوك",

@@ -429,8 +429,7 @@ export const en = {
   [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
   [tokens.brands.juvelook.description]:
     "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
-  [tokens.brands.juvelook.products[0].title]:
-    "ENHANCE YOUR NATURAL BEAUTY AND BOOST YOUR SELF CONFIDENCE",
+  [tokens.brands.juvelook.products[0].title]: "REDISCOVER THE BEAUTY IN NATURE",
   [tokens.brands.juvelook.products[0].aging[0].title1]:
     "Application and Results",
   [tokens.brands.juvelook.products[0].aging[0].title2]: "Active Ingredient",
