@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.b42012d4.js",
+    "main.js": "/zoom/static/js/main.a19eb3f1.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/hero_video.mp4": "/zoom/static/media/hero_video.99dd856af8c265ba6aa8.mp4",
@@ -63,6 +63,7 @@
     "static/media/juvelookgirl.png": "/zoom/static/media/juvelookgirl.ba77d33db0e1c3708a4a.png",
     "static/media/product1.png": "/zoom/static/media/product1.1791db6ca7a44c3e6dfe.png",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
+    "static/media/juvelook-product-1.png": "/zoom/static/media/juvelook-product-1.2e64ba934f24b51fa739.png",
     "static/media/dynamics-gradient-green.png": "/zoom/static/media/dynamics-gradient-green.969154379e4d4e28c28d.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
     "static/media/logo3.png": "/zoom/static/media/logo3.e1a176bd85eb69c0caee.png",
@@ -74,8 +75,8 @@
     "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
     "static/media/dynamics-gradient-dark.png": "/zoom/static/media/dynamics-gradient-dark.73b18a95e857ec0caa82.png",
     "static/media/ksurgery-product.jpg": "/zoom/static/media/ksurgery-product.0000b58ad86370a772bb.jpg",
-    "static/media/nulshock-bd.otf": "/zoom/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
+    "static/media/nulshock-bd.otf": "/zoom/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "static/media/image-2.png": "/zoom/static/media/image-2.7baaefa2843d6310a1d7.png",
     "static/media/ksurgery-filler.jpg": "/zoom/static/media/ksurgery-filler.d331e992bde5c40089af.jpg",
     "static/media/alfont_com_GE-Dinar-One-Bold.otf": "/zoom/static/media/alfont_com_GE-Dinar-One-Bold.dbca70bd5cb2e3fe989e.otf",
@@ -86,11 +87,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.b42012d4.js.map": "/zoom/static/js/main.b42012d4.js.map",
+    "main.a19eb3f1.js.map": "/zoom/static/js/main.a19eb3f1.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.b42012d4.js"
+    "static/js/main.a19eb3f1.js"
   ]
 }
