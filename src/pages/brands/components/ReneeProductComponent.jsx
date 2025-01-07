@@ -29,8 +29,8 @@ const ReneeProductComponent = () => {
         t(tokens.brands.renee.products[0].skin[0].items[2]),
       ],
       img: product1,
-      buttonStyle: { color: "#009688", borderColor: "#009688" },
-      activeStyle: { backgroundColor: "#009688" },
+      buttonStyle: { color: "#0DADA5", borderColor: "#0DADA5" },
+      activeStyle: { backgroundColor: "#0DADA5" },
     },
     {
       title: t(tokens.brands.renee.products[0].skin[1].title),
@@ -45,8 +45,8 @@ const ReneeProductComponent = () => {
       ],
       value: "product-2",
       img: product2,
-      buttonStyle: { color: "#FF5722", borderColor: "#FF5722" },
-      activeStyle: { backgroundColor: "#FF5722" },
+      buttonStyle: { color: "#E48F75", borderColor: "#E48F75" },
+      activeStyle: { backgroundColor: "#E48F75" },
     },
     {
       title: t(tokens.brands.renee.products[0].skin[2].title),
@@ -61,8 +61,8 @@ const ReneeProductComponent = () => {
       ],
       value: "product-3",
       img: product3,
-      buttonStyle: { color: "#FFD700", borderColor: "#FFD700" },
-      activeStyle: { backgroundColor: "#FFD700" },
+      buttonStyle: { color: "#F2E149", borderColor: "#F2E149" },
+      activeStyle: { backgroundColor: "#F2E149" },
     },
     {
       title: t(tokens.brands.renee.products[0].skin[3].title),
@@ -77,8 +77,8 @@ const ReneeProductComponent = () => {
       ],
       value: "product-4",
       img: product4,
-      buttonStyle: { color: "#E91E63", borderColor: "#E91E63" },
-      activeStyle: { backgroundColor: "#E91E63" },
+      buttonStyle: { color: "#DFA9B3", borderColor: "#DFA9B3" },
+      activeStyle: { backgroundColor: "#DFA9B3" },
     },
     {
       title: t(tokens.brands.renee.products[0].skin[4].title),
@@ -93,8 +93,8 @@ const ReneeProductComponent = () => {
       ],
       value: "product-5",
       img: product5,
-      buttonStyle: { color: "#FFC107", borderColor: "#FFC107" },
-      activeStyle: { backgroundColor: "#FFC107" },
+      buttonStyle: { color: "#EFB854", borderColor: "#EFB854" },
+      activeStyle: { backgroundColor: "#EFB854" },
     },
   ];
 
