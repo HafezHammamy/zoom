@@ -13,6 +13,7 @@ import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
+import JuvelookProductComponent from "../components/JuvelookProductComponent";
 
 const JuvelookPage = (props) => {
   const { t } = useTranslation();
@@ -37,9 +38,8 @@ const JuvelookPage = (props) => {
           title={t(tokens.brands.juvelook.whatIs)}
           description={t(tokens.brands.juvelook.whatIsDescription)}
           actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
-
+        <JuvelookProductComponent />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
           <Container maxWidth="xxl">
             <AboutSection

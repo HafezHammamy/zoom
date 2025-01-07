@@ -429,6 +429,39 @@ export const en = {
   [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
   [tokens.brands.juvelook.description]:
     "Our unique PLA filler enhances your appearance with precision. Small PDLLA particles are injected into the dermis, evenly volumizing skin by boosting collagen production.",
+  [tokens.brands.juvelook.products[0].title]:
+    "ENHANCE YOUR NATURAL BEAUTY AND BOOST YOUR SELF CONFIDENCE",
+  [tokens.brands.juvelook.products[0].aging[0].title1]:
+    "Application and Results",
+  [tokens.brands.juvelook.products[0].aging[0].title2]: "Active Ingredient",
+  [tokens.brands.juvelook.products[0].aging[0].title3]: "Durability of Effect",
+  [tokens.brands.juvelook.products[0].aging[0].title4]: "Skin Rejuvenation",
+  [tokens.brands.juvelook.products[0].aging[0].description1]:
+    "Juvelook delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+  [tokens.brands.juvelook.products[0].aging[0].description2]:
+    "42.4 mg Poly-D, L-LacticAcid (PDLLA) 7.5 mg Hyaluronic Acid",
+  [tokens.brands.juvelook.products[0].aging[0].description3]: "12 - 18 months",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[0]]:
+    "Skin brightening",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[1]]:
+    "Skin pore tightening",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[2]]:
+    "Skin texture improvement",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[3]]:
+    "Skin elasticity improvement",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[4]]:
+    "Atrophic scars treatment",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[5]]:
+    "Stretch marks treatment",
+  [tokens.brands.juvelook.products[0].aging[0].volumeItems[6]]:
+    "Fine wrinkles treatment",
+  [tokens.brands.juvelook.products[0].aging[0].items[0]]:
+    "Enhances skin texture, elasticity, and firmness.",
+  [tokens.brands.juvelook.products[0].aging[0].items[1]]:
+    "Smoothens fine lines and wrinkles.",
+  [tokens.brands.juvelook.products[0].aging[0].items[2]]:
+    "Long-lasting results with gradual improvement.",
+
   [tokens.common.discover_brand]: "Discover Brand",
   [tokens.brands.our_collection.title]: "Our Collection",
   [tokens.brands.our_collection.title1]: "Brands Collection",

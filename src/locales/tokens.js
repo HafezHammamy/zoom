@@ -482,8 +482,37 @@ export const tokens = {
       application: "brands.juvelook.application",
       applicationDescription: "brands.juvelook.application.description",
       products: [
-        { collection1: { face: [], body: [] } },
-        { collection2: { face: [], body: [] } },
+        {
+          title: "brands.juvelook.products.collection1.title",
+          aging: [
+            {
+              title1: "brands.juvelook.products.collection1.aging1.title1",
+              title2: "brands.juvelook.products.collection1.aging1.title2",
+              title3: "brands.juvelook.products.collection1.aging1.title3",
+              title4: "brands.juvelook.products.collection1.aging1.title4",
+              description1:
+                "brands.juvelook.products.collection1.aging1.description1",
+              description2:
+                "brands.juvelook.products.collection1.aging1.description2",
+              description3:
+                "brands.juvelook.products.collection1.aging1.description3",
+              volumeItems: [
+                "brands.juvelook.products.collection1.aging1.volumeItem1",
+                "brands.juvelook.products.collection1.aging1.volumeItem2",
+                "brands.juvelook.products.collection1.aging1.volumeItem3",
+                "brands.juvelook.products.collection1.aging1.volumeItem4",
+                "brands.juvelook.products.collection1.aging1.volumeItem5",
+                "brands.juvelook.products.collection1.aging1.volumeItem6",
+                "brands.juvelook.products.collection1.aging1.volumeItem7",
+              ],
+              items: [
+                "brands.juvelook.products.collection1.aging1.item1",
+                "brands.juvelook.products.collection1.aging1.item2",
+                "brands.juvelook.products.collection1.aging1.item3",
+              ],
+            },
+          ],
+        },
       ],
     },
   },
