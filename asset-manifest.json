@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.7cfd821e.js",
+    "main.js": "/zoom/static/js/main.ac86c62b.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
@@ -25,6 +25,10 @@
     "static/media/opera3.png": "/zoom/static/media/opera3.061d384f17e30d0df882.png",
     "static/media/opera4.png": "/zoom/static/media/opera4.006e2e7616b77f47e5c5.png",
     "static/media/product-04.png": "/zoom/static/media/product-04.7d0f6b3d2d4dbe8a8f75.png",
+    "static/media/product3.png": "/zoom/static/media/product3.910781deacb85d5d13a4.png",
+    "static/media/product2.png": "/zoom/static/media/product2.024be73d1d20b27dfc82.png",
+    "static/media/product4.png": "/zoom/static/media/product4.0e456b9ef6c0c8fef7a2.png",
+    "static/media/product5.png": "/zoom/static/media/product5.59817fd8f5b9e7883a5a.png",
     "static/media/val6.png": "/zoom/static/media/val6.51b1564de2fa46dc26b1.png",
     "static/media/val1.png": "/zoom/static/media/val1.43744cef7623f5306974.png",
     "static/media/juvelookHeroImage1.png": "/zoom/static/media/juvelookHeroImage1.d08c31756d3374270ec1.png",
@@ -39,6 +43,7 @@
     "static/media/renee-video.mp4": "/zoom/static/media/renee-video.01e258ba807dbab58229.mp4",
     "static/media/val4.png": "/zoom/static/media/val4.531ef71016b7014b4379.png",
     "static/media/rev-opera-face2.png": "/zoom/static/media/rev-opera-face2.88244aa6d385c78e6e20.png",
+    "static/media/renee-girls.png": "/zoom/static/media/renee-girls.0adb1c3a702b6fd26fbb.png",
     "static/media/rev-opera-body1.png": "/zoom/static/media/rev-opera-body1.208cea0eaa308d9f59fe.png",
     "static/media/juvelook-product-hero.png": "/zoom/static/media/juvelook-product-hero.7550f12cf92723ca4fde.png",
     "static/media/lenisnaHeroImage.png": "/zoom/static/media/lenisnaHeroImage.9946b054adbfe6b5b723.png",
@@ -51,16 +56,16 @@
     "static/media/dynamicshp.png": "/zoom/static/media/dynamicshp.d9e941657fd361e75f41.png",
     "static/media/dynamicshpp.png": "/zoom/static/media/dynamicshpp.ae7ed1e0b55b801e8a4d.png",
     "static/media/lenisnaGirl.png": "/zoom/static/media/lenisnaGirl.ea5e0c7791eb3153d33e.png",
-    "static/media/renee-girls.png": "/zoom/static/media/renee-girls.afe5d4cdd3dc827bc757.png",
     "static/media/lenisnaProduct.png": "/zoom/static/media/lenisnaProduct.14b588b5d317c5b37be1.png",
     "static/media/juvelook-product1.png": "/zoom/static/media/juvelook-product1.99fd5b4a98ceecf79511.png",
-    "static/media/renee-product.png": "/zoom/static/media/renee-product.2fa009212b922f0ae39c.png",
     "static/media/juvelookgirl.png": "/zoom/static/media/juvelookgirl.ba77d33db0e1c3708a4a.png",
+    "static/media/product1.png": "/zoom/static/media/product1.1791db6ca7a44c3e6dfe.png",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
     "static/media/dynamics-gradient-green.png": "/zoom/static/media/dynamics-gradient-green.969154379e4d4e28c28d.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
     "static/media/logo3.png": "/zoom/static/media/logo3.e1a176bd85eb69c0caee.png",
     "static/media/logo1.png": "/zoom/static/media/logo1.0a78b3fe8f018af13a90.png",
+    "static/media/renee-product.png": "/zoom/static/media/renee-product.02864c4ae2e61a3e897e.png",
     "static/media/Jost-Regular.ttf": "/zoom/static/media/Jost-Regular.42b2ab77abff530bfc14.ttf",
     "static/media/logo4.png": "/zoom/static/media/logo4.97e47c80b8edac097842.png",
     "static/media/statement-bg.png": "/zoom/static/media/statement-bg.fe623326f15692f982c1.png",
@@ -79,11 +84,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.7cfd821e.js.map": "/zoom/static/js/main.7cfd821e.js.map",
+    "main.ac86c62b.js.map": "/zoom/static/js/main.ac86c62b.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.7cfd821e.js"
+    "static/js/main.ac86c62b.js"
   ]
 }
