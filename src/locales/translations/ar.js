@@ -352,6 +352,32 @@ export const ar = {
   [tokens.brands.lenisna.subtitle]: "اكتشف لينيسنا",
   [tokens.brands.lenisna.description]:
     "جزيئاتنا الكروية المبتكرة تحفز إنتاج الكولاجين، مما يوفر حجمًا طبيعيًا لتحديد معالم الوجه والجسم. مثالية لتقليل التجاعيد وعلاج الندبات.",
+  [tokens.brands.lenisna.products[0].title]:
+    "عزّز جمالك الطبيعي وزِد ثقتك بنفسك",
+  [tokens.brands.lenisna.products[0].aging[0].title1]: "التطبيق والنتائج",
+  [tokens.brands.lenisna.products[0].aging[0].title2]: "المكون النشط",
+  [tokens.brands.lenisna.products[0].aging[0].title3]: "مدة التأثير",
+  [tokens.brands.lenisna.products[0].aging[0].title4]: "زيادة الحجم",
+  [tokens.brands.lenisna.products[0].aging[0].description1]:
+    "تؤدي التأثيرات التدريجية طويلة الأمد لمنتج لينسنا إلى بشرة أكثر نعومة وثباتًا مع خطوط أقل وتحسين في الملمس، مما يساعد المرضى على تحقيق بشرة أكثر شبابًا.",
+  [tokens.brands.lenisna.products[0].aging[0].description2]:
+    "170 ملغ من حمض بولي-D، L-لاكتيك (PDLLA) و30 ملغ من حمض الهيالورونيك",
+  [tokens.brands.lenisna.products[0].aging[0].description3]: "18 - 24 شهرًا",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[0]]: "نحت الوجه",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[1]]: "نحت الجسم",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[2]]: "تكبير الوجه",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[3]]: "تكبير الجسم",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[4]]:
+    "علاج التجاعيد العميقة",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[5]]:
+    "علاج الندبات العميقة",
+  [tokens.brands.lenisna.products[0].aging[0].items[0]]:
+    "يعيد حجم البشرة ونعومتها.",
+  [tokens.brands.lenisna.products[0].aging[0].items[1]]:
+    "يحسن الملمس العام للبشرة ومرونتها.",
+  [tokens.brands.lenisna.products[0].aging[0].items[2]]:
+    "يوفر نتائج طبيعية ودقيقة بدون وقت تعطل كبير.",
+
   [tokens.brands.juvelook.title]: "جوفيلوك",
   [tokens.brands.juvelook.subtitle]: "اكتشف جوفيلوك",
   [tokens.brands.juvelook.description]:

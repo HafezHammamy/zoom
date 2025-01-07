@@ -13,6 +13,7 @@ import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
+import LenisnaProductComponent from "../components/LenisnaProductComponent";
 
 const LenisnaPage = (props) => {
   const { t } = useTranslation();
@@ -38,6 +39,7 @@ const LenisnaPage = (props) => {
           actionPath="#"
           darken={false}
         />
+        <LenisnaProductComponent />
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#E9C1CA" }}>
             <Container maxWidth="xxl">

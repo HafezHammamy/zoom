@@ -394,6 +394,37 @@ export const en = {
   [tokens.brands.lenisna.applicationDescription]:
     "Lenisna's gradual, long-term effects lead to smoother, firmer skin with fewer lines and improved texture, helping patients achieve more youthful skin.",
 
+  [tokens.brands.lenisna.products[0].title]:
+    "ENHANCE YOUR NATURAL BEAUTY AND BOOST YOUR SELF CONFIDENCE",
+  [tokens.brands.lenisna.products[0].aging[0].title1]:
+    "Application and Results",
+  [tokens.brands.lenisna.products[0].aging[0].title2]: "Active Ingredient",
+  [tokens.brands.lenisna.products[0].aging[0].title3]: "Durability of Effect",
+  [tokens.brands.lenisna.products[0].aging[0].title4]: "Volume Augmentation",
+  [tokens.brands.lenisna.products[0].aging[0].description1]:
+    "Lenisna's gradual, long-term effects lead to smoother, firmer skin with fewer lines and improved texture, helping patients achieve more youthful skin.",
+  [tokens.brands.lenisna.products[0].aging[0].description2]:
+    "170 mg Poly-D, L-Lactic Acid (PDLLA) 30 mg Hyaluronic Acid",
+  [tokens.brands.lenisna.products[0].aging[0].description3]: "18 - 24 months",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[0]]:
+    "Facial contouring",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[1]]:
+    "Body contouring",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[2]]:
+    "Facial augmentation",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[3]]:
+    "Body augmentation",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[4]]:
+    "Deep wrinkles treatment",
+  [tokens.brands.lenisna.products[0].aging[0].volumeItems[5]]:
+    "Deep scars treatment",
+  [tokens.brands.lenisna.products[0].aging[0].items[0]]:
+    "Restores skin volume and smoothness.",
+  [tokens.brands.lenisna.products[0].aging[0].items[1]]:
+    "Improves overall skin texture and elasticity.",
+  [tokens.brands.lenisna.products[0].aging[0].items[2]]:
+    "Provides subtle, natural results without significant downtime.",
+
   [tokens.brands.juvelook.title]: "Juvelook",
   [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
   [tokens.brands.juvelook.description]:
