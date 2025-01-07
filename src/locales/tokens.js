@@ -347,6 +347,7 @@ export const tokens = {
             {
               title: "brands.renee.products.collection1.skin2.title",
               subtitle: "brands.renee.products.collection1.skin2.subtitle",
+              question: "brands.renee.products.collection1.skin2.question",
               description:
                 "brands.renee.products.collection1.skin2.description",
               buttonTitle:
@@ -361,6 +362,7 @@ export const tokens = {
             {
               title: "brands.renee.products.collection1.skin3.title",
               subtitle: "brands.renee.products.collection1.skin3.subtitle",
+              question: "brands.renee.products.collection1.skin3.question",
               description:
                 "brands.renee.products.collection1.skin3.description",
               buttonTitle:
@@ -375,6 +377,7 @@ export const tokens = {
             {
               title: "brands.renee.products.collection1.skin4.title",
               subtitle: "brands.renee.products.collection1.skin4.subtitle",
+              question: "brands.renee.products.collection1.skin4.question",
               description:
                 "brands.renee.products.collection1.skin4.description",
               buttonTitle:
@@ -384,6 +387,21 @@ export const tokens = {
                 "brands.renee.products.collection1.skin4.item2",
                 "brands.renee.products.collection1.skin4.item3",
                 "brands.renee.products.collection1.skin4.item4",
+              ],
+            },
+            {
+              title: "brands.renee.products.collection1.skin5.title",
+              subtitle: "brands.renee.products.collection1.skin5.subtitle",
+              question: "brands.renee.products.collection1.skin5.question",
+              description:
+                "brands.renee.products.collection1.skin5.description",
+              buttonTitle:
+                "brands.renee.products.collection1.skin5.buttonTitle",
+              items: [
+                "brands.renee.products.collection1.skin5.item1",
+                "brands.renee.products.collection1.skin5.item2",
+                "brands.renee.products.collection1.skin5.item3",
+                "brands.renee.products.collection1.skin5.item4",
               ],
             },
           ],

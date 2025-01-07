@@ -297,6 +297,54 @@ export const ar = {
   [tokens.brands.renee.products[0].skin[0].items[1]]: "تحسين الملمس والمرونة",
   [tokens.brands.renee.products[0].skin[0].items[2]]: "نتائج تدوم طويلاً",
 
+  [tokens.brands.renee.products[0].skin[1].title]: "رينيه فوليوم",
+  [tokens.brands.renee.products[0].skin[1].subtitle]:
+    "لاستعادة حجم الوجه وتحديد معالمه",
+  [tokens.brands.renee.products[0].skin[1].question]: "ما هو رينيه فوليوم؟",
+  [tokens.brands.renee.products[0].skin[1].buttonTitle]: "رينيه فوليوم",
+  [tokens.brands.renee.products[0].skin[1].description]:
+    "يستعيد رينيه فوليوم الحجم في المناطق التي فقدت الحجم، مما يعزز التناسق والشكل الشبابي للوجه.",
+  [tokens.brands.renee.products[0].skin[1].items[0]]: "يستعيد حجم الوجه",
+  [tokens.brands.renee.products[0].skin[1].items[1]]: "ينعم معالم الوجه",
+  [tokens.brands.renee.products[0].skin[1].items[2]]: "يعزز الشباب والتناسق",
+
+  [tokens.brands.renee.products[0].skin[2].title]: "رينيه تاتش",
+  [tokens.brands.renee.products[0].skin[2].subtitle]:
+    "لتنعيم الخطوط الدقيقة والمتوسطة والتجاعيد",
+  [tokens.brands.renee.products[0].skin[2].question]: "ما هو رينيه تاتش؟",
+  [tokens.brands.renee.products[0].skin[2].buttonTitle]: "رينيه تاتش",
+  [tokens.brands.renee.products[0].skin[2].description]:
+    "يعالج رينيه تاتش الخطوط الدقيقة، ويوفر ترطيبًا عميقًا لتحسين مرونة البشرة وملمسها للحصول على مظهر أكثر شبابًا.",
+  [tokens.brands.renee.products[0].skin[2].items[0]]:
+    "يحسن ملمس البشرة ومرونتها",
+  [tokens.brands.renee.products[0].skin[2].items[1]]: "ينعم الخطوط الدقيقة",
+  [tokens.brands.renee.products[0].skin[2].items[2]]:
+    "ترطيب عميق لبشرة أكثر صحة",
+
+  [tokens.brands.renee.products[0].skin[3].title]: "رينيه سمايل",
+  [tokens.brands.renee.products[0].skin[3].subtitle]:
+    "لتعزيز حجم الشفاه وتحديد معالمها",
+  [tokens.brands.renee.products[0].skin[3].question]: "ما هو رينيه سمايل؟",
+  [tokens.brands.renee.products[0].skin[3].buttonTitle]: "رينيه سمايل",
+  [tokens.brands.renee.products[0].skin[3].description]:
+    "علاج مستهدف يركز على منطقة الابتسامة، ينعم الخطوط الدقيقة ويعيد الحجم للحصول على ابتسامة أكثر شبابًا وسلاسة.",
+  [tokens.brands.renee.products[0].skin[3].items[0]]: "يقلل التجاعيد حول الفم",
+  [tokens.brands.renee.products[0].skin[3].items[1]]: "يعيد الحجم المفقود",
+  [tokens.brands.renee.products[0].skin[3].items[2]]: "يعزز مظهر الابتسامة",
+
+  [tokens.brands.renee.products[0].skin[4].title]: "رينيه ليفت",
+  [tokens.brands.renee.products[0].skin[4].subtitle]:
+    "لملء التجاعيد العميقة والطيات",
+  [tokens.brands.renee.products[0].skin[4].question]: "ما هو رينيه ليفت؟",
+  [tokens.brands.renee.products[0].skin[4].buttonTitle]: "رينيه ليفت",
+  [tokens.brands.renee.products[0].skin[4].description]:
+    "حل رفع يستعيد الحجم ويوفر مظهرًا أكثر تماسكًا وتحديدًا، خاصة للبشرة المترهلة.",
+  [tokens.brands.renee.products[0].skin[4].items[0]]: "تأثيرات رفع طويلة الأمد",
+  [tokens.brands.renee.products[0].skin[4].items[1]]:
+    "يستعيد الحجم في المناطق الرئيسية",
+  [tokens.brands.renee.products[0].skin[4].items[2]]:
+    "يرفع ويحدد البشرة المترهلة",
+
   [tokens.brands.lenisna.title]: "لينيسنا",
   [tokens.brands.lenisna.subtitle]: "اكتشف لينيسنا",
   [tokens.brands.lenisna.description]:

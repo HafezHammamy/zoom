@@ -284,6 +284,59 @@ export const en = {
     "Improved texture and elasticity",
   [tokens.brands.renee.products[0].skin[0].items[2]]: "Long-lasting results",
 
+  [tokens.brands.renee.products[0].skin[1].title]: "Renee Volume",
+  [tokens.brands.renee.products[0].skin[1].subtitle]:
+    "FOR RESTORING FACIAL VOLUME AND CONTOURS",
+  [tokens.brands.renee.products[0].skin[1].question]: "What is Renee Volume?",
+  [tokens.brands.renee.products[0].skin[1].buttonTitle]: "Renee Volume",
+  [tokens.brands.renee.products[0].skin[1].description]:
+    "Renee Volume restores volume in areas that experience volume loss, enhancing facial symmetry and youthful contours.",
+  [tokens.brands.renee.products[0].skin[1].items[0]]: "Restores facial volume",
+  [tokens.brands.renee.products[0].skin[1].items[1]]:
+    "Smoothens facial contours",
+  [tokens.brands.renee.products[0].skin[1].items[2]]:
+    "Enhances youthfulness and symmetry",
+
+  [tokens.brands.renee.products[0].skin[2].title]: "Renee Touch",
+  [tokens.brands.renee.products[0].skin[2].subtitle]:
+    "FOR SMOOTHING FINE TO MODERATE LINES AND WRINKLES",
+  [tokens.brands.renee.products[0].skin[2].question]: "What is Renee Touch?",
+  [tokens.brands.renee.products[0].skin[2].buttonTitle]: "Renee Touch",
+  [tokens.brands.renee.products[0].skin[2].description]:
+    "Renee Touch addresses fine lines, providing deep hydration to improve skin elasticity and texture for a more youthful look.",
+  [tokens.brands.renee.products[0].skin[2].items[0]]:
+    "Improves skin texture and elasticity",
+  [tokens.brands.renee.products[0].skin[2].items[1]]: "Smoothens fine lines",
+  [tokens.brands.renee.products[0].skin[2].items[2]]:
+    "Deep hydration for healthier skin",
+
+  [tokens.brands.renee.products[0].skin[3].title]: "Renee Smile",
+  [tokens.brands.renee.products[0].skin[3].subtitle]:
+    "FOR ENHANCING LIP VOLUME AND CONTOURS",
+  [tokens.brands.renee.products[0].skin[3].question]: "What is Renee Smile?",
+  [tokens.brands.renee.products[0].skin[3].buttonTitle]: "Renee Smile",
+  [tokens.brands.renee.products[0].skin[3].description]:
+    "A targeted treatment focusing on the smile area, smoothing fine lines and restoring volume for a youthful, smoother smile.",
+  [tokens.brands.renee.products[0].skin[3].items[0]]:
+    "Reduces wrinkles around the mouth",
+  [tokens.brands.renee.products[0].skin[3].items[1]]: "Restores lost volume",
+  [tokens.brands.renee.products[0].skin[3].items[2]]:
+    "Enhances smile appearance",
+
+  [tokens.brands.renee.products[0].skin[4].title]: "Renee Lift",
+  [tokens.brands.renee.products[0].skin[4].subtitle]:
+    "FOR REPLENISHING DEEP WRINKLES AND FOLDS",
+  [tokens.brands.renee.products[0].skin[4].question]: "What is Renee Lift?",
+  [tokens.brands.renee.products[0].skin[4].buttonTitle]: "Renee Lift",
+  [tokens.brands.renee.products[0].skin[4].description]:
+    "A lifting solution that restores volume and provides a firmer, more contoured appearance, especially for sagging skin.",
+  [tokens.brands.renee.products[0].skin[4].items[0]]:
+    "Long-lasting lifting effects",
+  [tokens.brands.renee.products[0].skin[4].items[1]]:
+    "Restores volume in key areas",
+  [tokens.brands.renee.products[0].skin[4].items[2]]:
+    "Lifts and contours sagging skin",
+
   [tokens.brands.ksurgery.description2]:
     "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
   [tokens.brands.ksurgery.description3]:
