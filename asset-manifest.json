@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.a19eb3f1.js",
+    "main.js": "/zoom/static/js/main.f57a4c75.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/hero_video.mp4": "/zoom/static/media/hero_video.99dd856af8c265ba6aa8.mp4",
@@ -38,6 +38,7 @@
     "static/media/1.png": "/zoom/static/media/1.ae00a920497c7ea308d3.png",
     "static/media/val2.png": "/zoom/static/media/val2.518366204ce83abcc094.png",
     "static/media/4.png": "/zoom/static/media/4.2af26c56ba5558ddd1f0.png",
+    "static/media/juvelook-product-1.png": "/zoom/static/media/juvelook-product-1.a00ec437be2c517a52de.png",
     "static/media/3.png": "/zoom/static/media/3.87672aedc16cb9eb1641.png",
     "static/media/val3.png": "/zoom/static/media/val3.7932fb84902f4689672c.png",
     "static/media/product-01.png": "/zoom/static/media/product-01.b6ad71ad1500ce153134.png",
@@ -63,7 +64,6 @@
     "static/media/juvelookgirl.png": "/zoom/static/media/juvelookgirl.ba77d33db0e1c3708a4a.png",
     "static/media/product1.png": "/zoom/static/media/product1.1791db6ca7a44c3e6dfe.png",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
-    "static/media/juvelook-product-1.png": "/zoom/static/media/juvelook-product-1.2e64ba934f24b51fa739.png",
     "static/media/dynamics-gradient-green.png": "/zoom/static/media/dynamics-gradient-green.969154379e4d4e28c28d.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
     "static/media/logo3.png": "/zoom/static/media/logo3.e1a176bd85eb69c0caee.png",
@@ -87,11 +87,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.a19eb3f1.js.map": "/zoom/static/js/main.a19eb3f1.js.map",
+    "main.f57a4c75.js.map": "/zoom/static/js/main.f57a4c75.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.a19eb3f1.js"
+    "static/js/main.f57a4c75.js"
   ]
 }
