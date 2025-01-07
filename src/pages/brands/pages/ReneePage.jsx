@@ -10,6 +10,7 @@ import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
+import ReneeProductComponent from "../components/ReneeProductComponent";
 
 const ReneePage = (props) => {
   const { t } = useTranslation();
@@ -40,6 +41,7 @@ const ReneePage = (props) => {
             />
           </Container>
         </Box>
+        <ReneeProductComponent />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#E0FFF5" }}>
           <Container maxWidth="xxl">
             <AboutSection
@@ -56,6 +58,7 @@ const ReneePage = (props) => {
               }
               passedImage={girlImage}
               hideAction
+              reverse
             />
           </Container>
         </Box>

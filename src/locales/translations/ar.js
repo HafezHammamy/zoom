@@ -285,6 +285,18 @@ export const ar = {
   [tokens.brands.renee.applicationDescription]:
     "يوفر ريني نتائج تدريجية وطبيعية المظهر تدوم مع مرور الوقت، مما يعزز البشرة الأكثر نعومة وثباتًا مع جلسات علاجية قليلة.",
 
+  [tokens.brands.renee.products[0].skin[0].title]: "معزز البشرة من رينيه",
+  [tokens.brands.renee.products[0].skin[0].subtitle]: "يُعيد إشراقة بشرتك",
+  [tokens.brands.renee.products[0].skin[0].preQuestion]: "رينيه برايم",
+  [tokens.brands.renee.products[0].skin[0].question]:
+    "ما هو معزز البشرة من رينيه؟",
+  [tokens.brands.renee.products[0].skin[0].buttonTitle]: "معزز البشرة من رينيه",
+  [tokens.brands.renee.products[0].skin[0].description]:
+    "حقن مرطب مصمم لتحسين ملمس البشرة ومرونتها، مع تنشيط البشرة للحصول على مظهر مشرق.",
+  [tokens.brands.renee.products[0].skin[0].items[0]]: "ترطيب عميق للبشرة",
+  [tokens.brands.renee.products[0].skin[0].items[1]]: "تحسين الملمس والمرونة",
+  [tokens.brands.renee.products[0].skin[0].items[2]]: "نتائج تدوم طويلاً",
+
   [tokens.brands.lenisna.title]: "لينيسنا",
   [tokens.brands.lenisna.subtitle]: "اكتشف لينيسنا",
   [tokens.brands.lenisna.description]:

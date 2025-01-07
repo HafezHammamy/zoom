@@ -326,8 +326,68 @@ export const tokens = {
       application: "brands.renee.application",
       applicationDescription: "brands.renee.application.description",
       products: [
-        { collection1: { face: [], body: [] } },
-        { collection2: { face: [], body: [] } },
+        {
+          skin: [
+            {
+              title: "brands.renee.products.collection1.skin1.title",
+              subtitle: "brands.renee.products.collection1.skin1.subtitle",
+              preQuestion:
+                "brands.renee.products.collection1.skin1.preQuestion",
+              question: "brands.renee.products.collection1.skin1.question",
+              description:
+                "brands.renee.products.collection1.skin1.description",
+              buttonTitle:
+                "brands.renee.products.collection1.skin1.buttonTitle",
+              items: [
+                "brands.renee.products.collection1.skin1.item1",
+                "brands.renee.products.collection1.skin1.item2",
+                "brands.renee.products.collection1.skin1.item3",
+              ],
+            },
+            {
+              title: "brands.renee.products.collection1.skin2.title",
+              subtitle: "brands.renee.products.collection1.skin2.subtitle",
+              description:
+                "brands.renee.products.collection1.skin2.description",
+              buttonTitle:
+                "brands.renee.products.collection1.skin2.buttonTitle",
+              items: [
+                "brands.renee.products.collection1.skin2.item1",
+                "brands.renee.products.collection1.skin2.item2",
+                "brands.renee.products.collection1.skin2.item3",
+                "brands.renee.products.collection1.skin2.item4",
+              ],
+            },
+            {
+              title: "brands.renee.products.collection1.skin3.title",
+              subtitle: "brands.renee.products.collection1.skin3.subtitle",
+              description:
+                "brands.renee.products.collection1.skin3.description",
+              buttonTitle:
+                "brands.renee.products.collection1.skin3.buttonTitle",
+              items: [
+                "brands.renee.products.collection1.skin3.item1",
+                "brands.renee.products.collection1.skin3.item2",
+                "brands.renee.products.collection1.skin3.item3",
+                "brands.renee.products.collection1.skin3.item4",
+              ],
+            },
+            {
+              title: "brands.renee.products.collection1.skin4.title",
+              subtitle: "brands.renee.products.collection1.skin4.subtitle",
+              description:
+                "brands.renee.products.collection1.skin4.description",
+              buttonTitle:
+                "brands.renee.products.collection1.skin4.buttonTitle",
+              items: [
+                "brands.renee.products.collection1.skin4.item1",
+                "brands.renee.products.collection1.skin4.item2",
+                "brands.renee.products.collection1.skin4.item3",
+                "brands.renee.products.collection1.skin4.item4",
+              ],
+            },
+          ],
+        },
       ],
     },
     lenisna: {

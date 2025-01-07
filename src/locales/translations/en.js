@@ -270,6 +270,20 @@ export const en = {
   [tokens.brands.renee.applicationDescription]:
     "renee delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
 
+  [tokens.brands.renee.products[0].skin[0].title]: "Renee Skin Booster",
+  [tokens.brands.renee.products[0].skin[0].subtitle]:
+    "RESTORES THE GLOW OF YOUR SKIN",
+  [tokens.brands.renee.products[0].skin[0].preQuestion]: "Renee Prime",
+  [tokens.brands.renee.products[0].skin[0].question]:
+    "What is Renee Skin Booster?",
+  [tokens.brands.renee.products[0].skin[0].buttonTitle]: "Renee Skin Booster",
+  [tokens.brands.renee.products[0].skin[0].description]:
+    "A hydrating injectable designed to improve skin texture and elasticity while revitalizing the skin for a glowing complexion.",
+  [tokens.brands.renee.products[0].skin[0].items[0]]: "Deep skin hydration",
+  [tokens.brands.renee.products[0].skin[0].items[1]]:
+    "Improved texture and elasticity",
+  [tokens.brands.renee.products[0].skin[0].items[2]]: "Long-lasting results",
+
   [tokens.brands.ksurgery.description2]:
     "Our Italian-made hyaluronic acid treatments blend cutting-edge technology with natural beauty enhancement. Ksurgery MED, by Vidapharma, delivers safe, effective, and scientifically-validated products, designed to meet the high standards of medical professionals in aesthetic care.",
   [tokens.brands.ksurgery.description3]:
