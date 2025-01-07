@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.ac86c62b.js",
+    "main.js": "/zoom/static/js/main.b42012d4.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
+    "static/media/hero_video.mp4": "/zoom/static/media/hero_video.99dd856af8c265ba6aa8.mp4",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
     "static/media/My Movie 15.mp4": "/zoom/static/media/My Movie 15.add95d53bee89e75e4de.mp4",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
@@ -15,6 +16,7 @@
     "static/media/ksugery.mp4": "/zoom/static/media/ksugery.a84fedd6a269a7695da2.mp4",
     "static/media/opera2.png": "/zoom/static/media/opera2.29dff177043c28bb3029.png",
     "static/media/cover-girl-2.svg": "/zoom/static/media/cover-girl-2.e9f4a19e939e7b6ca83af28c3aa662ff.svg",
+    "static/media/lenisna-hero-girl.png": "/zoom/static/media/lenisna-hero-girl.dbe28d5765e309aec9b8.png",
     "static/media/product-03.png": "/zoom/static/media/product-03.e639261f6a0697208f50.png",
     "static/media/sdf-02.png": "/zoom/static/media/sdf-02.32701a8fabf7898bb551.png",
     "static/media/sdf-01.png": "/zoom/static/media/sdf-01.90ce7078d4bee9b389c2.png",
@@ -29,10 +31,10 @@
     "static/media/product2.png": "/zoom/static/media/product2.024be73d1d20b27dfc82.png",
     "static/media/product4.png": "/zoom/static/media/product4.0e456b9ef6c0c8fef7a2.png",
     "static/media/product5.png": "/zoom/static/media/product5.59817fd8f5b9e7883a5a.png",
+    "static/media/lenisna-product1.png": "/zoom/static/media/lenisna-product1.df9164c17669ce0f4d4b.png",
     "static/media/val6.png": "/zoom/static/media/val6.51b1564de2fa46dc26b1.png",
     "static/media/val1.png": "/zoom/static/media/val1.43744cef7623f5306974.png",
     "static/media/juvelookHeroImage1.png": "/zoom/static/media/juvelookHeroImage1.d08c31756d3374270ec1.png",
-    "static/media/lenisna-hero-girl.png": "/zoom/static/media/lenisna-hero-girl.20a6e67d2095ce0c7577.png",
     "static/media/1.png": "/zoom/static/media/1.ae00a920497c7ea308d3.png",
     "static/media/val2.png": "/zoom/static/media/val2.518366204ce83abcc094.png",
     "static/media/4.png": "/zoom/static/media/4.2af26c56ba5558ddd1f0.png",
@@ -73,10 +75,10 @@
     "static/media/dynamics-gradient-dark.png": "/zoom/static/media/dynamics-gradient-dark.73b18a95e857ec0caa82.png",
     "static/media/ksurgery-product.jpg": "/zoom/static/media/ksurgery-product.0000b58ad86370a772bb.jpg",
     "static/media/nulshock-bd.otf": "/zoom/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
+    "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
     "static/media/image-2.png": "/zoom/static/media/image-2.7baaefa2843d6310a1d7.png",
     "static/media/ksurgery-filler.jpg": "/zoom/static/media/ksurgery-filler.d331e992bde5c40089af.jpg",
     "static/media/alfont_com_GE-Dinar-One-Bold.otf": "/zoom/static/media/alfont_com_GE-Dinar-One-Bold.dbca70bd5cb2e3fe989e.otf",
-    "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
     "static/media/icons.svg": "/zoom/static/media/icons.c970baa1d9990e385e20f28e6c84aa9f.svg",
     "static/media/slick.svg": "/zoom/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/zoom/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -84,11 +86,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.ac86c62b.js.map": "/zoom/static/js/main.ac86c62b.js.map",
+    "main.b42012d4.js.map": "/zoom/static/js/main.b42012d4.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.ac86c62b.js"
+    "static/js/main.b42012d4.js"
   ]
 }
