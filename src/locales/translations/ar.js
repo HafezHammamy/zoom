@@ -262,6 +262,9 @@ export const ar = {
   [tokens.brands.lenisna.application]: "التطبيق والنتائج",
   [tokens.brands.lenisna.applicationDescription]:
     "تؤدي تأثيرات لينيسنا التدريجية والطويلة الأمد إلى بشرة أكثر نعومة وثباتًا مع خطوط أقل وتحسن في النسيج، مما يساعد المرضى في الحصول على بشرة أكثر شبابًا.",
+  [tokens.brands.lenisna.pageTitle]: "الجيل الجديد من حلول مكافحة الشيخوخة",
+  [tokens.brands.lenisna.pageDescription]:
+    "المحفزات الحيوية الهجينة المتقدمة بولي-D، حمض اللاكتيك L+حمض الهيالورونيك",
   [tokens.brands.renee.title]: "رينيه",
   [tokens.brands.renee.subtitle]: "اكتشف رينيه",
   [tokens.brands.renee.description]:

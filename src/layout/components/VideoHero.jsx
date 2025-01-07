@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import Container from "@mui/material/Container";
@@ -48,6 +48,7 @@ const loaderStyle = {
 
 export const VideoHero = ({
   title,
+  title2,
   description,
   videoSrc,
   actionPath,
@@ -81,8 +82,11 @@ export const VideoHero = ({
             sx={{ height: "100%", pb: 3 }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
-              <StyledTypography variant="h2">{title}</StyledTypography>
-              <StyledTypography variant="body3">{description}</StyledTypography>
+              {title && (
+                <StyledTypography variant="h2">{title}</StyledTypography>
+              )}
+              {title2 && <Typography variant="h3">{title2}</Typography>}
+              <StyledTypography variant="body2">{description}</StyledTypography>
               <Box>
                 {actionLabel && (
                   <Button

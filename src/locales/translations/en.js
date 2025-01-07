@@ -366,6 +366,10 @@ export const en = {
   [tokens.brands.juvelook.application]: "Application and Results",
   [tokens.brands.juvelook.applicationDescription]:
     "Juvelook delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
+  [tokens.brands.lenisna.pageTitle]:
+    "THE NEW GENERATION OF ANTI AGING SOLUTION",
+  [tokens.brands.lenisna.pageDescription]:
+    "THE ADVANCED HYBRID BIO-STIMULATORS POLY-D, L LACTIC ACID+HYALURONIC ACID",
   [tokens.brands.lenisna.title]: "Lenisna",
   [tokens.brands.lenisna.subtitle]: "Experience LENISNA",
   [tokens.brands.lenisna.description]:

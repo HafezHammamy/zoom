@@ -409,6 +409,8 @@ export const tokens = {
       ],
     },
     lenisna: {
+      pageTitle: "brands.lenisna.pageTitle",
+      pageDescription: "brands.lenisna.pageDescription",
       title: "brands.lenisna.title",
       subtitle: "brands.lenisna.subtitle",
       description: "brands.lenisna.description",
