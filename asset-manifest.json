@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.f57a4c75.js",
+    "main.js": "/zoom/static/js/main.d7f15952.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/hero_video.mp4": "/zoom/static/media/hero_video.99dd856af8c265ba6aa8.mp4",
@@ -45,6 +45,7 @@
     "static/media/2.png": "/zoom/static/media/2.875109f83390b1bdf231.png",
     "static/media/renee-video.mp4": "/zoom/static/media/renee-video.01e258ba807dbab58229.mp4",
     "static/media/val4.png": "/zoom/static/media/val4.531ef71016b7014b4379.png",
+    "static/media/juvelook-face.png": "/zoom/static/media/juvelook-face.e56c7926bcbf6aa6902b.png",
     "static/media/rev-opera-face2.png": "/zoom/static/media/rev-opera-face2.88244aa6d385c78e6e20.png",
     "static/media/renee-girls.png": "/zoom/static/media/renee-girls.0adb1c3a702b6fd26fbb.png",
     "static/media/rev-opera-body1.png": "/zoom/static/media/rev-opera-body1.208cea0eaa308d9f59fe.png",
@@ -75,6 +76,8 @@
     "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
     "static/media/dynamics-gradient-dark.png": "/zoom/static/media/dynamics-gradient-dark.73b18a95e857ec0caa82.png",
     "static/media/ksurgery-product.jpg": "/zoom/static/media/ksurgery-product.0000b58ad86370a772bb.jpg",
+    "static/media/Scar.png": "/zoom/static/media/Scar.c925111f28d8bb5be816.png",
+    "static/media/Stretch.png": "/zoom/static/media/Stretch.b9b14f07567f7187aac8.png",
     "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
     "static/media/nulshock-bd.otf": "/zoom/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "static/media/image-2.png": "/zoom/static/media/image-2.7baaefa2843d6310a1d7.png",
@@ -87,11 +90,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.f57a4c75.js.map": "/zoom/static/js/main.f57a4c75.js.map",
+    "main.d7f15952.js.map": "/zoom/static/js/main.d7f15952.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.f57a4c75.js"
+    "static/js/main.d7f15952.js"
   ]
 }
