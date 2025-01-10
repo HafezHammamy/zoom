@@ -463,6 +463,8 @@ export const tokens = {
       ],
     },
     juvelook: {
+      pageTitle: "brands.juvelook.pageTitle",
+      pageDescription: "brands.juvelook.pageDescription",
       title: "brands.juvelook.title",
       subtitle: "brands.juvelook.subtitle",
       description: "brands.juvelook.description",
@@ -514,6 +516,18 @@ export const tokens = {
           ],
         },
       ],
+      face: {
+        title: "brands.juvelook.face.title",
+        scar: "brands.juvelook.face.scar",
+        stretch: "brands.juvelook.face.stretch",
+        point1: "brands.juvelook.face.point1",
+        point2: "brands.juvelook.face.point2",
+        point3: "brands.juvelook.face.point3",
+        point4: "brands.juvelook.face.point4",
+        point5: "brands.juvelook.face.point5",
+        point6: "brands.juvelook.face.point6",
+        point7: "brands.juvelook.face.point7",
+      },
     },
   },
 };

@@ -14,6 +14,7 @@ import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import JuvelookProductComponent from "../components/JuvelookProductComponent";
+import FaceOverlay from "../components/FaceLayout";
 
 const JuvelookPage = (props) => {
   const { t } = useTranslation();
@@ -26,13 +27,10 @@ const JuvelookPage = (props) => {
       <Seo />
       <main>
         <VideoHero
-          title={t(tokens.brands.juvelook.title)}
-          description={t(tokens.brands.juvelook.description)}
+          title2={t(tokens.brands.juvelook.pageTitle)}
+          description={t(tokens.brands.juvelook.pageDescription)}
           videoSrc={video}
-          actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
-
         <ImageHero
           image={image}
           title={t(tokens.brands.juvelook.whatIs)}
@@ -40,56 +38,59 @@ const JuvelookPage = (props) => {
           actionPath="#"
         />
         <JuvelookProductComponent />
-        <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
-          <Container maxWidth="xxl">
-            <AboutSection
-              backgroundColor="#CCE5FF"
-              title={t(tokens.brands.juvelook.keyBenefits)}
-              paragraph={
-                <>
-                  <ul>
-                    <li>{t(tokens.brands.juvelook.keyBenefit1)}</li>
-                    <li>{t(tokens.brands.juvelook.keyBenefit2)}</li>
-                    <li>{t(tokens.brands.juvelook.keyBenefit3)}</li>
-                  </ul>
-                </>
-              }
-              passedImage={productImage}
-              backImage={background_green}
-              hideAction
-            />
-          </Container>
-        </Box>
+        <FaceOverlay />
+        {false && (
+          <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
+            <Container maxWidth="xxl">
+              <AboutSection
+                backgroundColor="#CCE5FF"
+                title={t(tokens.brands.juvelook.keyBenefits)}
+                paragraph={
+                  <>
+                    <ul>
+                      <li>{t(tokens.brands.juvelook.keyBenefit1)}</li>
+                      <li>{t(tokens.brands.juvelook.keyBenefit2)}</li>
+                      <li>{t(tokens.brands.juvelook.keyBenefit3)}</li>
+                    </ul>
+                  </>
+                }
+                passedImage={productImage}
+                backImage={background_green}
+                hideAction
+              />
+            </Container>
+          </Box>
+        )}
         <ImageHero
           image={heroProductImage}
           title={t(tokens.brands.juvelook.howIs)}
           description={t(tokens.brands.juvelook.howIsDescription)}
-          actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
 
-        <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
-          <Container maxWidth="xxl">
-            <AboutSection
-              backgroundColor="#CCE5FF"
-              reverse={true}
-              title2={t(tokens.brands.juvelook.results)}
-              paragraph2={
-                <>
-                  <ul>
-                    <li>{t(tokens.brands.juvelook.result1)}</li>
-                    <li>{t(tokens.brands.juvelook.result2)}</li>
-                    <li>{t(tokens.brands.juvelook.result3)}</li>
-                  </ul>
-                </>
-              }
-              title={t(tokens.brands.juvelook.application)}
-              paragraph={t(tokens.brands.juvelook.applicationDescription)}
-              passedImage={girlImage}
-              hideAction
-            />
-          </Container>
-        </Box>
+        {false && (
+          <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
+            <Container maxWidth="xxl">
+              <AboutSection
+                backgroundColor="#CCE5FF"
+                reverse={true}
+                title2={t(tokens.brands.juvelook.results)}
+                paragraph2={
+                  <>
+                    <ul>
+                      <li>{t(tokens.brands.juvelook.result1)}</li>
+                      <li>{t(tokens.brands.juvelook.result2)}</li>
+                      <li>{t(tokens.brands.juvelook.result3)}</li>
+                    </ul>
+                  </>
+                }
+                title={t(tokens.brands.juvelook.application)}
+                paragraph={t(tokens.brands.juvelook.applicationDescription)}
+                passedImage={girlImage}
+                hideAction
+              />
+            </Container>
+          </Box>
+        )}
       </main>
     </>
   );

@@ -377,6 +377,16 @@ export const ar = {
     "يحسن الملمس العام للبشرة ومرونتها.",
   [tokens.brands.lenisna.products[0].aging[0].items[2]]:
     "يوفر نتائج طبيعية ودقيقة بدون وقت تعطل كبير.",
+  [tokens.brands.juvelook.pageTitle]: "الجيل الجديد من حلول مكافحة الشيخوخة",
+  [tokens.brands.juvelook.pageDescription]:
+    "محفزات حيوية هجينة متقدمة: حمض اللاكتيك L-Poly-D + حمض الهيالورونيك",
+  [tokens.brands.juvelook.face.point1]: "تجديد البشرة (الوجه بالكامل)",
+  [tokens.brands.juvelook.face.point2]: "تحت العين (الشق الدمعي)",
+  [tokens.brands.juvelook.face.point3]: "التجاعيد الدقيقة",
+  [tokens.brands.juvelook.face.point7]: "تجاعيد الرقبة",
+  [tokens.brands.juvelook.face.point6]: "ندوب حب الشباب الضامرة",
+  [tokens.brands.juvelook.face.point5]: "شد الجلد أسفل الجفن",
+  [tokens.brands.juvelook.face.point4]: "الهالات السوداء",
   [tokens.brands.juvelook.products[0].title]: "اكتشف جمال الطبيعة من جديد",
   [tokens.brands.juvelook.products[0].aging[0].title1]: "التطبيق والنتائج",
   [tokens.brands.juvelook.products[0].aging[0].title2]: "المكونات النشطة",

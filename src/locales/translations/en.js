@@ -424,6 +424,20 @@ export const en = {
     "Improves overall skin texture and elasticity.",
   [tokens.brands.lenisna.products[0].aging[0].items[2]]:
     "Provides subtle, natural results without significant downtime.",
+  [tokens.brands.juvelook.pageTitle]:
+    "THE NEW GENERATION OF ANTI AGING SOLUTION",
+  [tokens.brands.juvelook.pageDescription]:
+    "THE ADVANCED HYBRID BIO-STIMULATORS POLY-D, L LACTIC ACID+HYALURONIC ACID",
+  [tokens.brands.juvelook.face.title]: "Injection Points",
+  [tokens.brands.juvelook.face.scar]: "C-section scar",
+  [tokens.brands.juvelook.face.stretch]: "Stretch marks",
+  [tokens.brands.juvelook.face.point1]: "Skin rejuvenation (Full face)",
+  [tokens.brands.juvelook.face.point2]: "Tear trough",
+  [tokens.brands.juvelook.face.point3]: "Fine lines",
+  [tokens.brands.juvelook.face.point7]: "Neck wrinkles",
+  [tokens.brands.juvelook.face.point6]: "Atrophic acne scars",
+  [tokens.brands.juvelook.face.point5]: "Lower - eyelid skin tightening",
+  [tokens.brands.juvelook.face.point4]: "Dark Circles",
 
   [tokens.brands.juvelook.title]: "Juvelook",
   [tokens.brands.juvelook.subtitle]: "Experience Juvelook",
