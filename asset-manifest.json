@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.3c377897.css",
-    "main.js": "/zoom/static/js/main.a698af85.js",
+    "main.js": "/zoom/static/js/main.4b207cbb.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/hero_video.mp4": "/zoom/static/media/hero_video.99dd856af8c265ba6aa8.mp4",
@@ -53,6 +53,7 @@
     "static/media/lenisnaHeroImage.png": "/zoom/static/media/lenisnaHeroImage.9946b054adbfe6b5b723.png",
     "static/media/cover-girl.png": "/zoom/static/media/cover-girl.b2588818af919df9d0ae.png",
     "static/media/SF-Arabic.ttf": "/zoom/static/media/SF-Arabic.fe2dbb551a452ccbcc0c.ttf",
+    "static/media/LENISNA1.png": "/zoom/static/media/LENISNA1.e72c3a95d54741d0646b.png",
     "static/media/gghhjkl.png": "/zoom/static/media/gghhjkl.cbe0a2fd588806a390b6.png",
     "static/media/dfghkl.png": "/zoom/static/media/dfghkl.d45a74792403f8e0775a.png",
     "static/media/dynamics123.png": "/zoom/static/media/dynamics123.e199ae222c58a0910347.png",
@@ -90,11 +91,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.3c377897.css.map": "/zoom/static/css/main.3c377897.css.map",
-    "main.a698af85.js.map": "/zoom/static/js/main.a698af85.js.map",
+    "main.4b207cbb.js.map": "/zoom/static/js/main.4b207cbb.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c377897.css",
-    "static/js/main.a698af85.js"
+    "static/js/main.4b207cbb.js"
   ]
 }
