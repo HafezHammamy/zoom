@@ -101,7 +101,7 @@ const FaceInjectionPoints = () => {
     {
       id: 3,
       top: "60%",
-      left: "34%",
+      left: "33%",
       label: t(tokens.brands.juvelook.face.point3),
     },
     {
@@ -217,7 +217,7 @@ const FaceInjectionPoints = () => {
                 height: "100%",
                 backgroundImage: `url(${faceImage})`,
                 backgroundRepeat: "no-repeat",
-                backgroundSize: "contain",
+                backgroundSize: "cover",
                 backgroundPosition: "center",
                 zIndex: 0,
                 transform: isRtl ? "scaleX(-1)" : "none",
