@@ -14,7 +14,7 @@ import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import JuvelookProductComponent from "../components/JuvelookProductComponent";
-import FaceOverlay from "../components/FaceLayout";
+import FaceInjectionPointsJuvelook from "../components/FaceInjectionPointsJuvelook";
 
 const JuvelookPage = (props) => {
   const { t } = useTranslation();
@@ -38,7 +38,7 @@ const JuvelookPage = (props) => {
           actionPath="#"
         />
         <JuvelookProductComponent />
-        <FaceOverlay />
+        <FaceInjectionPointsJuvelook />
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
             <Container maxWidth="xxl">

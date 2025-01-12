@@ -79,7 +79,7 @@ const Point = ({ position }) => {
     </>
   );
 };
-const FaceInjectionPoints = () => {
+const FaceInjectionPointsJuvelook = () => {
   const theme = useTheme();
   const isRtl = theme.direction === "rtl";
 
@@ -234,4 +234,4 @@ const FaceInjectionPoints = () => {
   );
 };
 
-export default FaceInjectionPoints;
+export default FaceInjectionPointsJuvelook;
