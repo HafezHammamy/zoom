@@ -89,13 +89,13 @@ const FaceInjectionPoints = () => {
     {
       id: 1,
       top: "36%",
-      left: "37%",
+      left: "36%",
       label: t(tokens.brands.juvelook.face.point1),
     },
     {
       id: 2,
       top: "52%",
-      left: "32%",
+      left: "31%",
       label: t(tokens.brands.juvelook.face.point2),
     },
     {
@@ -107,25 +107,25 @@ const FaceInjectionPoints = () => {
     {
       id: 4,
       top: "59%",
-      left: "48%",
+      left: "47%",
       label: t(tokens.brands.juvelook.face.point4),
     },
     {
       id: 5,
       top: "65%",
-      left: "56%",
+      left: "55%",
       label: t(tokens.brands.juvelook.face.point5),
     },
     {
       id: 6,
       top: "75%",
-      left: "50%",
+      left: "49%",
       label: t(tokens.brands.juvelook.face.point6),
     },
     {
       id: 7,
       top: "90%",
-      left: "58%",
+      left: "57%",
       label: t(tokens.brands.juvelook.face.point7),
     },
   ];
