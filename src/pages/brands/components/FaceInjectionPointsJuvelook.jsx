@@ -161,7 +161,7 @@ const FaceInjectionPointsJuvelook = () => {
               <Box sx={{ width: "65%" }}>
                 <Box component={"img"} src={logo} sx={{ width: "100%" }} />
                 <Typography variant="body2" sx={{ color: "#ffffff" }}>
-                  Injections Points
+                  {t(tokens.brands.juvelook.face.title)}
                 </Typography>
               </Box>
               <Box>

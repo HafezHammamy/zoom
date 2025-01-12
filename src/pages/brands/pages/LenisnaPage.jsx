@@ -14,6 +14,7 @@ import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import LenisnaProductComponent from "../components/LenisnaProductComponent";
+import FaceInjectionPointsLenisna from "../components/FaceInjectionPointsLenisna";
 
 const LenisnaPage = (props) => {
   const { t } = useTranslation();
@@ -40,6 +41,7 @@ const LenisnaPage = (props) => {
           darken={false}
         />
         <LenisnaProductComponent />
+        <FaceInjectionPointsLenisna />
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#E9C1CA" }}>
             <Container maxWidth="xxl">

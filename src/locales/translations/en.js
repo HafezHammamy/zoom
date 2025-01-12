@@ -393,6 +393,20 @@ export const en = {
   [tokens.brands.lenisna.application]: "Application and Results",
   [tokens.brands.lenisna.applicationDescription]:
     "Lenisna's gradual, long-term effects lead to smoother, firmer skin with fewer lines and improved texture, helping patients achieve more youthful skin.",
+  [tokens.brands.lenisna.face.title]: "Injection Area",
+  [tokens.brands.lenisna.face.point1]: "Forehead",
+  [tokens.brands.lenisna.face.point2]: "Temples",
+  [tokens.brands.lenisna.face.point3]: "Nasolabial folds",
+  [tokens.brands.lenisna.face.point4]: "Marionette line",
+  [tokens.brands.lenisna.face.point5]: "Jaw lines",
+  [tokens.brands.lenisna.face.point6]: "Dorsum of hands",
+  [tokens.brands.lenisna.face.point7]: "Cheek area",
+  [tokens.brands.lenisna.face.point8]: "Deep scar",
+  [tokens.brands.lenisna.body.point1]: "Décolléte",
+  [tokens.brands.lenisna.body.point2]: "Skin laxity ( arms, thighs, knees)",
+  [tokens.brands.lenisna.body.point3]: "Buttocks",
+  [tokens.brands.lenisna.body.point4]: "Cellulite reduction",
+  [tokens.brands.lenisna.body.point5]: "Stretch marks",
 
   [tokens.brands.lenisna.products[0].title]:
     "ENHANCE YOUR NATURAL BEAUTY AND BOOST YOUR SELF CONFIDENCE",
