@@ -377,6 +377,21 @@ export const ar = {
     "يحسن الملمس العام للبشرة ومرونتها.",
   [tokens.brands.lenisna.products[0].aging[0].items[2]]:
     "يوفر نتائج طبيعية ودقيقة بدون وقت تعطل كبير.",
+  [tokens.brands.lenisna.face.title]: "منطقة الحقن",
+  [tokens.brands.lenisna.face.point1]: "الجبهة",
+  [tokens.brands.lenisna.face.point2]: "الصدغين",
+  [tokens.brands.lenisna.face.point3]: "الطيات الأنفية الشفوية",
+  [tokens.brands.lenisna.face.point4]: "خطوط الماريونيت",
+  [tokens.brands.lenisna.face.point5]: "خطوط الفك",
+  [tokens.brands.lenisna.face.point6]: "ظهر اليدين",
+  [tokens.brands.lenisna.face.point7]: "منطقة الخدود",
+  [tokens.brands.lenisna.face.point8]: "ندبة عميقة",
+  [tokens.brands.lenisna.body.point1]: "الديكولتيه",
+  [tokens.brands.lenisna.body.point2]:
+    "ترهل الجلد (الذراعين، الفخذين، الركبتين)",
+  [tokens.brands.lenisna.body.point3]: "الأرداف",
+  [tokens.brands.lenisna.body.point4]: "تقليل السيلوليت",
+  [tokens.brands.lenisna.body.point5]: "علامات التمدد",
   [tokens.brands.juvelook.pageTitle]: "الجيل الجديد من حلول مكافحة الشيخوخة",
   [tokens.brands.juvelook.pageDescription]:
     "محفزات حيوية هجينة متقدمة: حمض اللاكتيك L-Poly-D + حمض الهيالورونيك",

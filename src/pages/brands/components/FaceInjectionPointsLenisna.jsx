@@ -166,34 +166,25 @@ const FaceInjectionPointsLenisna = () => {
   ];
 
   return (
-    <Box
-      maxWidth="xxl"
-      sx={{
-        position: "relative",
-        height: "100vh",
-        width: "100%",
-        overflow: "hidden",
-        background: "#7B1238",
-        "::before": {
-          content: '""',
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundImage: `url(${lenisnaImage})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          backgroundPosition: "center",
-          zIndex: 0,
-          transform: isRtl ? "scaleX(-1)" : "none",
-        },
-      }}
-    >
+    <Box maxWidth="xxl">
       <Container
         maxWidth="xxl"
-        sx={{ position: "relative", zIndex: 1, height: "100%" }}
+        sx={{
+          position: "relative",
+          zIndex: 1,
+          height: "100%",
+          p: "0px !important",
+        }}
       >
+        <Box
+          component={"img"}
+          src={lenisnaImage}
+          sx={{
+            width: "100%",
+            p: 0,
+            transform: isRtl ? "scaleX(-1)" : "none",
+          }}
+        />
         <Box
           sx={{
             width: "25%",
