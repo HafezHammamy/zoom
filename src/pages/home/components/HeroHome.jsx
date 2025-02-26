@@ -10,6 +10,8 @@ import CircularProgress from "@mui/material/CircularProgress";
 
 import video from "assets/My Movie 15.mp4";
 import { useState } from "react";
+import { RouterLink } from "layout/components/router-link";
+import { paths } from "paths";
 
 const heroButton = {
   color: "white",
@@ -85,7 +87,13 @@ export const HomeHero = (props) => {
                 {t(tokens.common.discover_brands.summary)}
               </StyledTypography>
               <Box>
-                <Button sx={heroButton} size="large" variant="outlined">
+                <Button
+                  sx={heroButton}
+                  size="large"
+                  variant="outlined"
+                  href={paths.ourBrands}
+                  LinkComponent={RouterLink}
+                >
                   {t(tokens.common.buttons.readMore)}
                 </Button>
               </Box>

@@ -13,7 +13,7 @@ const TitleBox = ({
   title2,
   paragraph2,
   backImage,
-  hideAction,
+  hideAction = true,
   component,
 }) => {
   const { t } = useTranslation();
@@ -49,7 +49,7 @@ const TitleBox = ({
                     <Typography variant="body1">{paragraph2}</Typography>
                   )}
 
-                  {!hideAction && (
+                  {hideAction && (
                     <Button sx={buttonStyle} size="large" variant="outlined">
                       {t(tokens.common.buttons.readMore)}
                     </Button>
