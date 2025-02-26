@@ -1,10 +1,10 @@
 import { tokens } from "../tokens";
 export const en = {
   [tokens.site.name]: "Dynamics Medica",
-  [tokens.nav.home]: "Discover Beauty",
-  [tokens.nav.contact]: "Let's Connect",
-  [tokens.nav.about]: "Our Story",
-  [tokens.nav.brands]: "Premium Collection",
+  [tokens.nav.home]: "Home",
+  [tokens.nav.contact]: "Contact Us",
+  [tokens.nav.about]: "About Us",
+  [tokens.nav.brands]: "The Brands",
   [tokens.nav.vision]: "Our Vision",
   [tokens.common.discover_brands.title]: "Discover Our Brands",
   [tokens.common.discover_brands.summary]:
