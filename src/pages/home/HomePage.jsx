@@ -3,8 +3,8 @@ import useScrollToTop from "hooks/useScrollToTop";
 import { Seo } from "layout/components/Seo";
 import AboutUsBanner from "./components/AboutUsBanner";
 import BrandsBanner from "./components/BrandsBanner";
-import CommitmentBanner from "./components/CommitmentBanner";
 import { HomeHero } from "./components/HeroHome";
+import NewCommitmentBanner from "./components/NewCommitmentBanner";
 import NewsBanner from "./components/NewsBanner";
 
 const HomePage = (props) => {
@@ -15,7 +15,7 @@ const HomePage = (props) => {
       <Seo />
       <main>
         <HomeHero />
-        <CommitmentBanner />
+        <NewCommitmentBanner />
         <BrandsBanner />
         <NewsBanner />
         <AboutUsBanner />

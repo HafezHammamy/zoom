@@ -1,6 +1,6 @@
 import { Box, Container, Stack } from "@mui/system";
 
-const Section = ({ backGroundImage, children }) => {
+const Section = ({ height = "80vh", backGroundImage, children }) => {
   return (
     <Box
       maxWidth="xxl"
@@ -11,11 +11,11 @@ const Section = ({ backGroundImage, children }) => {
               backgroundImage: `url(${backGroundImage})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
-              height: "80vh",
+              height: height,
             }
           : {
               position: "relative",
-              height: "80vh",
+              height: height,
               width: "100%",
               overflow: "hidden",
             }

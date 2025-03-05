@@ -1,11 +1,12 @@
-import { Divider, useTheme } from "@mui/material";
-import { Box, Stack } from "@mui/system";
+import { useTheme } from "@emotion/react";
+import { Box, Divider } from "@mui/material";
+import { Stack } from "@mui/system";
 import StyledTypography from "layout/components/StyledTypography";
 import { tokens } from "locales/tokens";
-import Section from "pages/home/components/Section";
 import { useTranslation } from "react-i18next";
+import Section from "./Section";
 
-const OurCollectionParagraph = (props) => {
+const NewCommitmentBanner = () => {
   const theme = useTheme();
 
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ const OurCollectionParagraph = (props) => {
   return (
     <Box
       sx={{
-        background: "linear-gradient(to right, #ec5e87,rgb(245, 203, 218))",
+        background: "linear-gradient(to right, #6bb6b6, #a9e0eb)",
         color: "white",
         py: 4,
         px: 3,
@@ -29,10 +30,10 @@ const OurCollectionParagraph = (props) => {
             divider={<Divider orientation="vertical" flexItem />}
           >
             <StyledTypography variant={theme.direction === "ltr" ? "h2" : "h2"}>
-              {t(tokens.brands.our_collection.title)}
+              {t(tokens.commitment.title)}
             </StyledTypography>
             <StyledTypography variant="body2">
-              {t(tokens.brands.our_collection.paragraph)}
+              {t(tokens.commitment.paragraph)}
             </StyledTypography>
           </Stack>
         </Stack>
@@ -41,6 +42,4 @@ const OurCollectionParagraph = (props) => {
   );
 };
 
-OurCollectionParagraph.propTypes = {};
-
-export default OurCollectionParagraph;
+export default NewCommitmentBanner;
