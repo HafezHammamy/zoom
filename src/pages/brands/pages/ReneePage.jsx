@@ -26,8 +26,6 @@ const ReneePage = (props) => {
           title={t(tokens.brands.renee.title)}
           description={t(tokens.brands.renee.description)}
           videoSrc={video}
-          actionPath="#"
-          actionLabel={t(tokens.common.buttons.readMore)}
         />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#E0FFF5" }}>
           <Container maxWidth="xxl">
