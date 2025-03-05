@@ -124,7 +124,7 @@ export const en = {
     "Advanced formulations for enhanced aesthetic results.",
   [tokens.brands.ksurgery.keyBenefit3]:
     "Long-lasting results with gradual improvement.",
-  [tokens.brands.ksurgery.howIs]: "Opéra line face fillers and body filler",
+  [tokens.brands.ksurgery.howIs]: "Opéra line",
   [tokens.brands.ksurgery.howIsDescription]:
     "From correcting fine lines to treating large-volume imperfections, our facial fillers and body fillers meet the needs of an increasingly discerning clientele and of professionals who are increasingly concerned with the volume-enhancing and moisturising properties of products.",
   [tokens.brands.ksurgery.results]: "Target Areas",
@@ -172,8 +172,11 @@ export const en = {
   [tokens.brands.ksurgery.products[0].face[2].items[2]]: "Pack: 1x1ml",
   [tokens.brands.ksurgery.products[0].face[2].items[3]]:
     "HA concentration: 1x1ml",
-  [tokens.brands.ksurgery.products[0].face[2].title]: "OPERA IV",
+  [tokens.brands.ksurgery.products[0].face[2].title]: "OPERA III",
   [tokens.brands.ksurgery.products[0].face[2].subtitle]:
+    "Deep lines and signs of ageing",
+  [tokens.brands.ksurgery.products[0].face[3].title]: "OPERA IV",
+  [tokens.brands.ksurgery.products[0].face[3].subtitle]:
     "Deep lines and signs of ageing",
   [tokens.brands.ksurgery.products[0].face[3].buttonTitle]: "OPERA IV",
   [tokens.brands.ksurgery.products[0].face[3].description]:

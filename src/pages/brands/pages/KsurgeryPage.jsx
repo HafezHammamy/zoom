@@ -3,9 +3,7 @@ import image2 from "assets/ksurgery/cover-girl-2.svg";
 import image from "assets/ksurgery/cover-girl.png";
 import icons from "assets/ksurgery/icons.svg";
 import girlImage from "assets/ksurgery/ksurgery-filler.jpg";
-import video3 from "assets/ksurgery/ksurgery-movie3.mp4";
 import productImage from "assets/ksurgery/ksurgery-product.jpg";
-import video from "assets/ksurgery/kusrgery-movie.mp4";
 import video2 from "assets/ksurgery/kusrgery-movie2.mp4";
 
 import { Typography } from "@mui/material";
@@ -14,6 +12,7 @@ import { usePageView } from "hooks/use-page-view";
 import useScrollToTop from "hooks/useScrollToTop";
 import { ImageHero } from "layout/components/ImageHero";
 import { Seo } from "layout/components/Seo";
+import SharedSection from "layout/components/SharedSection";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
 import AboutSection from "pages/about/components/AboutSection";
@@ -33,7 +32,7 @@ const KsurgeryPage = (props) => {
         <VideoHero
           title={t(tokens.brands.ksurgery.title)}
           description={t(tokens.brands.ksurgery.description)}
-          videoSrc={video}
+          videoSrc={video2}
           actionPath="#"
         />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
@@ -95,31 +94,18 @@ const KsurgeryPage = (props) => {
           </Container>
         </Box>
         <Box component={"img"} src={icons} maxWidth="xxl" />
-        <VideoHero
+        <SharedSection
           title={t(tokens.brands.ksurgery.howIs)}
           description={t(tokens.brands.ksurgery.howIsDescription)}
-          videoSrc={video2}
-          actionPath="#"
+          background="linear-gradient(to right, #6bb6b6, #a9e0eb)"
         />
 
         <KsurgeryProductComponent collection={1} />
 
-        <VideoHero
+        <SharedSection
           title={t(tokens.brands.ksurgery.skinbooster1)}
-          description={t(tokens.brands.ksurgery.skinboosterTitle1)}
-          videoSrc={video3}
-          actionPath="#"
+          description={t(tokens.brands.ksurgery.description3)}
         />
-
-        <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
-          <Stack alignItems={"center"}>
-            <Box maxWidth="lg" sx={{ p: 3, justifyContent: "center" }}>
-              <Typography variant="body2" sx={{ textAlign: "justify" }}>
-                {t(tokens.brands.ksurgery.description3)}
-              </Typography>
-            </Box>
-          </Stack>
-        </Box>
 
         <KsurgeryProductComponent collection={2} />
 
