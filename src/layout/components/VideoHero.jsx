@@ -5,7 +5,6 @@ import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import StyledTypography from "layout/components/StyledTypography";
 import PropTypes from "prop-types";
-
 import { useState } from "react";
 import { RouterLink } from "./router-link";
 
@@ -24,9 +23,11 @@ const heroButton = {
 const heroTextStyle = {
   color: "#fff",
   width: "50%",
+  position: "relative",
+  zIndex: 2, // Ensure text appears above overlay
 };
 
-const videoStyle = {
+const videoContainerStyle = {
   position: "absolute",
   top: "50%",
   left: "50%",
@@ -36,6 +37,17 @@ const videoStyle = {
   height: "auto",
   transform: "translate(-50%, -50%)",
   objectFit: "cover",
+  zIndex: 0,
+};
+
+const overlayStyle = {
+  position: "absolute",
+  top: 0,
+  left: 0,
+  width: "100%",
+  height: "100%",
+  backgroundColor: "rgba(0, 0, 0, 0.5)", // Dark overlay with 50% opacity
+  zIndex: 1,
 };
 
 const loaderStyle = {
@@ -44,6 +56,7 @@ const loaderStyle = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   fontSize: "24px",
+  zIndex: 3,
 };
 
 export const VideoHero = ({
@@ -61,64 +74,68 @@ export const VideoHero = ({
   };
 
   return (
-    <>
-      <Box
-        maxWidth="xxl"
-        sx={{
-          position: "relative",
-          height: "100vh",
-          width: "100%",
-          overflow: "hidden",
-        }}
+    <Box
+      maxWidth="xxl"
+      sx={{
+        position: "relative",
+        height: "100vh",
+        width: "100%",
+        overflow: "hidden",
+      }}
+    >
+      {/* Overlay */}
+      <Box sx={overlayStyle} />
+
+      {/* Video Background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        style={videoContainerStyle}
+        onCanPlay={handleVideoLoaded}
       >
-        <Container
-          maxWidth="lg"
-          sx={{ position: "relative", zIndex: 1, height: "100%" }}
+        <source src={videoSrc} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Content */}
+      <Container
+        maxWidth="lg"
+        sx={{ position: "relative", zIndex: 2, height: "100%" }}
+      >
+        <Stack
+          alignItems="flex-end"
+          direction="row"
+          spacing={2}
+          sx={{ height: "100%", pb: 3 }}
         >
-          <Stack
-            alignItems="flex-end"
-            direction="row"
-            spacing={2}
-            sx={{ height: "100%", pb: 3 }}
-          >
-            <Stack spacing={3} sx={heroTextStyle}>
-              {title && (
-                <StyledTypography variant="h2">{title}</StyledTypography>
+          <Stack spacing={3} sx={heroTextStyle}>
+            {title && <StyledTypography variant="h2">{title}</StyledTypography>}
+            {title2 && <Typography variant="h3">{title2}</Typography>}
+            <StyledTypography variant="body2">{description}</StyledTypography>
+            <Box>
+              {actionLabel && (
+                <Button
+                  sx={heroButton}
+                  size="large"
+                  variant="outlined"
+                  LinkComponent={RouterLink}
+                  href={actionPath}
+                >
+                  {actionLabel}
+                </Button>
               )}
-              {title2 && <Typography variant="h3">{title2}</Typography>}
-              <StyledTypography variant="body2">{description}</StyledTypography>
-              <Box>
-                {actionLabel && (
-                  <Button
-                    sx={heroButton}
-                    size="large"
-                    variant="outlined"
-                    LinkComponent={RouterLink}
-                    href={actionPath}
-                  >
-                    {actionLabel}
-                  </Button>
-                )}
-              </Box>
-            </Stack>
+            </Box>
           </Stack>
-        </Container>
-        {isLoading && (
-          <CircularProgress style={loaderStyle} size={60} thickness={5} />
-        )}
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          style={videoStyle}
-          onCanPlay={handleVideoLoaded}
-        >
-          <source src={videoSrc} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </Box>
-    </>
+        </Stack>
+      </Container>
+
+      {/* Loader */}
+      {isLoading && (
+        <CircularProgress style={loaderStyle} size={60} thickness={5} />
+      )}
+    </Box>
   );
 };
 
