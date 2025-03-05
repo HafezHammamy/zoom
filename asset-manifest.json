@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.2b93a4f9.css",
-    "main.js": "/zoom/static/js/main.6e72b990.js",
+    "main.js": "/zoom/static/js/main.96ae32af.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/hero_video.mp4": "/zoom/static/media/hero_video.99dd856af8c265ba6aa8.mp4",
@@ -72,7 +72,6 @@
     "static/media/logo1.png": "/zoom/static/media/logo1.0a78b3fe8f018af13a90.png",
     "static/media/renee-product.png": "/zoom/static/media/renee-product.02864c4ae2e61a3e897e.png",
     "static/media/logo4.png": "/zoom/static/media/logo4.97e47c80b8edac097842.png",
-    "static/media/statement-bg.png": "/zoom/static/media/statement-bg.fe623326f15692f982c1.png",
     "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
     "static/media/dynamics-gradient-dark.png": "/zoom/static/media/dynamics-gradient-dark.73b18a95e857ec0caa82.png",
     "static/media/ksurgery-product.jpg": "/zoom/static/media/ksurgery-product.0000b58ad86370a772bb.jpg",
@@ -91,11 +90,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.2b93a4f9.css.map": "/zoom/static/css/main.2b93a4f9.css.map",
-    "main.6e72b990.js.map": "/zoom/static/js/main.6e72b990.js.map",
+    "main.96ae32af.js.map": "/zoom/static/js/main.96ae32af.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b93a4f9.css",
-    "static/js/main.6e72b990.js"
+    "static/js/main.96ae32af.js"
   ]
 }
