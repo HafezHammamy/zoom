@@ -43,6 +43,17 @@ const videoStyle = {
 export const ContactUsHero = (props) => {
   const { t } = useTranslation();
   const { Loader, handleVideoLoaded } = useVideoLoader();
+
+  const scrollToForm = () => {
+    const element = document.getElementById("contact-form");
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <>
       <Box
@@ -74,7 +85,12 @@ export const ContactUsHero = (props) => {
                 {t(tokens.contact.hero.paragraph)}
               </StyledTypography>
               <Box>
-                <Button sx={heroButton} size="large" variant="outlined">
+                <Button
+                  sx={heroButton}
+                  size="large"
+                  variant="outlined"
+                  onClick={scrollToForm}
+                >
                   {t(tokens.nav.contact)}
                 </Button>
               </Box>

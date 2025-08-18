@@ -3,7 +3,7 @@ import Form from "./ContactForm";
 
 const ContactSection = (props) => {
   return (
-    <Box maxWidth="xxl">
+    <Box maxWidth="xxl" id="contact-form">
       <Container maxWidth="lg">
         <Stack justifyContent="center" direction="row" sx={{ width: "100%" }}>
           <Form />
