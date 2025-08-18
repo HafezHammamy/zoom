@@ -52,11 +52,19 @@ export const ImageHero = ({
       >
         <Stack
           alignItems="center"
-          direction="row"
+          justifyContent="flex-start"
           spacing={2}
-          sx={{ height: "100%", pb: 3 }}
+          sx={{ height: "100%", flexDirection: "row" }}
         >
-          <Stack spacing={3} sx={{ color: "#fff", width: "50%" }}>
+          <Stack
+            spacing={3}
+            sx={{
+              color: "#fff",
+              width: "50%",
+              textAlign: "left",
+              alignItems: "flex-start",
+            }}
+          >
             {component ? (
               <>{component}</>
             ) : (

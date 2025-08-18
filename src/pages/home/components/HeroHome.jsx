@@ -28,6 +28,8 @@ const heroButton = {
 const heroTextStyle = {
   color: "#fff",
   width: "50%",
+  textAlign: "left",
+  alignItems: "flex-start",
 };
 
 const videoStyle = {
@@ -74,10 +76,10 @@ export const HomeHero = (props) => {
           sx={{ position: "relative", zIndex: 1, height: "100%" }}
         >
           <Stack
-            alignItems="flex-end"
-            direction="row"
+            alignItems="center"
+            justifyContent="flex-start"
             spacing={2}
-            sx={{ height: "100%", pb: 3 }}
+            sx={{ height: "100%", flexDirection: "row" }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">

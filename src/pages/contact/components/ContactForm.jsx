@@ -1,21 +1,20 @@
 import {
+  Autocomplete,
   Box,
   Button,
   Checkbox,
   FormControlLabel,
+  Link,
+  MenuItem,
   Radio,
   RadioGroup,
   TextField,
-  MenuItem,
-  Autocomplete,
-  Link,
-  Typography,
 } from "@mui/material";
 import { tokens } from "locales/tokens";
+import { paths } from "paths";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link as RouterLink } from "react-router-dom";
-import { paths } from "paths";
 
 const Form = () => {
   const [formValues, setFormValues] = useState({

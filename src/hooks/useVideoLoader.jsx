@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
 import { CircularProgress } from "@mui/material";
+import { useState } from "react";
 
 const loaderStyle = {
   position: "absolute",
