@@ -10,7 +10,6 @@ import {
   Card,
   CardContent,
   CardMedia,
-  LinearProgress,
   Typography,
 } from "@mui/material";
 import { RouterLink } from "layout/components/router-link";
@@ -122,9 +121,6 @@ const OurCollectionBanner = (props) => {
               </Grid>
             );
           })}
-          <Grid offset={4} size={8} sx={{ mt: 5 }}>
-            <LinearProgress variant="determinate" value={15} />
-          </Grid>
         </Grid>
       </Container>
     </Box>
