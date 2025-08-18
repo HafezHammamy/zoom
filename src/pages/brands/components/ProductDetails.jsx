@@ -12,8 +12,26 @@ const ProductDetails = ({ products, collection }) => {
     <Box>
       {products?.map((product) => {
         return product.value === productTab ? (
-          <Stack direction={"row"} sx={{ height: "50vh" }}>
-            <Box width={collection === 1 ? "50%" : "70%"}>
+          <Stack
+            direction={{ xs: "column", sm: "column", md: "row" }}
+            sx={{
+              height: { xs: "auto", sm: "auto", md: "50vh" },
+              gap: { xs: 2, sm: 2, md: 0 },
+            }}
+          >
+            <Box
+              sx={{
+                width: {
+                  xs: "100%",
+                  sm: "100%",
+                  md: collection === 1 ? "50%" : "70%",
+                },
+                padding: { xs: 2, sm: 2, md: 3 },
+                height: "fit-content",
+                overflow: "hidden",
+                wordWrap: "break-word",
+              }}
+            >
               <Stack spacing={1}>
                 <Typography variant="h5" fontWeight="bold" gutterBottom>
                   {product.title}
@@ -30,22 +48,39 @@ const ProductDetails = ({ products, collection }) => {
                 </Typography>
               </Stack>
 
-              <ul style={{ color: theme.palette.primary.main }}>
+              <ul
+                style={{
+                  color: theme.palette.primary.main,
+                  margin: 0,
+                  paddingLeft: "20px",
+                }}
+              >
                 {product?.items?.map((item) => {
                   return (
                     <li key={item}>
-                      <Typography variant="body">{item} </Typography>
+                      <Typography variant="body2">{item} </Typography>
                     </li>
                   );
                 })}
               </ul>
               {product.description2 && (
-                <Typography variant="body1" gutterBottom>
+                <Typography variant="body1" gutterBottom sx={{ mt: 2 }}>
                   {product.description2}
                 </Typography>
               )}
             </Box>
-            <Box width={collection === 1 ? "50%" : "30%"}>
+            <Box
+              sx={{
+                width: {
+                  xs: "100%",
+                  sm: "100%",
+                  md: collection === 1 ? "50%" : "30%",
+                },
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               {collection === 1 ? (
                 <Box
                   component="img"
@@ -54,7 +89,11 @@ const ProductDetails = ({ products, collection }) => {
                       ? product.img
                       : "https://via.placeholder.com/250"
                   }
-                  sx={{ width: "100%" }}
+                  sx={{
+                    width: "100%",
+                    maxWidth: "400px",
+                    height: "auto",
+                  }}
                   alt="Product Image"
                 />
               ) : (
@@ -65,7 +104,11 @@ const ProductDetails = ({ products, collection }) => {
                       ? product.img
                       : "https://via.placeholder.com/250"
                   }
-                  sx={{ height: "50vh" }}
+                  sx={{
+                    height: { xs: "300px", sm: "400px", md: "50vh" },
+                    width: "auto",
+                    maxWidth: "100%",
+                  }}
                   alt="Product Image"
                 />
               )}

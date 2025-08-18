@@ -23,6 +23,8 @@ const heroButton = {
 const heroTextStyle = {
   color: "#fff",
   width: "50%",
+  textAlign: "left",
+  alignItems: "flex-start",
   position: "relative",
   zIndex: 2, // Ensure text appears above overlay
 };
@@ -105,10 +107,10 @@ export const VideoHero = ({
         sx={{ position: "relative", zIndex: 2, height: "100%" }}
       >
         <Stack
-          alignItems="flex-end"
-          direction="row"
+          alignItems="center"
+          justifyContent="flex-start"
           spacing={2}
-          sx={{ height: "100%", pb: 3 }}
+          sx={{ height: "100%", flexDirection: "row" }}
         >
           <Stack spacing={3} sx={heroTextStyle}>
             {title && <StyledTypography variant="h2">{title}</StyledTypography>}
