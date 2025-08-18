@@ -7,7 +7,7 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
-import video from "assets/renee.mp4";
+import video from "assets/ContactUsMovie.mp4";
 import useVideoLoader from "hooks/useVideoLoader";
 
 const heroButton = {
