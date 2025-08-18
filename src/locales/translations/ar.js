@@ -77,6 +77,8 @@ export const ar = {
   [tokens.contact.form.interested_in]: "مهتم بـ",
   [tokens.contact.form.message]: "رسالة",
   [tokens.contact.form.terms]: "أوافق على الشروط والأحكام",
+  [tokens.contact.form.terms_prefix]: "أوافق على",
+  [tokens.contact.form.terms_link]: "الشروط والأحكام",
   [tokens.contact.form.update]:
     "نعم! يرجى إرسال التحديثات والمعلومات حول منتجاتكم.",
   [tokens.contact.info.title1]: "لنتواصل ونحول أحلامك الجمالية إلى حقيقة!",
@@ -463,4 +465,29 @@ export const ar = {
     "استكشف مجموعتنا المميزة من العلامات التجارية",
   [tokens.brands.our_collection.face]: "الوجه",
   [tokens.brands.our_collection.body]: "الجسم",
+
+  // الشروط والأحكام
+  [tokens.terms.page.title]: "الشروط والأحكام",
+  [tokens.terms.page.lastUpdated]: "آخر تحديث: ديسمبر 2024",
+  [tokens.terms.page.introduction.title]: "مقدمة",
+  [tokens.terms.page.introduction.content]:
+    "مرحباً بكم في داينامكس ميديكا. تحكم هذه الشروط والأحكام استخدامكم لموقعنا الإلكتروني وخدماتنا. من خلال الوصول إلى خدماتنا أو استخدامها، فإنكم توافقون على الالتزام بهذه الشروط.",
+  [tokens.terms.page.acceptance.title]: "قبول الشروط",
+  [tokens.terms.page.acceptance.content]:
+    "من خلال الوصول إلى هذا الموقع واستخدامه، فإنكم تقبلون وتوافقون على الالتزام بشروط وأحكام هذه الاتفاقية. إذا كنتم لا توافقون على الالتزام بما ورد أعلاه، يرجى عدم استخدام هذه الخدمة.",
+  [tokens.terms.page.services.title]: "استخدام الخدمات",
+  [tokens.terms.page.services.content]:
+    "خدماتنا مخصصة لمقدمي الرعاية الصحية المهنيين والأفراد الذين يسعون للحصول على معلومات حول علاجات التجميل. توافقون على استخدام خدماتنا فقط للأغراض القانونية ووفقاً لهذه الشروط والأحكام.",
+  [tokens.terms.page.privacy.title]: "الخصوصية وحماية البيانات",
+  [tokens.terms.page.privacy.content]:
+    "نحن ملتزمون بحماية خصوصيتكم. أي معلومات شخصية يتم جمعها من خلال موقعنا الإلكتروني سيتم التعامل معها وفقاً لسياسة الخصوصية الخاصة بنا وقوانين حماية البيانات المعمول بها.",
+  [tokens.terms.page.liability.title]: "تحديد المسؤولية",
+  [tokens.terms.page.liability.content]:
+    "لن تكون داينامكس ميديكا مسؤولة عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو خاصة أو تبعية ناتجة عن استخدام أو عدم القدرة على استخدام خدماتنا، حتى لو تم إخطارنا بإمكانية حدوث مثل هذه الأضرار.",
+  [tokens.terms.page.modifications.title]: "تعديل الشروط",
+  [tokens.terms.page.modifications.content]:
+    "نحتفظ بالحق في تعديل هذه الشروط والأحكام في أي وقت. ستصبح التغييرات سارية المفعول فور نشرها على موقعنا الإلكتروني. استمراركم في استخدام خدماتنا يشكل قبولاً للشروط المعدلة.",
+  [tokens.terms.page.contact.title]: "معلومات الاتصال",
+  [tokens.terms.page.contact.content]:
+    "إذا كان لديكم أي أسئلة حول هذه الشروط والأحكام، يرجى التواصل معنا على Info@dynainv.com أو من خلال نموذج الاتصال الخاص بنا.",
 };

@@ -8,12 +8,6 @@ const ContactInfo = () => {
   const { t } = useTranslation();
   return (
     <Container maxWidth="sm" sx={{ textAlign: "center", mt: 4, mb: 4 }}>
-      <Typography
-        variant="h4"
-        sx={{ fontWeight: "bold", color: "#2F2F5F", mb: 2 }}
-      >
-        {t(tokens.site.name)}
-      </Typography>
       <Typography variant="body1" sx={{ color: "#6F6F7F", mb: 4 }}>
         {t(tokens.contact.info.title1)}
       </Typography>
@@ -37,10 +31,10 @@ const ContactInfo = () => {
         <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
           {t(tokens.contact.info.contact_info)}
         </Typography>
-        <Typography>{t(tokens.contact.info.phone)} 00970592663030</Typography>
+        <Typography>{t(tokens.contact.info.phone)} #20200</Typography>
         <Typography>
           {t(tokens.contact.info.whatsapp)}
-          00970592663030
+          +970592663030
         </Typography>
         <Link href="mailto:Info@dynainv.com" underline="hover" color="inherit">
           {t(tokens.contact.info.email)} Info@dynainv.com

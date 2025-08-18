@@ -84,6 +84,8 @@ export const en = {
   [tokens.contact.form.interested_in]: "Interested In",
   [tokens.contact.form.message]: "Message",
   [tokens.contact.form.terms]: "I accept the terms and conditions",
+  [tokens.contact.form.terms_prefix]: "I accept the",
+  [tokens.contact.form.terms_link]: "terms and conditions",
   [tokens.contact.form.update]:
     "Yes! Please send me updates and information about your products.",
   [tokens.contact.info.title1]:
@@ -502,4 +504,29 @@ export const en = {
     "Explore Our Premium Brand Selection ",
   [tokens.brands.our_collection.face]: "Face",
   [tokens.brands.our_collection.body]: "Body",
+
+  // Terms and Conditions
+  [tokens.terms.page.title]: "Terms and Conditions",
+  [tokens.terms.page.lastUpdated]: "Last updated: December 2024",
+  [tokens.terms.page.introduction.title]: "Introduction",
+  [tokens.terms.page.introduction.content]:
+    "Welcome to Dynamics Medica. These Terms and Conditions govern your use of our website and services. By accessing or using our services, you agree to be bound by these terms.",
+  [tokens.terms.page.acceptance.title]: "Acceptance of Terms",
+  [tokens.terms.page.acceptance.content]:
+    "By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.",
+  [tokens.terms.page.services.title]: "Use of Services",
+  [tokens.terms.page.services.content]:
+    "Our services are intended for professional healthcare providers and individuals seeking information about aesthetic treatments. You agree to use our services only for lawful purposes and in accordance with these Terms and Conditions.",
+  [tokens.terms.page.privacy.title]: "Privacy and Data Protection",
+  [tokens.terms.page.privacy.content]:
+    "We are committed to protecting your privacy. Any personal information collected through our website will be handled in accordance with our Privacy Policy and applicable data protection laws.",
+  [tokens.terms.page.liability.title]: "Limitation of Liability",
+  [tokens.terms.page.liability.content]:
+    "Dynamics Medica shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or inability to use our services, even if we have been advised of the possibility of such damages.",
+  [tokens.terms.page.modifications.title]: "Modifications to Terms",
+  [tokens.terms.page.modifications.content]:
+    "We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on our website. Your continued use of our services constitutes acceptance of the modified terms.",
+  [tokens.terms.page.contact.title]: "Contact Information",
+  [tokens.terms.page.contact.content]:
+    "If you have any questions about these Terms and Conditions, please contact us at Info@dynainv.com or through our contact form.",
 };

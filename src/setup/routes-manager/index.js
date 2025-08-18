@@ -11,6 +11,7 @@ import ReneePage from "pages/brands/pages/ReneePage";
 import ContactUsPage from "pages/contact/ContactUsPage";
 import HomePage from "pages/home/HomePage";
 import VisionPage from "pages/vision/VisionPage";
+import TermsAndConditionsPage from "pages/terms/TermsAndConditionsPage";
 import { paths } from "paths";
 import { Outlet } from "react-router-dom";
 
@@ -63,6 +64,10 @@ export const routes = [
       {
         path: paths.brands.ksurgery,
         element: <KsurgeryPage />,
+      },
+      {
+        path: paths.termsAndConditions,
+        element: <TermsAndConditionsPage />,
       },
     ],
   },

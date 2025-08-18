@@ -83,6 +83,8 @@ export const tokens = {
       interested_in: "contact.form.interested_in",
       message: "contact.form.message",
       terms: "contact.form.terms",
+      terms_prefix: "contact.form.terms.prefix",
+      terms_link: "contact.form.terms.link",
       update: "contact.form.update",
       send: "contact.form.send",
     },
@@ -125,6 +127,40 @@ export const tokens = {
     about: "nav.about",
     vision: "nav.vision",
     brands: "nav.brands",
+  },
+  terms: {
+    page: {
+      title: "terms.page.title",
+      lastUpdated: "terms.page.lastUpdated",
+      introduction: {
+        title: "terms.page.introduction.title",
+        content: "terms.page.introduction.content",
+      },
+      acceptance: {
+        title: "terms.page.acceptance.title",
+        content: "terms.page.acceptance.content",
+      },
+      services: {
+        title: "terms.page.services.title",
+        content: "terms.page.services.content",
+      },
+      privacy: {
+        title: "terms.page.privacy.title",
+        content: "terms.page.privacy.content",
+      },
+      liability: {
+        title: "terms.page.liability.title",
+        content: "terms.page.liability.content",
+      },
+      modifications: {
+        title: "terms.page.modifications.title",
+        content: "terms.page.modifications.content",
+      },
+      contact: {
+        title: "terms.page.contact.title",
+        content: "terms.page.contact.content",
+      },
+    },
   },
   brands: {
     our_collection: {

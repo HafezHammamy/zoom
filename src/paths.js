@@ -5,6 +5,7 @@ export const paths = {
   contactUs: "/contact-us",
   vision: "/vision",
   ourBrands: "/our-brands",
+  termsAndConditions: "/terms-and-conditions",
   brands: {
     renee: "/renee",
     juvelook: "/juvelook",

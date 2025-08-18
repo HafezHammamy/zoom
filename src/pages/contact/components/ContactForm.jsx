@@ -8,10 +8,14 @@ import {
   TextField,
   MenuItem,
   Autocomplete,
+  Link,
+  Typography,
 } from "@mui/material";
 import { tokens } from "locales/tokens";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link as RouterLink } from "react-router-dom";
+import { paths } from "paths";
 
 const Form = () => {
   const [formValues, setFormValues] = useState({
@@ -170,7 +174,19 @@ const Form = () => {
             name="agreeToTerms"
           />
         }
-        label={t(tokens.contact.form.terms)}
+        label={
+          <span>
+            {t(tokens.contact.form.terms_prefix)}{" "}
+            <Link
+              component={RouterLink}
+              to={paths.termsAndConditions}
+              color="primary"
+              underline="hover"
+            >
+              {t(tokens.contact.form.terms_link)}
+            </Link>
+          </span>
+        }
       />
       <FormControlLabel
         control={
