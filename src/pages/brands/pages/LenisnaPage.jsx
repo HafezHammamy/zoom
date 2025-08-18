@@ -4,7 +4,7 @@ import heroProductImage from "assets/lenisna/lenisna-hero-girl.png";
 import productImage from "assets/lenisna/lenisnaProduct.png";
 import girlImage from "assets/lenisna/lenisnaGirl.png";
 import image from "assets/lenisna/lenisnaHeroImage.png";
-import video from "assets/lenisna/hero_video.mp4";
+import video from "assets/LeisnaMovie.mp4";
 import { usePageView } from "hooks/use-page-view";
 import useScrollToTop from "hooks/useScrollToTop";
 import { ImageHero } from "layout/components/ImageHero";

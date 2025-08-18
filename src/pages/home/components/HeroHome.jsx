@@ -8,7 +8,7 @@ import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import CircularProgress from "@mui/material/CircularProgress";
 
-import video from "assets/My Movie 15.mp4";
+import video from "assets/HeroMove.mp4";
 import { useState } from "react";
 import { RouterLink } from "layout/components/router-link";
 import { paths } from "paths";

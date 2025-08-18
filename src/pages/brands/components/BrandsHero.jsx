@@ -7,7 +7,7 @@ import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 import useVideoLoader from "hooks/useVideoLoader";
-import video from "assets/our_brands.mp4";
+import video from "assets/BrandsMovie.mp4";
 import { RouterLink } from "layout/components/router-link";
 import { paths } from "paths";
 
