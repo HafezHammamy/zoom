@@ -26,6 +26,8 @@ const heroButton = {
 const heroTextStyle = {
   color: "#fff",
   width: "50%",
+  textAlign: "left",
+  alignItems: "flex-start",
 };
 
 const videoStyle = {
@@ -72,17 +74,14 @@ export const ContactUsHero = (props) => {
           sx={{ position: "relative", zIndex: 1, height: "100%" }}
         >
           <Stack
-            alignItems="flex-end"
-            direction="row"
+            alignItems="flex-start"
+            justifyContent="center"
             spacing={2}
-            sx={{ flexGrow: 1, height: "100%", pb: 3 }}
+            sx={{ flexGrow: 1, height: "100%" }}
           >
             <Stack spacing={3} sx={heroTextStyle}>
               <StyledTypography variant="h2">
                 {t(tokens.nav.contact)}
-              </StyledTypography>
-              <StyledTypography variant="body3">
-                {t(tokens.contact.hero.paragraph)}
               </StyledTypography>
               <Box>
                 <Button
