@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import video from "assets/juvelook.mp4";
 import StyledTypography, {
@@ -13,9 +13,14 @@ const JuvelookBrand = (props) => {
       <video autoPlay loop muted playsInline style={videoStyle}>
         <source src={video} type="video/mp4" />
       </video>
-      <Box maxWidth="xl" sx={textStyle}>
-        <Box sx={{ width: "50%" }} className="slide-up">
-          <Stack spacing={3}>
+      <Container maxWidth="xl" sx={textStyle}>
+        <Stack
+          alignItems="center"
+          justifyContent="flex-start"
+          spacing={2}
+          sx={{ height: "100%", flexDirection: "row" }}
+        >
+          <Stack spacing={3} sx={{ width: "50%" }} className="slide-up">
             <QuoteTypography variant="h6">Juvelook</QuoteTypography>
             <StyledTypography variant="body2">
               Experience Juvelook: Our unique PLA filler enhances your
@@ -29,8 +34,8 @@ const JuvelookBrand = (props) => {
               </Button>
             </Box>
           </Stack>
-        </Box>
-      </Box>
+        </Stack>
+      </Container>
     </>
   );
 };

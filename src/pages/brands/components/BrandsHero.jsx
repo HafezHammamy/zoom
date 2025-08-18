@@ -61,7 +61,7 @@ export const BrandsHero = (props) => {
         }}
       >
         <Container
-          maxWidth="lg"
+          maxWidth="xl"
           sx={{ position: "relative", zIndex: 1, height: "100%" }}
         >
           <Stack

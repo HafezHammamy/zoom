@@ -1,11 +1,9 @@
 export const textStyle = {
-  paddingBottom: 0,
-  display: "block",
-  position: "absolute",
-  bottom: "300px",
-  left: "370px",
-  height: "auto",
-  textAlign: "left",
+  position: "relative",
+  zIndex: 1,
+  height: "100%",
+  display: "flex",
+  alignItems: "center",
   color: "#fff",
 };
 
@@ -31,5 +29,5 @@ export const videoStyle = {
   height: "auto",
   transform: "translate(-50%, -50%)",
   objectFit: "cover",
-  opacity: 0.2,
+  opacity: 0.4,
 };

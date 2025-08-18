@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import video from "assets/renee.mp4";
 import StyledTypography, {
@@ -13,15 +13,19 @@ const ReneeBrand = (props) => {
       <video autoPlay loop muted playsInline style={videoStyle}>
         <source src={video} type="video/mp4" />
       </video>
-      <Box maxWidth="xl" sx={textStyle}>
-        <Box sx={{ width: "50%" }} className="slide-up">
-          <Stack spacing={3}>
+      <Container maxWidth="xl" sx={textStyle}>
+        <Stack
+          alignItems="center"
+          justifyContent="flex-start"
+          spacing={2}
+          sx={{ height: "100%", flexDirection: "row" }}
+        >
+          <Stack spacing={3} sx={{ width: "50%" }} className="slide-up">
             <QuoteTypography variant="h6">Renee</QuoteTypography>
             <StyledTypography variant="body2">
               Experience Renée: Our injectable hyaluronic acid gels are
               meticulously crafted to hydrate and rejuvenate the skin, providing
-              a refreshed and youthful appearance. With advanced formulations,
-              Renée offers effective solutions for various aesthetic needs.{" "}
+              a refreshed and youthful appearance.{" "}
             </StyledTypography>
             <Box>
               <Button sx={buttonStyle} size="large" variant="outlined">
@@ -29,8 +33,8 @@ const ReneeBrand = (props) => {
               </Button>
             </Box>
           </Stack>
-        </Box>
-      </Box>
+        </Stack>
+      </Container>
     </>
   );
 };

@@ -48,7 +48,7 @@ const overlayStyle = {
   left: 0,
   width: "100%",
   height: "100%",
-  backgroundColor: "rgba(0, 0, 0, 0.5)", // Dark overlay with 50% opacity
+  backgroundColor: "rgba(0, 0, 0, 0.2)", // Dark overlay with 20% opacity
   zIndex: 1,
 };
 
@@ -103,7 +103,7 @@ export const VideoHero = ({
 
       {/* Content */}
       <Container
-        maxWidth="lg"
+        maxWidth="xl"
         sx={{ position: "relative", zIndex: 2, height: "100%" }}
       >
         <Stack

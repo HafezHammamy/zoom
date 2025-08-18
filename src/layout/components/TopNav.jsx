@@ -23,7 +23,7 @@ import { tokens } from "locales/tokens";
 import { useSettings } from "hooks/use-settings";
 import { BrandsPopover } from "./Popover";
 
-const TOP_NAV_HEIGHT = 80;
+const TOP_NAV_HEIGHT = 120;
 
 export const TopNav = (props) => {
   const mobileNav = useMobileNav();
@@ -145,7 +145,7 @@ export const TopNav = (props) => {
           zIndex: (theme) => theme.zIndex.appBar,
         }}
       >
-        <Container maxWidth="lg">
+        <Container maxWidth="xl">
           <Stack direction="row" sx={{ height: TOP_NAV_HEIGHT }}>
             <Stack
               alignItems="center"
@@ -161,7 +161,7 @@ export const TopNav = (props) => {
                 sx={{ textDecoration: "none" }}
               >
                 {mdUp && (
-                  <Box style={{ height: "40px" }}>
+                  <Box style={{ height: "60px" }}>
                     <img
                       style={{ height: "100%" }}
                       src={elevate ? logo : logoLight}
@@ -170,7 +170,7 @@ export const TopNav = (props) => {
                   </Box>
                 )}
                 {!mdUp && (
-                  <Box style={{ height: "40px" }}>
+                  <Box style={{ height: "50px" }}>
                     <img
                       style={{ height: "100%" }}
                       src={logo}

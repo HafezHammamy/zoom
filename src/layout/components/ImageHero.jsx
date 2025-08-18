@@ -43,7 +43,7 @@ export const ImageHero = ({
       }}
     >
       <Container
-        maxWidth="lg"
+        maxWidth="xl"
         sx={{
           position: "relative",
           zIndex: 1,

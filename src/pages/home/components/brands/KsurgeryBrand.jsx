@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import video from "assets/ksugery.mp4";
 import StyledTypography, {
@@ -13,9 +13,14 @@ const KsurgeryBrand = (props) => {
       <video autoPlay loop muted playsInline style={videoStyle}>
         <source src={video} type="video/mp4" />
       </video>
-      <Box maxWidth="xl" sx={textStyle}>
-        <Box sx={{ width: "50%" }} className="slide-up">
-          <Stack spacing={3}>
+      <Container maxWidth="xl" sx={textStyle}>
+        <Stack
+          alignItems="center"
+          justifyContent="flex-start"
+          spacing={2}
+          sx={{ height: "100%", flexDirection: "row" }}
+        >
+          <Stack spacing={3} sx={{ width: "50%" }} className="slide-up">
             <QuoteTypography variant="h6">Ksurgery</QuoteTypography>
             <StyledTypography variant="body2">
               Our Italian-made hyaluronic acid treatments blend cutting-edge
@@ -30,8 +35,8 @@ const KsurgeryBrand = (props) => {
               </Button>
             </Box>
           </Stack>
-        </Box>
-      </Box>
+        </Stack>
+      </Container>
     </>
   );
 };

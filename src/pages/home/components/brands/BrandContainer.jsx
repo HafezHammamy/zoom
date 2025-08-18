@@ -34,7 +34,7 @@ const BrandContainer = ({ title, description, video, subTitle, path }) => {
 
   return (
     <>
-      <Container maxWidth="lg" sx={{ position: "relative", zIndex: 1 }}>
+      <Container maxWidth="xl" sx={{ position: "relative", zIndex: 1 }}>
         <Stack
           alignItems="center"
           direction="row"
