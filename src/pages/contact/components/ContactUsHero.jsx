@@ -83,6 +83,9 @@ export const ContactUsHero = (props) => {
               <StyledTypography variant="h2">
                 {t(tokens.nav.contact)}
               </StyledTypography>
+              <StyledTypography variant="body3">
+                {t(tokens.contact.hero.paragraph)}
+              </StyledTypography>
               <Box>
                 <Button
                   sx={heroButton}

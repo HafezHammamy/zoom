@@ -71,8 +71,7 @@ export const en = {
   it - with passion, integrity, and a relentless focus on delivering
   the best possible outcomes for our clients.`,
   [tokens.about.page.paragraph]: "Empowering Beauty, Inspiring Confidence",
-  [tokens.contact.hero.paragraph]:
-    "We're excited to hear from you! Our expert team is ready to provide customized solutions for all your aesthetic needs. Reach out today and discover how we can elevate your beauty experience.  ",
+  [tokens.contact.hero.paragraph]: "We are excited to hear from you!",
   [tokens.contact.form.send]: "Submit",
   [tokens.contact.form.title.mr]: "Mr.",
   [tokens.contact.form.title.mrs]: "Mrs.",
