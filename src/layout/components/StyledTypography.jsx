@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 const StyledTypography = styled(Typography)(({ theme }) => ({
   fontWeight: 100,
   wordSpacing: 5,
-  textTransform: "uppercase",
+  textTransform: "none",
 }));
 
 export const QuoteTypography = styled(Typography)(({ theme }) => ({

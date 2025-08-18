@@ -24,7 +24,7 @@ const KsurgeryBrand = (props) => {
             <QuoteTypography variant="h6">Ksurgery</QuoteTypography>
             <StyledTypography variant="body2">
               Our Italian-made hyaluronic acid treatments blend cutting-edge
-              technology with natural beauty enhancement. Ksurgery MED, by
+              technology with natural beauty enhancement. Ksurgery Med, by
               Vidapharma, delivers safe, effective, and scientifically-validated
               products, designed to meet the high standards of medical
               professionals in aesthetic care.
