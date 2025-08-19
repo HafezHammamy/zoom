@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'TitleFonts';
-    src: url('./assets/fonts/AbrilFatface-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/PlayfairDisplay-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ParagraphFonts';
-    src: url('./assets/fonts/GlacialIndifference-Regular.otf') format('truetype');
+    src: url('./assets/fonts/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
