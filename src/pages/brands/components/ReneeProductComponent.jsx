@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Button, Typography, Grid } from "@mui/material";
+import { Box, Button, Typography, Grid, Container } from "@mui/material";
 import { Stack } from "@mui/system";
 import { tokens } from "locales/tokens";
 import { useTranslation } from "react-i18next";
@@ -110,8 +110,8 @@ const ReneeProductComponent = () => {
       }}
       maxWidth="xxl"
     >
-      <Stack alignItems={"center"} sx={{ width: "100%", padding: 2 }}>
-        <Box sx={{ width: "70%", padding: 2 }}>
+      <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
+        <Container maxWidth="xl" sx={{ py: 2 }}>
           <Grid container spacing={4} alignItems="center">
             {products?.map((product) =>
               product.value === tabValue ? (
@@ -200,7 +200,7 @@ const ReneeProductComponent = () => {
               </Stack>
             </Grid>
           </Grid>
-        </Box>
+        </Container>
       </Stack>
     </Box>
   );

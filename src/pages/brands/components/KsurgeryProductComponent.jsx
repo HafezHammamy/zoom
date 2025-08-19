@@ -1,4 +1,4 @@
-import { Box, Button, ButtonGroup } from "@mui/material";
+import { Box, Button, ButtonGroup, Container } from "@mui/material";
 import { Stack } from "@mui/system";
 import { useState } from "react";
 
@@ -150,8 +150,8 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
 
   return (
     <Box maxWidth="xxl" sx={{ height: "80vh", backgroundColor: "#FFFFFF" }}>
-      <Stack alignItems={"center"} sx={{ width: "100%", padding: 2 }}>
-        <Box sx={{ width: "70%", padding: 2 }}>
+      <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
+        <Container maxWidth="xl" sx={{ py: 2 }}>
           <Stack spacing={5}>
             <Stack direction={"row"} justifyContent={"center"}>
               <ButtonGroup variant="contained">
@@ -181,7 +181,7 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
               />
             )}
           </Stack>
-        </Box>
+        </Container>
       </Stack>
     </Box>
   );
