@@ -39,9 +39,6 @@ const ContactInfo = () => {
         <Link href="mailto:Info@dynainv.com" underline="hover" color="inherit">
           {t(tokens.contact.info.email)} Info@dynainv.com
         </Link>
-        <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
-          <img style={{ height: "50px" }} src={logo} alt={"Dynamics"} />
-        </Box>
       </Stack>
     </Container>
   );
