@@ -255,7 +255,7 @@ export const en = {
   [tokens.brands.renee.subtitle]: "Experience Renée",
   [tokens.brands.renee.description]:
     "Our injectable hyaluronic acid gels are meticulously crafted to hydrate and rejuvenate the skin, providing a refreshed and youthful appearance. With advanced formulations, Renée offers effective solutions for various aesthetic needs.",
-  [tokens.brands.renee.whatIs]: "What is renee?",
+  [tokens.brands.renee.whatIs]: "What is Renee?",
   [tokens.brands.renee.whatIsDescription]:
     "Renee is a premium line of injectable hyaluronic acid-based gels designed to enhance and restore skin's youthful appearance. The product collection includes specialized skin boosters and dermal fillers, each targeting specific facial areas to improve volume, texture, and hydration.",
   [tokens.brands.renee.keyBenefits]: "Key Benefits",
