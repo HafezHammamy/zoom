@@ -36,7 +36,7 @@ const renderChildItems = ({ items, depth = 0 }) => {
                 primaryTypographyProps={{
                   sx: {
                     color: "text.secondary",
-                    fontSize: 14,
+                    fontSize: 18,
                     fontWeight: 500,
                   },
                 }}
@@ -102,7 +102,7 @@ const renderChildItems = ({ items, depth = 0 }) => {
           primaryTypographyProps={{
             sx: {
               color: "text.secondary",
-              fontSize: 14,
+              fontSize: 18,
               fontWeight: 500,
             },
           }}
@@ -192,7 +192,7 @@ export const TopNavItem = (props) => {
                   color: "var(--nav-item-color)",
                   flexGrow: 1,
                   fontFamily: (theme) => theme.typography.fontFamily,
-                  fontSize: 14,
+                  fontSize: 18,
                   fontWeight: 600,
                   lineHeight: "24px",
                   whiteSpace: "nowrap",
@@ -267,7 +267,11 @@ export const TopNavItem = (props) => {
             }}
             {...linkProps}
           >
-            <Typography component="span" variant="subtitle2">
+            <Typography
+              component="span"
+              variant="subtitle2"
+              sx={{ fontSize: 18, fontWeight: 600 }}
+            >
               {title}
             </Typography>
             <SvgIcon
@@ -359,7 +363,7 @@ export const TopNavItem = (props) => {
             color: "var(--nav-item-color)",
             flexGrow: 1,
             fontFamily: (theme) => theme.typography.fontFamily,
-            fontSize: 14,
+            fontSize: 18,
             fontWeight: 600,
             lineHeight: "24px",
             whiteSpace: "nowrap",
@@ -371,7 +375,11 @@ export const TopNavItem = (props) => {
             }),
           }}
         >
-          <Typography component="span" variant="subtitle2">
+          <Typography
+            component="span"
+            variant="subtitle2"
+            sx={{ fontSize: 18, fontWeight: 600 }}
+          >
             {title}
           </Typography>
         </Box>

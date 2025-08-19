@@ -4,7 +4,7 @@ import heroProductImage from "assets/juvelook/juvelook-product-hero.png";
 import productImage from "assets/juvelook/juvelook-product1.png";
 import girlImage from "assets/juvelook/juvelookgirl.png";
 import image from "assets/juvelook/juvelookHeroImage1.png";
-import video from "assets/our_brands.mp4";
+import video from "assets/BrandsMovie.mp4";
 import { usePageView } from "hooks/use-page-view";
 import useScrollToTop from "hooks/useScrollToTop";
 import { ImageHero } from "layout/components/ImageHero";

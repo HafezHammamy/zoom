@@ -151,7 +151,7 @@ export const TopNav = (props) => {
               alignItems="center"
               direction="row"
               spacing={1}
-              sx={{ width: "20%" }}
+              sx={{ flex: "0 0 auto" }}
             >
               <Stack
                 component={RouterLink}
@@ -186,7 +186,7 @@ export const TopNav = (props) => {
                 alignItems={"center"}
                 direction="column"
                 spacing={2}
-                sx={{ width: "75%" }}
+                sx={{ flex: 1 }}
               >
                 <Box component="nav" sx={{ height: "100%", width: "100%" }}>
                   <Stack
@@ -231,7 +231,11 @@ export const TopNav = (props) => {
               </Stack>
             )}
 
-            <Stack alignItems="center" direction="row" sx={{ width: "5%" }}>
+            <Stack
+              alignItems="center"
+              direction="row"
+              sx={{ flex: "0 0 auto" }}
+            >
               <Tooltip title={languageLabel}>
                 <IconButton
                   onClick={() => handleChange(language)}
