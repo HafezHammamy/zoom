@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zoom/static/css/main.2b93a4f9.css",
+    "main.css": "/zoom/static/css/main.f237825a.css",
     "main.js": "/zoom/static/js/main.de7dff75.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
@@ -61,6 +61,7 @@
     "static/media/juvelook-product1.png": "/zoom/static/media/juvelook-product1.99fd5b4a98ceecf79511.png",
     "static/media/juvelookgirl.png": "/zoom/static/media/juvelookgirl.ba77d33db0e1c3708a4a.png",
     "static/media/product1.png": "/zoom/static/media/product1.1791db6ca7a44c3e6dfe.png",
+    "static/media/PlayfairDisplay-Medium.ttf": "/zoom/static/media/PlayfairDisplay-Medium.cade9315ebfae594053c.ttf",
     "static/media/error-404.png": "/zoom/static/media/error-404.5ffa0d7cefff5d64a7d7.png",
     "static/media/dynamics-gradient-green.png": "/zoom/static/media/dynamics-gradient-green.969154379e4d4e28c28d.png",
     "static/media/logo2.png": "/zoom/static/media/logo2.952e384ff6de3270df37.png",
@@ -68,11 +69,10 @@
     "static/media/logo1.png": "/zoom/static/media/logo1.0a78b3fe8f018af13a90.png",
     "static/media/renee-product.png": "/zoom/static/media/renee-product.02864c4ae2e61a3e897e.png",
     "static/media/logo4.png": "/zoom/static/media/logo4.97e47c80b8edac097842.png",
+    "static/media/Lato-Regular.ttf": "/zoom/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/gradient.png": "/zoom/static/media/gradient.fdee85c0a8cb9a26a96e.png",
     "static/media/dynamics-gradient-dark.png": "/zoom/static/media/dynamics-gradient-dark.73b18a95e857ec0caa82.png",
     "static/media/ksurgery-product.jpg": "/zoom/static/media/ksurgery-product.0000b58ad86370a772bb.jpg",
-    "static/media/AbrilFatface-Regular.ttf": "/zoom/static/media/AbrilFatface-Regular.c2459f7f69cb5eb788d8.ttf",
-    "static/media/GlacialIndifference-Regular.otf": "/zoom/static/media/GlacialIndifference-Regular.884dc679b35db5f785f2.otf",
     "static/media/Scar.png": "/zoom/static/media/Scar.c925111f28d8bb5be816.png",
     "static/media/Stretch.png": "/zoom/static/media/Stretch.b9b14f07567f7187aac8.png",
     "static/media/logo.png": "/zoom/static/media/logo.b26c29d3916d74a9b397.png",
@@ -85,12 +85,12 @@
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
-    "main.2b93a4f9.css.map": "/zoom/static/css/main.2b93a4f9.css.map",
+    "main.f237825a.css.map": "/zoom/static/css/main.f237825a.css.map",
     "main.de7dff75.js.map": "/zoom/static/js/main.de7dff75.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b93a4f9.css",
+    "static/css/main.f237825a.css",
     "static/js/main.de7dff75.js"
   ]
 }
