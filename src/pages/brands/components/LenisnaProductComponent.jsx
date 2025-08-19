@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography, Container } from "@mui/material";
 import { Stack } from "@mui/system";
 import { tokens } from "locales/tokens";
 import { useState } from "react";
@@ -54,8 +54,8 @@ const LenisnaProductComponent = () => {
       }}
       maxWidth="xxl"
     >
-      <Stack alignItems={"center"} sx={{ width: "100%", padding: 2 }}>
-        <Box sx={{ width: "80%", padding: 2 }}>
+      <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
+        <Container maxWidth="xl" sx={{ py: 2 }}>
           <Grid container alignItems="center">
             <Grid item xs={12} md={12}>
               <Box
@@ -199,7 +199,7 @@ const LenisnaProductComponent = () => {
               </Grid>
             )}
           </Grid>
-        </Box>
+        </Container>
       </Stack>
     </Box>
   );
