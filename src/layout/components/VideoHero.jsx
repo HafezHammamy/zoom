@@ -80,7 +80,7 @@ export const VideoHero = ({
       maxWidth="xxl"
       sx={{
         position: "relative",
-        height: "100vh",
+        height: { xs: "60vh", md: "75vh" },
         width: "100%",
         overflow: "hidden",
       }}
