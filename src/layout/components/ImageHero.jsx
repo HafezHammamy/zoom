@@ -1,4 +1,4 @@
-import { Button, useTheme } from "@mui/material";
+import { Button, Typography, useTheme } from "@mui/material";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
@@ -42,6 +42,18 @@ export const ImageHero = ({
         },
       }}
     >
+      {/* Overlay to match VideoHero */}
+      <Box
+        sx={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "rgba(0, 0, 0, 0.2)",
+          zIndex: 1,
+        }}
+      />
       <Container
         maxWidth="xl"
         sx={{
@@ -63,14 +75,16 @@ export const ImageHero = ({
               width: "50%",
               textAlign: "left",
               alignItems: "flex-start",
+              position: "relative",
+              zIndex: 2,
             }}
           >
             {component ? (
               <>{component}</>
             ) : (
               <>
-                <StyledTypography variant="h2">{title}</StyledTypography>
-                <StyledTypography variant="body3">
+                <Typography variant="h2">{title}</Typography>
+                <StyledTypography variant="body2">
                   {description}
                 </StyledTypography>
                 <Box>

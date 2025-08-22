@@ -27,7 +27,7 @@ const LenisnaPage = (props) => {
       <Seo />
       <main>
         <VideoHero
-          title2={t(tokens.brands.lenisna.pageTitle)}
+          title={t(tokens.brands.lenisna.pageTitle)}
           description={t(tokens.brands.lenisna.pageDescription)}
           videoSrc={video}
           actionPath="#"

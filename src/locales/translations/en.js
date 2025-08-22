@@ -371,9 +371,9 @@ export const en = {
   [tokens.brands.juvelook.applicationDescription]:
     "Juvelook delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
   [tokens.brands.lenisna.pageTitle]:
-    "THE NEW GENERATION OF ANTI AGING SOLUTION",
+    "The New Generation of Anti Aging Solution",
   [tokens.brands.lenisna.pageDescription]:
-    "THE ADVANCED HYBRID BIO-STIMULATORS POLY-D, L LACTIC ACID+HYALURONIC ACID",
+    "The Advanced Hybrid Bio-Stimulator Poly-D, L Lactic Acid+Hyaluronic Acid",
   [tokens.brands.lenisna.title]: "Lenisna",
   [tokens.brands.lenisna.subtitle]: "Experience LENISNA",
   [tokens.brands.lenisna.description]:
@@ -443,9 +443,9 @@ export const en = {
   [tokens.brands.lenisna.products[0].aging[0].items[2]]:
     "Provides subtle, natural results without significant downtime.",
   [tokens.brands.juvelook.pageTitle]:
-    "THE NEW GENERATION OF ANTI AGING SOLUTION",
+    "The New Generation of Anti Aging Solution",
   [tokens.brands.juvelook.pageDescription]:
-    "THE ADVANCED HYBRID BIO-STIMULATORS POLY-D, L LACTIC ACID+HYALURONIC ACID",
+    "The Advanced Hybrid Bio-Stimulator Poly-D, L Lactic Acid+Hyaluronic Acid",
   [tokens.brands.juvelook.face.title]: "Injection Points",
   [tokens.brands.juvelook.face.scar]: "C-section scar",
   [tokens.brands.juvelook.face.stretch]: "Stretch marks",
