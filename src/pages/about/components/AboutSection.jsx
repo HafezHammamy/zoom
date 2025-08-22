@@ -122,7 +122,7 @@ const AboutSection = ({
         paddingBottom: 5,
       }}
     >
-      <Container maxWidth="xxl">
+      <Container maxWidth="xl">
         <Grid container spacing={2} alignItems="stretch" sx={{ padding: 5 }}>
           {reverse && (
             <>
