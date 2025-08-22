@@ -11,26 +11,28 @@ const AboutUsBanner = (props) => {
   const { t } = useTranslation();
   return (
     <>
-      <Container
-        maxWidth="xxl"
-        sx={{
-          backgroundColor: "#eee8f5",
-        }}
+      <Box maxWidth="xxl" sx={{ backgroundColor: "#eee8f5" }}>
+        <Container maxWidth="xxl">
+          <AboutSection
+            title={t(tokens.about.title)}
+            paragraph={t(tokens.about.paragraph)}
+            backImage={image}
+            passedImage={image2}
+          />
+        </Container>
+      </Box>
+      <Grid
+        container
+        spacing={2}
+        alignItems="stretch"
+        sx={{ backgroundColor: "#eee8f5" }}
       >
-        <AboutSection
-          title={t(tokens.about.title)}
-          paragraph={t(tokens.about.paragraph)}
-          backImage={image}
-          passedImage={image2}
-        />
-        <Grid container spacing={2} alignItems="stretch">
-          <Grid offset={1} size={11}>
-            <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
-              <img style={{ height: "50px" }} src={logo} alt={"Dynamics"} />
-            </Box>
-          </Grid>
+        <Grid offset={1} size={11}>
+          <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
+            <img style={{ height: "50px" }} src={logo} alt={"Dynamics"} />
+          </Box>
         </Grid>
-      </Container>
+      </Grid>
     </>
   );
 };

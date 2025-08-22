@@ -41,7 +41,7 @@ const ReneePage = (props) => {
         </Box>
         <ReneeProductComponent />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#E0FFF5" }}>
-          <Container maxWidth="xxl">
+          <Container maxWidth="xl">
             <AboutSection
               backgroundColor="#E0FFF5"
               title={t(tokens.brands.renee.keyBenefits)}
