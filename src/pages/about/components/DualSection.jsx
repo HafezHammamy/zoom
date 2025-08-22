@@ -42,10 +42,10 @@ const TitleBox = ({
               ) : (
                 <Stack spacing={3} direction={"column"}>
                   <Typography variant="h3">{title}</Typography>
-                  <Typography variant="body1">{paragraph}</Typography>
+                  <Typography variant="body2">{paragraph}</Typography>
                   {title2 && <Typography variant="h3">{title2}</Typography>}
                   {paragraph2 && (
-                    <Typography variant="body1">{paragraph2}</Typography>
+                    <Typography variant="body2">{paragraph2}</Typography>
                   )}
 
                   {hideAction && (

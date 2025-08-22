@@ -10,7 +10,7 @@ export const AboutUsHero = (props) => {
   return (
     <>
       <VideoHero
-        title2={t(tokens.about.title)}
+        title={t(tokens.about.title)}
         description={t(tokens.about.page.paragraph)}
         videoSrc={video}
       />

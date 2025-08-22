@@ -58,7 +58,7 @@ export const ProductBanner = (props) => {
             <StyledTypography variant="h2">
               {t(tokens.about.page.product.subtitle)}
             </StyledTypography>
-            <StyledTypography variant="caption">
+            <StyledTypography variant="body2">
               {t(tokens.about.page.product.paragraph)}
             </StyledTypography>
             <Box>

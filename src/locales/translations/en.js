@@ -33,7 +33,7 @@ export const en = {
   [tokens.about.page.card3.paragraph]:
     "Our vision is to be a worldwide leading company and a significant global player by providing unique solutions to meet the dynamic needs of all our clients.",
   [tokens.about.page.card4.title]:
-    "The power to transform confidence and appearance",
+    "The Power to Transform Confidence and Appearance",
   [tokens.about.page.card4.paragraph]:
     "Dynamics delivers a unique range of scientifically-advanced aesthetic products and services, designed exclusively for a global industry of highly-skilled practitioners; ensuring our community achieves real, long-lasting, and exceptional results, thus transforming confidence and appearance, every time.",
   [tokens.cards.card3.title]: "Empowering Education",
