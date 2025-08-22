@@ -30,7 +30,22 @@ const NewCommitmentBanner = () => {
             divider={<Divider orientation="vertical" flexItem />}
           >
             <StyledTypography variant={theme.direction === "ltr" ? "h2" : "h2"}>
-              {t(tokens.commitment.title)}
+              {(() => {
+                const title = t(tokens.commitment.title);
+                const parts = title.split(" ");
+                const first = parts[0] || "";
+                const second = parts[1] || "";
+                const third = parts.slice(2).join(" ") || "";
+                return (
+                  <>
+                    {first}
+                    <br />
+                    {second}
+                    <br />
+                    <span style={{ whiteSpace: "nowrap" }}>{third}</span>
+                  </>
+                );
+              })()}
             </StyledTypography>
             <StyledTypography variant="body2">
               {t(tokens.commitment.paragraph)}
