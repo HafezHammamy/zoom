@@ -121,7 +121,7 @@ const KsurgeryPage = (props) => {
                 <Typography variant="h3">
                   {t(tokens.brands.ksurgery.skinbosoter)}
                 </Typography>
-                <Typography variant="body2">
+                <Typography variant="h4">
                   {t(tokens.brands.ksurgery.benefits.title)}
                 </Typography>
                 <Typography variant="body2">
