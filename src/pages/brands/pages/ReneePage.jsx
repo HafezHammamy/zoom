@@ -8,7 +8,7 @@ import useScrollToTop from "hooks/useScrollToTop";
 import { Seo } from "layout/components/Seo";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import AboutSection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import ReneeProductComponent from "../components/ReneeProductComponent";
 
@@ -29,7 +29,7 @@ const ReneePage = (props) => {
         />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#E0FFF5" }}>
           <Container maxWidth="xxl">
-            <AboutSection
+            <StorySection
               backgroundColor="#E0FFF5"
               title={t(tokens.brands.renee.whatIs)}
               paragraph={t(tokens.brands.renee.whatIsDescription)}
@@ -42,7 +42,7 @@ const ReneePage = (props) => {
         <ReneeProductComponent />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#E0FFF5" }}>
           <Container maxWidth="xl">
-            <AboutSection
+            <StorySection
               backgroundColor="#E0FFF5"
               title={t(tokens.brands.renee.keyBenefits)}
               paragraph={

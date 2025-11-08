@@ -15,7 +15,7 @@ import { Seo } from "layout/components/Seo";
 import SharedSection from "layout/components/SharedSection";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import AboutSection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import KsurgeryProductComponent from "../components/KsurgeryProductComponent";
 
@@ -37,7 +37,7 @@ const KsurgeryPage = (props) => {
         />
         <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
           <Container maxWidth="xxl">
-            <AboutSection
+            <StorySection
               backgroundColor="#FFFFFF"
               title={t(tokens.brands.ksurgery.whatIs)}
               paragraph={t(tokens.brands.ksurgery.whatIsDescription)}
@@ -66,7 +66,7 @@ const KsurgeryPage = (props) => {
         </Box>
         <Box maxWidth="xxl" sx={{ backgroundColor: "#FFFFFF" }}>
           <Container maxWidth="xxl">
-            <AboutSection
+            <StorySection
               backgroundColor="#FFFFFF"
               reverse={true}
               title={t(tokens.brands.ksurgery.opera)}

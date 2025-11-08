@@ -11,7 +11,7 @@ import { ImageHero } from "layout/components/ImageHero";
 import { Seo } from "layout/components/Seo";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import AboutSection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import LenisnaProductComponent from "../components/LenisnaProductComponent";
 import FaceInjectionPointsLenisna from "../components/FaceInjectionPointsLenisna";
@@ -45,7 +45,7 @@ const LenisnaPage = (props) => {
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#E9C1CA" }}>
             <Container maxWidth="xxl">
-              <AboutSection
+              <StorySection
                 backgroundColor="#E9C1CA"
                 title2={t(tokens.brands.lenisna.results)}
                 paragraph2={
@@ -70,7 +70,7 @@ const LenisnaPage = (props) => {
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#E9C1CA" }}>
             <Container maxWidth="xxl">
-              <AboutSection
+              <StorySection
                 backgroundColor="#E9C1CA"
                 title={t(tokens.brands.lenisna.keyBenefits)}
                 paragraph={

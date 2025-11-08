@@ -11,7 +11,7 @@ import { ImageHero } from "layout/components/ImageHero";
 import { Seo } from "layout/components/Seo";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import AboutSection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import JuvelookProductComponent from "../components/JuvelookProductComponent";
 import FaceInjectionPointsJuvelook from "../components/FaceInjectionPointsJuvelook";
@@ -42,7 +42,7 @@ const JuvelookPage = (props) => {
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
             <Container maxWidth="xxl">
-              <AboutSection
+              <StorySection
                 backgroundColor="#CCE5FF"
                 title={t(tokens.brands.juvelook.keyBenefits)}
                 paragraph={
@@ -70,7 +70,7 @@ const JuvelookPage = (props) => {
         {false && (
           <Box maxWidth="xxl" sx={{ backgroundColor: "#CCE5FF" }}>
             <Container maxWidth="xxl">
-              <AboutSection
+              <StorySection
                 backgroundColor="#CCE5FF"
                 reverse={true}
                 title2={t(tokens.brands.juvelook.results)}

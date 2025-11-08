@@ -99,7 +99,8 @@ const ImageBox = ({ reverse, passedImage }) => {
     </Grid>
   );
 };
-const AboutSection = ({
+
+const StorySection = ({
   reverse,
   title,
   paragraph,
@@ -158,6 +159,6 @@ const AboutSection = ({
   );
 };
 
-AboutSection.propTypes = {};
+StorySection.propTypes = {};
 
-export default AboutSection;
+export default StorySection;

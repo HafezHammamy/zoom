@@ -2,7 +2,7 @@ import { Box, Container, Grid } from "@mui/system";
 
 import logo from "assets/logo.png";
 import { tokens } from "locales/tokens";
-import AboutSection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/AboutSection";
 import { useTranslation } from "react-i18next";
 import image from "assets/dynamics-gradient-green.png";
 import image2 from "assets/dynamicshp.png";
@@ -13,7 +13,7 @@ const AboutUsBanner = (props) => {
     <>
       <Box maxWidth="xxl" sx={{ backgroundColor: "#eee8f5" }}>
         <Container maxWidth="xxl">
-          <AboutSection
+          <StorySection
             title={t(tokens.about.title)}
             paragraph={t(tokens.about.paragraph)}
             backImage={image}
