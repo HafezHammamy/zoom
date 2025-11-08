@@ -15,7 +15,7 @@ import { Seo } from "layout/components/Seo";
 import SharedSection from "layout/components/SharedSection";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import StorySection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/StorySection";
 import { useTranslation } from "react-i18next";
 import KsurgeryProductComponent from "../components/KsurgeryProductComponent";
 

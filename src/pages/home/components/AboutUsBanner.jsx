@@ -2,7 +2,7 @@ import { Box, Container, Grid } from "@mui/system";
 
 import logo from "assets/logo.png";
 import { tokens } from "locales/tokens";
-import StorySection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/StorySection";
 import { useTranslation } from "react-i18next";
 import image from "assets/dynamics-gradient-green.png";
 import image2 from "assets/dynamicshp.png";

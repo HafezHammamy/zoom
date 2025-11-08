@@ -8,7 +8,7 @@ import useScrollToTop from "hooks/useScrollToTop";
 import { Seo } from "layout/components/Seo";
 import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
-import StorySection from "pages/about/components/AboutSection";
+import StorySection from "pages/about/components/StorySection";
 import { useTranslation } from "react-i18next";
 import ReneeProductComponent from "../components/ReneeProductComponent";
 
