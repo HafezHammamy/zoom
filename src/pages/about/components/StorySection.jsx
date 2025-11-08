@@ -19,7 +19,7 @@ const TitleBox = ({
   const { t } = useTranslation();
 
   return (
-    <Grid size={6}>
+    <Grid size={{ xs: 12, md: 6 }}>
       <Box
         sx={{
           backgroundRepeat: "no-repeat",
@@ -29,24 +29,61 @@ const TitleBox = ({
           color: "white",
         }}
       >
-        <Stack direction={"row"} justifyContent="center">
-          <Box sx={{ width: "60%", height: "660px" }}>
+        <Stack direction="row" justifyContent="center">
+          <Box
+            sx={{
+              width: { xs: "100%", md: "80%" },
+              minHeight: { md: "660px" },
+              display: "flex",
+            }}
+          >
             <Stack
               spacing={5}
-              direction={"column"}
-              justifyContent="center"
-              alignContent="center"
-              sx={{ height: "100%" }}
+              direction="column"
+              justifyContent="flex-start"
+              alignItems="flex-start"
+              sx={{
+                height: "100%",
+                width: "100%",
+                px: { xs: 4, md: 6 },
+                py: { xs: 6, md: 8 },
+                pt: { xs: 6, md: 18 },
+                textAlign: "left",
+              }}
             >
               {component ? (
-                <>{component}</>
+                <Box
+                  sx={{
+                    width: "100%",
+                    "& > *": {
+                      width: "100%",
+                    },
+                  }}
+                >
+                  {component}
+                </Box>
               ) : (
                 <Stack spacing={3} direction={"column"}>
-                  <Typography variant="h3">{title}</Typography>
-                  <Typography variant="body1">{paragraph}</Typography>
-                  {title2 && <Typography variant="h3">{title2}</Typography>}
+                  <Typography
+                    variant="h3"
+                    sx={{
+                      pt: { xs: 0, md: 2 },
+                    }}
+                  >
+                    {title}
+                  </Typography>
+                  <Typography variant="body1">
+                    {paragraph}
+                  </Typography>
+                  {title2 && (
+                    <Typography variant="h3">
+                      {title2}
+                    </Typography>
+                  )}
                   {paragraph2 && (
-                    <Typography variant="body1">{paragraph2}</Typography>
+                    <Typography variant="body1">
+                      {paragraph2}
+                    </Typography>
                   )}
 
                   {!hideAction && (
