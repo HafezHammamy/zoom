@@ -4,7 +4,7 @@ export const en = {
   [tokens.nav.home]: "Home",
   [tokens.nav.contact]: "Contact Us",
   [tokens.nav.about]: "About Us",
-  [tokens.nav.brands]: "The Brands",
+  [tokens.nav.brands]: "Our Brands",
   [tokens.nav.vision]: "Our Vision",
   [tokens.common.discover_brands.title]: "Discover Our Brands",
   [tokens.common.discover_brands.summary]:

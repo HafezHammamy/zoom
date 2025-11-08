@@ -27,9 +27,12 @@ const heroButton = {
 
 const heroTextStyle = {
   color: "#fff",
+  height:"35vh",
   width: "50%",
   textAlign: "left",
   alignItems: "flex-start",
+  position: "relative",
+
 };
 
 const videoStyle = {
@@ -66,17 +69,17 @@ export const HomeHero = (props) => {
         maxWidth="xxl"
         sx={{
           position: "relative",
-          height: { xs: "60vh", md: "75vh" },
+          height: { xs: "70vh", md: "80vh" },
           width: "100%",
           overflow: "hidden",
         }}
       >
         <Container
           maxWidth="xl"
-          sx={{ position: "relative", zIndex: 1, height: "100%" }}
+          sx={{ position: "relative", zIndex: 1, height: "100%", paddingBottom: 5 }}
         >
           <Stack
-            alignItems="center"
+            alignItems="end"
             justifyContent="flex-start"
             spacing={2}
             sx={{ height: "100%", flexDirection: "row" }}
