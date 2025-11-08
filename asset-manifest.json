@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.f237825a.css",
-    "main.js": "/zoom/static/js/main.bbeef12e.js",
+    "main.js": "/zoom/static/js/main.5a566105.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/about.mov": "/zoom/static/media/about.e3f2773cffb8c4ad96d6.mov",
@@ -79,18 +79,18 @@
     "static/media/image-2.png": "/zoom/static/media/image-2.7baaefa2843d6310a1d7.png",
     "static/media/ksurgery-filler.jpg": "/zoom/static/media/ksurgery-filler.d331e992bde5c40089af.jpg",
     "static/media/alfont_com_GE-Dinar-One-Bold.otf": "/zoom/static/media/alfont_com_GE-Dinar-One-Bold.dbca70bd5cb2e3fe989e.otf",
-    "static/media/icons.svg": "/zoom/static/media/icons.c970baa1d9990e385e20f28e6c84aa9f.svg",
+    "static/media/icons.svg": "/zoom/static/media/icons.7571453cdd3b7a642490b60e35c1cca5.svg",
     "static/media/slick.svg": "/zoom/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/zoom/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/zoom/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.f237825a.css.map": "/zoom/static/css/main.f237825a.css.map",
-    "main.bbeef12e.js.map": "/zoom/static/js/main.bbeef12e.js.map",
+    "main.5a566105.js.map": "/zoom/static/js/main.5a566105.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f237825a.css",
-    "static/js/main.bbeef12e.js"
+    "static/js/main.5a566105.js"
   ]
 }
