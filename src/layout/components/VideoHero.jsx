@@ -1,11 +1,13 @@
-import { Button, Typography } from "@mui/material";
+import { Button, Typography, IconButton } from "@mui/material";
 import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import StyledTypography from "layout/components/StyledTypography";
 import PropTypes from "prop-types";
 import { useState } from "react";
+import { keyframes } from "@emotion/react";
 import { RouterLink } from "./router-link";
 
 const heroButton = {
@@ -62,6 +64,37 @@ const loaderStyle = {
   zIndex: 3,
 };
 
+const bounce = keyframes`
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+`;
+
+const scrollButtonStyle = {
+  position: "absolute",
+  bottom: "20px",
+  left: "50%",
+  transform: "translateX(-50%)",
+  zIndex: 4,
+  backgroundColor: "rgba(255, 255, 255, 0.2)",
+  backdropFilter: "blur(10px)",
+  border: "2px solid rgba(255, 255, 255, 0.5)",
+  borderRadius: "50%",
+  width: "56px",
+  height: "56px",
+  color: "white",
+  animation: `${bounce} 2s infinite`,
+  "&:hover": {
+    backgroundColor: "rgba(255, 255, 255, 0.3)",
+    borderColor: "rgba(255, 255, 255, 0.8)",
+    transform: "translateX(-50%) translateY(3px)",
+  },
+  transition: "all 0.3s ease",
+};
+
 export const VideoHero = ({
   title,
   title2,
@@ -77,6 +110,13 @@ export const VideoHero = ({
     setIsLoading(false);
   };
 
+  const handleScrollDown = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <Box
       maxWidth="xxl"
@@ -89,6 +129,15 @@ export const VideoHero = ({
     >
       {/* Overlay */}
       <Box sx={overlayStyle} />
+
+      {/* Scroll Down Button */}
+      <IconButton
+        onClick={handleScrollDown}
+        sx={scrollButtonStyle}
+        aria-label="Scroll down"
+      >
+        <KeyboardArrowDownIcon sx={{ fontSize: "32px" }} />
+      </IconButton>
 
       {/* Video Background */}
       <video
