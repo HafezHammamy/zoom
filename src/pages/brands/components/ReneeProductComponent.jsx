@@ -118,10 +118,12 @@ const ReneeProductComponent = () => {
                 <>
                   <Grid item xs={12} md={4}>
                     <Typography variant="body2">{product.title}</Typography>
+                    <Box sx={{ height: "50px" }}>
                     <Typography variant="body1" sx={{ color: "#6D6E71" }}>
                       {product.subtitle}
                     </Typography>
-
+                    </Box>
+                   
                     <Box sx={{ mt: 2, mb: 2 }}>
                       {product.preQuestion && (
                         <Typography variant="body2" sx={{ color: "#8B49AA" }}>
