@@ -22,7 +22,6 @@ const heroButton = {
 
 const heroTextStyle = {
   color: "#fff",
-  height:"35vh",
   width: "50%",
   textAlign: "left",
   alignItems: "flex-start",
@@ -81,7 +80,7 @@ export const VideoHero = ({
       maxWidth="xxl"
       sx={{
         position: "relative",
-        height: { xs: "70vh", md: "80vh" },
+        height: "100vh",
         width: "100%",
         overflow: "hidden",
       }}
@@ -108,7 +107,7 @@ export const VideoHero = ({
         sx={{ position: "relative", zIndex: 2, height: "100%", paddingBottom: 5 }}
       >
         <Stack
-          alignItems="end"
+          alignItems="flex-end"
           justifyContent="flex-start"
           spacing={2}
           sx={{ height: "100%", flexDirection: "row" }}
