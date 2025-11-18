@@ -10,9 +10,17 @@ export const ContactUsHero = (props) => {
   const scrollToForm = () => {
     const element = document.getElementById("contact-form");
     if (element) {
-      element.scrollIntoView({
+      // Get navbar element (header) to calculate its height
+      const navbar = document.querySelector("header");
+      const navbarHeight = navbar ? navbar.offsetHeight : 120; // Fallback to 120px if not found
+      
+      // Calculate the position accounting for navbar height
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = window.pageYOffset + elementPosition - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
         behavior: "smooth",
-        block: "start",
       });
     }
   };

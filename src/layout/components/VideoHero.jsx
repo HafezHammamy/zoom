@@ -111,8 +111,13 @@ export const VideoHero = ({
   };
 
   const handleScrollDown = () => {
+    // Get navbar element (header) to calculate its height
+    const navbar = document.querySelector("header");
+    const navbarHeight = navbar ? navbar.offsetHeight : 120; // Fallback to 120px if not found
+    
+    // Scroll to just below the hero section, accounting for navbar height
     window.scrollTo({
-      top: window.innerHeight,
+      top: window.innerHeight - navbarHeight,
       behavior: "smooth",
     });
   };
