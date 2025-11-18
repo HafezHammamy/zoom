@@ -29,7 +29,7 @@ const heroTextStyle = {
   alignItems: "flex-start",
   position: "relative",
   zIndex: 2, // Ensure text appears above overlay
-  paddingBottom: "5vh",
+  paddingBottom: "calc(5vh + 75px)", // 5vh + ~2cm (75px)
 };
 
 const videoContainerStyle = {
@@ -75,7 +75,7 @@ const bounce = keyframes`
 
 const scrollButtonStyle = {
   position: "absolute",
-  bottom: "20px",
+  bottom: "95px", // 20px + ~2cm (75px)
   left: "50%",
   transform: "translateX(-50%)",
   zIndex: 4,
