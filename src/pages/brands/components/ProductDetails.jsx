@@ -24,7 +24,7 @@ const ProductDetails = ({ products, collection }) => {
                 width: {
                   xs: "100%",
                   sm: "100%",
-                  md: collection === 1 ? "50%" : "70%",
+                  md: "40%",
                 },
                 padding: { xs: 2, sm: 2, md: 3 },
                 height: "fit-content",
@@ -32,49 +32,58 @@ const ProductDetails = ({ products, collection }) => {
                 wordWrap: "break-word",
               }}
             >
-              <Stack spacing={1}>
-                <Typography variant="h5" fontWeight="bold" gutterBottom>
-                  {product.title}
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color={theme.palette.primary.main}
-                  gutterBottom
-                >
-                  {product.subtitle}
-                </Typography>
-                <Typography variant="body1" gutterBottom>
-                  {product.description}
-                </Typography>
-              </Stack>
-
-              <ul
-                style={{
-                  color: theme.palette.primary.main,
-                  margin: 0,
-                  paddingLeft: "20px",
+              <Box
+                sx={{
+                  width: {
+                    xs: "100%",
+                    sm: "100%",
+                  },
                 }}
               >
-                {product?.items?.map((item) => {
-                  return (
-                    <li key={item}>
-                      <Typography variant="body2">{item} </Typography>
-                    </li>
-                  );
-                })}
-              </ul>
-              {product.description2 && (
-                <Typography variant="body1" gutterBottom sx={{ mt: 2 }}>
-                  {product.description2}
-                </Typography>
-              )}
+                <Stack spacing={1}>
+                  <Typography variant="h5" fontWeight="bold" gutterBottom>
+                    {product.title}
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    color={theme.palette.primary.main}
+                    gutterBottom
+                  >
+                    {product.subtitle}
+                  </Typography>
+                  <Typography variant="body1" gutterBottom>
+                    {product.description}
+                  </Typography>
+                </Stack>
+
+                <ul
+                  style={{
+                    color: theme.palette.primary.main,
+                    margin: 0,
+                    paddingLeft: "20px",
+                  }}
+                >
+                  {product?.items?.map((item) => {
+                    return (
+                      <li key={item}>
+                        <Typography variant="body2">{item} </Typography>
+                      </li>
+                    );
+                  })}
+                </ul>
+                {product.description2 && (
+                  <Typography variant="body1" gutterBottom sx={{ mt: 2 }}>
+                    {product.description2}
+                  </Typography>
+                )}
+              </Box>
             </Box>
             <Box
               sx={{
                 width: {
                   xs: "100%",
                   sm: "100%",
-                  md: collection === 1 ? "50%" : "30%",
+                  md: "60%",
                 },
                 display: "flex",
                 justifyContent: "center",
