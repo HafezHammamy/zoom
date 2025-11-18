@@ -41,6 +41,7 @@ export const ar = {
   [tokens.cards.card4.paragraph]:
     "نهدف إلى تمكين عملائنا بالمعرفة والثقة، مساعدتهم على اتخاذ قرارات مستنيرة بشأن رحلتهم الجمالية.",
 
+  [tokens.about.page.values.title]: "قيمنا",
   [tokens.about.page.values.value1.title]: "الشفافية",
   [tokens.about.page.values.value1.paragraph]:
     "نؤمن بالتواصل المفتوح والوضوح في جميع تعاملاتنا، مما يعزز بيئة من الثقة والتفاهم المتبادل.",

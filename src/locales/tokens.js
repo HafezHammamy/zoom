@@ -37,6 +37,7 @@ export const tokens = {
       },
 
       values: {
+        title: "about.page.values.title",
         value1: {
           title: "value1.title",
           paragraph: "value1.paragraph",

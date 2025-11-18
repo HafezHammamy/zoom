@@ -27,6 +27,7 @@ const heroTextStyle = {
   alignItems: "flex-start",
   position: "relative",
   zIndex: 2, // Ensure text appears above overlay
+  paddingBottom: "5vh",
 };
 
 const videoContainerStyle = {

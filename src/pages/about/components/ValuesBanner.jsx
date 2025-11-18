@@ -59,7 +59,7 @@ const ValuesBanner = (props) => {
         sx={{
           position: "relative",
           height: "100%",
-          padding: 10,
+          padding: 5,
           margin: 0,
         }}
       >
@@ -67,7 +67,7 @@ const ValuesBanner = (props) => {
           <Grid size={12} sx={{ paddingTop: 1 }}>
             <Grid size={3} sx={{ paddingTop: 1, paddingBottom: 1 }}>
               <QuoteTypography sx={{ color: "#012169" }} variant="h6">
-                Our Values
+                {t(tokens.about.page.values.title)}
               </QuoteTypography>
             </Grid>
           </Grid>

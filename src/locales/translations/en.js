@@ -43,6 +43,7 @@ export const en = {
   [tokens.cards.card4.paragraph]:
     "We aim to empower our clients with knowledge and confidence, helping them make informed decisions about their aesthetic journey.",
 
+  [tokens.about.page.values.title]: "Our Values",
   [tokens.about.page.values.value1.title]: "Transparency",
   [tokens.about.page.values.value1.paragraph]:
     "We believe in open communication and clarity in all our dealings, fostering an environment of trust and mutual understanding.",
