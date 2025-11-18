@@ -179,27 +179,29 @@ const ReneeProductComponent = () => {
 
             <Grid item xs={12} md={12}>
               {/* Button Section */}
-              <Stack direction="row" justifyContent={"space-between"}>
-                {products?.map((product) => (
-                  <Button
-                    variant={
-                      product.value === tabValue ? "contained" : "outlined"
-                    }
-                    onClick={() => {
-                      handleTabChange(product.value);
-                    }}
-                    sx={
-                      product.value === tabValue
-                        ? product.activeStyle
-                        : product.buttonStyle
-                    }
-                  >
-                    {product.buttonTitle}
-                  </Button>
-                ))}
-              </Stack>
+              <Grid item xs={12} md={12} sx={{ display: "flex", justifyContent: "center" }}>
+                <Stack direction="row" spacing={2}>
+                  {products?.map((product) => (
+                    <Button
+                      variant={
+                        product.value === tabValue ? "contained" : "outlined"
+                      }
+                      onClick={() => {
+                        handleTabChange(product.value);
+                      }}
+                      sx={
+                        product.value === tabValue
+                          ? product.activeStyle
+                          : product.buttonStyle
+                      }
+                    >
+                      {product.buttonTitle}
+                    </Button>
+                  ))}
+                </Stack>
+              </Grid>
+              </Grid>
             </Grid>
-          </Grid>
         </Container>
       </Stack>
     </Box>
