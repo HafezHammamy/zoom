@@ -69,6 +69,7 @@ export const VideoHero = ({
   videoSrc,
   actionPath,
   actionLabel,
+  actionOnClick,
 }) => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -123,8 +124,9 @@ export const VideoHero = ({
                   sx={heroButton}
                   size="large"
                   variant="outlined"
-                  LinkComponent={RouterLink}
-                  href={actionPath}
+                  {...(actionOnClick
+                    ? { onClick: actionOnClick }
+                    : { LinkComponent: RouterLink, href: actionPath })}
                 >
                   {actionLabel}
                 </Button>
