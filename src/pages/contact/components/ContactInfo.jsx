@@ -30,10 +30,6 @@ const ContactInfo = () => {
           {t(tokens.contact.info.contact_info)}
         </Typography>
         <Typography>{t(tokens.contact.info.phone)} #20200</Typography>
-        <Typography>
-          {t(tokens.contact.info.whatsapp)}
-          +970592663030
-        </Typography>
         <Link href="mailto:Info@dynainv.com" underline="hover" color="inherit">
           {t(tokens.contact.info.email)} Info@dynainv.com
         </Link>
