@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/zoom/static/css/main.f237825a.css",
-    "main.js": "/zoom/static/js/main.bfd8251a.js",
+    "main.js": "/zoom/static/js/main.e4461a1a.js",
     "static/js/453.f037a3e1.chunk.js": "/zoom/static/js/453.f037a3e1.chunk.js",
     "static/media/juvelook.mov": "/zoom/static/media/juvelook.f21138f89830faa5ef95.mov",
     "static/media/about.mov": "/zoom/static/media/about.e3f2773cffb8c4ad96d6.mov",
+    "static/media/HeroMove1.mp4": "/zoom/static/media/HeroMove1.a9401c96576fd219ce26.mp4",
+    "static/media/ContactUsMovie1.mp4": "/zoom/static/media/ContactUsMovie1.a0399ba523924b38b1c0.mp4",
+    "static/media/ReneeMovie1.mp4": "/zoom/static/media/ReneeMovie1.8abb51c4c0e3dc0d8b12.mp4",
+    "static/media/ksugery1.mp4": "/zoom/static/media/ksugery1.568fd5777512801e3f82.mp4",
     "static/media/lenisna.mov": "/zoom/static/media/lenisna.1d168ace8bdd57a1e14f.mov",
-    "static/media/ReneeMovie.mp4": "/zoom/static/media/ReneeMovie.ea63383331c769818aa2.mp4",
-    "static/media/HeroMove.mp4": "/zoom/static/media/HeroMove.e4500ed08e14b04335f9.mp4",
-    "static/media/ContactUsMovie.mp4": "/zoom/static/media/ContactUsMovie.bad9f6cf8e04c1653bbd.mp4",
+    "static/media/renee1.mp4": "/zoom/static/media/renee1.461e01086688a26092fe.mp4",
     "static/media/our_brands.mp4": "/zoom/static/media/our_brands.a36feb20cd26ac27f14c.mp4",
     "static/media/LeisnaMovie.mp4": "/zoom/static/media/LeisnaMovie.96641caa3a9167dcaafe.mp4",
     "static/media/kusrgery-movie2.mp4": "/zoom/static/media/kusrgery-movie2.7bd8ccab57c6614f7735.mp4",
     "static/media/BrandsMovie.mp4": "/zoom/static/media/BrandsMovie.ba64d8f02c0aedba0f4c.mp4",
     "static/media/val5.png": "/zoom/static/media/val5.c7c4d121235b34d77b82.png",
-    "static/media/renee.mp4": "/zoom/static/media/renee.ee4cbcb74abf7b69c768.mp4",
-    "static/media/ksugery.mp4": "/zoom/static/media/ksugery.a84fedd6a269a7695da2.mp4",
     "static/media/cover-girl-2.svg": "/zoom/static/media/cover-girl-2.e9f4a19e939e7b6ca83af28c3aa662ff.svg",
     "static/media/lenisna-hero-girl.png": "/zoom/static/media/lenisna-hero-girl.dbe28d5765e309aec9b8.png",
     "static/media/product-03.png": "/zoom/static/media/product-03.e639261f6a0697208f50.png",
@@ -86,11 +86,11 @@
     "static/media/slick.woff": "/zoom/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zoom/index.html",
     "main.f237825a.css.map": "/zoom/static/css/main.f237825a.css.map",
-    "main.bfd8251a.js.map": "/zoom/static/js/main.bfd8251a.js.map",
+    "main.e4461a1a.js.map": "/zoom/static/js/main.e4461a1a.js.map",
     "453.f037a3e1.chunk.js.map": "/zoom/static/js/453.f037a3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f237825a.css",
-    "static/js/main.bfd8251a.js"
+    "static/js/main.e4461a1a.js"
   ]
 }
