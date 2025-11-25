@@ -2,7 +2,7 @@ import { VideoHero } from "layout/components/VideoHero";
 import { tokens } from "locales/tokens";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-import video from "assets/HeroMove.mp4";
+import video from "assets/HeroMove1.mp4";
 import { paths } from "paths";
 
 export const HomeHero = (props) => {

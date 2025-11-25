@@ -36,12 +36,10 @@ const videoContainerStyle = {
   position: "absolute",
   top: "50%",
   left: "50%",
-  minWidth: "100%",
-  minHeight: "100%",
-  width: "auto",
-  height: "auto",
-  transform: "translate(-50%, -50%)",
+  width: "100%",
+  height: "100%",
   objectFit: "cover",
+  transform: "translate(-50%, -50%) scale(1)", // قلل الزوم
   zIndex: 0,
 };
 
@@ -114,7 +112,7 @@ export const VideoHero = ({
     // Get navbar element (header) to calculate its height
     const navbar = document.querySelector("header");
     const navbarHeight = navbar ? navbar.offsetHeight : 120; // Fallback to 120px if not found
-    
+
     // Scroll to just below the hero section, accounting for navbar height
     window.scrollTo({
       top: window.innerHeight - navbarHeight,
@@ -160,7 +158,12 @@ export const VideoHero = ({
       {/* Content */}
       <Container
         maxWidth="xl"
-        sx={{ position: "relative", zIndex: 2, height: "100%", paddingBottom: 5 }}
+        sx={{
+          position: "relative",
+          zIndex: 2,
+          height: "100%",
+          paddingBottom: 5,
+        }}
       >
         <Stack
           alignItems="flex-end"

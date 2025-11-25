@@ -18,7 +18,8 @@ const TitleBox = ({
   const { t } = useTranslation();
 
   return (
-    <Grid size={{ xs: 12, md: 6 }}>
+    <Grid size={{ xs: 12, md: 6 }} sx={{ display: "flex" }}>
+      {" "}
       <Box
         sx={{
           backgroundRepeat: "no-repeat",
@@ -26,14 +27,17 @@ const TitleBox = ({
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "white",
+          height: "100%",
+          display: "flex",
         }}
       >
-        <Stack direction="row" justifyContent="center">
+        <Stack direction="row" justifyContent="center" sx={{ width: "100%" }}>
           <Box
             sx={{
               width: { xs: "100%", md: "80%" },
               minHeight: { md: "660px" },
               display: "flex",
+              height: "100%",
             }}
           >
             <Stack

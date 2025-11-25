@@ -121,6 +121,7 @@ const AboutUsPage = (props) => {
                                   sx={{
                                     color: "#fff",
                                     height: "100%",
+                                    ml: { xs: 0, md: "-6%" }, // <-- moves content slightly left on medium+ screens
                                   }}
                                   justifyContent="center"
                                 >

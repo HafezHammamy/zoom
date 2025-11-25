@@ -5,9 +5,9 @@ import { useState } from "react";
 import { BRANDS } from "../contants";
 
 import video1 from "assets/juvelook.mov";
-import video4 from "assets/ksugery.mp4";
+import video4 from "assets/ksugery1.mp4";
 import video2 from "assets/lenisna.mov";
-import video3 from "assets/renee.mp4";
+import video3 from "assets/renee1.mp4";
 import BrandContainer from "./brands/BrandContainer";
 import { useTranslation } from "react-i18next";
 import { tokens } from "locales/tokens";

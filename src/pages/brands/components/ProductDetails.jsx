@@ -58,7 +58,6 @@ const ProductDetails = ({ products, collection }) => {
 
                 <ul
                   style={{
-                    color: theme.palette.primary.main,
                     margin: 0,
                     paddingLeft: "20px",
                   }}
@@ -66,7 +65,7 @@ const ProductDetails = ({ products, collection }) => {
                   {product?.items?.map((item) => {
                     return (
                       <li key={item}>
-                        <Typography variant="body2">{item} </Typography>
+                        <Typography>{item} </Typography>
                       </li>
                     );
                   })}
