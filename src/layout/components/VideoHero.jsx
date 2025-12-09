@@ -4,6 +4,10 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+
 import StyledTypography from "layout/components/StyledTypography";
 import PropTypes from "prop-types";
 import { useState } from "react";
@@ -24,12 +28,13 @@ const heroButton = {
 
 const heroTextStyle = {
   color: "#fff",
-  width: "50%",
   textAlign: "left",
   alignItems: "flex-start",
   position: "relative",
   zIndex: 2, // Ensure text appears above overlay
   paddingBottom: "calc(5vh + 75px)", // 5vh + ~2cm (75px)
+  maxWidth: { xs: "100%", md: "80%" },
+  px: { xs: 4, md: 6 }, // نفس الـ padding الموجود في DualSection
 };
 
 const videoContainerStyle = {
@@ -139,7 +144,7 @@ export const VideoHero = ({
         sx={scrollButtonStyle}
         aria-label="Scroll down"
       >
-        <KeyboardArrowDownIcon sx={{ fontSize: "32px" }} />
+        <ArrowDownwardIcon sx={{ fontSize: "32px" }} />
       </IconButton>
 
       {/* Video Background */}
@@ -163,6 +168,7 @@ export const VideoHero = ({
           zIndex: 2,
           height: "100%",
           paddingBottom: 5,
+          marginLeft: "7.5%",
         }}
       >
         <Stack
@@ -172,9 +178,24 @@ export const VideoHero = ({
           sx={{ height: "100%", flexDirection: "row" }}
         >
           <Stack spacing={3} sx={heroTextStyle}>
-            {title && <StyledTypography variant="h2">{title}</StyledTypography>}
+            {title && (
+              <Box sx={{ pr: "-160px" }}>
+                <StyledTypography variant="h2">{title}</StyledTypography>
+              </Box>
+            )}
             {title2 && <Typography variant="h3">{title2}</Typography>}
-            <StyledTypography variant="body2">{description}</StyledTypography>
+            <StyledTypography
+              variant="body2"
+              sx={{
+                maxWidth: "500px",
+                whiteSpace: "normal",
+                wordWrap: "break-word",
+                overflowWrap: "break-word",
+                textAlign: "justify",
+              }}
+            >
+              {description}
+            </StyledTypography>
             <Box>
               {actionLabel && (
                 <Button

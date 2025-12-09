@@ -75,7 +75,16 @@ const TitleBox = ({
                   >
                     {title}
                   </Typography>
-                  <Typography variant="body2">{paragraph}</Typography>
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      textAlign: "justify",
+                      whiteSpace: "normal",
+                      wordBreak: "break-word",
+                    }}
+                  >
+                    {paragraph}
+                  </Typography>
                   {title2 && <Typography variant="h3">{title2}</Typography>}
                   {paragraph2 && (
                     <Typography variant="body2">{paragraph2}</Typography>

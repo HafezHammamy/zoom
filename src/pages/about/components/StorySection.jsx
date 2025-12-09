@@ -38,14 +38,13 @@ const TitleBox = ({
             }}
           >
             <Stack
-              spacing={5}
               direction="column"
               justifyContent="flex-start"
               alignItems="flex-start"
               sx={{
                 height: "100%",
                 width: "100%",
-                px: { xs: 4, md: 6 },
+                px: { xs: 4, md: 15 },
                 py: { xs: 6, md: 8 },
                 pt: { xs: 6, md: 18 },
                 textAlign: "left",
@@ -72,18 +71,12 @@ const TitleBox = ({
                   >
                     {title}
                   </Typography>
-                  <Typography variant="body1">
+                  <Typography variant="body1" sx={{ textAlign: "justify" }}>
                     {paragraph}
                   </Typography>
-                  {title2 && (
-                    <Typography variant="h3">
-                      {title2}
-                    </Typography>
-                  )}
+                  {title2 && <Typography variant="h3">{title2}</Typography>}
                   {paragraph2 && (
-                    <Typography variant="body1">
-                      {paragraph2}
-                    </Typography>
+                    <Typography variant="body1">{paragraph2}</Typography>
                   )}
 
                   {!hideAction && (

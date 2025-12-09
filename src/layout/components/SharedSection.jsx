@@ -27,7 +27,10 @@ const SharedSection = ({
             spacing={5}
             divider={<Divider orientation="vertical" flexItem />}
           >
-            <StyledTypography variant={theme.direction === "ltr" ? "h2" : "h2"}>
+            <StyledTypography
+              variant={theme.direction === "ltr" ? "h2" : "h2"}
+              sx={{ width: "700px" }}
+            >
               {title}
             </StyledTypography>
             <StyledTypography variant="body2">{description}</StyledTypography>

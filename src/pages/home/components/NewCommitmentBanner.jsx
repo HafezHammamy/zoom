@@ -25,7 +25,7 @@ const NewCommitmentBanner = () => {
           <Stack
             direction={"row"}
             justifyContent="center"
-            alignItems="self-end"
+            alignItems="center"
             spacing={5}
             divider={<Divider orientation="vertical" flexItem />}
           >

@@ -131,7 +131,14 @@ const AboutUsPage = (props) => {
                                   <StyledTypography variant="h2">
                                     {t(tokens.about.page.product.subtitle)}
                                   </StyledTypography>
-                                  <StyledTypography variant="body2">
+                                  <StyledTypography
+                                    variant="body2"
+                                    sx={{
+                                      textAlign: "justify",
+                                      whiteSpace: "normal",
+                                      wordBreak: "break-word",
+                                    }}
+                                  >
                                     {t(tokens.about.page.product.paragraph)}
                                   </StyledTypography>
                                   <Box>
@@ -174,5 +181,4 @@ const AboutUsPage = (props) => {
 };
 
 AboutUsPage.propTypes = {};
-
 export default AboutUsPage;

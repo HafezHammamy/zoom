@@ -55,21 +55,22 @@ const ProductDetails = ({ products, collection }) => {
                     {product.description}
                   </Typography>
                 </Stack>
-
-                <ul
-                  style={{
-                    margin: 0,
-                    paddingLeft: "20px",
-                  }}
-                >
-                  {product?.items?.map((item) => {
-                    return (
-                      <li key={item}>
-                        <Typography>{item} </Typography>
-                      </li>
-                    );
-                  })}
-                </ul>
+                <Box sx={{ mt: "20px" }}>
+                  <ul
+                    style={{
+                      margin: 0,
+                      paddingLeft: "20px",
+                    }}
+                  >
+                    {product?.items?.map((item) => {
+                      return (
+                        <li key={item}>
+                          <Typography>{item} </Typography>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </Box>
                 {product.description2 && (
                   <Typography variant="body1" gutterBottom sx={{ mt: 2 }}>
                     {product.description2}

@@ -51,10 +51,11 @@ const KsurgeryPage = (props) => {
                   <Typography variant="body">
                     {t(tokens.brands.ksurgery.whatIsDescription)}
                   </Typography>
+                  <Box sx={{ height: "5px" }} />
                   <Typography variant="h4">
                     {t(tokens.brands.ksurgery.keyBenefits)}
                   </Typography>
-                  <ul>
+                  <ul sx={{ mt: "160px" }}>
                     <li>{t(tokens.brands.ksurgery.keyBenefit1)}</li>
                     <li>{t(tokens.brands.ksurgery.keyBenefit2)}</li>
                     <li>{t(tokens.brands.ksurgery.keyBenefit3)}</li>

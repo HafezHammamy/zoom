@@ -9,7 +9,7 @@ export const ar = {
   [tokens.common.discover_brands.title]: "اكتشف علاماتنا التجارية",
   [tokens.common.discover_brands.summary]:
     "اكتشف علاماتنا التجارية المتميزة في مجال الجمال والتجميل، والتي تم اختيارها بعناية لتحقيق نتائج استثنائية.",
-  [tokens.common.buttons.readMore]: "اقرء المزيد",
+  [tokens.common.buttons.readMore]: " اقرأ  المزيد",
   [tokens.commitment.title]: "التزامنا بالتميز",
   [tokens.about.page.button]: "رؤيتنا، مهمتنا وقيمنا",
   [tokens.about.page.card1]:
@@ -111,7 +111,7 @@ export const ar = {
     " تمزج علاجات حمض الهيالورونيك الإيطالية الصنع لدينا بين التكنولوجيا المتطورة وتعزيز الجمال الطبيعي. تقدم Ksurgery MED، من Vidapharma، منتجات آمنة وفعالة ومثبتة علميًا، مصممة لتلبية المعايير العالية للمتخصصين الطبيين في مجال الرعاية الجمالية.",
   [tokens.brands.ksurgery.description3]:
     "سكين بوستر يمكنه تصحيح التجاعيد من الدقيقة إلى المتوسطة الوضوح، وهو مثالي لعلاج تلف البشرة الناتج عن التعرض للشمس وعوامل الزمن. يضمن تجديد سريع للأدمة، وتحسين فوري في التماسك، وترطيب أفضل وزيادة في الإشراق.",
-  [tokens.brands.ksurgery.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.ksurgery.whatIs]: "ما هو جوفيلوك؟",
   [tokens.brands.ksurgery.whatIsDescription]:
     "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
   [tokens.brands.ksurgery.keyBenefits]: "الفوائد الرئيسية",
@@ -191,9 +191,9 @@ export const ar = {
   [tokens.brands.ksurgery.products[0].body[0].description2]:
     "حشو الجسم لدينا يضمن الامتصاص الكامل وغياب تام للحبيبات بعد العلاج. بعد العلاج، يمكنك استئناف أنشطتك اليومية على الفور.",
   [tokens.brands.ksurgery.products[1].face[0].title]:
-    "أوبرا ريف سكين بوستر إيفولوشن إل",
+    "أوبرا ريف سكين بوستر إيفولوشن L",
   [tokens.brands.ksurgery.products[1].face[0].subtitle]: "حشو حيوي مجدد للبشرة",
-  [tokens.brands.ksurgery.products[1].face[0].buttonTitle]: "إيفولوشن إل",
+  [tokens.brands.ksurgery.products[1].face[0].buttonTitle]: "إيفولوشن L",
   [tokens.brands.ksurgery.products[1].face[0].description]:
     "مُعزّز للبشرة يحتوي على حمض الهيالورونيك بتركيبة مجددة للبنية، قليل الترابط، مصمم لتقليل الخطوط الدقيقة، وتحسين نسيج البشرة، ومنح مظهر أكثر شبابًا.",
   [tokens.brands.ksurgery.products[1].face[0].items[0]]:
@@ -206,9 +206,9 @@ export const ar = {
     "تركيز حمض الهيالورونيك المرتبط: ٢٠ ملغ/مل",
 
   [tokens.brands.ksurgery.products[1].face[1].title]:
-    "أوبرا ريف سكين بوستر إيفولوشن إس",
+    "أوبرا ريف سكين بوستر إيفولوشن S",
   [tokens.brands.ksurgery.products[1].face[1].subtitle]: "حشو مجدد للبشرة",
-  [tokens.brands.ksurgery.products[1].face[1].buttonTitle]: "إيفولوشن إس",
+  [tokens.brands.ksurgery.products[1].face[1].buttonTitle]: "إيفولوشن S",
   [tokens.brands.ksurgery.products[1].face[1].description]:
     "سكين بوستر للوجه يحتوي على حمض الهيالورونيك قليل الترابط، بتركيبة مجددة للبنية. مثالي لتصحيح العيوب الطفيفة في الوجه، وتوفير ترطيب مكثف للبشرة، ومنح النعومة للمناطق ذات المرونة المنخفضة.",
   [tokens.brands.ksurgery.products[1].face[1].items[0]]:
@@ -264,15 +264,15 @@ export const ar = {
   [tokens.brands.lenisna.application]: "التطبيق والنتائج",
   [tokens.brands.lenisna.applicationDescription]:
     "تؤدي تأثيرات لينيسنا التدريجية والطويلة الأمد إلى بشرة أكثر نعومة وثباتًا مع خطوط أقل وتحسن في النسيج، مما يساعد المرضى في الحصول على بشرة أكثر شبابًا.",
-  [tokens.brands.lenisna.pageTitle]: "الجيل الجديد من حلول مكافحة الشيخوخة",
+  [tokens.brands.lenisna.pageTitle]: " لينيسنا   ",
   [tokens.brands.lenisna.pageDescription]:
-    "المحفزات الحيوية الهجينة المتقدمة بولي-D، حمض اللاكتيك L+حمض الهيالورونيك",
+    " يوفر لينيسنا تركيبة عالية النقاء من PDLLA مع حمض الهيالورونيك لرفع ملامح الوجه واستعادة الحجم المفقود ومعالجة التجاعيد العميقة بفعالية ",
   [tokens.brands.renee.title]: "رينيه",
   [tokens.brands.renee.subtitle]: "اكتشف رينيه",
   [tokens.brands.renee.description]:
     "تم تصميم جل حمض الهيالورونيك القابل للحقن لدينا بعناية لترطيب البشرة وتجديدها، مما يمنح مظهرًا منتعشًا وشابًا. مع التركيبات المتقدمة، تقدم رينيه حلولًا فعالة لمختلف الاحتياجات الجمالية.",
 
-  [tokens.brands.renee.whatIs]: "ما هو ريني؟",
+  [tokens.brands.renee.whatIs]: "ما هو رينيه",
   [tokens.brands.renee.whatIsDescription]:
     "ريني هو خط فاخر من الجل القائم على حمض الهيالورونيك المصمم لتعزيز واستعادة مظهر البشرة الشابة. تشمل مجموعة المنتجات المحفزات الجلدية الخاصة وحشوات الجلد، حيث يستهدف كل منها مناطق وجه محددة لتحسين الحجم، والنسيج، والترطيب.",
   [tokens.brands.renee.keyBenefits]: "الفوائد الرئيسية",
@@ -394,9 +394,11 @@ export const ar = {
   [tokens.brands.lenisna.body.point3]: "الأرداف",
   [tokens.brands.lenisna.body.point4]: "تقليل السيلوليت",
   [tokens.brands.lenisna.body.point5]: "علامات التمدد",
-  [tokens.brands.juvelook.pageTitle]: "الجيل الجديد من حلول مكافحة الشيخوخة",
+  [tokens.brands.juvelook.pageTitle]: "جوفيلوك",
+
   [tokens.brands.juvelook.pageDescription]:
-    "محفزات حيوية هجينة متقدمة: حمض اللاكتيك L-Poly-D + حمض الهيالورونيك",
+    "يجمع جوفيلوك بين PDLLA وحمض الهيالورونيك لتحفيز الكولاجين بلطف، مما يحسّن نسيج البشرة ويزيد من إشراقها بنتائج طبيعية.",
+
   [tokens.brands.juvelook.face.point1]: "تجديد البشرة (الوجه بالكامل)",
   [tokens.brands.juvelook.face.point2]: "تحت العين (الشق الدمعي)",
   [tokens.brands.juvelook.face.point3]: "التجاعيد الدقيقة",
@@ -438,7 +440,7 @@ export const ar = {
   [tokens.brands.juvelook.subtitle]: "اكتشف جوفيلوك",
   [tokens.brands.juvelook.description]:
     "حشوة PLA الفريدة لدينا تعزز مظهرك بدقة. يتم حقن جزيئات PDLLA الصغيرة في الأدمة، مما يزيد حجم البشرة بشكل متساوٍ عن طريق تعزيز إنتاج الكولاجين.",
-  [tokens.brands.juvelook.whatIs]: "ما هو جوفلوك؟",
+  [tokens.brands.juvelook.whatIs]: "ما هو جوفيلوك؟",
   [tokens.brands.juvelook.whatIsDescription]:
     "جوفلوك هو حقن يعتمد على مادة PDLLA تحفز إنتاج الكولاجين، مما يوفر تجديدًا طبيعيًا وطويل الأمد للبشرة. تم تصميمه لتحسين جودة البشرة من خلال معالجة علامات الشيخوخة مع الحد الأدنى من التداخل والتوقف.",
   [tokens.brands.juvelook.keyBenefits]: "الفوائد الرئيسية",

@@ -44,7 +44,9 @@ const BrandContainer = ({ title, description, video, subTitle, path }) => {
           <Stack spacing={3} sx={heroTextStyle} className="slide-up">
             <QuoteTypography variant="h6">{title}</QuoteTypography>
             <Typography variant="h5">{subTitle}</Typography>
-            <StyledTypography variant="body2">{description} </StyledTypography>
+            <StyledTypography variant="body2" sx={{ textAlign: "justify" }}>
+              {description}{" "}
+            </StyledTypography>
             <Box>
               <Button
                 sx={buttonStyle}

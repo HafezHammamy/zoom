@@ -5,7 +5,7 @@ import { tokens } from "locales/tokens";
 import StorySection from "pages/about/components/StorySection";
 import { useTranslation } from "react-i18next";
 import image from "assets/dynamics-gradient-green.png";
-import image2 from "assets/dynamicshp.png";
+import image2 from "assets/dynamicshp.jpg";
 
 const AboutUsBanner = (props) => {
   const { t } = useTranslation();

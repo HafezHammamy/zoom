@@ -57,7 +57,7 @@ const JuvelookProductComponent = () => {
     >
       <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
         <Container maxWidth="xl" sx={{ py: 2 }}>
-          <Grid container alignItems="center">
+          <Grid container alignItems="stretch">
             <Grid item xs={12} md={12}>
               <Box
                 component="img"
@@ -71,7 +71,7 @@ const JuvelookProductComponent = () => {
                   width: "180px",
                 }}
               />
-              <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+              <Typography variant="body1" sx={{ color: "#6D6E71", mb: "50px" }}>
                 {t(tokens.brands.juvelook.products[0].title)}
               </Typography>
             </Grid>
@@ -118,9 +118,12 @@ const JuvelookProductComponent = () => {
                   <Grid item xs={12} md={6}>
                     <Box
                       sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
                         textAlign: "center",
-                        position: "relative",
                         minHeight: "457px",
+                        mt: "-250px",
                       }}
                     >
                       <Box
@@ -130,7 +133,9 @@ const JuvelookProductComponent = () => {
                         loading="lazy"
                         sx={{
                           maxWidth: "100%",
+                          maxHeight: "100%",
                           height: "auto",
+                          width: "auto",
                         }}
                       />
                     </Box>
@@ -146,7 +151,7 @@ const JuvelookProductComponent = () => {
                         </Typography>
                         <Typography
                           component="ul"
-                          sx={{ pl: 2, fontSize: "1rem" }}
+                          sx={{ pl: 2, fontSize: "1rem", color: "#6D6E71" }}
                         >
                           {product.volumeItems.map((item) => (
                             <li>{item}</li>
@@ -162,7 +167,7 @@ const JuvelookProductComponent = () => {
                         </Typography>
                         <Typography
                           component="ul"
-                          sx={{ pl: 2, fontSize: "1rem" }}
+                          sx={{ pl: 2, fontSize: "1rem", color: "#6D6E71" }}
                         >
                           {product.items.map((item) => (
                             <li>{item}</li>

@@ -119,11 +119,11 @@ const ReneeProductComponent = () => {
                   <Grid item xs={12} md={4}>
                     <Typography variant="body2">{product.title}</Typography>
                     <Box sx={{ height: "50px" }}>
-                    <Typography variant="body1" sx={{ color: "#6D6E71" }}>
-                      {product.subtitle}
-                    </Typography>
+                      <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+                        {product.subtitle}
+                      </Typography>
                     </Box>
-                   
+
                     <Box sx={{ mt: 2, mb: 2 }}>
                       {product.preQuestion && (
                         <Typography variant="body2" sx={{ color: "#8B49AA" }}>
@@ -181,29 +181,34 @@ const ReneeProductComponent = () => {
 
             <Grid item xs={12} md={12}>
               {/* Button Section */}
-              <Grid item xs={12} md={12} sx={{ display: "flex", justifyContent: "center" }}>
+              <Grid
+                item
+                xs={12}
+                md={12}
+                sx={{ display: "flex", justifyContent: "center" }}
+              >
                 <Stack direction="row" spacing={2}>
                   {products?.map((product) => (
                     <Button
                       variant={
                         product.value === tabValue ? "contained" : "outlined"
                       }
-                      onClick={() => {
-                        handleTabChange(product.value);
-                      }}
-                      sx={
-                        product.value === tabValue
+                      onClick={() => handleTabChange(product.value)}
+                      sx={{
+                        minWidth: "150px",
+
+                        ...(product.value === tabValue
                           ? product.activeStyle
-                          : product.buttonStyle
-                      }
+                          : product.buttonStyle),
+                      }}
                     >
                       {product.buttonTitle}
                     </Button>
                   ))}
                 </Stack>
               </Grid>
-              </Grid>
             </Grid>
+          </Grid>
         </Container>
       </Stack>
     </Box>

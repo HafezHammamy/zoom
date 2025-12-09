@@ -56,7 +56,7 @@ const LenisnaProductComponent = () => {
     >
       <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
         <Container maxWidth="xl" sx={{ py: 2 }}>
-          <Grid container alignItems="center">
+          <Grid container alignItems="stretch">
             <Grid item xs={12} md={12}>
               <Box
                 component="img"
@@ -70,7 +70,7 @@ const LenisnaProductComponent = () => {
                   width: "180px",
                 }}
               />
-              <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+              <Typography variant="body1" sx={{ color: "#6D6E71", mb: "90px" }}>
                 {t(tokens.brands.lenisna.products[0].title)}
               </Typography>
             </Grid>
@@ -93,7 +93,7 @@ const LenisnaProductComponent = () => {
                       <Box>
                         <Typography
                           variant="body2"
-                          sx={{ color: "#7B1237", mb: 2 }}
+                          sx={{ color: "#7B1237", mt: "60px" }}
                         >
                           {product.title2}
                         </Typography>
@@ -130,6 +130,7 @@ const LenisnaProductComponent = () => {
                         sx={{
                           maxWidth: "100%",
                           height: "auto",
+                          mt: "-220px",
                         }}
                       />
                     </Box>
@@ -145,7 +146,7 @@ const LenisnaProductComponent = () => {
                         </Typography>
                         <Typography
                           component="ul"
-                          sx={{ pl: 2, fontSize: "1rem" }}
+                          sx={{ pl: 2, fontSize: "1rem", color: "#6D6E71" }}
                         >
                           {product.volumeItems.map((item) => (
                             <li>{item}</li>
@@ -161,7 +162,7 @@ const LenisnaProductComponent = () => {
                         </Typography>
                         <Typography
                           component="ul"
-                          sx={{ pl: 2, fontSize: "1rem" }}
+                          sx={{ pl: 2, fontSize: "1rem", color: "#6D6E71" }}
                         >
                           {product.items.map((item) => (
                             <li>{item}</li>

@@ -354,7 +354,7 @@ export const en = {
     "Our innovative spherical particles stimulate collagen production, offering natural volume for facial and body contouring. Ideal for wrinkle reduction and scar treatment.",
   [tokens.brands.juvelook.whatIs]: "What is Juvelook?",
   [tokens.brands.juvelook.whatIsDescription]:
-    "Juvelook is a PDLLA-based injectable that stimulates collagen production, providing natural and long-lasting skin rejuvenation. It is designed to improve skin quality by addressing aging signs with minimal invasiveness and downtime.",
+    "JuveLook blends PDLLA with Hyaluronic Acid to gently stimulate collagen, improving texture, radiance, and overall skin quality with subtle, natural-looking results.",
   [tokens.brands.juvelook.keyBenefits]: "Key Benefits",
   [tokens.brands.juvelook.keyBenefit1]:
     "Enhances skin texture, elasticity, and firmness",
@@ -371,10 +371,9 @@ export const en = {
   [tokens.brands.juvelook.application]: "Application and Results",
   [tokens.brands.juvelook.applicationDescription]:
     "Juvelook delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
-  [tokens.brands.lenisna.pageTitle]:
-    "The New Generation of Anti Aging Solution",
+  [tokens.brands.lenisna.pageTitle]: "Lenisna",
   [tokens.brands.lenisna.pageDescription]:
-    "The Advanced Hybrid Bio-Stimulator Poly-D, L Lactic Acid+Hyaluronic Acid",
+    "Lenisna combines high-purity PDLLA with Hyaluronic Acid to deliver structural lifting, long-lasting volume, and visible correction of deep wrinkles.",
   [tokens.brands.lenisna.title]: "Lenisna",
   [tokens.brands.lenisna.subtitle]: "Experience LENISNA",
   [tokens.brands.lenisna.description]:
