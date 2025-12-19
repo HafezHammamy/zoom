@@ -17,8 +17,8 @@ import { RouterLink } from "./router-link";
 const heroButton = {
   color: "white",
   borderColor: "white",
-  height: "65px",
-  width: "281px",
+  height: { xs: "50px", md: "65px" },
+  width: { xs: "100%", md: "281px" },
   "&:hover": {
     borderColor: "white",
     color: "#ab92e1",
@@ -28,11 +28,11 @@ const heroButton = {
 
 const heroTextStyle = {
   color: "#fff",
-  textAlign: "left",
-  alignItems: "flex-start",
+  textAlign: { xs: "left", md: "left" },
+  alignItems: { xs: "flex-start", md: "flex-start" },
   position: "relative",
   zIndex: 2, // Ensure text appears above overlay
-  paddingBottom: "calc(5vh + 75px)", // 5vh + ~2cm (75px)
+  paddingBottom: { xs: 0, md: "calc(5vh + 75px)" }, // 5vh + ~2cm (75px)
   maxWidth: { xs: "100%", md: "80%" },
   px: { xs: 4, md: 6 }, // نفس الـ padding الموجود في DualSection
 };
@@ -78,7 +78,7 @@ const bounce = keyframes`
 
 const scrollButtonStyle = {
   position: "absolute",
-  bottom: "95px", // 20px + ~2cm (75px)
+  bottom: { xs: "15px", md: "85px" }, // Adjusted slightly lower
   left: "50%",
   transform: "translateX(-50%)",
   zIndex: 4,
@@ -86,8 +86,8 @@ const scrollButtonStyle = {
   backdropFilter: "blur(10px)",
   border: "2px solid rgba(255, 255, 255, 0.5)",
   borderRadius: "50%",
-  width: "56px",
-  height: "56px",
+  width: { xs: "40px", md: "56px" }, // Smaller on mobile
+  height: { xs: "40px", md: "56px" }, // Smaller on mobile
   color: "white",
   animation: `${bounce} 2s infinite`,
   "&:hover": {
@@ -133,10 +133,26 @@ export const VideoHero = ({
         height: "100vh",
         width: "100%",
         overflow: "hidden",
+        margin: { xs: 0, md: "auto" },
+        padding: 0,
+        "@media (max-width: 899px)": {
+          marginLeft: 0,
+          marginRight: 0,
+          width: "100vw",
+          maxWidth: "100%",
+        },
       }}
     >
       {/* Overlay */}
-      <Box sx={overlayStyle} />
+      <Box
+        sx={{
+          ...overlayStyle,
+          "@media (max-width: 899px)": {
+            width: "100vw",
+            left: 0,
+          },
+        }}
+      />
 
       {/* Scroll Down Button */}
       <IconButton
@@ -144,7 +160,7 @@ export const VideoHero = ({
         sx={scrollButtonStyle}
         aria-label="Scroll down"
       >
-        <ArrowDownwardIcon sx={{ fontSize: "32px" }} />
+        <ArrowDownwardIcon sx={{ fontSize: { xs: "20px", md: "32px" } }} />
       </IconButton>
 
       {/* Video Background */}
@@ -155,10 +171,27 @@ export const VideoHero = ({
         playsInline
         style={videoContainerStyle}
         onCanPlay={handleVideoLoaded}
+        className="video-hero-mobile-fix"
       >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <style>{`
+        @media (max-width: 899px) {
+          .video-hero-mobile-fix {
+            left: 0 !important;
+            transform: translateY(-50%) !important;
+            width: 100vw !important;
+            min-width: 100vw !important;
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+          }
+          
+          body {
+            overflow-x: hidden !important;
+          }
+        }
+      `}</style>
 
       {/* Content */}
       <Container
@@ -167,31 +200,59 @@ export const VideoHero = ({
           position: "relative",
           zIndex: 2,
           height: "100%",
-          paddingBottom: 5,
-          marginLeft: "7.5%",
+          paddingBottom: { xs: 2, md: 5 },
+          marginLeft: { xs: 0, md: "7.5%" },
+          px: { xs: 2, md: 0 },
         }}
       >
         <Stack
-          alignItems="flex-end"
-          justifyContent="flex-start"
+          alignItems={{ xs: "flex-end", md: "flex-end" }}
+          justifyContent={{ xs: "flex-end", md: "flex-start" }}
           spacing={2}
-          sx={{ height: "100%", flexDirection: "row" }}
+          sx={{
+            height: "100%",
+            flexDirection: { xs: "column", md: "row" },
+            "@media (max-width: 899px)": {
+              marginTop: "-40px", // Move content up on mobile
+            },
+          }}
         >
           <Stack spacing={3} sx={heroTextStyle}>
             {title && (
-              <Box sx={{ pr: "-160px" }}>
-                <StyledTypography variant="h2">{title}</StyledTypography>
+              <Box sx={{ pr: { xs: 0, md: "-160px" } }}>
+                <StyledTypography
+                  variant="h2"
+                  sx={{
+                    fontSize: { xs: "1.5rem", md: "3rem" },
+                  }}
+                >
+                  {title}
+                </StyledTypography>
               </Box>
             )}
-            {title2 && <Typography variant="h3">{title2}</Typography>}
+            {title2 && (
+              <Typography
+                variant="h3"
+                sx={{
+                  "@media (max-width: 899px)": {
+                    fontSize: "1.25rem",
+                  },
+                }}
+              >
+                {title2}
+              </Typography>
+            )}
             <StyledTypography
               variant="body2"
               sx={{
-                maxWidth: "500px",
+                maxWidth: { xs: "100%", md: "500px" },
                 whiteSpace: "normal",
                 wordWrap: "break-word",
                 overflowWrap: "break-word",
-                textAlign: "justify",
+                textAlign: { xs: "left", md: "justify" },
+                "@media (max-width: 899px)": {
+                  fontSize: "0.875rem",
+                },
               }}
             >
               {description}

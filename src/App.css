@@ -35,6 +35,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 899px) {
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden;
+    }
+    
+    main {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
 /* For left-to-right text */
 body:dir(ltr) {
     font-family: "ParagraphFonts", serif;
