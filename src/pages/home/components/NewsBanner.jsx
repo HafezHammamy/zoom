@@ -95,8 +95,19 @@ const NewsBanner = (props) => {
                     </Typography>
                     <Typography
                       variant="caption"
+                      component="div"
                       sx={{
                         color: "text.secondary",
+                        textAlign: "justify",
+                        textJustify: "inter-word",
+                        wordSpacing: "0.15em",
+                        letterSpacing: "0.02em",
+                        lineHeight: 1.7,
+                        display: "block",
+                        width: "100%",
+                        hyphens: "auto",
+                        WebkitHyphens: "auto",
+                        msHyphens: "auto",
                         "@media (max-width: 899px)": {
                           fontSize: "0.65rem",
                         },

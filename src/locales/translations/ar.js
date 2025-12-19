@@ -363,7 +363,7 @@ export const ar = {
   [tokens.brands.lenisna.products[0].aging[0].description1]:
     "تؤدي التأثيرات التدريجية طويلة الأمد لمنتج لينسنا إلى بشرة أكثر نعومة وثباتًا مع خطوط أقل وتحسين في الملمس، مما يساعد المرضى على تحقيق بشرة أكثر شبابًا.",
   [tokens.brands.lenisna.products[0].aging[0].description2]:
-    "170 ملغ من حمض بولي-D، L-لاكتيك (PDLLA) و30 ملغ من حمض الهيالورونيك",
+    "يحتوي المنتج على 42.4 ملغ من حمض بولي-دي إل-لاكيتيك (PDLLA) و 7.5 ملغ من حمض الهيالورونيك مع مدة تأثير تتراوح بين 12 و 18 شهرًا.",
   [tokens.brands.lenisna.products[0].aging[0].description3]: "18 - 24 شهرًا",
   [tokens.brands.lenisna.products[0].aging[0].volumeItems[0]]: "نحت الوجه",
   [tokens.brands.lenisna.products[0].aging[0].volumeItems[1]]: "نحت الجسم",
@@ -414,7 +414,7 @@ export const ar = {
   [tokens.brands.juvelook.products[0].aging[0].description1]:
     "يمنح Juvelook نتائج طبيعية ومتدرجة تدوم لفترات طويلة، مما يعزز نعومة البشرة وثباتها مع تقليل جلسات العلاج.",
   [tokens.brands.juvelook.products[0].aging[0].description2]:
-    "42.4 ملغ من حمض بولي-دي إل-لاكتيك (PDLLA) 7.5 ملغ من حمض الهيالورونيك",
+    "يحتوي المنتج على 42.4 ملغ من حمض بولي-دي إل-لاكيتيك (PDLLA) و 7.5 ملغ من حمض الهيالورونيك مع مدة تأثير تتراوح بين 12 و 18 شهرًا.",
   [tokens.brands.juvelook.products[0].aging[0].description3]: "12 - 18 شهرًا",
   [tokens.brands.juvelook.products[0].aging[0].volumeItems[0]]: "تفتيح البشرة",
   [tokens.brands.juvelook.products[0].aging[0].volumeItems[1]]:

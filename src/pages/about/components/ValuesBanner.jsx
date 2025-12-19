@@ -84,7 +84,18 @@ const ValuesBanner = (props) => {
                     </Typography>
                     <Typography
                       variant="caption"
-                      sx={{ color: "text.secondary", fontSize: "1rem" }}
+                      component="div"
+                      sx={{
+                        color: "text.secondary",
+                        fontSize: "1rem",
+                        textAlign: "justify",
+                        textJustify: "inter-word",
+                        wordSpacing: "0.15em",
+                        letterSpacing: "0.02em",
+                        lineHeight: 1.7,
+                        display: "block",
+                        width: "100%",
+                      }}
                     >
                       {item.description}
                     </Typography>

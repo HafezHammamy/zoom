@@ -16,7 +16,6 @@ const JuvelookProductComponent = () => {
       value: "product-1",
       title1: t(tokens.brands.juvelook.products[0].aging[0].title1),
       title2: t(tokens.brands.juvelook.products[0].aging[0].title2),
-      title3: t(tokens.brands.juvelook.products[0].aging[0].title3),
       title4: t(tokens.brands.juvelook.products[0].aging[0].title4),
       description1: t(tokens.brands.juvelook.products[0].aging[0].description1),
       description2: t(tokens.brands.juvelook.products[0].aging[0].description2),
@@ -87,30 +86,45 @@ const JuvelookProductComponent = () => {
                         >
                           {product.title1}
                         </Typography>
-                        <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+                        <Typography
+                          variant="body1"
+                          component="div"
+                          sx={{
+                            color: "#6D6E71",
+                            textAlign: "justify",
+                            textJustify: "inter-word",
+                            wordSpacing: "0.15em",
+                            letterSpacing: "0.02em",
+                            lineHeight: 1.7,
+                            display: "block",
+                            width: "100%",
+                          }}
+                        >
                           {product.description1}
                         </Typography>
                       </Box>
                       <Box>
                         <Typography
                           variant="body2"
-                          sx={{ color: "#1B5EA5", mb: 2 }}
+                          sx={{ color: "#1B5EA5", mb: 2, mt: 10 }}
                         >
                           {product.title2}
                         </Typography>
-                        <Typography variant="body1" sx={{ color: "#6D6E71" }}>
-                          {product.description2}
-                        </Typography>
-                      </Box>
-                      <Box>
                         <Typography
-                          variant="body2"
-                          sx={{ color: "#1B5EA5", mb: 2 }}
+                          variant="body1"
+                          component="div"
+                          sx={{
+                            color: "#6D6E71",
+                            textAlign: "justify",
+                            textJustify: "inter-word",
+                            wordSpacing: "0.15em",
+                            letterSpacing: "0.02em",
+                            lineHeight: 1.7,
+                            display: "block",
+                            width: "100%",
+                          }}
                         >
-                          {product.title3}
-                        </Typography>
-                        <Typography variant="body1" sx={{ color: "#6D6E71" }}>
-                          {product.description3}
+                          {product.description2}
                         </Typography>
                       </Box>
                     </Stack>

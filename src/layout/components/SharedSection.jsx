@@ -7,6 +7,7 @@ const SharedSection = ({
   title,
   description,
   background = "linear-gradient(to right, #c096f4,#5d2c71)",
+  descriptionSx = {},
 }) => {
   const theme = useTheme();
   return (
@@ -33,7 +34,9 @@ const SharedSection = ({
             >
               {title}
             </StyledTypography>
-            <StyledTypography variant="body2">{description}</StyledTypography>
+            <StyledTypography variant="body2" sx={descriptionSx}>
+              {description}
+            </StyledTypography>
           </Stack>
         </Stack>
       </Section>

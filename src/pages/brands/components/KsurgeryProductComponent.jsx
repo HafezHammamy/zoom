@@ -74,6 +74,15 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
       buttonTitle: t(tokens.brands.ksurgery.products[0].face[3].buttonTitle),
       subtitle: t(tokens.brands.ksurgery.products[0].face[3].subtitle),
       description: t(tokens.brands.ksurgery.products[0].face[3].description),
+      descriptionSx: {
+        textAlign: "justify",
+        textJustify: "inter-word",
+        wordSpacing: "0.15em",
+        letterSpacing: "0.02em",
+        lineHeight: 1.7,
+        display: "block",
+        width: "100%",
+      },
       items: [
         t(tokens.brands.ksurgery.products[0].face[3].items[0]),
         t(tokens.brands.ksurgery.products[0].face[3].items[1]),
@@ -103,6 +112,15 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
       buttonTitle: t(tokens.brands.ksurgery.products[1].face[0].buttonTitle),
       subtitle: t(tokens.brands.ksurgery.products[1].face[0].subtitle),
       description: t(tokens.brands.ksurgery.products[1].face[0].description),
+      descriptionSx: {
+        textAlign: "justify",
+        textJustify: "inter-word",
+        wordSpacing: "0.15em",
+        letterSpacing: "0.02em",
+        lineHeight: 1.7,
+        display: "block",
+        width: "100%",
+      },
       items: [
         t(tokens.brands.ksurgery.products[1].face[0].items[0]),
         t(tokens.brands.ksurgery.products[1].face[0].items[1]),
@@ -116,6 +134,15 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
       buttonTitle: t(tokens.brands.ksurgery.products[1].face[1].buttonTitle),
       subtitle: t(tokens.brands.ksurgery.products[1].face[1].subtitle),
       description: t(tokens.brands.ksurgery.products[1].face[1].description),
+      descriptionSx: {
+        textAlign: "justify",
+        textJustify: "inter-word",
+        wordSpacing: "0.15em",
+        letterSpacing: "0.02em",
+        lineHeight: 1.7,
+        display: "block",
+        width: "100%",
+      },
       items: [
         t(tokens.brands.ksurgery.products[1].face[1].items[0]),
         t(tokens.brands.ksurgery.products[1].face[1].items[1]),

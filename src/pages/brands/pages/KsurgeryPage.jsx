@@ -43,12 +43,28 @@ const KsurgeryPage = (props) => {
               paragraph={t(tokens.brands.ksurgery.whatIsDescription)}
               passedImage={productImage}
               hideAction
+              paragraphSx={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                wordSpacing: "0.15em",
+                letterSpacing: "0.02em",
+                lineHeight: 1.7,
+              }}
               component={
                 <Stack spacing={2}>
                   <Typography variant="h3">
                     {t(tokens.brands.ksurgery.whatIs)}
                   </Typography>
-                  <Typography variant="body">
+                  <Typography
+                    variant="body"
+                    sx={{
+                      textAlign: "justify",
+                      textJustify: "inter-word",
+                      wordSpacing: "0.15em",
+                      letterSpacing: "0.02em",
+                      lineHeight: 1.7,
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.whatIsDescription)}
                   </Typography>
                   <Box sx={{ height: "5px" }} />
@@ -75,18 +91,25 @@ const KsurgeryPage = (props) => {
               passedImage={girlImage}
               hideAction
               backImage={background_green}
+              paragraphSx={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                wordSpacing: "0.15em",
+                letterSpacing: "0.02em",
+                lineHeight: 1.7,
+              }}
               component={
                 <Stack spacing={2}>
                   <Typography variant="h3">
                     {t(tokens.brands.ksurgery.opera)}
                   </Typography>
-                  <Typography variant="body">
+                  <Typography variant="body" sx={{ textAlign: "justify" }}>
                     {t(tokens.brands.ksurgery.operaDescription)}
                   </Typography>
-                  <Typography variant="body">
+                  <Typography variant="body" sx={{ textAlign: "justify" }}>
                     {t(tokens.brands.ksurgery.operaDescription1)}
                   </Typography>
-                  <Typography variant="body">
+                  <Typography variant="body" sx={{ textAlign: "justify" }}>
                     {t(tokens.brands.ksurgery.operaDescription2)}
                   </Typography>
                 </Stack>
@@ -99,6 +122,7 @@ const KsurgeryPage = (props) => {
           title={t(tokens.brands.ksurgery.howIs)}
           description={t(tokens.brands.ksurgery.howIsDescription)}
           background="linear-gradient(to right, #6bb6b6, #a9e0eb)"
+          descriptionSx={{ textAlign: "justify" }}
         />
 
         <KsurgeryProductComponent collection={1} />
@@ -106,6 +130,7 @@ const KsurgeryPage = (props) => {
         <SharedSection
           title={t(tokens.brands.ksurgery.skinbooster1)}
           description={t(tokens.brands.ksurgery.description3)}
+          descriptionSx={{ textAlign: "justify" }}
         />
 
         <KsurgeryProductComponent collection={2} />
@@ -116,6 +141,7 @@ const KsurgeryPage = (props) => {
           description={t(tokens.brands.ksurgery.howIsDescription)}
           actionPath="#"
           darken={false}
+          descriptionSx={{ textAlign: "justify" }}
           component={
             <>
               <Stack spacing={2}>
@@ -125,7 +151,7 @@ const KsurgeryPage = (props) => {
                 <Typography variant="h4">
                   {t(tokens.brands.ksurgery.benefits.title)}
                 </Typography>
-                <Typography variant="body2">
+                <Typography variant="body2" sx={{ textAlign: "justify" }}>
                   {t(tokens.brands.ksurgery.benefits.description)}
                 </Typography>
                 <Box>

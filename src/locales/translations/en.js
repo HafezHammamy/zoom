@@ -417,12 +417,11 @@ export const en = {
   [tokens.brands.lenisna.products[0].aging[0].title1]:
     "Application and Results",
   [tokens.brands.lenisna.products[0].aging[0].title2]: "Active Ingredient",
-  [tokens.brands.lenisna.products[0].aging[0].title3]: "Durability of Effect",
   [tokens.brands.lenisna.products[0].aging[0].title4]: "Volume Augmentation",
   [tokens.brands.lenisna.products[0].aging[0].description1]:
     "Lenisna's gradual, long-term effects lead to smoother, firmer skin with fewer lines and improved texture, helping patients achieve more youthful skin.",
   [tokens.brands.lenisna.products[0].aging[0].description2]:
-    "170 mg Poly-D, L-Lactic Acid (PDLLA) 30 mg Hyaluronic Acid",
+    "Contains 170 mg of Poly-D,L-Lactic Acid (PDLLA) and 30 mg of Hyaluronic Acid, with a durability of effect lasting 18-24 months.",
   [tokens.brands.lenisna.products[0].aging[0].description3]: "18 - 24 months",
   [tokens.brands.lenisna.products[0].aging[0].volumeItems[0]]:
     "Facial contouring",
@@ -442,10 +441,9 @@ export const en = {
     "Improves overall skin texture and elasticity.",
   [tokens.brands.lenisna.products[0].aging[0].items[2]]:
     "Provides subtle, natural results without significant downtime.",
-  [tokens.brands.juvelook.pageTitle]:
-    "The New Generation of Anti Aging Solution",
+  [tokens.brands.juvelook.pageTitle]: "Juvelook",
   [tokens.brands.juvelook.pageDescription]:
-    "The Advanced Hybrid Bio-Stimulator Poly-D, L Lactic Acid+Hyaluronic Acid",
+    "JuveLook blends PDLLA with Hyaluronic Acid to gently stimulate collagen, improving texture, radiance, and overall skin quality with subtle, natural-looking results.",
   [tokens.brands.juvelook.face.title]: "Injection Points",
   [tokens.brands.juvelook.face.scar]: "C-section scar",
   [tokens.brands.juvelook.face.stretch]: "Stretch marks",
@@ -465,12 +463,11 @@ export const en = {
   [tokens.brands.juvelook.products[0].aging[0].title1]:
     "Application and Results",
   [tokens.brands.juvelook.products[0].aging[0].title2]: "Active Ingredient",
-  [tokens.brands.juvelook.products[0].aging[0].title3]: "Durability of Effect",
   [tokens.brands.juvelook.products[0].aging[0].title4]: "Skin Rejuvenation",
   [tokens.brands.juvelook.products[0].aging[0].description1]:
     "Juvelook delivers gradual, natural-looking results that last over time, promoting smoother, firmer skin with minimal treatment sessions.",
   [tokens.brands.juvelook.products[0].aging[0].description2]:
-    "42.4 mg Poly-D, L-LacticAcid (PDLLA) 7.5 mg Hyaluronic Acid",
+    "Contains 42.4 mg of Poly-D,L-Lactic Acid (PDLLA) and 7.5 mg of Hyaluronic Acid, with a durability of effect lasting 12-18 months.",
   [tokens.brands.juvelook.products[0].aging[0].description3]: "12 - 18 months",
   [tokens.brands.juvelook.products[0].aging[0].volumeItems[0]]:
     "Skin brightening",

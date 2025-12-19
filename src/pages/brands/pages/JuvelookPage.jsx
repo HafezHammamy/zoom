@@ -36,6 +36,13 @@ const JuvelookPage = (props) => {
           title={t(tokens.brands.juvelook.whatIs)}
           description={t(tokens.brands.juvelook.whatIsDescription)}
           actionPath="#"
+          descriptionSx={{
+            textAlign: "justify",
+            textJustify: "inter-word",
+            wordSpacing: "0.15em",
+            letterSpacing: "0.02em",
+            lineHeight: 1.7,
+          }}
         />
         <JuvelookProductComponent />
         <FaceInjectionPointsJuvelook />
@@ -65,6 +72,13 @@ const JuvelookPage = (props) => {
           image={heroProductImage}
           title={t(tokens.brands.juvelook.howIs)}
           description={t(tokens.brands.juvelook.howIsDescription)}
+          descriptionSx={{
+            textAlign: "justify",
+            textJustify: "inter-word",
+            wordSpacing: "0.15em",
+            letterSpacing: "0.02em",
+            lineHeight: 1.7,
+          }}
         />
 
         {false && (

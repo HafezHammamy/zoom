@@ -62,6 +62,13 @@ const LenisnaPage = (props) => {
                 paragraph={t(tokens.brands.lenisna.applicationDescription)}
                 passedImage={girlImage}
                 hideAction
+                paragraphSx={{
+                  textAlign: "justify",
+                  textJustify: "inter-word",
+                  wordSpacing: "0.15em",
+                  letterSpacing: "0.02em",
+                  lineHeight: 1.7,
+                }}
               />
             </Container>
           </Box>

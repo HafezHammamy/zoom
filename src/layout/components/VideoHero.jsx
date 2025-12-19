@@ -85,7 +85,7 @@ const scrollButtonStyle = {
   backgroundColor: "rgba(255, 255, 255, 0.2)",
   backdropFilter: "blur(10px)",
   border: "2px solid rgba(255, 255, 255, 0.5)",
-  borderRadius: "50%",
+  borderRadius: "8px",
   width: { xs: "40px", md: "56px" }, // Smaller on mobile
   height: { xs: "40px", md: "56px" }, // Smaller on mobile
   color: "white",

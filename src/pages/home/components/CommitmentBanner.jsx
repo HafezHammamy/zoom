@@ -24,7 +24,16 @@ const CommitmentBanner = (props) => {
         <QuoteTypography variant={theme.direction === "ltr" ? "h3" : "h2"}>
           {t(tokens.commitment.title)}
         </QuoteTypography>
-        <StyledTypography variant="body2">
+        <StyledTypography
+          variant="body2"
+          sx={{
+            textAlign: "justify",
+            textJustify: "inter-word",
+            wordSpacing: "0.15em",
+            letterSpacing: "0.02em",
+            lineHeight: 1.7,
+          }}
+        >
           {t(tokens.commitment.paragraph)}
         </StyledTypography>
       </Stack>

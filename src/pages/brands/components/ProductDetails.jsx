@@ -51,7 +51,14 @@ const ProductDetails = ({ products, collection }) => {
                   >
                     {product.subtitle}
                   </Typography>
-                  <Typography variant="body1" gutterBottom>
+                  <Typography
+                    variant="body1"
+                    component="div"
+                    gutterBottom
+                    sx={{
+                      ...(product.descriptionSx || {}),
+                    }}
+                  >
                     {product.description}
                   </Typography>
                 </Stack>

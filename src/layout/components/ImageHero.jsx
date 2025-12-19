@@ -13,6 +13,7 @@ export const ImageHero = ({
   actionLabel,
   darken = true,
   component = undefined,
+  descriptionSx = {},
 }) => {
   const theme = useTheme();
   const isRtl = theme.direction === "rtl";
@@ -84,7 +85,7 @@ export const ImageHero = ({
             ) : (
               <>
                 <Typography variant="h2">{title}</Typography>
-                <StyledTypography variant="body2">
+                <StyledTypography variant="body2" sx={descriptionSx}>
                   {description}
                 </StyledTypography>
                 <Box>

@@ -15,6 +15,7 @@ const TitleBox = ({
   backImage,
   hideAction = true,
   component,
+  paragraphSx = {},
 }) => {
   const { t } = useTranslation();
   const isMobile = useMediaQuery("(max-width: 600px)");
@@ -34,7 +35,7 @@ const TitleBox = ({
         <Stack direction="row" justifyContent="center">
           <Box
             sx={{
-              width: { xs: "100%", md: "80%" },
+              width: { xs: "100%", md: "85%" },
               minHeight: { xs: "auto", md: "660px" },
               display: "flex",
               boxSizing: "border-box",
@@ -47,7 +48,7 @@ const TitleBox = ({
               sx={{
                 height: "100%",
                 width: "100%",
-                px: { xs: 2, md: 15 },
+                px: { xs: 2, md: 12 },
                 py: { xs: 3, md: 8 },
                 pt: { xs: 3, md: 18 },
                 textAlign: "left",
@@ -83,9 +84,16 @@ const TitleBox = ({
                     variant="body1"
                     sx={{
                       textAlign: "justify",
-                      "@media (max-width: 899px)": {
+                      textJustify: "inter-word",
+                      wordSpacing: "0.05em",
+                      letterSpacing: "0.01em",
+                      lineHeight: 1.7,
+                      maxWidth: { xs: "100%", md: "120%" },
+                      width: "120%",
+                      "@media (max-width: 900px)": {
                         fontSize: "0.875rem",
                       },
+                      ...paragraphSx,
                     }}
                   >
                     {paragraph}
@@ -205,6 +213,7 @@ const StorySection = ({
   backgroundColor = "#eee8f5",
   hideAction = false,
   component = undefined,
+  paragraphSx = {},
 }) => {
   return (
     <Box
@@ -234,6 +243,7 @@ const StorySection = ({
                 paragraph2={paragraph2}
                 hideAction={hideAction}
                 component={component}
+                paragraphSx={paragraphSx}
               />
               <ImageBox reverse={true} passedImage={passedImage} />
             </>
@@ -249,6 +259,7 @@ const StorySection = ({
                 backImage={backImage}
                 hideAction={hideAction}
                 component={component}
+                paragraphSx={paragraphSx}
               />
             </>
           )}

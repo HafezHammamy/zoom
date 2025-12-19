@@ -58,7 +58,11 @@ const NewCommitmentBanner = () => {
             <StyledTypography
               variant="body2"
               sx={{
-                textAlign: "left",
+                textAlign: "justify",
+                textJustify: "inter-word",
+                wordSpacing: "0.15em",
+                letterSpacing: "0.02em",
+                lineHeight: 1.7,
                 "@media (max-width: 899px)": {
                   fontSize: "0.75rem",
                 },

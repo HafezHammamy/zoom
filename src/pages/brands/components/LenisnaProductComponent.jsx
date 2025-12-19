@@ -16,7 +16,6 @@ const LenisnaProductComponent = () => {
       value: "product-1",
       title1: t(tokens.brands.lenisna.products[0].aging[0].title1),
       title2: t(tokens.brands.lenisna.products[0].aging[0].title2),
-      title3: t(tokens.brands.lenisna.products[0].aging[0].title3),
       title4: t(tokens.brands.lenisna.products[0].aging[0].title4),
       description1: t(tokens.brands.lenisna.products[0].aging[0].description1),
       description2: t(tokens.brands.lenisna.products[0].aging[0].description2),
@@ -78,7 +77,7 @@ const LenisnaProductComponent = () => {
               product.value === tabValue ? (
                 <>
                   <Grid item xs={12} md={3}>
-                    <Stack spacing={6}>
+                    <Box>
                       <Box>
                         <Typography
                           variant="body2"
@@ -86,14 +85,27 @@ const LenisnaProductComponent = () => {
                         >
                           {product.title1}
                         </Typography>
-                        <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+                        <Typography
+                          variant="body1"
+                          component="div"
+                          sx={{
+                            color: "#6D6E71",
+                            textAlign: "justify",
+                            textJustify: "inter-word",
+                            wordSpacing: "0.15em",
+                            letterSpacing: "0.02em",
+                            lineHeight: 1.7,
+                            display: "block",
+                            width: "100%",
+                          }}
+                        >
                           {product.description1}
                         </Typography>
                       </Box>
-                      <Box>
+                      <Box sx={{ mt: "80px" }}>
                         <Typography
                           variant="body2"
-                          sx={{ color: "#7B1237", mt: "60px" }}
+                          sx={{ color: "#7B1237", mb: 2 }}
                         >
                           {product.title2}
                         </Typography>
@@ -101,18 +113,7 @@ const LenisnaProductComponent = () => {
                           {product.description2}
                         </Typography>
                       </Box>
-                      <Box>
-                        <Typography
-                          variant="body2"
-                          sx={{ color: "#7B1237", mb: 2 }}
-                        >
-                          {product.title3}
-                        </Typography>
-                        <Typography variant="body1" sx={{ color: "#6D6E71" }}>
-                          {product.description3}
-                        </Typography>
-                      </Box>
-                    </Stack>
+                    </Box>
                   </Grid>
                   <Grid item xs={12} md={6}>
                     <Box
@@ -136,7 +137,7 @@ const LenisnaProductComponent = () => {
                     </Box>
                   </Grid>
                   <Grid item xs={12} md={3}>
-                    <Stack spacing={6}>
+                    <Box>
                       <Box>
                         <Typography
                           variant="body2"
@@ -153,7 +154,7 @@ const LenisnaProductComponent = () => {
                           ))}
                         </Typography>
                       </Box>
-                      <Box>
+                      <Box sx={{ mt: "40px" }}>
                         <Typography
                           variant="body2"
                           sx={{ mb: 2, color: "#7B1237" }}
@@ -169,7 +170,7 @@ const LenisnaProductComponent = () => {
                           ))}
                         </Typography>
                       </Box>
-                    </Stack>
+                    </Box>
                   </Grid>
                 </>
               ) : null
