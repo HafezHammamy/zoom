@@ -36,7 +36,7 @@ const OurCollectionBanner = (props) => {
     {
       image: image3,
       title: t(tokens.brands.renee.subtitle),
-      description: "t(tokens.brands.renee.description2)",
+      description: t(tokens.brands.renee.description2),
       path: paths.brands.renee,
     },
     {
