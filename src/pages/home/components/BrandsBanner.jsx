@@ -55,7 +55,7 @@ const BrandsBanner = (props) => {
         overflow: "hidden",
         filter: "grayscale(100%)",
         backgroundColor: "#000",
-        height: "50rem",
+        height: { xs: "35rem", md: "50rem" },
       }}
     >
       <Container

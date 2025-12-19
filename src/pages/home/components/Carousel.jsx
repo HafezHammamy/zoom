@@ -1,4 +1,4 @@
-import { Box, Stack } from "@mui/system";
+import { Box, Container, Stack } from "@mui/system";
 import { useRef } from "react";
 import { BRANDS } from "../contants";
 import "./Carousel.css"; // Optional: for custom styling
@@ -67,38 +67,51 @@ const Carousel = ({ selectedBrand, active }) => {
 
   return (
     <div className="carousel-container">
-      <Stack
-        direction={"row"}
-        spacing={5}
-        justifyContent="center"
-        alignItems={"center"}
+      <Container
+        maxWidth="xxl"
+        sx={{
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
       >
-        {/* <button className="carousel-button" onClick={scrollLeft}>
+        <Stack
+          direction={"row"}
+          spacing={5}
+          justifyContent="center"
+          alignItems={"center"}
+          sx={{ width: "100%" }}
+        >
+          {/* <button className="carousel-button" onClick={scrollLeft}>
           ❮
         </button> */}
-        <Box sx={{ width: "550px" }}>
-          <div className="carousel" ref={carouselRef}>
-            {items.map((item, index) => (
-              <div
-                key={index}
-                ref={(el) => (itemRefs.current[index] = el)}
-                className={`carousel-item ${active === item.title && "active"}`}
-                onClick={() => {
-                  selectedBrand(item.title.toUpperCase());
-                  scrollToCenter(index);
-                }}
-              >
-                <img src={item.logo} alt={item.title} />
-              </div>
-            ))}
-          </div>
-        </Box>
-        {/* <Box>
+          <Box sx={{ width: { xs: "100%", md: "550px" } }}>
+            <div className="carousel" ref={carouselRef}>
+              {items.map((item, index) => (
+                <div
+                  key={index}
+                  ref={(el) => (itemRefs.current[index] = el)}
+                  className={`carousel-item ${
+                    active === item.title && "active"
+                  }`}
+                  onClick={() => {
+                    selectedBrand(item.title.toUpperCase());
+                    scrollToCenter(index);
+                  }}
+                >
+                  <img src={item.logo} alt={item.title} />
+                </div>
+              ))}
+            </div>
+          </Box>
+          {/* <Box>
           <button className="carousel-button" onClick={scrollRight}>
             ❯
           </button>
         </Box> */}
-      </Stack>
+        </Stack>
+      </Container>
     </div>
   );
 };

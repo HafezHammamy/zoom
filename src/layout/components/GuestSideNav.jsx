@@ -6,8 +6,10 @@ import { usePathname } from "hooks/use-pathname";
 import { paths } from "paths";
 import { RouterLink } from "./router-link";
 import { SideNavItem } from "./side-nav-item";
+import { useTranslation } from "react-i18next";
+import { tokens } from "locales/tokens";
 
-const renderItems = ({ depth = 0, items, pathname }) =>
+const renderItems = ({ depth = 0, items, pathname, t }) =>
   items.reduce(
     (acc, item) =>
       reduceChildRoutes({
@@ -15,14 +17,43 @@ const renderItems = ({ depth = 0, items, pathname }) =>
         depth,
         item,
         pathname,
+        t,
       }),
     []
   );
 
-const reduceChildRoutes = ({ acc, depth, item, pathname }) => {
+const reduceChildRoutes = ({ acc, depth, item, pathname, t }) => {
   const checkPath = !!(item.path && pathname);
   const partialMatch = checkPath ? pathname.includes(item.path) : false;
   const exactMatch = checkPath ? pathname === item.path : false;
+
+  // Convert popover to children for mobile navigation
+  if (item.popover && !item.children && t) {
+    // If item has popover (like Brands), convert it to children structure
+    // This will make it expandable in mobile navigation
+    item.children = [
+      {
+        items: [
+          {
+            title: t(tokens.brands.juvelook.title),
+            path: paths.brands.juvelook,
+          },
+          {
+            title: t(tokens.brands.lenisna.title),
+            path: paths.brands.lenisna,
+          },
+          {
+            title: t(tokens.brands.renee.title),
+            path: paths.brands.renee,
+          },
+          {
+            title: t(tokens.brands.ksurgery.title),
+            path: paths.brands.ksurgery,
+          },
+        ],
+      },
+    ];
+  }
 
   if (item.children) {
     acc.push(
@@ -166,6 +197,7 @@ const reduceChildRoutes = ({ acc, depth, item, pathname }) => {
 export const GuestSideNav = (props) => {
   const { onClose, open = false, items } = props;
   const pathname = usePathname();
+  const { t } = useTranslation();
   // const theme = useTheme();
 
   return (
@@ -226,7 +258,7 @@ export const GuestSideNav = (props) => {
               },
             }}
           >
-            Qualified Crew
+            Dynamics
           </Box>
         </Stack>
       </Box>
@@ -240,7 +272,7 @@ export const GuestSideNav = (props) => {
             p: 0,
           }}
         >
-          {renderItems({ items, pathname })}
+          {renderItems({ items, pathname, t })}
         </Stack>
       </Box>
     </Drawer>

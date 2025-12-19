@@ -13,6 +13,7 @@ import PropTypes from "prop-types";
 import { useCallback, useEffect, useState } from "react";
 import IconButton from "@mui/material/IconButton";
 import LanguageIcon from "@mui/icons-material/Language";
+import MenuIcon from "@mui/icons-material/Menu";
 import GuestSideNav from "./GuestSideNav";
 import { RouterLink } from "./router-link";
 import { TopNavItem } from "./top-nav-item";
@@ -143,16 +144,42 @@ export const TopNav = (props) => {
             boxShadow: 8,
           }),
           zIndex: (theme) => theme.zIndex.appBar,
+          width: "100%",
+          "@media (max-width: 899px)": {
+            width: "100vw",
+            left: 0,
+            right: 0,
+          },
         }}
       >
         <Container maxWidth="xl">
-          <Stack direction="row" sx={{ height: TOP_NAV_HEIGHT }}>
+          <Stack
+            direction="row"
+            sx={{
+              height: { xs: "70px", md: TOP_NAV_HEIGHT },
+              alignItems: "center",
+            }}
+          >
             <Stack
               alignItems="center"
               direction="row"
               spacing={1}
               sx={{ flex: "0 0 auto" }}
             >
+              {!mdUp && (
+                <IconButton
+                  onClick={mobileNav.handleOpen}
+                  aria-label="menu"
+                  sx={{
+                    color: "#fff",
+                    ...(elevate && {
+                      color: "#ab92e1",
+                    }),
+                  }}
+                >
+                  <MenuIcon />
+                </IconButton>
+              )}
               <Stack
                 component={RouterLink}
                 alignItems="center"
@@ -174,7 +201,7 @@ export const TopNav = (props) => {
                     <img
                       style={{ height: "100%" }}
                       src={logo}
-                      alt={"Qualified Crew"}
+                      alt={"Dynamics"}
                     />
                   </Box>
                 )}

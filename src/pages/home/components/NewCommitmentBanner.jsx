@@ -16,20 +16,28 @@ const NewCommitmentBanner = () => {
       sx={{
         background: "linear-gradient(to right, #6bb6b6, #a9e0eb)",
         color: "white",
-        py: 4,
-        px: 3,
+        py: { xs: 2, md: 4 },
+        px: { xs: 2, md: 3 },
       }}
     >
       <Section height="30vh">
         <Stack sx={{ height: "30vh" }} justifyContent="center">
           <Stack
-            direction={"row"}
+            direction="row"
             justifyContent="center"
             alignItems="center"
-            spacing={5}
+            spacing={{ xs: 2, md: 5 }}
             divider={<Divider orientation="vertical" flexItem />}
           >
-            <StyledTypography variant={theme.direction === "ltr" ? "h2" : "h2"}>
+            <StyledTypography
+              variant={theme.direction === "ltr" ? "h2" : "h2"}
+              sx={{
+                textAlign: "left",
+                "@media (max-width: 899px)": {
+                  fontSize: "1.25rem",
+                },
+              }}
+            >
               {(() => {
                 const title = t(tokens.commitment.title);
                 const parts = title.split(" ");
@@ -47,7 +55,15 @@ const NewCommitmentBanner = () => {
                 );
               })()}
             </StyledTypography>
-            <StyledTypography variant="body2">
+            <StyledTypography
+              variant="body2"
+              sx={{
+                textAlign: "left",
+                "@media (max-width: 899px)": {
+                  fontSize: "0.75rem",
+                },
+              }}
+            >
               {t(tokens.commitment.paragraph)}
             </StyledTypography>
           </Stack>

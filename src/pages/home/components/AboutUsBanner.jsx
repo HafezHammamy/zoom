@@ -27,9 +27,22 @@ const AboutUsBanner = (props) => {
         alignItems="stretch"
         sx={{ backgroundColor: "#eee8f5" }}
       >
-        <Grid offset={1} size={11}>
-          <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
-            <img style={{ height: "50px" }} src={logo} alt={"Dynamics"} />
+        <Grid offset={{ xs: 0, md: 1 }} size={{ xs: 12, md: 11 }}>
+          <Box
+            sx={{
+              marginTop: { xs: "20px", md: "50px" },
+              marginBottom: { xs: "20px", md: "50px" },
+              textAlign: { xs: "center", md: "left" },
+            }}
+          >
+            <img
+              style={{
+                height: "50px",
+                maxWidth: "100%",
+              }}
+              src={logo}
+              alt={"Dynamics"}
+            />
           </Box>
         </Grid>
       </Grid>

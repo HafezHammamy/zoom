@@ -47,35 +47,60 @@ const NewsBanner = (props) => {
         sx={{
           position: "relative",
           height: "100%",
-          padding: 10,
+          padding: { xs: 2, md: 10 },
           margin: 0,
         }}
       >
         <Grid container spacing={2} alignItems="stretch">
-          <Grid offset={1} size={3} sx={{ paddingTop: 1 }}>
-            <QuoteTypography sx={{ color: "#012169" }} variant="h6">
+          <Grid
+            offset={{ xs: 0, md: 1 }}
+            size={{ xs: 12, md: 3 }}
+            sx={{ paddingTop: 1 }}
+          >
+            <QuoteTypography
+              sx={{
+                color: "#012169",
+                "@media (max-width: 899px)": {
+                  fontSize: "1rem",
+                },
+              }}
+              variant="h6"
+            >
               {t(tokens.site.name)}
             </QuoteTypography>
           </Grid>
           {items.map((item, index) => {
             return (
-              <Grid size={2}>
-                <Card
-                  key={item.title + index + "card"}
-                  sx={{ width: "100%", height: "100%", borderRadius: 0 }}
-                >
+              <Grid key={item.title + index} size={{ xs: 6, md: 2 }}>
+                <Card sx={{ width: "100%", height: "100%", borderRadius: 0 }}>
                   <CardMedia
-                    sx={{ height: 300 }}
+                    sx={{
+                      height: { xs: 150, md: 300 },
+                    }}
                     image={item.image}
                     title={item.title}
                   />
-                  <CardContent>
-                    <Typography gutterBottom variant="body2" component="div">
+                  <CardContent sx={{ padding: { xs: 1, md: 2 } }}>
+                    <Typography
+                      gutterBottom
+                      variant="body2"
+                      component="div"
+                      sx={{
+                        "@media (max-width: 899px)": {
+                          fontSize: "0.75rem",
+                        },
+                      }}
+                    >
                       {item.title}
                     </Typography>
                     <Typography
                       variant="caption"
-                      sx={{ color: "text.secondary" }}
+                      sx={{
+                        color: "text.secondary",
+                        "@media (max-width: 899px)": {
+                          fontSize: "0.65rem",
+                        },
+                      }}
                     >
                       {item.description}
                     </Typography>
