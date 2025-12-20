@@ -3,9 +3,6 @@ import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 import StyledTypography from "layout/components/StyledTypography";
@@ -28,8 +25,8 @@ const heroButton = {
 
 const heroTextStyle = {
   color: "#fff",
-  textAlign: { xs: "left", md: "left" },
-  alignItems: { xs: "flex-start", md: "flex-start" },
+  textAlign: { xs: "right", md: "left" },
+  alignItems: { xs: "flex-end", md: "flex-start" },
   position: "relative",
   zIndex: 2, // Ensure text appears above overlay
   paddingBottom: { xs: 0, md: "calc(5vh + 75px)" }, // 5vh + ~2cm (75px)

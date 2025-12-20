@@ -48,9 +48,9 @@ const TitleBox = ({
               sx={{
                 height: "100%",
                 width: "100%",
-                px: { xs: 4, md: 6 },
-                py: { xs: 6, md: 8 },
-                pt: { xs: 6, md: 18 },
+                px: { xs: 2, md: 6 },
+                py: { xs: 3, md: 8 },
+                pt: { xs: 3, md: 18 },
                 textAlign: "left",
               }}
             >
@@ -66,11 +66,14 @@ const TitleBox = ({
                   {component}
                 </Box>
               ) : (
-                <Stack spacing={3} direction={"column"}>
+                <Stack spacing={3} direction={"column"} sx={{ width: "100%" }}>
                   <Typography
                     variant="h3"
                     sx={{
                       pt: { xs: 0, md: 2 },
+                      "@media (max-width: 899px)": {
+                        fontSize: "1.5rem",
+                      },
                     }}
                   >
                     {title}
@@ -81,13 +84,38 @@ const TitleBox = ({
                       textAlign: "justify",
                       whiteSpace: "normal",
                       wordBreak: "break-word",
+                      "@media (max-width: 899px)": {
+                        fontSize: "0.875rem",
+                        lineHeight: 1.6,
+                      },
                     }}
                   >
                     {paragraph}
                   </Typography>
-                  {title2 && <Typography variant="h3">{title2}</Typography>}
+                  {title2 && (
+                    <Typography
+                      variant="h3"
+                      sx={{
+                        "@media (max-width: 899px)": {
+                          fontSize: "1.5rem",
+                        },
+                      }}
+                    >
+                      {title2}
+                    </Typography>
+                  )}
                   {paragraph2 && (
-                    <Typography variant="body2">{paragraph2}</Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        "@media (max-width: 899px)": {
+                          fontSize: "0.875rem",
+                          lineHeight: 1.6,
+                        },
+                      }}
+                    >
+                      {paragraph2}
+                    </Typography>
                   )}
 
                   {hideAction && (
@@ -123,12 +151,19 @@ const DualSection = ({
         backgroundColor: { backgroundColor },
         position: "relative",
         height: "100%",
-        paddingTop: 5,
-        paddingBottom: 5,
+        paddingTop: { xs: 2, md: 5 },
+        paddingBottom: { xs: 2, md: 5 },
       }}
     >
       <Container maxWidth="xxl">
-        <Grid container spacing={2} alignItems="stretch" sx={{ padding: 5 }}>
+        <Grid
+          container
+          spacing={2}
+          alignItems="stretch"
+          sx={{
+            padding: { xs: 2, md: 5 },
+          }}
+        >
           <TitleBox
             title={title1}
             paragraph={paragraph1}

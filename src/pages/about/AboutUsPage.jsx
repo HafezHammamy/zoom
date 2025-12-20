@@ -60,13 +60,19 @@ const AboutUsPage = (props) => {
             maxWidth="xxl"
             sx={{
               backgroundImage: `url(${isRtl ? productRtl : product})`,
-              backgroundSize: "cover",
+              backgroundSize: { xs: "cover", md: "cover" },
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "top center",
+              backgroundPosition: { xs: "center center", md: "top center" },
               position: "relative",
               height: "100%",
-              paddingTop: 5,
-              paddingBottom: 5,
+              paddingTop: { xs: 2, md: 5 },
+              paddingBottom: { xs: 2, md: 5 },
+              "@media (max-width: 899px)": {
+                width: "100vw",
+                maxWidth: "100%",
+                marginLeft: 0,
+                marginRight: 0,
+              },
             }}
           >
             <Box maxWidth="xxl">
@@ -75,7 +81,7 @@ const AboutUsPage = (props) => {
                   container
                   spacing={2}
                   alignItems="stretch"
-                  sx={{ padding: 5 }}
+                  sx={{ padding: { xs: 2, md: 5 } }}
                 >
                   <Grid size={{ xs: 12, md: 6 }}>
                     <Box
@@ -90,7 +96,7 @@ const AboutUsPage = (props) => {
                         <Box
                           sx={{
                             width: { xs: "100%", md: "80%" },
-                            minHeight: { md: "660px" },
+                            minHeight: { xs: "auto", md: "660px" },
                             display: "flex",
                           }}
                         >
@@ -102,17 +108,21 @@ const AboutUsPage = (props) => {
                             sx={{
                               height: "100%",
                               width: "100%",
-                              px: { xs: 4, md: 6 },
-                              py: { xs: 6, md: 8 },
-                              pt: { xs: 6, md: 18 },
+                              px: { xs: 2, md: 6 },
+                              py: { xs: 3, md: 8 },
+                              pt: { xs: 3, md: 18 },
                               textAlign: "left",
                             }}
                           >
-                            <Stack spacing={3} direction={"column"}>
+                            <Stack
+                              spacing={3}
+                              direction={"column"}
+                              sx={{ width: "100%" }}
+                            >
                               <Box
                                 maxWidth="xxl"
                                 sx={{
-                                  height: "100vh",
+                                  height: { xs: "auto", md: "100vh" },
                                   width: "100%",
                                 }}
                               >
@@ -121,14 +131,28 @@ const AboutUsPage = (props) => {
                                   sx={{
                                     color: "#fff",
                                     height: "100%",
-                                    ml: { xs: 0, md: "-6%" }, // <-- moves content slightly left on medium+ screens
+                                    ml: { xs: 0, md: "-6%" },
                                   }}
                                   justifyContent="center"
                                 >
-                                  <QuoteTypography variant="body1">
+                                  <QuoteTypography
+                                    variant="body1"
+                                    sx={{
+                                      "@media (max-width: 899px)": {
+                                        fontSize: "0.875rem",
+                                      },
+                                    }}
+                                  >
                                     {t(tokens.about.page.product.title)}
                                   </QuoteTypography>
-                                  <StyledTypography variant="h2">
+                                  <StyledTypography
+                                    variant="h2"
+                                    sx={{
+                                      "@media (max-width: 899px)": {
+                                        fontSize: "1.5rem",
+                                      },
+                                    }}
+                                  >
                                     {t(tokens.about.page.product.subtitle)}
                                   </StyledTypography>
                                   <StyledTypography
@@ -137,6 +161,10 @@ const AboutUsPage = (props) => {
                                       textAlign: "justify",
                                       whiteSpace: "normal",
                                       wordBreak: "break-word",
+                                      "@media (max-width: 899px)": {
+                                        fontSize: "0.875rem",
+                                        lineHeight: 1.6,
+                                      },
                                     }}
                                   >
                                     {t(tokens.about.page.product.paragraph)}
@@ -148,8 +176,11 @@ const AboutUsPage = (props) => {
                                       sx={{
                                         color: "white",
                                         borderColor: "white",
-                                        height: "65px",
-                                        width: "281px",
+                                        height: { xs: "50px", md: "65px" },
+                                        width: { xs: "100%", md: "281px" },
+                                        "@media (max-width: 899px)": {
+                                          fontSize: "0.75rem",
+                                        },
                                         "&:hover": {
                                           borderColor: "white",
                                           color: "#ab92e1",

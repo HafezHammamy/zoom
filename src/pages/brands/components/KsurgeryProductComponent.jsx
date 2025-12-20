@@ -1,4 +1,11 @@
-import { Box, Button, ButtonGroup, Container } from "@mui/material";
+import {
+  Box,
+  Button,
+  ButtonGroup,
+  Container,
+  useTheme,
+  useMediaQuery,
+} from "@mui/material";
 import { Stack } from "@mui/system";
 import { useState } from "react";
 
@@ -18,6 +25,8 @@ import { tokens } from "locales/tokens";
 const KsurgeryProductComponent = ({ collection = 1 }) => {
   const [tabValue, setTabValue] = useState("face");
   const { t } = useTranslation();
+  const theme = useTheme();
+  const mdUp = useMediaQuery(theme.breakpoints.up("md"));
 
   const tabs = [
     { value: "face", label: t(tokens.brands.our_collection.face) },
@@ -176,12 +185,27 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
   };
 
   return (
-    <Box maxWidth="xxl" sx={{ height: "80vh", backgroundColor: "#FFFFFF" }}>
+    <Box
+      maxWidth="xxl"
+      sx={{
+        height: { xs: "auto", md: "80vh" },
+        minHeight: { xs: "400px", md: "80vh" },
+        backgroundColor: "#FFFFFF",
+      }}
+    >
       <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
-        <Container maxWidth="xl" sx={{ py: 2 }}>
-          <Stack spacing={5}>
-            <Stack direction={"row"} justifyContent={"center"}>
-              <ButtonGroup variant="contained">
+        <Container maxWidth="xl" sx={{ py: { xs: 1, md: 2 } }}>
+          <Stack spacing={{ xs: 2, md: 5 }}>
+            <Stack
+              direction={{ xs: "column", md: "row" }}
+              justifyContent={"center"}
+              sx={{ width: { xs: "100%", md: "auto" } }}
+            >
+              <ButtonGroup
+                variant="contained"
+                orientation={mdUp ? "horizontal" : "vertical"}
+                sx={{ width: { xs: "100%", md: "auto" } }}
+              >
                 {tabs.map((tab) => (
                   <Button
                     onClick={() => {
@@ -189,6 +213,11 @@ const KsurgeryProductComponent = ({ collection = 1 }) => {
                     }}
                     color={tabValue === tab.value ? "primary" : "default"}
                     size="large"
+                    sx={{
+                      width: { xs: "100%", md: "auto" },
+                      fontSize: { xs: "0.75rem", md: "inherit" },
+                      py: { xs: 1, md: 1.5 },
+                    }}
                   >
                     {tab.label}
                   </Button>

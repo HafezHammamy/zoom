@@ -15,23 +15,55 @@ const OurCollectionParagraph = (props) => {
       sx={{
         background: "linear-gradient(to right, #ec5e87,rgb(245, 203, 218))",
         color: "white",
-        py: 4,
-        px: 3,
+        py: { xs: 2, md: 4 },
+        px: { xs: 2, md: 3 },
       }}
     >
-      <Section height="30vh">
-        <Stack sx={{ height: "30vh" }} justifyContent="center">
+      <Section height={{ xs: "auto", md: "30vh" }}>
+        <Stack
+          sx={{
+            height: { xs: "auto", md: "30vh" },
+            minHeight: { xs: "auto", md: "30vh" },
+          }}
+          justifyContent="center"
+        >
           <Stack
-            direction={"row"}
+            direction={{ xs: "column", md: "row" }}
             justifyContent="center"
-            alignItems="self-end"
-            spacing={5}
-            divider={<Divider orientation="vertical" flexItem />}
+            alignItems={{ xs: "flex-start", md: "self-end" }}
+            spacing={{ xs: 2, md: 5 }}
+            divider={
+              <Divider
+                orientation={{ xs: "horizontal", md: "vertical" }}
+                flexItem
+                sx={{
+                  "@media (max-width: 899px)": {
+                    width: "100%",
+                    my: 1,
+                  },
+                }}
+              />
+            }
           >
-            <StyledTypography variant={theme.direction === "ltr" ? "h2" : "h2"}>
+            <StyledTypography
+              variant={theme.direction === "ltr" ? "h2" : "h2"}
+              sx={{
+                "@media (max-width: 899px)": {
+                  fontSize: "1.5rem",
+                },
+              }}
+            >
               {t(tokens.brands.our_collection.title)}
             </StyledTypography>
-            <StyledTypography variant="body2">
+            <StyledTypography
+              variant="body2"
+              sx={{
+                "@media (max-width: 899px)": {
+                  fontSize: "0.875rem",
+                  lineHeight: 1.6,
+                },
+              }}
+            >
               {t(tokens.brands.our_collection.paragraph)}
             </StyledTypography>
           </Stack>

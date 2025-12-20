@@ -42,7 +42,7 @@ const OurCollectionBanner = (props) => {
     {
       image: image4,
       title: t(tokens.brands.ksurgery.subtitle),
-      description: t(tokens.brands.ksurgery.description2),
+      description: "t(tokens.brands.ksurgery.description2)",
       path: paths.brands.ksurgery,
     },
   ];
@@ -59,24 +59,44 @@ const OurCollectionBanner = (props) => {
         sx={{
           position: "relative",
           height: "100%",
-          padding: 10,
+          padding: { xs: 2, md: 10 },
           margin: 0,
         }}
       >
         <Grid container spacing={2} alignItems="stretch">
-          <Grid offset={1} size={3} sx={{ paddingTop: 1 }}>
+          <Grid
+            offset={{ xs: 0, md: 1 }}
+            size={{ xs: 12, md: 3 }}
+            sx={{ paddingTop: 1 }}
+          >
             <Stack spacing={2}>
-              <QuoteTypography sx={{ color: "#012169" }} variant="h6">
+              <QuoteTypography
+                sx={{
+                  color: "#012169",
+                  "@media (max-width: 899px)": {
+                    fontSize: "1rem",
+                  },
+                }}
+                variant="h6"
+              >
                 {t(tokens.brands.our_collection.title)}
               </QuoteTypography>
-              <Typography sx={{ color: "#012169" }} variant="h3">
+              <Typography
+                sx={{
+                  color: "#012169",
+                  "@media (max-width: 899px)": {
+                    fontSize: "1.25rem",
+                  },
+                }}
+                variant="h3"
+              >
                 {t(tokens.brands.our_collection.paragraph2)}
               </Typography>
             </Stack>
           </Grid>
           {items.map((item, index) => {
             return (
-              <Grid size={2}>
+              <Grid key={item.title + index} size={{ xs: 12, md: 2 }}>
                 <ButtonBase
                   LinkComponent={RouterLink}
                   href={item.path}
@@ -92,20 +112,27 @@ const OurCollectionBanner = (props) => {
                   }}
                 >
                   <Card
-                    key={item.title + index + "card"}
-                    sx={{ width: "100%", height: "100%", borderRadius: 0 }}
+                    sx={{
+                      width: "100%",
+                      height: "100%",
+                      borderRadius: 0,
+                    }}
                   >
                     <CardMedia
-                      sx={{ height: 300 }}
+                      sx={{
+                        height: { xs: 200, md: 300 },
+                      }}
                       image={item.image}
                       title={item.title}
                     />
-                    <CardContent>
+                    <CardContent sx={{ padding: { xs: 1.5, md: 2 } }}>
                       <Typography
                         gutterBottom
                         variant="body2"
                         component="div"
-                        sx={{ fontSize: "100% !important" }}
+                        sx={{
+                          fontSize: { xs: "0.875rem", md: "100% !important" },
+                        }}
                       >
                         {item.title}
                       </Typography>
@@ -121,6 +148,7 @@ const OurCollectionBanner = (props) => {
                           lineHeight: 1.7,
                           display: "block",
                           width: "100%",
+                          fontSize: { xs: "0.75rem", md: "inherit" },
                         }}
                       >
                         {item.description}

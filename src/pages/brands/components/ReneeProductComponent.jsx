@@ -105,39 +105,74 @@ const ReneeProductComponent = () => {
   return (
     <Box
       sx={{
-        padding: "2rem",
+        padding: { xs: 2, md: "2rem" },
         borderRadius: "8px",
       }}
       maxWidth="xxl"
     >
       <Stack alignItems={"stretch"} sx={{ width: "100%" }}>
-        <Container maxWidth="xl" sx={{ py: 2 }}>
-          <Grid container spacing={4} alignItems="center">
+        <Container maxWidth="xl" sx={{ py: { xs: 1, md: 2 } }}>
+          <Grid container spacing={{ xs: 2, md: 4 }} alignItems="center">
             {products?.map((product) =>
               product.value === tabValue ? (
                 <>
                   <Grid item xs={12} md={4}>
-                    <Typography variant="body2">{product.title}</Typography>
-                    <Box sx={{ height: "50px" }}>
-                      <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        fontSize: { xs: "0.875rem", md: "inherit" },
+                        mb: { xs: 1, md: 0 },
+                      }}
+                    >
+                      {product.title}
+                    </Typography>
+                    <Box
+                      sx={{
+                        height: { xs: "auto", md: "50px" },
+                        mb: { xs: 1, md: 0 },
+                      }}
+                    >
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          color: "#6D6E71",
+                          fontSize: { xs: "0.875rem", md: "inherit" },
+                        }}
+                      >
                         {product.subtitle}
                       </Typography>
                     </Box>
 
-                    <Box sx={{ mt: 2, mb: 2 }}>
+                    <Box sx={{ mt: { xs: 1, md: 2 }, mb: { xs: 1, md: 2 } }}>
                       {product.preQuestion && (
-                        <Typography variant="body2" sx={{ color: "#8B49AA" }}>
+                        <Typography
+                          variant="body2"
+                          sx={{
+                            color: "#8B49AA",
+                            fontSize: { xs: "0.75rem", md: "inherit" },
+                          }}
+                        >
                           {product.preQuestion}
                         </Typography>
                       )}
-                      <Typography variant="body2" sx={{ color: "#5A2772" }}>
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: "#5A2772",
+                          fontSize: { xs: "0.75rem", md: "inherit" },
+                        }}
+                      >
                         {product.question}
                       </Typography>
                     </Box>
 
                     <Typography
                       variant="body1"
-                      sx={{ mb: 2, color: "#6D6E71" }}
+                      sx={{
+                        mb: { xs: 1, md: 2 },
+                        color: "#6D6E71",
+                        fontSize: { xs: "0.75rem", md: "inherit" },
+                      }}
                     >
                       {product.description}
                     </Typography>
@@ -147,7 +182,8 @@ const ReneeProductComponent = () => {
                       sx={{
                         textAlign: "center",
                         position: "relative",
-                        minHeight: "457px",
+                        minHeight: { xs: "auto", md: "457px" },
+                        mb: { xs: 2, md: 0 },
                       }}
                     >
                       <Box
@@ -158,6 +194,7 @@ const ReneeProductComponent = () => {
                         sx={{
                           maxWidth: "100%",
                           height: "auto",
+                          width: { xs: "80%", md: "100%" },
                         }}
                       />
                     </Box>
@@ -165,11 +202,21 @@ const ReneeProductComponent = () => {
                   <Grid item xs={12} md={4}>
                     <Typography
                       variant="body2"
-                      sx={{ mb: 1, color: "#5A2772" }}
+                      sx={{
+                        mb: 1,
+                        color: "#5A2772",
+                        fontSize: { xs: "0.875rem", md: "inherit" },
+                      }}
                     >
                       {t(tokens.brands.renee.keyBenefits)}
                     </Typography>
-                    <Typography component="ul" sx={{ pl: 2, fontSize: "1rem" }}>
+                    <Typography
+                      component="ul"
+                      sx={{
+                        pl: 2,
+                        fontSize: { xs: "0.75rem", md: "1rem" },
+                      }}
+                    >
                       {product.items.map((item) => (
                         <li>{item}</li>
                       ))}
@@ -185,9 +232,17 @@ const ReneeProductComponent = () => {
                 item
                 xs={12}
                 md={12}
-                sx={{ display: "flex", justifyContent: "center" }}
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  mt: { xs: 2, md: 0 },
+                }}
               >
-                <Stack direction="row" spacing={2}>
+                <Stack
+                  direction={{ xs: "column", md: "row" }}
+                  spacing={{ xs: 1, md: 2 }}
+                  sx={{ width: { xs: "100%", md: "auto" } }}
+                >
                   {products?.map((product) => (
                     <Button
                       variant={
@@ -195,8 +250,9 @@ const ReneeProductComponent = () => {
                       }
                       onClick={() => handleTabChange(product.value)}
                       sx={{
-                        minWidth: "150px",
-
+                        minWidth: { xs: "100%", md: "150px" },
+                        fontSize: { xs: "0.75rem", md: "inherit" },
+                        py: { xs: 1, md: 1.5 },
                         ...(product.value === tabValue
                           ? product.activeStyle
                           : product.buttonStyle),

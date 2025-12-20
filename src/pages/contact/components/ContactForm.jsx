@@ -9,6 +9,8 @@ import {
   Radio,
   RadioGroup,
   TextField,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
 import { tokens } from "locales/tokens";
 import { paths } from "paths";
@@ -31,6 +33,8 @@ const Form = () => {
   });
 
   const { t } = useTranslation();
+  const theme = useTheme();
+  const mdUp = useMediaQuery(theme.breakpoints.up("md"));
 
   const handleChange = (event) => {
     const { name, value, type, checked } = event.target;
@@ -49,10 +53,14 @@ const Form = () => {
     <Box
       component="form"
       onSubmit={handleSubmit}
-      sx={{ width: "50%", p: 10, boxSizing: "content-box" }}
+      sx={{
+        width: { xs: "100%", md: "50%" },
+        p: { xs: 2, md: 10 },
+        boxSizing: "content-box",
+      }}
     >
       <RadioGroup
-        row
+        row={mdUp}
         name="title"
         value={formValues.title}
         onChange={handleChange}

@@ -9,6 +9,7 @@ import {
   Popper,
   Typography,
   useTheme,
+  useMediaQuery,
 } from "@mui/material";
 import { Container, Stack } from "@mui/system";
 import lenisnaImage from "assets/lenisna/LENISNA1.png";
@@ -19,6 +20,8 @@ import { useTranslation } from "react-i18next";
 const Point = ({ position }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [open, setOpen] = React.useState(false);
+  const theme = useTheme();
+  const mdUp = useMediaQuery(theme.breakpoints.up("md"));
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -183,13 +186,17 @@ const FaceInjectionPointsLenisna = () => {
             width: "100%",
             p: 0,
             transform: isRtl ? "scaleX(-1)" : "none",
+            "@media (max-width: 899px)": {
+              width: "100vw",
+              maxWidth: "100%",
+            },
           }}
         />
         <Box
           sx={{
-            width: "25%",
+            width: { xs: "60%", md: "25%" },
             position: "absolute",
-            top: 150,
+            top: { xs: 50, md: 150 },
             left: 0,
             right: 0,
             margin: "auto",
@@ -203,7 +210,14 @@ const FaceInjectionPointsLenisna = () => {
                 width: "100%",
               }}
             />
-            <Typography variant="body2" sx={{ color: "#ffffff" }}>
+            <Typography
+              variant="body2"
+              sx={{
+                color: "#ffffff",
+                fontSize: { xs: "0.875rem", md: "inherit" },
+                mt: { xs: 0.5, md: 0 },
+              }}
+            >
               {t(tokens.brands.lenisna.face.title)}
             </Typography>
           </Stack>

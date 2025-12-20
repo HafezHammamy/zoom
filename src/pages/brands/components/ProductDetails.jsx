@@ -41,13 +41,23 @@ const ProductDetails = ({ products, collection }) => {
                 }}
               >
                 <Stack spacing={1}>
-                  <Typography variant="h5" fontWeight="bold" gutterBottom>
+                  <Typography
+                    variant="h5"
+                    fontWeight="bold"
+                    gutterBottom
+                    sx={{
+                      fontSize: { xs: "1rem", md: "inherit" },
+                    }}
+                  >
                     {product.title}
                   </Typography>
                   <Typography
                     variant="body2"
                     color={theme.palette.primary.main}
                     gutterBottom
+                    sx={{
+                      fontSize: { xs: "0.875rem", md: "inherit" },
+                    }}
                   >
                     {product.subtitle}
                   </Typography>
@@ -56,13 +66,14 @@ const ProductDetails = ({ products, collection }) => {
                     component="div"
                     gutterBottom
                     sx={{
+                      fontSize: { xs: "0.75rem", md: "inherit" },
                       ...(product.descriptionSx || {}),
                     }}
                   >
                     {product.description}
                   </Typography>
                 </Stack>
-                <Box sx={{ mt: "20px" }}>
+                <Box sx={{ mt: { xs: "10px", md: "20px" } }}>
                   <ul
                     style={{
                       margin: 0,
@@ -72,14 +83,27 @@ const ProductDetails = ({ products, collection }) => {
                     {product?.items?.map((item) => {
                       return (
                         <li key={item}>
-                          <Typography>{item} </Typography>
+                          <Typography
+                            sx={{
+                              fontSize: { xs: "0.75rem", md: "inherit" },
+                            }}
+                          >
+                            {item}{" "}
+                          </Typography>
                         </li>
                       );
                     })}
                   </ul>
                 </Box>
                 {product.description2 && (
-                  <Typography variant="body1" gutterBottom sx={{ mt: 2 }}>
+                  <Typography
+                    variant="body1"
+                    gutterBottom
+                    sx={{
+                      mt: 2,
+                      fontSize: { xs: "0.75rem", md: "inherit" },
+                    }}
+                  >
                     {product.description2}
                   </Typography>
                 )}
@@ -133,11 +157,14 @@ const ProductDetails = ({ products, collection }) => {
         ) : null;
       })}
 
-      <Stack alignItems={"center"}>
+      <Stack alignItems={"center"} sx={{ mt: { xs: 2, md: 0 } }}>
         <Stack
-          direction={"row"}
+          direction={{ xs: "column", md: "row" }}
           justifyContent={"space-around"}
-          sx={{ width: "50%" }}
+          spacing={{ xs: 1, md: 0 }}
+          sx={{
+            width: { xs: "100%", md: "50%" },
+          }}
         >
           {products.length > 1 &&
             products?.map((product) => {
@@ -149,6 +176,11 @@ const ProductDetails = ({ products, collection }) => {
                   variant={
                     product.value === productTab ? "contained" : "outlined"
                   }
+                  sx={{
+                    width: { xs: "100%", md: "auto" },
+                    fontSize: { xs: "0.75rem", md: "inherit" },
+                    py: { xs: 1, md: 1.5 },
+                  }}
                 >
                   {product.buttonTitle}
                 </Button>

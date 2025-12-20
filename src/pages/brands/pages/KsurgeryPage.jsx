@@ -52,7 +52,12 @@ const KsurgeryPage = (props) => {
               }}
               component={
                 <Stack spacing={2}>
-                  <Typography variant="h3">
+                  <Typography
+                    variant="h3"
+                    sx={{
+                      fontSize: { xs: "1.5rem", md: "inherit" },
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.whatIs)}
                   </Typography>
                   <Typography
@@ -63,15 +68,26 @@ const KsurgeryPage = (props) => {
                       wordSpacing: "0.15em",
                       letterSpacing: "0.02em",
                       lineHeight: 1.7,
+                      fontSize: { xs: "0.875rem", md: "inherit" },
                     }}
                   >
                     {t(tokens.brands.ksurgery.whatIsDescription)}
                   </Typography>
-                  <Box sx={{ height: "5px" }} />
-                  <Typography variant="h4">
+                  <Box sx={{ height: { xs: "2px", md: "5px" } }} />
+                  <Typography
+                    variant="h4"
+                    sx={{
+                      fontSize: { xs: "1.25rem", md: "inherit" },
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.keyBenefits)}
                   </Typography>
-                  <ul sx={{ mt: "160px" }}>
+                  <ul
+                    sx={{
+                      mt: { xs: 2, md: "160px" },
+                      fontSize: { xs: "0.75rem", md: "inherit" },
+                    }}
+                  >
                     <li>{t(tokens.brands.ksurgery.keyBenefit1)}</li>
                     <li>{t(tokens.brands.ksurgery.keyBenefit2)}</li>
                     <li>{t(tokens.brands.ksurgery.keyBenefit3)}</li>
@@ -100,16 +116,39 @@ const KsurgeryPage = (props) => {
               }}
               component={
                 <Stack spacing={2}>
-                  <Typography variant="h3">
+                  <Typography
+                    variant="h3"
+                    sx={{
+                      fontSize: { xs: "1.5rem", md: "inherit" },
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.opera)}
                   </Typography>
-                  <Typography variant="body" sx={{ textAlign: "justify" }}>
+                  <Typography
+                    variant="body"
+                    sx={{
+                      textAlign: "justify",
+                      fontSize: { xs: "0.875rem", md: "inherit" },
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.operaDescription)}
                   </Typography>
-                  <Typography variant="body" sx={{ textAlign: "justify" }}>
+                  <Typography
+                    variant="body"
+                    sx={{
+                      textAlign: "justify",
+                      fontSize: { xs: "0.875rem", md: "inherit" },
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.operaDescription1)}
                   </Typography>
-                  <Typography variant="body" sx={{ textAlign: "justify" }}>
+                  <Typography
+                    variant="body"
+                    sx={{
+                      textAlign: "justify",
+                      fontSize: { xs: "0.875rem", md: "inherit" },
+                    }}
+                  >
                     {t(tokens.brands.ksurgery.operaDescription2)}
                   </Typography>
                 </Stack>
@@ -117,7 +156,20 @@ const KsurgeryPage = (props) => {
             />
           </Container>
         </Box>
-        <Box component={"img"} src={icons} maxWidth="xxl" />
+        <Box
+          component={"img"}
+          src={icons}
+          maxWidth="xxl"
+          sx={{
+            width: "100%",
+            height: "auto",
+            display: "block",
+            "@media (max-width: 899px)": {
+              width: "100vw",
+              maxWidth: "100%",
+            },
+          }}
+        />
         <SharedSection
           title={t(tokens.brands.ksurgery.howIs)}
           description={t(tokens.brands.ksurgery.howIsDescription)}
@@ -145,24 +197,45 @@ const KsurgeryPage = (props) => {
           component={
             <>
               <Stack spacing={2}>
-                <Typography variant="h3">
+                <Typography
+                  variant="h3"
+                  sx={{
+                    fontSize: { xs: "1.5rem", md: "inherit" },
+                  }}
+                >
                   {t(tokens.brands.ksurgery.skinbosoter)}
                 </Typography>
-                <Typography variant="h4">
+                <Typography
+                  variant="h4"
+                  sx={{
+                    fontSize: { xs: "1.25rem", md: "inherit" },
+                  }}
+                >
                   {t(tokens.brands.ksurgery.benefits.title)}
                 </Typography>
-                <Typography variant="body2" sx={{ textAlign: "justify" }}>
+                <Typography
+                  variant="body2"
+                  sx={{
+                    textAlign: "justify",
+                    fontSize: { xs: "0.875rem", md: "inherit" },
+                  }}
+                >
                   {t(tokens.brands.ksurgery.benefits.description)}
                 </Typography>
-                <Box>
-                  <ul>
-                    <li> {t(tokens.brands.ksurgery.benefits.item1)}</li>
-                    <li> {t(tokens.brands.ksurgery.benefits.item2)}</li>
-                    <li> {t(tokens.brands.ksurgery.benefits.item3)}</li>
-                    <li> {t(tokens.brands.ksurgery.benefits.item4)}</li>
-                    <li> {t(tokens.brands.ksurgery.benefits.item5)}</li>
-                    <li> {t(tokens.brands.ksurgery.benefits.item6)}</li>
-                  </ul>
+                <Box
+                  component="ul"
+                  sx={{
+                    fontSize: { xs: "0.75rem", md: "inherit" },
+                    pl: 2,
+                    m: 0,
+                  }}
+                >
+                  <li> {t(tokens.brands.ksurgery.benefits.item1)}</li>
+                  <li> {t(tokens.brands.ksurgery.benefits.item2)}</li>
+                  <li> {t(tokens.brands.ksurgery.benefits.item3)}</li>
+                  <li> {t(tokens.brands.ksurgery.benefits.item4)}</li>
+                  <li> {t(tokens.brands.ksurgery.benefits.item5)}</li>
+                  <li> {t(tokens.brands.ksurgery.benefits.item6)}</li>
                 </Box>
               </Stack>
             </>

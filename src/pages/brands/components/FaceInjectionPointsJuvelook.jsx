@@ -8,6 +8,7 @@ import {
   Popper,
   Typography,
   useTheme,
+  useMediaQuery,
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import { Container, Stack } from "@mui/system";
@@ -21,6 +22,8 @@ import { useTranslation } from "react-i18next";
 const Point = ({ position }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [open, setOpen] = React.useState(false);
+  const theme = useTheme();
+  const mdUp = useMediaQuery(theme.breakpoints.up("md"));
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -38,7 +41,7 @@ const Point = ({ position }) => {
           <Popper
             open={open}
             anchorEl={anchorEl}
-            placement="right"
+            placement={mdUp ? "right" : "bottom"}
             disablePortal={true}
             transition
             sx={{ padding: 0, zIndex: 1500 }}
@@ -135,7 +138,8 @@ const FaceInjectionPointsJuvelook = () => {
       maxWidth="xxl"
       sx={{
         position: "relative",
-        height: "100vh",
+        height: { xs: "auto", md: "100vh" },
+        minHeight: { xs: "600px", md: "100vh" },
         width: "100%",
         overflow: "hidden",
         background: "#ABDFF4",
@@ -147,20 +151,32 @@ const FaceInjectionPointsJuvelook = () => {
       >
         <Stack
           alignItems="flex-end"
-          direction="row"
+          direction={{ xs: "column", md: "row" }}
           spacing={2}
-          sx={{ height: "100%" }}
+          sx={{ height: "100%", py: { xs: 4, md: 0 } }}
         >
-          <Box sx={{ width: "40%", height: "100%" }}>
+          <Box
+            sx={{
+              width: { xs: "100%", md: "40%" },
+              height: { xs: "auto", md: "100%" },
+            }}
+          >
             <Stack
               justifyContent={"center"}
               alignItems={"center"}
               sx={{ height: "100%" }}
-              spacing={20}
+              spacing={{ xs: 4, md: 20 }}
             >
-              <Box sx={{ width: "65%" }}>
+              <Box sx={{ width: { xs: "80%", md: "65%" } }}>
                 <Box component={"img"} src={logo} sx={{ width: "100%" }} />
-                <Typography variant="body2" sx={{ color: "#ffffff" }}>
+                <Typography
+                  variant="body2"
+                  sx={{
+                    color: "#ffffff",
+                    fontSize: { xs: "0.875rem", md: "inherit" },
+                    mt: { xs: 1, md: 0 },
+                  }}
+                >
                   {t(tokens.brands.juvelook.face.title)}
                 </Typography>
               </Box>
@@ -168,11 +184,14 @@ const FaceInjectionPointsJuvelook = () => {
                 <Stack
                   justifyContent={"center"}
                   alignItems={"center"}
-                  direction={"row"}
-                  spacing={10}
+                  direction={{ xs: "column", md: "row" }}
+                  spacing={{ xs: 3, md: 10 }}
                   sx={{ width: "100%" }}
                 >
-                  <Stack sx={{ width: "30%" }} spacing={5}>
+                  <Stack
+                    sx={{ width: { xs: "60%", md: "30%" } }}
+                    spacing={{ xs: 2, md: 5 }}
+                  >
                     <Box component={"img"} src={stretchImage} />
                     <Box
                       sx={{
@@ -180,12 +199,16 @@ const FaceInjectionPointsJuvelook = () => {
                         p: 1,
                         textAlign: "center",
                         color: "#ABDFF4",
+                        fontSize: { xs: "0.75rem", md: "inherit" },
                       }}
                     >
                       Stretch marks
                     </Box>
                   </Stack>
-                  <Stack sx={{ width: "30%" }} spacing={5}>
+                  <Stack
+                    sx={{ width: { xs: "60%", md: "30%" } }}
+                    spacing={{ xs: 2, md: 5 }}
+                  >
                     <Box component={"img"} src={scarImage} />
                     <Box
                       sx={{
@@ -193,6 +216,7 @@ const FaceInjectionPointsJuvelook = () => {
                         p: 1,
                         textAlign: "center",
                         color: "#ABDFF4",
+                        fontSize: { xs: "0.75rem", md: "inherit" },
                       }}
                     >
                       C-section scar

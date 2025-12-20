@@ -59,27 +59,50 @@ const ValuesBanner = (props) => {
         sx={{
           position: "relative",
           height: "100%",
-          padding: 5,
+          padding: { xs: 2, md: 5 },
           margin: 0,
         }}
       >
         <Grid container spacing={2} alignItems="stretch">
           <Grid size={12} sx={{ paddingTop: 1 }}>
-            <Grid size={3} sx={{ paddingTop: 1, paddingBottom: 1 }}>
-              <QuoteTypography sx={{ color: "#012169" }} variant="h6">
+            <Grid
+              size={{ xs: 12, md: 3 }}
+              sx={{ paddingTop: 1, paddingBottom: 1 }}
+            >
+              <QuoteTypography
+                sx={{
+                  color: "#012169",
+                  "@media (max-width: 899px)": {
+                    fontSize: "1rem",
+                  },
+                }}
+                variant="h6"
+              >
                 {t(tokens.about.page.values.title)}
               </QuoteTypography>
             </Grid>
           </Grid>
           {items1.map((item, index) => {
             return (
-              <Grid size={4}>
+              <Grid key={item.title + index} size={{ xs: 12, md: 4 }}>
                 <Card
-                  key={item.title + index + "card"}
-                  sx={{ width: "100%", height: "100%", borderRadius: 0 }}
+                  sx={{
+                    width: "100%",
+                    height: "100%",
+                    borderRadius: 0,
+                  }}
                 >
-                  <CardContent>
-                    <Typography gutterBottom variant="body2" component="div">
+                  <CardContent sx={{ padding: { xs: 1.5, md: 2 } }}>
+                    <Typography
+                      gutterBottom
+                      variant="body2"
+                      component="div"
+                      sx={{
+                        "@media (max-width: 899px)": {
+                          fontSize: "0.875rem",
+                        },
+                      }}
+                    >
                       {item.title}
                     </Typography>
                     <Typography
@@ -87,7 +110,7 @@ const ValuesBanner = (props) => {
                       component="div"
                       sx={{
                         color: "text.secondary",
-                        fontSize: "1rem",
+                        fontSize: { xs: "0.75rem", md: "1rem" },
                         textAlign: "justify",
                         textJustify: "inter-word",
                         wordSpacing: "0.15em",

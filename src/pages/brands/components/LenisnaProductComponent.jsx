@@ -47,7 +47,7 @@ const LenisnaProductComponent = () => {
   return (
     <Box
       sx={{
-        padding: "2rem",
+        padding: { xs: 2, md: "2rem" },
         borderRadius: "8px",
         backgroundColor: "#FFFFFF",
       }}
@@ -63,13 +63,20 @@ const LenisnaProductComponent = () => {
                 alt="Renee Lift"
                 loading="lazy"
                 sx={{
-                  marginLeft: "-10px",
+                  marginLeft: { xs: 0, md: "-10px" },
                   maxWidth: "100%",
                   height: "auto",
-                  width: "180px",
+                  width: { xs: "120px", md: "180px" },
                 }}
               />
-              <Typography variant="body1" sx={{ color: "#6D6E71", mb: "90px" }}>
+              <Typography
+                variant="body1"
+                sx={{
+                  color: "#6D6E71",
+                  mb: { xs: 2, md: "90px" },
+                  fontSize: { xs: "0.875rem", md: "inherit" },
+                }}
+              >
                 {t(tokens.brands.lenisna.products[0].title)}
               </Typography>
             </Grid>
@@ -81,7 +88,11 @@ const LenisnaProductComponent = () => {
                       <Box>
                         <Typography
                           variant="body2"
-                          sx={{ color: "#7B1237", mb: 2 }}
+                          sx={{
+                            color: "#7B1237",
+                            mb: 2,
+                            fontSize: { xs: "0.875rem", md: "inherit" },
+                          }}
                         >
                           {product.title1}
                         </Typography>
@@ -97,19 +108,30 @@ const LenisnaProductComponent = () => {
                             lineHeight: 1.7,
                             display: "block",
                             width: "100%",
+                            fontSize: { xs: "0.75rem", md: "inherit" },
                           }}
                         >
                           {product.description1}
                         </Typography>
                       </Box>
-                      <Box sx={{ mt: "80px" }}>
+                      <Box sx={{ mt: { xs: 2, md: "80px" } }}>
                         <Typography
                           variant="body2"
-                          sx={{ color: "#7B1237", mb: 2 }}
+                          sx={{
+                            color: "#7B1237",
+                            mb: 2,
+                            fontSize: { xs: "0.875rem", md: "inherit" },
+                          }}
                         >
                           {product.title2}
                         </Typography>
-                        <Typography variant="body1" sx={{ color: "#6D6E71" }}>
+                        <Typography
+                          variant="body1"
+                          sx={{
+                            color: "#6D6E71",
+                            fontSize: { xs: "0.75rem", md: "inherit" },
+                          }}
+                        >
                           {product.description2}
                         </Typography>
                       </Box>
@@ -120,7 +142,8 @@ const LenisnaProductComponent = () => {
                       sx={{
                         textAlign: "center",
                         position: "relative",
-                        minHeight: "457px",
+                        minHeight: { xs: "auto", md: "457px" },
+                        mb: { xs: 2, md: 0 },
                       }}
                     >
                       <Box
@@ -131,7 +154,8 @@ const LenisnaProductComponent = () => {
                         sx={{
                           maxWidth: "100%",
                           height: "auto",
-                          mt: "-220px",
+                          mt: { xs: 0, md: "-220px" },
+                          width: { xs: "80%", md: "100%" },
                         }}
                       />
                     </Box>
@@ -141,29 +165,45 @@ const LenisnaProductComponent = () => {
                       <Box>
                         <Typography
                           variant="body2"
-                          sx={{ mb: 2, color: "#7B1237" }}
+                          sx={{
+                            mb: 2,
+                            color: "#7B1237",
+                            fontSize: { xs: "0.875rem", md: "inherit" },
+                          }}
                         >
                           {product.title4}
                         </Typography>
                         <Typography
                           component="ul"
-                          sx={{ pl: 2, fontSize: "1rem", color: "#6D6E71" }}
+                          sx={{
+                            pl: 2,
+                            fontSize: { xs: "0.75rem", md: "1rem" },
+                            color: "#6D6E71",
+                          }}
                         >
                           {product.volumeItems.map((item) => (
                             <li>{item}</li>
                           ))}
                         </Typography>
                       </Box>
-                      <Box sx={{ mt: "40px" }}>
+                      <Box sx={{ mt: { xs: 2, md: "40px" } }}>
                         <Typography
                           variant="body2"
-                          sx={{ mb: 2, color: "#7B1237" }}
+                          sx={{
+                            mb: 2,
+                            color: "#7B1237",
+                            fontSize: { xs: "0.875rem", md: "inherit" },
+                          }}
                         >
                           {t(tokens.brands.renee.keyBenefits)}
                         </Typography>
                         <Typography
                           component="ul"
-                          sx={{ pl: 2, fontSize: "1rem", color: "#6D6E71" }}
+                          sx={{
+                            pl: 2,
+                            fontSize: { xs: "0.75rem", md: "1rem" },
+                            color: "#6D6E71",
+                          }}
                         >
                           {product.items.map((item) => (
                             <li>{item}</li>

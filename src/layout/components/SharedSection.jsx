@@ -15,26 +15,54 @@ const SharedSection = ({
       sx={{
         background: background,
         color: "white",
-        py: 4,
-        px: 3,
+        py: { xs: 2, md: 4 },
+        px: { xs: 2, md: 3 },
       }}
     >
-      <Section height="30vh">
-        <Stack sx={{ height: "30vh" }} justifyContent="center">
+      <Section height={{ xs: "auto", md: "30vh" }}>
+        <Stack
+          sx={{
+            height: { xs: "auto", md: "30vh" },
+            minHeight: { xs: "200px", md: "30vh" },
+          }}
+          justifyContent="center"
+        >
           <Stack
-            direction={"row"}
+            direction={{ xs: "column", md: "row" }}
             justifyContent="center"
             alignItems="center"
-            spacing={5}
-            divider={<Divider orientation="vertical" flexItem />}
+            spacing={{ xs: 2, md: 5 }}
+            divider={
+              <Divider
+                orientation={{ xs: "horizontal", md: "vertical" }}
+                flexItem
+                sx={{
+                  "@media (max-width: 899px)": {
+                    width: "100%",
+                    my: 1,
+                  },
+                }}
+              />
+            }
           >
             <StyledTypography
               variant={theme.direction === "ltr" ? "h2" : "h2"}
-              sx={{ width: "700px" }}
+              sx={{
+                width: { xs: "100%", md: "700px" },
+                fontSize: { xs: "1.5rem", md: "inherit" },
+                textAlign: { xs: "center", md: "inherit" },
+              }}
             >
               {title}
             </StyledTypography>
-            <StyledTypography variant="body2" sx={descriptionSx}>
+            <StyledTypography
+              variant="body2"
+              sx={{
+                fontSize: { xs: "0.875rem", md: "inherit" },
+                lineHeight: { xs: 1.6, md: "inherit" },
+                ...descriptionSx,
+              }}
+            >
               {description}
             </StyledTypography>
           </Stack>
